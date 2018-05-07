@@ -1,1 +1,5 @@
 theme: jekyll-theme-minimal
+title: Libraries Hacked
+description: Promoting open data and hacks in libraries
+logo: "/images/logo.png"
+show_downloads: "false"
