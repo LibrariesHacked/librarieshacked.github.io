@@ -1,5 +1,5 @@
 remote_theme: mmistakes/minimal-mistakes
 title: Libraries Hacked
 description: Promoting open data and hacks in libraries
-logo: "/images/logo.png"
-show_downloads: false
+twitter:
+  username: librarieshacked
