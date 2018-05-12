@@ -3,6 +3,10 @@ title: Libraries Hacked
 description: Promoting open data and hacks in libraries
 twitter:
   username: librarieshacked
+author:
+  avatar: "/images/logo.png"
+  location: UK
+  email: info@librarieshacked.org
 defaults:
   # _pages
   - scope:
