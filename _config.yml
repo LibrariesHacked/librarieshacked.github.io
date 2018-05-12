@@ -3,3 +3,11 @@ title: Libraries Hacked
 description: Promoting open data and hacks in libraries
 twitter:
   username: librarieshacked
+defaults:
+  # _pages
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: single
+      author_profile: true
