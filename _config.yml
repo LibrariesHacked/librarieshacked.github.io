@@ -10,14 +10,14 @@ author:
 defaults:
   # _pages
   - scope:
-      path:
+      path: ""
       type: pages
     values:
       layout: single
       author_profile: true
   # _posts
   - scope:
-    path:
+    path: ""
       type: posts
     values:
       layout: single
