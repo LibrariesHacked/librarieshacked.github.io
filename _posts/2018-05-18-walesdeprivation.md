@@ -1,6 +1,8 @@
 ---
 layout: post
-title:  Wales public library deprivation stats
-date:   2018-05-18 20:00:00
+title: Wales public library deprivation stats
+date: 2018-05-18
 categories: libraries
 ---
+
+Some sample text
