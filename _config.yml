@@ -8,15 +8,3 @@ author:
   avatar: "/images/logo.png"
   location: UK
   email: info@librarieshacked.org
-
-defaults:
-  # _posts
-  - scope:
-      path:
-      type: posts
-    values:
-      layout: single
-      read_time: true
-      comments: true
-      share: true
-      related: true
