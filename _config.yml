@@ -1,5 +1,29 @@
-theme: jekyll-theme-minimal
+remote_theme: mmistakes/minimal-mistakes
 title: Libraries Hacked
 description: Promoting open data and hacks in libraries
-logo: "/images/logo.png"
-show_downloads: false
+
+twitter:
+  username: librarieshacked
+author:
+  avatar: "/images/logo.png"
+  location: UK
+  email: info@librarieshacked.org
+
+defaults:
+  # _posts
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: single
+      author_profile: true
+      read_time: true
+      share: true
+      related: true
+  # _pages
+  - scope:
+      path: "_pages"
+      type: pages
+    values:
+      layout: single
+      author_profile: true
