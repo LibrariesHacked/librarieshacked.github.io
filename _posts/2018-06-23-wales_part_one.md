@@ -1,6 +1,6 @@
 ---
 title: Wales libraries open data part one
-date: 2018-06-23
+date: 2018-06-23 17:00:00 +0100
 categories: wales geography
 layout: single
 ---
