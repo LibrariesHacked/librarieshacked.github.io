@@ -1,8 +1,8 @@
 ---
-layout: post
 title: Wales libraries open data part one
 date: 2018-06-23
 categories: wales geography
+layout: single
 ---
 
 It was great to be involved in a [@CILIPinWales](https://twitter.com/CILIPinWales) project, led by [Kathryn Parry](https://twitter.com/kathrynparry1), to produce a list of the libraries in Wales, display these on a map, and put these into Wikidata. More details on [this CILIP page](https://www.cilip.org.uk/members/group_content_view.asp?group=200145&id=733577).
