@@ -1,7 +1,7 @@
 ---
 title: "About"
 excerpt: "About"
-sitemap: false
+sitemap: true
 permalink: /about
 ---
 
