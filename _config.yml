@@ -1,5 +1,11 @@
 remote_theme: mmistakes/minimal-mistakes
 
+title: "Site Title"
+title_separator: "-"
+name: "Your Name"
+description: "An amazing website."
+repository: "librarieshacked/librarieshacked.github.io"
+
 # Defaults
 defaults:
   # _posts
