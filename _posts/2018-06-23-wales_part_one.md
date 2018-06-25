@@ -1,7 +1,7 @@
 ---
-title: Wales libraries open data part one
+title: Wales library locations
+excerpt: Part one looking at Wales libraries data hosted on WikiData
 date: 2018-06-23 17:00:00 +0100
-layout: single
 ---
 
 It was great to be involved in a [@CILIPinWales](https://twitter.com/CILIPinWales) project, led by [Kathryn Parry](https://twitter.com/kathrynparry1), to produce a list of the libraries in Wales, display these on a map, and put these into Wikidata. More details on [this CILIP page](https://www.cilip.org.uk/members/group_content_view.asp?group=200145&id=733577).
