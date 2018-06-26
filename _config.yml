@@ -5,8 +5,7 @@ title: "#LibraryData Blog"
 description: "Articles and tutorials on library data and open data in libraries."
 url: "https://blog.librarydata.uk"
 title_separator: "-"
-name: "Your Name"
-description: "An amazing website."
+name: "Libraries Hacked"
 repository: "librarieshacked/librarieshacked.github.io"
 search: true
 
@@ -14,11 +13,11 @@ twitter:
   username: "librarieshacked"
 
 author:
-  name   : "Libraries Hacked"
-  avatar : "/assets/images/logo.png"
-  bio    : "Promoting open data and hacks in libraries"
-  email  : "info@librarieshacked.org"
-  uri    : "https://www.librarieshacked.org"
+  name: "Libraries Hacked"
+  avatar: "/images/logo.png"
+  bio: "Promoting open data and hacks in libraries"
+  email: "info@librarieshacked.org"
+  uri: "https://www.librarieshacked.org"
 
 
 # Comments
@@ -31,7 +30,7 @@ comments:
 defaults:
   # _posts
   - scope:
-      path: ""
+      path: "_posts"
       type: posts
     values:
       layout: single
