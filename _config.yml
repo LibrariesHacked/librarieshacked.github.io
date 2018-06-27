@@ -2,12 +2,13 @@ remote_theme: mmistakes/minimal-mistakes
 
 locale: "en-GB"
 title: "#LibraryData Blog"
+title_separator: "-"
 description: "Articles and tutorials on library data and open data in libraries."
 url: "https://blog.librarydata.uk"
-title_separator: "-"
 name: "Libraries Hacked"
 repository: "librarieshacked/librarieshacked.github.io"
 search: true
+words_per_minute: 200
 
 twitter:
   username: "librarieshacked"
@@ -18,7 +19,14 @@ author:
   bio: "Promoting open data and hacks in libraries"
   email: "info@librarieshacked.org"
   uri: "https://www.librarieshacked.org"
+  github: "librarieshacked"
+  twitter: &twitter "librarieshacked"
 
+# Outputting
+permalink: /:title
+paginate: 5
+paginate_path: /page:num/
+timezone: Europe/London # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
 # Comments
 comments:
@@ -30,7 +38,7 @@ comments:
 defaults:
   # _posts
   - scope:
-      path: "_posts"
+      path: ""
       type: posts
     values:
       layout: single
@@ -39,3 +47,10 @@ defaults:
       comments: true
       share: true
       related: true
+  # _pages
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: single
+      author_profile: true
