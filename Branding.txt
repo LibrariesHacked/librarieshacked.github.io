@@ -1,0 +1,5 @@
+Pink/Red: #FE7190
+Green: #4BC0C0
+Yellow: #FFCE56
+Blue: #36A2EB
+Grey: #C2BEC0
