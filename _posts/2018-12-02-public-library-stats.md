@@ -56,15 +56,15 @@ A few key phrases from the document
 
 I'm assuming this was my set of requests in 2017. CIPFA felt it necessary based upon a fairly small sample to warn all services against replying to future requests.
 
->> If the information being sought is reasonably accessible by other means it is exempt from disclosure [...] The fact that a fee is payable does not preclude the use of this exemption.
+> If the information being sought is reasonably accessible by other means it is exempt from disclosure [...] The fact that a fee is payable does not preclude the use of this exemption.
 
 This is CIPFA claiming that because people can go to them for data on public libraries (£650), the library service does not have to provide their own data.
 
->> any disclosure that is likely to prejudice CIPFA's commercial interest can be regarded as sufficient ground for exemption.
+> any disclosure that is likely to prejudice CIPFA's commercial interest can be regarded as sufficient ground for exemption.
 
 CIPFA here are trying to use an FOI 'trade secret' exemption to say they would lose competitive advantage if libraries provided public data about themselves.
 
->> Organisations should therefore exert a degree of caution when responding to any such FOI requests
+> Organisations should therefore exert a degree of caution when responding to any such FOI requests
 
 Some general discouragement from responding to FOI requests.
 
@@ -79,7 +79,7 @@ CIPFA did provide a full response to Public Libraries News in [the middle of thi
 
 In November 2018 I contacted CIPFA again, querying if they'd reconsider their antipathy to open data, and even help out with providing the 'raw' local authority data as open data. Their own reports and services could remain as commercial interests. They responded with the same lines provided to Public Libraries News, though they added:
 
->> We don’t believe the public interest is necessarily well served by providing invalidated data in its raw form.
+> We don’t believe the public interest is necessarily well served by providing invalidated data in its raw form.
 
 And this is really where the disagreement is, between CIPFA and any public open data. CIPFA are a registered charity, and to maintain that status much of what they do will need to be claimed as being in the public interest. But data does not need to be assured by CIPFA for there to be a public interest in it being available. The idea that a small body of non library experts, with limited resource, is a better data validator than the library community itself is absurd.
 
