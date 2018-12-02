@@ -30,7 +30,7 @@ Freedom of Information is an essential process in transparent government, but it
 
 A [sample request to Bexley](https://www.whatdotheyknow.com/request/2017_library_statistics_11) can be seen on the 'What Do They Know' website.
 
-Some of the responses turned out to be a little annoying:
+Some of the responses turned out to be a little annoying.
 
 - Aberdeenshire sent the data converted to PDF 
 - Anglesey never replied
@@ -50,7 +50,8 @@ It was interesting to see later that CIPFA had been involved in this. In 2018 I 
 <blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">This is their statement of FOI advice which appears to have been sent, unsolicited, to all the local authorities within their remit. It seems unlikely that the information commissioner would uphold a refusal based on this advice, which I assess as revenue protection by Cipfa. <a href="https://t.co/bVFVZgJtiZ">pic.twitter.com/bVFVZgJtiZ</a></p>&mdash; Aran Lewis (@aranmlewis) <a href="https://twitter.com/aranmlewis/status/1047460077458915329?ref_src=twsrc%5Etfw">October 3, 2018</a></blockquote>
 <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
-A few key phrases from the document
+
+A few key phrases from the document.
 
 > CIPFA has been contacted by a number of organisations with regards to the release of information pertaining to the CIPFA stats public library data following a number of Freedom of Information requests made by the same requester.
 
@@ -58,11 +59,11 @@ I'm assuming this was my set of requests in 2017. CIPFA felt it necessary based 
 
 > If the information being sought is reasonably accessible by other means it is exempt from disclosure [...] The fact that a fee is payable does not preclude the use of this exemption.
 
-This is CIPFA claiming that because people can go to them for data on public libraries (£650), the library service does not have to provide their own data.
+This is CIPFA claiming that the library service does not have to provide public data, as the public can go to CIPFA for data (£650).
 
 > any disclosure that is likely to prejudice CIPFA's commercial interest can be regarded as sufficient ground for exemption.
 
-CIPFA here are trying to use an FOI 'trade secret' exemption to say they would lose competitive advantage if libraries provided public data about themselves.
+CIPFA here are trying to use an FOI 'trade secret' exemption to say they would lose competitive advantage if libraries provided public data.
 
 > Organisations should therefore exert a degree of caution when responding to any such FOI requests
 
@@ -72,6 +73,7 @@ Public Libraries News took this up on Twitter and described CIPFA as an 'evil, g
 
 <blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">Nothing makes it so obvious that we have an evil, greedy and inefficient dinosaur in charge of library data than this <a href="https://twitter.com/CIPFA?ref_src=twsrc%5Etfw">@CIPFA</a> letter to library services trying to restrict open use of library figures. It&#39;s time libraries simply published them themselves. Hello Libraries Connected. <a href="https://t.co/2aOMM0LKOe">https://t.co/2aOMM0LKOe</a></p>&mdash; Ian Anstice (@publiclibnews) <a href="https://twitter.com/publiclibnews/status/1060413446515240961?ref_src=twsrc%5Etfw">November 8, 2018</a></blockquote>
 <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
 
 I'm not sure this is fair though. Whatever became of the dinosaurs (and there were some terrific ones), they could not be expected to forsee their demise. CIPFA are a body that advises and works with the public sector, and will know the direction of travel with open data. Sending warnings to all library services against providing data may cause concern, but it's fighting against the tide.
 
