@@ -1,4 +1,5 @@
 remote_theme: mmistakes/minimal-mistakes
+minimal_mistakes_skin: "plum"
 
 locale: "en-GB"
 title: "#LibraryData Blog"
@@ -33,6 +34,24 @@ comments:
   provider: "disqus"
   disqus:
     shortname: "librarieshacked"
+
+# Plugins (previously gems:)
+plugins:
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-gist
+  - jekyll-feed
+  - jemoji
+  - jekyll-include-cache
+
+# mimic GitHub Pages with --safe
+whitelist:
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-gist
+  - jekyll-feed
+  - jemoji
+  - jekyll-include-cache
 
 # Defaults
 defaults:
