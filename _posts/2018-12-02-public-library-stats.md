@@ -5,28 +5,28 @@ title: UK public library stats
 meta: How to get UK public library data into the open
 ---
 
-For quite a while people, including me, have complained about the UK public library reliance on CIPFA for national statistics. A simplification of the process is:
+For quite a while people, including me, have complained about the UK public library reliance on CIPFA for national statistics. For a simplification of this process:
 
-1. Library services compile annual data about themselves, usage of their services, and their users, and send this to CIPFA.
-2. CIPFA check and aggregate these, and create reports about the library services.
-3. CIPFA provide the reports and data to paying subscribers, and to others for a one-off purchase cost of £650.
+1. Library services collect annual data about themselves, usage of their services, and their users, and send this to CIPFA.
+2. CIPFA check and aggregate these, and create reports.
+3. CIPFA provide the reports and data to paying subscribers, and for a one-off purchase cost of £650.
 
-There is very little available to the public other than some DCMS funded PDF reports for each library service.
+There is very little available to the public, other than some DCMS funded PDF reports for each library service.
 
-With increasingly open government (to some extent), data portals, and open data communities, this has left public libraries behind other services in providing information about themselves. An embarassing situation given the nature of libraries.
+With increasingly open government (to some extent), data portals, and open data communities, this has left public libraries behind other services in providing information about themselves. An increasingly embarassing situation given the nature of libraries.
 
 Ideally it would be nice to have 'live' data on the use of libraries, rather than annual statistics. But as a quick win it would be an achievement to redesign the current approach by replacing Step 1:
 
-1. Library services compile annual data about themselves, usage of their services, and their users, and publish this as open data.
+1. Library services collect annual data about themselves, usage of their services, and their users, and publish this as open data.
 
-Libraries usually complete their data returns in July each year, covering the previous financial year. In September 2017 I approached 17 library services requesting the data that had been sent to CIPFA. The main components of the request were:
+Libraries complete their data returns by July each year, covering the previous financial year. In September 2017 I approached 17 library services requesting the data that had been sent to CIPFA. The main components of the request were:
 
-1. Did the authority complete the annual stats?
+1. Did the authority complete the stats?
 2. If they did, I would like a copy of the same data they sent to CIPFA
-3. The data should be in spreadsheet form of the same format sent to CIPFA. After some research I had found evidence that it is reasonable for FOI requestors to specify data format.
-4. The request also mentioned there could be no exemption based on the data being 'reasonably accessible' elsewhere. Paying £650 for a complete dataset from CIPFA does not count.
+3. The data should be in the same spreadsheet format sent to CIPFA. After some research I had found evidence that it is reasonable for FOI requestors to specify data format.
+4. The request mentioned there could be no exemption based on the data being 'reasonably accessible' elsewhere. Paying £650 for a complete dataset from CIPFA doesn't count.
 
-Freedom of Information is an essential process in transparent government, but it isn't necessarily a friendly one, either for the requestor or the organisation. It is a demand for data, and that situation sets the terms of the interaction. Ideally I would have liked to request the data directly from the library service. Even by phoning them, if I weren't afraid of using phones. But it seemed direct contact would be less likely to be succesful.
+Freedom of Information is an essential process in transparent government, but it isn't necessarily a friendly one, either for the requestor or the organisation. It is a demand for data, and that demand sets the terms of the interaction. Ideally I would have liked to request the data directly from the library service. Even by phoning them, if I weren't afraid of using phones. But it seemed direct contact would be less likely to be succesful.
 
 A [sample request to Bexley](https://www.whatdotheyknow.com/request/2017_library_statistics_11) can be seen on the 'What Do They Know' website.
 
@@ -58,7 +58,7 @@ I'm assuming this was my set of requests in 2017. CIPFA felt it necessary based 
 
 >> If the information being sought is reasonably accessible by other means it is exempt from disclosure [...] The fact that a fee is payable does not preclude the use of this exemption.
 
-This is CIPFA claiming that because people can come to them for data on public libraries (£650), the library service does not have to provide their own data.
+This is CIPFA claiming that because people can go to them for data on public libraries (£650), the library service does not have to provide their own data.
 
 >> any disclosure that is likely to prejudice CIPFA's commercial interest can be regarded as sufficient ground for exemption.
 
@@ -66,14 +66,14 @@ CIPFA here are trying to use an FOI 'trade secret' exemption to say they would l
 
 >> Organisations should therefore exert a degree of caution when responding to any such FOI requests
 
-General discouragement from responding to FOI requests.
+Some general discouragement from responding to FOI requests.
 
 Public Libraries News took this up on Twitter and described CIPFA as an 'evil, greedy, and inefficient dinosaur':
 
 <blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">Nothing makes it so obvious that we have an evil, greedy and inefficient dinosaur in charge of library data than this <a href="https://twitter.com/CIPFA?ref_src=twsrc%5Etfw">@CIPFA</a> letter to library services trying to restrict open use of library figures. It&#39;s time libraries simply published them themselves. Hello Libraries Connected. <a href="https://t.co/2aOMM0LKOe">https://t.co/2aOMM0LKOe</a></p>&mdash; Ian Anstice (@publiclibnews) <a href="https://twitter.com/publiclibnews/status/1060413446515240961?ref_src=twsrc%5Etfw">November 8, 2018</a></blockquote>
 <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
-I'm not sure this is quite fair though. Whatever became of the dinosaurs, they could not be expected to forsee their demise. CIPFA are a body that advises and works with the public sector, and will know the direction of travel with open data. Sending warnings to all library services against providing data may cause concern for a time, but it's fighting against the tide.
+I'm not sure this is fair though. Whatever became of the dinosaurs (and there were some terrific ones), they could not be expected to forsee their demise. CIPFA are a body that advises and works with the public sector, and will know the direction of travel with open data. Sending warnings to all library services against providing data may cause concern, but it's fighting against the tide.
 
 CIPFA did provide a full response to Public Libraries News in [the middle of this news post](http://www.publiclibrariesnews.com/2018/11/unbothered-petition-response-cipfa-as-an-active-barrier-to-library-data-and-newcastle-woes.html), describing their charity status and highly skilled workers. It was interesting to see that only half of Councils with library responsibilities have a CIPFA subscription. The others if they want the data have to directly buy it, despite contributing to it.
 
