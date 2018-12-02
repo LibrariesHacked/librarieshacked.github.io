@@ -52,7 +52,7 @@ It was interesting to see later that CIPFA had been involved in this. In 2018 I 
 
 A few key phrases from the document
 
->> CIPFA has been contacted by a number of organisations with regards to the release of information pertaining to the CIPFA stats public library data following a number of Freedom of Information requests made by the same requester.
+> CIPFA has been contacted by a number of organisations with regards to the release of information pertaining to the CIPFA stats public library data following a number of Freedom of Information requests made by the same requester.
 
 I'm assuming this was my set of requests in 2017. CIPFA felt it necessary based upon a fairly small sample to warn all services against replying to future requests.
 
