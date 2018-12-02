@@ -23,10 +23,10 @@ Libraries complete their data returns by July each year, covering the previous f
 
 1. Did the authority complete the stats?
 2. If they did, I would like a copy of the same data they sent to CIPFA
-3. The data should be in the same spreadsheet format sent to CIPFA. After some research I had found evidence that it is reasonable for FOI requestors to specify data format.
+3. The data should be in the same spreadsheet format sent to CIPFA. After some research I had found evidence that it is reasonable for FOI requesters to specify data format.
 4. The request mentioned there could be no exemption based on the data being 'reasonably accessible' elsewhere. Paying £650 for a complete dataset from CIPFA doesn't count.
 
-Freedom of Information is an essential process in transparent government, but it isn't necessarily a friendly one, either for the requestor or the organisation. It is a demand for data, and that demand sets the terms of the interaction. Ideally I would have liked to request the data directly from the library service. Even by phoning them, if I weren't afraid of using phones. But it seemed direct contact would be less likely to be succesful.
+Freedom of Information is an essential process in transparent government, but it isn't necessarily a friendly one, either for the requester or the organisation. It is a demand for data, and that demand sets the terms of the interaction. Ideally I would have liked to request the data directly from the library service. Even by phoning them, if I weren't afraid of using phones. But it seemed direct contact would be less likely to be succesful.
 
 A [sample request to Bexley](https://www.whatdotheyknow.com/request/2017_library_statistics_11) can be seen on the 'What Do They Know' website.
 
