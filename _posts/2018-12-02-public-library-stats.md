@@ -15,9 +15,9 @@ There is very little available to the public, other than DCMS funded PDF reports
 
 With increasingly open government (to some extent), data portals, and open data communities, this has left public libraries behind other services in providing information about themselves. An embarassing situation given the nature of libraries.
 
-It would be nice to have 'live' data on the use of libraries, rather than annual statistics. But as a quick win it would be an achievement to redesign the current approach by replacing Step 1:
+It would be nice to have 'live' data on the use of libraries, rather than annual statistics. But as a quick win it would be an achievement to redesign the current approach by modifying Step 1:
 
-1. Library services collect annual data about themselves, usage of their services, and their users, and publish this as open data.
+1. Library services collect annual data about themselves, usage of their services, and their users, and **publish this as open data**.
 
 Libraries complete their data returns by July each year, covering the previous financial year. In September 2017 I approached 17 library services requesting through Freedom of Information the data that had been sent to CIPFA. The main components of the request were:
 
