@@ -6,17 +6,17 @@ meta: Schedule loan checks using google scripting services
 published: false
 ---
 
-Library fines can be annoying. Have a few books out and it doesn't take long to owe more than it may have cost to buy at least one of the items. Well, that's just how libraries work?
+Library fines can be annoying. Have a few books out and it doesn't take long to owe more than it may have cost to buy at least one of the books. Well, so what? That's just how libraries work.
 
-Perhaps. But there is a growing tendency for two things:
+Perhaps. But there is a growing tendency for library services to implement one of two policies:
 
-1. Removing overdue fines. This has been particularly big in the US but Northern Ireland and Trafford are notable recent adopters of this policy. 
+1. Removing any overdue fines. This has been particularly big in the US, but Northern Ireland and Trafford are notable recent adopters of this policy. Quite a few services in Scotland have done this for many years.
 
-2. Automatic renewals. Similar to the above, this just ensures that if you are able to renew an item then the system will renew it for you to avoid it going overdue.
+2. Automatic renewals. This just ensures that if you are able to renew an item then the system will renew it for you, to avoid it going overdue unnecessarily.
 
-In these days of pre-overdue notices and online renewals it's easy to say there's no excuse to bring a library book back late. And in some ways there isn't, other than being forgetful and busy, or both. Neither of which the library should really be policing.
+In these days of online renewal it's easy to say there's no excuse to go overdue. And in some ways there isn't, other than being forgetful and busy, or both. Neither of which a library should really be policing.
 
-But there's also little excuse for library systems not to do things like auto-renewal. These days I can control most of my regular tasks through automation, most of which is provided to me through easy devices and apps. [If this then that]() provides all sorts of interactions between different online services, such as ''. Anyone should be able to configure something like 'if my library book is about to go overdue then renew it'.
+But there's also little excuse for library systems not to do auto-renewal. These days I can control most of my life through perfectly timed automation, in many cases through devices and apps. In the morning Google tells me when to get up, what I am supposed to be doing, and whether I should take an umbrella to do it. It also hints every now and again how long it will take me to get to places I'm not supposed to be, like the pub. Amazon tells me what I need to buy next, and things that I hadn't considered buying, but it knows I will be tempted by. Moonpig sends my birthday cards for me, and Netflix lets me know when the next series of TV shows that I've watched become available. A measley pre-overdue email from my library a few days before a book is due back seems like extreme negligence towards my wellbeing.
 
 Now, you can do this, but it needs some background knowledge of systems, and 
 
