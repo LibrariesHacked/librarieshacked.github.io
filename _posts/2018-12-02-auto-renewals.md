@@ -6,21 +6,35 @@ meta: Schedule loan checks using google scripting services
 published: false
 ---
 
-Library fines can be annoying. Have a few books out and it doesn't take long to owe more than it may have cost to buy at least one of the books. Well, so what? That's just how libraries work.
+Library fines can be annoying. Have a few books out and it doesn't take long to owe more than it may have cost to buy one of the books. Well, so what? That's how libraries work.
 
 Perhaps. But there is a growing tendency for library services to implement one of two policies:
 
-1. Removing any overdue fines. This has been particularly big in the US, but Northern Ireland and Trafford are notable recent adopters of this policy. Quite a few services in Scotland have done this for many years.
+1. **Removing overdue fines.** This has been particularly big in the US, but Northern Ireland and Trafford are notable recent adopters of this policy. Quite a few services in Scotland have also done this for many years.
 
-2. Automatic renewals. This just ensures that if you are able to renew an item then the system will renew it for you, to avoid it going overdue unnecessarily.
+2. **Automatic renewals.** This ensures that if you are able to renew an item, then the system will renew it for you to avoid it going overdue unnecessarily.
 
-In these days of online renewal it's easy to say there's no excuse to go overdue. And in some ways there isn't, other than being forgetful and busy, or both. Neither of which a library should really be policing.
+In these days of online renewal it's easy to say there's no excuse to go overdue. And in some ways there isn't, other than being forgetful and busy, or both. Neither of which a library should really be punishing.
 
-But there's also little excuse for library systems not to do auto-renewal. These days I can control most of my life through perfectly timed automation, in many cases through devices and apps. In the morning Google tells me when to get up, what I am supposed to be doing, and whether I should take an umbrella to do it. It also hints every now and again how long it will take me to get to places I'm not supposed to be, like the pub. Amazon tells me what I need to buy next, and things that I hadn't considered buying, but it knows I will be tempted by. Moonpig sends my birthday cards for me, and Netflix lets me know when the next series of TV shows that I've watched become available. A measley pre-overdue email from my library a few days before a book is due back seems like extreme negligence towards my wellbeing.
+But there's also little excuse for library systems to not do auto-renewal. These days most of my life is controlled through perfectly timed automation. In the morning Google tells me when to get up, what I am supposed to be doing, and whether I should take an umbrella with me. It also hints every now and again how long it will take me to get to places I'm not supposed to be, like the pub. Amazon tells me what I need to buy next, and things that I hadn't considered buying but it knows I will be tempted by. Moonpig sends birthday cards for me, and Netflix lets me know when the next series of TV shows that I've watched become available. A measley pre-overdue email from my library three days before a book is due back seems like negligence towards my wellbeing.
 
-Now, you can do this, but it needs some background knowledge of systems, and 
+OK, libraries don't want to mimic the intrusive automation and data collection that goes on with other things. But being a bit cleverer to stop people getting fines would be nice.
 
-My local authority is Wiltshire Council. They use Axiell for their library management system. The online catal
+All this can be done by users themselves, but it requires a bit of investigation into how renewals work. The automation process we're looking for here isn't that complicated.
+
+**If:** My books are about to go overdue (e.g. tomorrow).
+**Then:** Renew them.
+**And:** Tell me about it.
+
+There are 3 library system processes that are needed for this.
+
+1. Login as a user (normally using an ID and password/PIN).
+2. Check current loans
+3. Renew loan (if necessary).
+
+Many systems these days have an Application Programming Interface (API), made available using web services. This allows interaction with the system online, using machine-to-machine communication by passing data back and forth. When accessing web pages online we are usually using human-to-machine communication, but having web services make configuring automation a little simpler.
+
+My local authority is Wiltshire Council. They use Axiell for their library management system, and Axiell do have web services, used by the library's mobile app. So by writing a script it is possible to automate the process of checking loans and performing renewals where necessary.
 
 The [Google Apps Script](https://developers.google.com/apps-script/) language is primarily JavaScript with a number of additional functions to simplify common scripting tasks, and integrate with other Google services.
 
