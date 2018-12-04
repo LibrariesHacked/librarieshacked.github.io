@@ -5,9 +5,9 @@ title: Scheduling auto renewals
 meta: Schedule loan checks using google scripting services
 ---
 
-Library fines can be annoying. Forget to bring a few books out and it doesn't take long to owe more than the cost of one of the books. Well, so what? That's how libraries work.
+Library fines can be annoying. Forget to bring a few books back and it doesn't take long to owe more than the cost of a book. Well, so what? That's how libraries work.
 
-Perhaps. But there is a growing trend for public library services to implement one of two policies:
+Perhaps. But there is a growing trend for public library services to implement one of two policies.
 
 1. **Removing overdue fines.** Particularly big in the US, but Ireland and [Trafford](https://www.librariesconnected.org.uk/news/new-chapter-library-borrowing) are notable recent adopters of this policy. Quite a few services in Scotland have also done this for many years.
 
@@ -27,9 +27,9 @@ All this could be done by users themselves, but it requires a bit of investigati
 
 There are 3 library system processes that are needed for this.
 
-1. Login as a user (normally using an ID and password/PIN).
+1. Login as a user
 2. Check current loans
-3. Renew loans (if necessary).
+3. Renew loans (if necessary)
 
 Many systems these days have an Application Programming Interface (API), made available using web services. This allows interaction with the system on the web, using machine-to-machine communication by passing data back and forth. When accessing web pages online we are usually using human-to-machine communication (clicking on web pages and typing in boxes). Having web services means we can just send the data required for the system to do what it needs to.
 
@@ -41,7 +41,7 @@ Google Apps Scripts are also able to send out emails, at a limit of 100 per day,
 
 As an example, the below script runs against the Axiell web services as an automated task every day to check a library account. It sends an email if a loan is almost due (within 5 days), and then renews it if it is just about to go overdue (the next day). Hopefully this should mean no more library fines! (until Wiltshire scrap them anyway).
 
-```
+```JavaScript
 function CheckLoans() {
 
   // user acount details - put your user number, PIN, and email address
