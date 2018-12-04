@@ -3,26 +3,25 @@ category: renewals
 tags: fines renewals scripting
 title: Scheduling auto renewals
 meta: Schedule loan checks using google scripting services
-published: false
 ---
 
-Library fines can be annoying. Have a few books out and it doesn't take long to owe more than it may have cost to buy one of the books. Well, so what? That's how libraries work.
+Library fines can be annoying. Forget to bring a few books out and it doesn't take long to owe more than the cost of one of the books. Well, so what? That's how libraries work.
 
-Perhaps. But there is a growing tendency for library services to implement one of two policies:
+Perhaps. But there is a growing trend for public library services to implement one of two policies:
 
-1. **Removing overdue fines.** This has been particularly big in the US, but Northern Ireland and Trafford are notable recent adopters of this policy. Quite a few services in Scotland have also done this for many years.
+1. **Removing overdue fines.** Particularly big in the US, but Ireland and [Trafford](https://www.librariesconnected.org.uk/news/new-chapter-library-borrowing) are notable recent adopters of this policy. Quite a few services in Scotland have also done this for many years.
 
-2. **Automatic renewals.** This ensures that if you are able to renew an item, then the system will renew it for you to avoid it going overdue unnecessarily.
+2. **Automatic renewals.** This ensures that if you are able to renew an item, then the system will renew it for you to avoid it going overdue.
 
-In these days of online renewal it's easy to say there's no excuse to go overdue. And in some ways there isn't, other than being forgetful and busy, or both. Neither of which a library should really be punishing.
+In these days of online renewal it's easy to say there's no excuse to go overdue. And there isn't, other than being forgetful and busy, or both. Neither of which a library should really be punishing.
 
-But there's also little excuse for library systems to not do auto-renewal. These days most of my life is controlled through perfectly timed automation. In the morning Google tells me when to get up, what I am supposed to be doing, and whether I should take an umbrella with me. It also hints every now and again how long it will take me to get to places I'm not supposed to be, like the pub. Amazon tells me what I need to buy next, and things that I hadn't considered buying but it knows I will be tempted by. Moonpig sends birthday cards for me, and Netflix lets me know when the next series of TV shows that I've watched become available. A measley pre-overdue email from my library three days before a book is due back seems like negligence towards my wellbeing.
+But there's also little excuse for library systems to not do auto-renewal. Most of my life is controlled through perfectly timed automation. In the morning Google tells me when to get up, what I am supposed to be doing, and whether I will need an umbrella to do it. Every now and then it also hints how long it will take me to get to places I'm not supposed to be, like the pub. Amazon tells me what I need to buy, and things that I hadn't considered buying but it knows I will be tempted by. Moonpig sends birthday cards for me, and Netflix lets me know when TV shows that I might like become available. A measley pre-overdue email from my library, three days before a book is due back, seems like negligence towards my wellbeing.
 
-OK, libraries don't want to mimic the intrusive automation and data collection that goes on with other things. But being a bit cleverer to stop people getting fines would be nice.
+OK, libraries don't want to mimic the intrusive automation and data collection that goes on with other things. But stopping people getting fines when they don't need to would be nice.
 
-All this can be done by users themselves, but it requires a bit of investigation into how renewals work. The automation process we're looking for here isn't that complicated.
+All this could be done by users themselves, but it requires a bit of investigation into how renewals work. The automation we're looking for here is something like:
 
-**If:** My books are about to go overdue (e.g. tomorrow).
+**If:** My books are about to go overdue.
 **Then:** Renew them.
 **And:** Tell me about it.
 
@@ -30,122 +29,108 @@ There are 3 library system processes that are needed for this.
 
 1. Login as a user (normally using an ID and password/PIN).
 2. Check current loans
-3. Renew loan (if necessary).
+3. Renew loans (if necessary).
 
-Many systems these days have an Application Programming Interface (API), made available using web services. This allows interaction with the system online, using machine-to-machine communication by passing data back and forth. When accessing web pages online we are usually using human-to-machine communication, but having web services make configuring automation a little simpler.
+Many systems these days have an Application Programming Interface (API), made available using web services. This allows interaction with the system on the web, using machine-to-machine communication by passing data back and forth. When accessing web pages online we are usually using human-to-machine communication (clicking on web pages and typing in boxes). Having web services means we can just send the data required for the system to do what it needs to.
 
-My local authority is Wiltshire Council. They use Axiell for their library management system, and Axiell do have web services, used by the library's mobile app. So by writing a script it is possible to automate the process of checking loans and performing renewals where necessary.
+My local authority is Wiltshire Council. They use Axiell for their library management system, and Axiell have web services, used by the library's mobile app. So by writing a script it is possible to automate the process of checking loans and renewing them.
 
-The [Google Apps Script](https://developers.google.com/apps-script/) language is primarily JavaScript with a number of additional functions to simplify common scripting tasks, and integrate with other Google services.
+The [Google Apps Script](https://developers.google.com/apps-script/) language is primarily JavaScript with a number of additional functions to simplify common scripting tasks. It allows users to run scripts using their Google account. So is fairly accessible to people as long as they're comfortable using Google.
 
-For example, if you have a Google Analytics account it supports [a set of methods](https://developers.google.com/apps-script/advanced/analytics) to allow you to easily query your Analytics data.
+Google Apps Scripts are also able to send out emails, at a limit of 100 per day, and can be set to run as part of a schedule.
 
-Analytics already provided API (Application Programming Interface) access, but this makes accessing data from Google services a lot easier, and removes authentication as a task.  If you write an apps script and host it on your Google account then it can be given automatic access to your Analytics data.  Similarly, it will provide easy read/write access to documents and spreadsheets that are in the same account.  So you could query your Analytics account and update a Google Sheet with the data (if you wanted to).
+As an example, the below script runs against the Axiell web services as an automated task every day to check a library account. It sends an email if a loan is almost due (within 5 days), and then renews it if it is just about to go overdue (the next day). Hopefully this should mean no more library fines! (until Wiltshire scrap them anyway).
 
-When working on scripts, it also offers a decent development tool, allowing you to debug the scripts you write (though debugging is noticeably slow).
+```
+function CheckLoans() {
 
-Scripts are able to send out emails, at a limit of 100 per day, and can be set to run as part of a schedule. That also makes it useful as a notifications and alerts system, where otherwise automation scripts would need to be hosted on a server.
-
-As an example, the below script could be set to run as an automated task every day to check a library account, and send you an email if a loan is due for return within a certain time frame (e.g. within 5 days), and also to renew it if it is just about to go overdue.  It uses the following Google script additions:
-
-- **MailApp.sendEmail**.  To send out the alert email if loans are due.
-- **UrlFetchApp.fetch**.  To fetch data from a URL.  In this case a web service that retrieves loan data.
-- **XmlService.parse**.  To parse XML returned from the web service into an accessible object.
-
-The script is only compatible with Axiell Arena web services. It effectively does the same thing as if you were using the library app and renewing a loan manually. The following UK public library authorities are supported.
-
-| Service | URL | Library ID |
-| ------- | --- | ---------- |
-| Hounslow | https://www.hounslowlibraries.org/arena.pa.palma/loans | 219001 |
-| Wiltshire | https://libraries.wiltshire.gov.uk/arena.pa.palma/loans | 400001 |
-
-Instructions to set up your own version are as follows:
-
-1. In your [Google drive account](https://drive.google.com/drive/my-drive) select **New > More > Google Apps Script**
-2. In the script body paste all of the below script, overwriting anything that may be there already.
-3. You will need to replace the placeholder details: your member ID, your pin, and your email address.
-4. Change the Library ID, and Library URL to be the ones for your library service.
-5. You then have the options on when to react to loan due dates.  The number of days remaining on a loan at which it will automatically renew it, and the number of days remaining at which you'll simply receive an email reminder.
-6. You can then set schedules for it to run using .  Probably the most sensible would be sometime in the evening each day.
-
-<pre class="prettyprint linenums"><code>function CheckLoans() {
-    // Customise these variable to match your details, library service, and preferences.
-    var memberId = 'your member id';
-    var PIN = 'your pin';
-    var emailAddress = 'your email address';
-    var libraryId = '400001';
-    var libraryUrl = 'https://libraries.wiltshire.gov.uk/arena.pa.palma/loans';
-    var daysToRenew = 1;
-    var daysToSendEmail = 5;
-
-    // setting up some data for the script
-    // includes XML to post to the web service
-    var d = new Date();
-    var renewals = '';
-    var today = new Date();
-    var checkLoanPayload = '&lt;soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:loan="http://loans.palma.services.arena.axiell.com/" xmlns:loan1="http://axiell.com/arena/services/palma/patron/loansRequest" xmlns:util="http://axiell.com/arena/services/palma/util"&gt;&lt;soapenv:Header/&gt;&lt;soapenv:Body&gt;&lt;loan:GetLoans&gt;&lt;loan1:loansRequest&gt;&lt;util:arenaMember&gt;' + libraryId + '&lt;/util:arenaMember&gt;&lt;util:user&gt;' + memberId + '&lt;/util:user&gt;&lt;util:password&gt;' + PIN + '&lt;/util:password&gt;&lt;util:language&gt;en&lt;/util:language&gt;&lt;/loan1:loansRequest&gt;&lt;/loan:GetLoans&gt;&lt;/soapenv:Body&gt;&lt;/soapenv:Envelope&gt;';
-    var renewPayload = '&lt;soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:loan="http://loans.palma.services.arena.axiell.com/" xmlns:ren="http://axiell.com/arena/services/palma/patron/renewLoansRequest" xmlns:util="http://axiell.com/arena/services/palma/util" xmlns:loan1="http://axiell.com/arena/services/palma/util/loan"&gt;&lt;soapenv:Header/&gt;&lt;soapenv:Body&gt;&lt;loan:RenewLoans&gt;&lt;ren:renewLoansRequest&gt;&lt;util:arenaMember&gt;' + libraryId + '&lt;/util:arenaMember&gt;&lt;util:user&gt;' + memberId + '&lt;/util:user&gt;&lt;util:password&gt;' + PIN + '&lt;/util:password&gt;&lt;util:language&gt;en&lt;/util:language&gt;&lt;ren:loans&gt;[[renewals]]&lt;/ren:loans&gt;&lt;/ren:renewLoansRequest&gt;&lt;/loan:RenewLoans&gt;&lt;/soapenv:Body&gt;&lt;/soapenv:Envelope&gt;';
-    var loansOptions = { 'method': 'POST', 'content-type': 'application/xml; charset=utf-8', 'payload': checkLoanPayload };
-    var renewOptions = { 'method': 'POST', 'content-type': 'application/xml; charset=utf-8', 'payload': renewPayload };
-
-    // Start: Get Loans data
-    var getLoans = UrlFetchApp.fetch(libraryUrl, loansOptions);
-    var responseText = getLoans.getContentText();
-
-    // Extract a list of loans from the XML returned
-    var docRoot = XmlService.parse(responseText).getRootElement();
-    var ns = docRoot.getNamespace();
-    var loansRequest = docRoot.getChildren('Body', ns)[0].getChildren()[0].getChildren()[0];
-    ns = loansRequest.getNamespace();
-    var loans = loansRequest.getChild('loans', ns);
-    var loanItems = loans.getChildren();
-
-    var emailText = 'Hello,\n';
-    var sendEmail = false;
-    var renew = false;
-
-    // Loop through each loan and construct the email body (if necessary)
-    for (var x in loanItems) {
-        var loan = loanItems[x];
-        ns = loan.getNamespace();
-        var renewalDate = loan.getChild('loanDueDate', ns).getText().replace('+', 'T') + ':00.000Z';
-        renewalDate = new Date(renewalDate);
-
-        var reservedDate = new Date(loan.getChild('loanDate', ns).getText());
-        var branch = loan.getChild('branch', ns).getText();
-
-        var catalogueRecord = loan.getChildren()[1];
-        ns = catalogueRecord.getNamespace();
-
-        var title = catalogueRecord.getChild('title', ns).getText();
-        var id = catalogueRecord.getChild('id', ns).getText();
-        var author = catalogueRecord.getChild('author', ns).getText();
-        var oneDay = 1000 * 60 * 60 * 24;
-        var dateDifference = Math.ceil((renewalDate.getTime() - today.getTime()) / (oneDay));
-
-        if (dateDifference &lt;= daysToSendEmail) {
-            sendEmail = true;
-            if (dateDifference &lt;= daysToRenew) {
-                // it's so late we need to renew, but say this in the email.
-                renew = true;
-                emailText += 'The following item has been renewed: ' + title + ', ' + author + ' .  This was checked out on: ' + reservedDate + '.  Please remember to finish and return soon.\n';
-                renewals += '&lt;loan1:id&gt;' + id + '&lt;/loan1:id&gt;'
-            }
-            else {
-                // less than five days to go, will send an email each day.
-                emailText += 'Your loan of ' + title + ', ' + author + ' , checked out on ' + reservedDate + ', is due back on: ' + renewalDate + '.\n';
-            }
-        }
+  // user acount details - put your user number, PIN, and email address
+  var id = '';
+  var pin = '';
+  var email = '';
+ 
+  // library details - in this case an ID and URL for Wiltshire but fill with your own
+  var library_id = '400001';
+  var library_url = 'https://libraries.wiltshire.gov.uk/arena.pa.palma/loans';
+  
+  // at less than 1 day to go, renew the item
+  var renewal_days = 1;
+  // at less than 5 days to go, send an email notification
+  var email_days = 5;
+  
+  // setting up some data for the script
+  var renewals = '';
+  var today = new Date();
+  var check_loan_payload = '<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:loan="http://loans.palma.services.arena.axiell.com/" xmlns:loan1="http://axiell.com/arena/services/palma/patron/loansRequest" xmlns:util="http://axiell.com/arena/services/palma/util"><soapenv:Header/><soapenv:Body><loan:GetLoans><loan1:loansRequest><util:arenaMember>' + library_id + '</util:arenaMember><util:user>' + library_id + '</util:user><util:password>' + pin + '</util:password><util:language>en</util:language></loan1:loansRequest></loan:GetLoans></soapenv:Body></soapenv:Envelope>';
+  var renew_payload = '<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:loan="http://loans.palma.services.arena.axiell.com/" xmlns:ren="http://axiell.com/arena/services/palma/patron/renewLoansRequest" xmlns:util="http://axiell.com/arena/services/palma/util" xmlns:loan1="http://axiell.com/arena/services/palma/util/loan"><soapenv:Header/><soapenv:Body><loan:RenewLoans><ren:renewLoansRequest><util:arenaMember>' + library_id + '</util:arenaMember><util:user>' + library_id + '</util:user><util:password>' + pin + '</util:password><util:language>en</util:language><ren:loans>[[renewals]]</ren:loans></ren:renewLoansRequest></loan:RenewLoans></soapenv:Body></soapenv:Envelope>';
+  var check_loan_options = { 'method':'POST', 'content-type': 'application/xml; charset=utf-8', 'payload': check_loan_payload };
+  
+  // start - get loans data
+  var get_loans = UrlFetchApp.fetch(library_url, check_loan_options);
+  var response = get_loans.getContentText();
+  
+  // do the XML parsing to get a list of loans
+  var doc_root = XmlService.parse(response).getRootElement();
+  var namespace = doc_root.getNamespace();
+  var loans_request = doc_root.getChildren('Body', namespace)[0].getChildren()[0].getChildren()[0];
+  namespace = loans_request.getNamespace();
+  var loans = loans_request.getChild('loans', namespace);
+  var loan_items = loans.getChildren();
+  
+  var send_email = false;
+  var renew = false;
+  var email_content = 'Hi Library User,\n';
+  // loop through each loan and construct the email body (if necessary)
+  for (var x in loan_items) {
+    var loan = loan_items[x];
+    namespace = loan.getNamespace();
+    var renewal_date = loan.getChild('loanDueDate',namespace).getText().replace('+','T') + ':00.000Z';
+    renewal_date = new Date(renewal_date);
+    
+    // When thee loan was issued
+    var loan_date = new Date(loan.getChild('loanDate',namespace).getText());
+    // Which branch it was issued in
+    var branch = loan.getChild('branch', namespace).getText();
+    // ID (for renewing).
+    var id = loan.getChild('id', namespace).getText();
+    
+    var catalogue_record = loan.getChildren()[1];
+    namespace = catalogue_record.getNamespace();
+    
+    // Also get author and title
+    var title = catalogue_record.getChild('title', namespace).getText();
+    var author = catalogue_record.getChild('author', namespace).getText();
+    
+    var one_day_milliseconds = 1000 * 60 * 60 * 24; // Number of milliseconds in a day
+    var date_difference = Math.ceil((renewal_date.getTime() - today.getTime())/(one_day_milliseconds));
+    
+    if (date_difference <= email_days) {
+      send_email = true;
+      if (date_difference <= renewal_days) {
+        // we need to renew, but also say this in the email.
+        renew = true;
+        email_content += 'Attempting to renew item ' + title + ', ' + author + ' loaned on ' + loan_date + '.  Please finish and return soon.\n';
+        renewals += '<loan1:id>' + id + '</loan1:id>'
+      }
+      else {
+        // less than five days to go, will send an email each day.
+        email_content += 'Loan of ' + title + ', ' + author + ' loaned on ' + loan_date + ', is due back on ' + renewal_date + '. \n';
+      }
     }
+  }
 
-    // renew whatever items are due to renew
-    if (renew) {
-        renewPayload = renewPayload.replace('[[renewals]]', renewals);
-        UrlFetchApp.fetch(libraryUrl, renewOptions);
-    }
+  // Then renew the items that are due
+  if (renew) {
+    renew_payload = renew_payload.replace('[[renewals]]', renewals);
+    var renew_options = { 'method':'POST', 'content-type': 'application/xml; charset=utf-8', 'payload': renew_payload };
+    var renew_request = UrlFetchApp.fetch(library_url, renew_options);
+    var renew_result = renew_request.getContentText();
+    email_content += 'Success? ' + renewResult
+  }
 
-    // send out the email
-    if (sendEmail) {
-        MailApp.sendEmail(emailAddress, 'Library Notification Report', emailText);
-    }
-}</code></pre>
+  // send out the email
+  if (send_email) {
+    MailApp.sendEmail(email, 'Library renewal notification', email_content);
+  }
+}
+```
