@@ -41,7 +41,7 @@ Google Apps Scripts are also able to send out emails, at a limit of 100 per day,
 
 As an example, the below script runs against the Axiell web services as an automated task every day to check a library account. It sends an email if a loan is almost due (within 5 days), and then renews it if it is just about to go overdue (the next day). Hopefully this should mean no more library fines! (until Wiltshire scrap them anyway).
 
-```JavaScript
+{% highlight JavaScript linenos %}
 function CheckLoans() {
 
   // user acount details - put your user number, PIN, and email address
@@ -133,4 +133,4 @@ function CheckLoans() {
     MailApp.sendEmail(email, 'Library renewal notification', email_content);
   }
 }
-```
+{% endhighlight %}
