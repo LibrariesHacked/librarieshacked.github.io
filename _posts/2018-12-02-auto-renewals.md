@@ -13,17 +13,15 @@ Perhaps. But there is a growing trend for public library services to implement o
 
 2. **Automatic renewals.** This ensures that if you are able to renew an item, then the system will renew it for you to avoid it going overdue.
 
-In these days of online renewal it's easy to say there's no excuse to go overdue. And there isn't, other than being forgetful and busy, or both. Neither of which a library should really be punishing.
+With online renewal it's easy to say there's no excuse to go overdue. And there isn't, other than being forgetful and busy, or both. Neither of which a library should really be punishing.
 
-But there's also little excuse for library systems to not do auto-renewal. Most of my life is controlled through perfectly timed automation. In the morning Google tells me when to get up, what I am supposed to be doing, and whether I will need an umbrella to do it. Every now and then it also hints how long it will take me to get to places I'm not supposed to be, like the pub. Amazon tells me what I need to buy, and things that I hadn't considered buying but it knows I will be tempted by. Moonpig sends birthday cards for me, and Netflix lets me know when TV shows that I might like become available. A measley pre-overdue email from my library, three days before a book is due back, seems like negligence towards my wellbeing.
+There's also little excuse for library systems to not provide auto-renewal. Most of my life is controlled through perfectly timed automation. In the morning Google tells me when to get up, what I am supposed to be doing, and whether I will need an umbrella to do it. Every now and then it also hints how long it will take me to get to places I'm not supposed to be, like the pub. Amazon tells me what I need to buy, and things that I hadn't considered buying but it knows I will be tempted by. Moonpig sends birthday cards for me, and Netflix lets me know when TV shows that I might like become available. A measley pre-overdue email from my library, three days before a book is due back, seems like negligence towards my wellbeing.
 
 OK, libraries don't want to mimic the intrusive automation and data collection that goes on with other things. But stopping people getting fines when they don't need to would be nice.
 
 All this could be done by users themselves, but it requires a bit of investigation into how renewals work. The automation we're looking for here is something like:
 
-**If:** My books are about to go overdue.
-**Then:** Renew them.
-**And:** Tell me about it.
+**If** my books are about to go overdue. **Then** Renew them. **And** Tell me about it.
 
 There are 3 library system processes that are needed for this.
 
@@ -31,7 +29,7 @@ There are 3 library system processes that are needed for this.
 2. Check current loans
 3. Renew loans (if necessary)
 
-Many systems these days have an Application Programming Interface (API), made available using web services. This allows interaction with the system on the web, using machine-to-machine communication by passing data back and forth. When accessing web pages online we are usually using human-to-machine communication (clicking on web pages and typing in boxes). Having web services means we can just send the data required for the system to do what it needs to.
+Many systems have an Application Programming Interface (API), made available using web services. This allows interaction with the system on the web, using machine-to-machine communication by passing data back and forth. When accessing web pages online we are usually using human-to-machine communication (clicking on web pages and typing in boxes). Having web services means we can just send the data required for the system to do what it needs to.
 
 My local authority is Wiltshire Council. They use Axiell for their library management system, and Axiell have web services, used by the library's mobile app. So by writing a script it is possible to automate the process of checking loans and renewing them.
 
@@ -39,7 +37,7 @@ The [Google Apps Script](https://developers.google.com/apps-script/) language is
 
 Google Apps Scripts are also able to send out emails, at a limit of 100 per day, and can be set to run as part of a schedule.
 
-As an example, the below script runs against the Axiell web services as an automated task every day to check a library account. It sends an email if a loan is almost due (within 5 days), and then renews it if it is just about to go overdue (the next day). Hopefully this should mean no more library fines! (until Wiltshire scrap them anyway).
+As an example, the below script should run against the Axiell web services as an automated task every day to check a library account. It sends an email if a loan is almost due (within 5 days), and then renews it if it is just about to go overdue (the next day). Hopefully this should mean no more library fines! (until Wiltshire scrap them anyway). Now to get testing it by almost going overdue...
 
 {% highlight JavaScript linenos %}
 function CheckLoans() {
