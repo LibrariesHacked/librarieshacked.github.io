@@ -41,7 +41,7 @@ The goal of making data open isn't to suggest all the ways in which it could be 
 
 ### Is it open?
 
-OK, show us the data. Well, there doesn't seem to be any as such.
+OK, show us the data. Well, right now there doesn't seem to be any as such.
 
 The PLR team have long provided [annual media reports](https://www.bl.uk/plr/uk-media-centre) about PLR data. Things like the top 100 authors and books each year, in different regions.
 
@@ -62,3 +62,7 @@ After exploring the data in a web format, it was interesting to imagine what a d
 | 2014/2015 | 01/05/2015 - 30/06/2015 | Portsmouth | 9780747586500 | JK Rowling | Harry Potter and the Prisoner of Azkaban | 3 | 9.6 |
 
 So, between May and June 2015, there were 3 issues in Portsmouth of that particular ISBN. Portsmouth were part of the South East region, along with East Sussex and Hampshire. It looks like all those services actuals are multiplied by 3.2 to get the gross figure. Presumably the multiplier is done on a regional basis depending on the sample size within that region.
+
+### Will it be open?
+
+That's down to the British Library, but I don't think there's any reason that it isn't, other than that the demand hasn't been there. So if we want it we need to ask for it! The British Library have a good [Library Labs project](https://www.bl.uk/projects/british-library-labs), which encourages open reuse of various of their collections. And they have also been generally [very good about open data](http://www.bl.uk/bibliographic/datafree.html). So maybe it's just a matter of time.
