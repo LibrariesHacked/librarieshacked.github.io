@@ -14,7 +14,7 @@ There is comprehensive information [on the British Library PLR website](https://
 
 1. The PLR team select a sample of UK library authorities to report their borrowing data. An archive of the makeup of this sample is [available to download](https://www.bl.uk/plr/uk-sample-library-archive).
 
-2. Authors must apply to PLR register their books and be eligible for payments.
+2. Authors must apply to PLR and register their books to be eligible for payments.
 
 3. During the period they are in the sample, the library service sends the number of loans (including renewals), broken down by ISBN. This is at 2 monthly reporting periods.
 
