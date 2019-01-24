@@ -32,7 +32,7 @@ I have a minor quibble. I don't like combining loan and renewal data. It treats 
 
 ### Rate per loan
 
-The terminology around PLR can be unintentionally misleading. A 'rate per loan' suggests that authors are entitled to a fixed amount for each time their books are loaned. But that's not quite correct. The 'pot' of money available for PLR payments is fixed, and the sample data is simply a way of dividing up that pot in a proportional way. The rate per loan is a highly changeable value that will depend on the total number of loans for the year, and how many authors/books are signed up for PLR. If more authors sign up to PLR then the rate goes down.
+The terminology around PLR can be unintentionally misleading. A 'rate per loan' suggests that authors are entitled to a fixed amount for each time their books are loaned. But that's not quite correct. The 'pot' of money available for PLR payments is fixed, and the sample data is simply a way of dividing up that pot in a proportional way. The rate per loan is a highly changeable value that will depend on the total number of loans for the year, and how many authors/books are signed up for PLR. If more authors sign up to PLR then the rate goes down. If the count of loans goes up then the rate goes down.
 
 It is an interesting sitation that this rate is within PLR legislation. This leads to the government having to pass a change to legislation almost every year to change it. See [the 2018 DCMS announcement](https://www.gov.uk/government/consultations/public-lending-right-plr-rate-per-loan-consultation-for-payments-in-relation-to-the-201718-public-lending-right-scheme-year), proposing to change the rate per loan amount from 8.20 pence to 8.52 pence.
 
