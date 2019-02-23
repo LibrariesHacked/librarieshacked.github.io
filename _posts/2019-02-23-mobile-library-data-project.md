@@ -55,7 +55,7 @@ Looking at these issues, possible project steps could be:
 
 This is quite an ambitious project, but each step presents benefits. Simply having a standard data schema would be useful. Being able to publish data from multiple authorities would allow that data to be analysed by interested individuals. The construction of a website could be done in gradual steps,j with user feedback.
 
-## Start with a proof of concept - and help!
+### Start with a proof of concept - and help!
 
 With something like this it's worth starting small. I've been constructing a data schema for mobile libraries, and attempting to put this into practice across the Scottish mobile library services, of which there are 20. That's a manageable amount to create something really quite interesting that others could then get involved with.
 
