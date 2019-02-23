@@ -2,6 +2,7 @@
 category: data 
 tags: opendata stats public mobiles
 title: Mobile libraries data project
+excerpt: Promoting the use of mobile library data to solve problems.
 published: true
 meta: data
 header:
