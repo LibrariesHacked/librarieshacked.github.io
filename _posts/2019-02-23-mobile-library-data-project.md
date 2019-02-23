@@ -29,6 +29,7 @@ Firstly, what are the problems?
 * There is no standard for presenting mobile library timetables. This leads to decline in use, accessibility issues, and lack of investment in mobile services.
 * Mobile libraries would particularly benefit from existing open geographic intelligence on population and deprivation stats, and route analysis software. But with no mobile library data, there is no way of taking advantage of this.
 * Mobile library data is complex and there is no standard for holding it. There can be no combined national analysis, and no data-informed method for providing national support or guidance.
+* There is no innovation. Any advances in mobile libraries requires a minimum of data about existing services that doesn't exist.
 
 Looking at these issues, possible project steps could be:
 
