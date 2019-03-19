@@ -1,10 +1,10 @@
 table {
-    font-size: 1em !important;
+    font-size: 0.9em !important;
+    background-color: #FFFFFF;
 }
 
 table thead {
     border: none !important;
-    background-color: #FFFFFF !important;
 }
 
 table td {
