@@ -1,3 +1,13 @@
 table {
-    font-size: 0.9 !important;
+    font-size: 1em !important;
+    border
+}
+
+table thead {
+    border: none !important;
+    background-color: #FFFFFF !important;
+}
+
+table td {
+    border: 1px solid #CCCCCC !important;
 }
