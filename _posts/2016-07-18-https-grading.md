@@ -53,14 +53,6 @@ Some basic testing of web security doesn't need experienced penetration testers 
 2. If already using HTTPS, can the login be accessed by HTTP instead? Try changing the address to HTTP. It should redirect back to HTTPS.
 3. If you're the site owner, check the site against an online SSL checker such as SSL Labs[^6].  This will give detailed and complex results, but also a simple grade of quality. You should ideally be getting an A grade, anything lower then report to your supplier and IT to investigate.
 
-#### References
-
-[^1]: GlobalSign: [SSL Information Center](https://www.globalsign.com/en/ssl-information-center/what-is-an-ssl-certificate/)
-[^2]: Wikipedia: [Transport Level Security](https://en.wikipedia.org/wiki/Transport_Layer_Security)
-[^3]: Wikipedia: [Man in the middle attack](https://en.wikipedia.org/wiki/Man-in-the-middle_attack)
-[^4]: The Guardian: [Mark Zuckerberg hacked on Twitter and Pinterest](https://www.theguardian.com/technology/2016/jun/06/mark-zuckerberg-hacked-on-twitter-and-pinterest)
-[^5]: DigiCert: [How to Know if a Website is Secure](https://blog.digicert.com/buy-site-know-website-secure/)
-[^6]: SSL Labs: [SSL Test](https://www.ssllabs.com/ssltest/)
 
 ## Test Updates
 
@@ -75,3 +67,13 @@ This post will be updated to reflect changes. All of the library services with f
 | 31st December 2016 | Cumbria have implemented encryption although there is mixed HTTP/HTTPS content. North Lincolnshire, and Lincolnshire have also upgraded to include encryption. |
 | 15th July 2017 | All of Capita hosted sites have been fixed to make them enforce HTTPS. Chased Capita a couple of times regarding this. |
 | 1st September 2017 | Hillingdon, East Ayrshire, Hounslow, Knowsley, Northumberland, Reading, Vale of Glamorgan, and West Lothian have implemented HTTPS, either on existing or new systems. |
+
+
+## References
+
+[^1]: GlobalSign: [SSL Information Center](https://www.globalsign.com/en/ssl-information-center/what-is-an-ssl-certificate/)
+[^2]: Wikipedia: [Transport Level Security](https://en.wikipedia.org/wiki/Transport_Layer_Security)
+[^3]: Wikipedia: [Man in the middle attack](https://en.wikipedia.org/wiki/Man-in-the-middle_attack)
+[^4]: The Guardian: [Mark Zuckerberg hacked on Twitter and Pinterest](https://www.theguardian.com/technology/2016/jun/06/mark-zuckerberg-hacked-on-twitter-and-pinterest)
+[^5]: DigiCert: [How to Know if a Website is Secure](https://blog.digicert.com/buy-site-know-website-secure/)
+[^6]: SSL Labs: [SSL Test](https://www.ssllabs.com/ssltest/)
