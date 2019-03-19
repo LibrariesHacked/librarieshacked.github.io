@@ -1,5 +1,4 @@
 jQuery(function () {
-
     Papa.parse('https://raw.githubusercontent.com/LibrariesHacked/librarieshacked-web/master/data/UK_Catalogues_Security.csv', {
         download: true,
         complete: function (results) {
