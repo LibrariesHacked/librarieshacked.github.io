@@ -1,5 +1,6 @@
 table {
     background-color: #FFFFFF;
+    font-size: 0.9em !important;
 }
 
 table thead {
@@ -7,6 +8,6 @@ table thead {
     background: none !important;
 }
 
-table td {
+table td, table th {
     border: 1px solid #CCCCCC !important;
 }
