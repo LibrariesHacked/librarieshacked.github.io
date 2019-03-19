@@ -74,6 +74,6 @@ defaults:
       layout: single
       author_profile: true
 
-footer_scripts:
+head_scripts:
   - https://cdnjs.cloudflare.com/ajax/libs/PapaParse/4.6.3/papaparse.min.js
   - /js/2016-07-18-https-grading.js
