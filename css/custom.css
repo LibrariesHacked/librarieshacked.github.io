@@ -1,5 +1,5 @@
 table {
-    background-color: #F5FFFF;
+    background: none !important;
     font-size: 0.9em !important;
 }
 
@@ -9,5 +9,5 @@ table thead {
 }
 
 table td, table th {
-    border: 1px solid #CCCCCC !important;
+    border: 1px solid #E5E5E5 !important;
 }
