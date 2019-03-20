@@ -76,5 +76,7 @@ defaults:
 
 footer_scripts:
   - https://cdnjs.cloudflare.com/ajax/libs/PapaParse/4.6.3/papaparse.min.js
+  - https://cdn.datatables.net/1.10.19/js/jquery.dataTables.min.js
+  - https://use.fontawesome.com/releases/v5.7.1/js/all.js
   - /assets/js/main.min.js
   - /js/2016-07-18-https-grading.js
