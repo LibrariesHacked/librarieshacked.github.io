@@ -41,7 +41,7 @@ Current UK public web catalogues are shown below, with an indicator as to whethe
 
 The majority of these can be tested simply by visiting the site, but for further methodology see **what to do** suggestions below.
 
-<div class="container"><table class="table" id="tblcatalogues"></table></div>
+<div class="container"><table class="cell-border" id="tblcatalogues"></table></div>
 
 ## What to do?
 
