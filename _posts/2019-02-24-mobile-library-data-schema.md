@@ -56,16 +56,12 @@ A human readable description of the fields is below.
 | GeoX | Longitude or east grid reference for stop location | -1.723543 |
 | GeoY | Latitude or north grid reference for stop location | 51.03884 |
 | Day | The day the mobile library visits this stop | Thursday |
-| Start date | The date this stop timetable started |  |
-| End date | The date this stop timetable ends |  |
+| Start date | The date this stop timetable started | 04/04/2019 |
+| End date | The date this stop timetable ends | 19/09/2019 |
 | Frequency | The schedule for repeat visits to this stop |  |
 | Start time | The time the mobile library arrives at the stop | 10:00 |
 | End time | The time the mobile library leaves the stop | 10:20 |
-| Timetable | A link to a PDF or web page for the stop, route, or mobile  | http://services.wiltshire.gov.uk/MobileLibrary/Library/Round/35 |
-
-Mobile,Route,Community,Stop,Address,Longitude,Latitude,Date,Day,Frequency,Start,End,Timetable
-
-South,South Thursday Week 1,Eyres Drive,Alderbury,"Eyres Drive, Alderbury",-1.723543,51.03884,07/02/2019,Thursday,4,10:00,10:20,http://services.wiltshire.gov.uk/MobileLibrary/Library/Round/35
+| Timetable | A link to a PDF or web page for the stop, route, or mobile | http://services.wiltshire.gov.uk/MobileLibrary/Library/Round/35 |
 
 Some notes about this schema:
 
