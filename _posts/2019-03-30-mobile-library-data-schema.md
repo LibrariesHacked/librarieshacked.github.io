@@ -22,21 +22,21 @@ Mobile library data is of mixed quality, but there are plenty of existing [mobil
 
 ## Creating a schema
 
-How can we define and document a schema? [Table Schema](https://frictionlessdata.io/specs/table-schema/) is a standard for specifying a table of data using [JSON formatted](https://en.wikipedia.org/wiki/JSON) files.
+How can we define and document a schema? [Table Schema](https://frictionlessdata.io/specs/table-schema/) is a standard for specifying data using [JSON formatted](https://en.wikipedia.org/wiki/JSON) files.
 
 This may seem overly technical, but there are practical benefits for having a schema in a computer-readable format. [CSV Lint](https://csvlint.io/) is a service to check CSV (comma-separated values) files to ensure they are valid. CSVs are text files that hold table data, with a line at the top for the headings, and then following rows for values. All separated using commas. A basic example is shown below.
 
 ```
-Mobile Library Service,Community,Stop
+MobileService,Community,Stop
 Gloucestershire,Hasfield,Farm
-Gloucestershire,Hucclecote,Postbox
+Gloucestershire,Hucclecote,The post box
 Wiltshire,Corsham,The pub
 Wiltshire,Bradford-on-Avon,Bridge
 ```
 
-CSV lint will perform checks like ensuring consistent commas in each row, that each header name is unique, and avoiding all sorts of common errors. 
+CSV lint will perform checks like ensuring consistent commas in each row, that each header name is unique, and other common errors. 
 
-Additionally, given a Table Schema file, CSVLint will check the CSV conforms to the schema. Not just that the format is correct, but detailed checking of the data definition and constraints. The schema can then become a powerful tool for automatically checking data is correct.
+Additionally, given a Table Schema file, CSV lint will check the CSV conforms to the schema. Not just that the format is correct, but checking of the data definition and constraints. The schema then becomes a powerful tool for checking data is correct.
 
 ## Mobile library schema
 
@@ -61,14 +61,14 @@ A human readable description of the fields is below.
 | Arrival time | Time the mobile library arrives | 10:00 |
 | Departure time | Time the mobile library departs | 10:20 |
 | Frequency | Schedule for repeated visits to this stop | FREQ=WEEKLY;INTERVAL=4 |
-| Start date | Date the timetable started | 2019-04-04 |
+| Start date | Date the timetable starts | 2019-04-04 |
 | End date | Date the timetable ends | 2019-09-19 |
 | Timetable | Link to a PDF or web page | [Link](https://services.wiltshire.gov.uk/MobileLibrary/Library/Stop/209) |
 
 Some notes about the schema:
 
-* Stop name, community, address, postcode, and x/y coordinates all relate to the stop location. Mobile library stops often do not have addresses or postcodes, but many services publish them. Often of the place the mobile library stop is closest to. So these fields should be optional. The mandatory ones are stop name and coordinates.
-* The most complex field is frequency. In the example above, *FREQ=WEEKLY;INTERVAL=4* means the mobile library visits every 4 weeks. *FREQ=WEEKLY;INTERVAL=2* would be every 2 weeks; for weekly a simple *FREQ=WEEKLY* is enough. This uses the iCalendar [Recurrence rule specification](https://icalendar.org/iCalendar-RFC-5545/3-8-5-3-recurrence-rule.html). The majority of mobile stops will be variations on weekly intervals, but some are more complex such as Worcestershire's *3rd Monday in the month*. That's fine though, that can be specified as FREQ=MONTHLY;BYDAY=3MO.
+* Stop name, community, address, postcode, and x/y coordinates all relate to the stop location. Mobile library stops often do not have addresses or postcodes, but many services publish them. Often this is the place the mobile library stop is closest to. So these fields should be optional. The mandatory ones are stop name and coordinates.
+* The most complex field is frequency. In the example above, *FREQ=WEEKLY;INTERVAL=4* means the mobile library visits every 4 weeks. *FREQ=WEEKLY;INTERVAL=2* would be every 2 weeks; for weekly a simple *FREQ=WEEKLY* is enough. This uses the iCalendar [Recurrence rule specification](https://icalendar.org/iCalendar-RFC-5545/3-8-5-3-recurrence-rule.html). The majority of mobile stops will be variations on weekly intervals, but some are more complex such as Worcestershire's *3rd Monday in the month*. That's fine though, that can be specified as *FREQ=MONTHLY;BYDAY=3MO*.
 * The data is 'flat'. There is no structure between concepts. The concepts could be said to be Library Service, Mobile Library, Route, and Stop. These should really be in a hierarchy. For example, a Library Service has many Mobile Libraries, which have many Routes, and each route has multiple stops. Holding the data in a flat structure leads to quite a bit of duplication, but is simpler to store.
 * There are few identifiers in the data. For example, rather than just having organisation name, the schema should really link to a recognised identifier for the organisation. This would make the data  'linkable'. However it is designed to be as minimal as possible, added complexity can come later if necessary.
 
