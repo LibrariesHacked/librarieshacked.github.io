@@ -14,7 +14,7 @@ There have been two previous posts on a mobile library data project.
 
 Having got to this point, we now have a data schema for mobile libraries, and some example datasets, one of which is [Aberdeenshire mobile libraries](https://github.com/LibrariesHacked/mobiles-librarydata/blob/master/data/aberdeenshire.csv) (who have 3 mobiles).
 
-So far, so unexciting. For some, there is nothing better than delving into data schemas, but for others it's more likely the practical outcomes of having a schema are more appealing. The next few posts will outline some of the features that can be developed from this data.
+So far, so unexciting. For some, there is nothing better than delving into data schemas, but for others it's more likely the practical outcomes of having a schema will be more appealing. The next few posts will outline some of the features that can be developed from this data.
 
 ## Mapping
 
@@ -22,7 +22,7 @@ One thing that can be done is plotting the mobile library stops on a map. This i
 
 ![Mobile-library-stops]({{ site.url }}{{ site.baseurl }}/images/2019-04-01-mobile-library-data-routes-aberdeenshire-north-points.png)
 
-However, as a minimum, having a complete collection of mobile library stop data for the UK would allow for having one single and useful mobile library stop map.
+It's worth noting that as a minimum, having a complete collection of mobile library stop data for the UK would allow for having one single and useful mobile library stop map.
 
 ## Mobile library routes
 
@@ -30,9 +30,9 @@ But that's not enough, mobile libraries move about. There's more exciting inform
 
 The potential benefit of seeing the route a mobile library takes could be for considering additional stops, optimising stop order, etc.
 
-It is easy to 'join the dots' of a route. As long as we have the stops and the order they are in, we could draw lines between them on the map. But that's not accurate, we'd probably end up drawing lines directly over rivers and things. 
+It is easy to 'join the dots' of a route. As long as we have the stops and the order they are in, we could draw direct lines between them on the map. But that's not accurate, we'd probably end up drawing lines over rivers and things. 
 
-We need to use a route service in order to plot the route a mobile will take. There's a certain amount of guesswork required to do this, anyone who's used a SatNav will know it's not perfect. But it will give us a good idea.
+We need to use a route service in order to plot the route a mobile will take. There's a certain amount of guesswork to this, anyone who's used a SatNav will know it's not perfect. But it will give us a good idea.
 
 OpenRouteService is an online service that will calculate a route given a selection of stops. It was developed by [The Heidelberg Institute for Geoinformation Technology](http://www.heigit.org/), using OpenStreetMap data. Results from the service are released as [CC-BY 4.0](https://creativecommons.org/licenses/by/4.0/), and attribution should be declared as *Service &copy; openrouteservice.org, Map data &copy; OpenStreetMap contributors*.
 
