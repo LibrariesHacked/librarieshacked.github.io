@@ -14,7 +14,7 @@ There have been two previous posts on a mobile library data project.
 
 Having got to this point, we now have a data schema for mobile libraries, and some example datasets, one of which is [Aberdeenshire mobile libraries](https://github.com/LibrariesHacked/mobiles-librarydata/blob/master/data/aberdeenshire.csv) (who have 3 mobiles).
 
-So far, so unexciting. For some, there is nothing better than delving into data schemas, but for others it's more likely the practical outcomes of having a schema are more appealing.
+So far, so unexciting. For some, there is nothing better than delving into data schemas, but for others it's more likely the practical outcomes of having a schema are more appealing. The next few posts will outline some of the features that can be developed from this data.
 
 ## Mapping
 
