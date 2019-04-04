@@ -3,7 +3,7 @@ category: data
 tags: opendata stats public mobiles
 title: Mobile library data iCalendars
 excerpt: Generating iCalendar format for mobile library stops
-published: true
+published: false
 meta: data
 ---
 
