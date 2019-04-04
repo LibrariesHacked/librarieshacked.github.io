@@ -19,9 +19,9 @@ More details are available by [looking up iCalendar on Wikipedia](https://en.wik
 
 ## Mobile library stop timetables
 
-Mobile library timetables are *generally* (not always) published using PDF files. There's nothing wrong with this. People can save a PDF, they can print it out and pin it to a noticeboard, or whatever they wish.
+Mobile library timetables are *generally* (not always) published online using PDF files. There's nothing wrong with this. People can save a PDF, they can print it out and pin it to a noticeboard, or whatever they wish.
 
-But the iCalendar specification has been around since 1998, and is a good way of transferring data about events that integrates with the devices lots of people use throughout the day.
+But the iCalendar specification has been around since 1998, and is a good way of transferring data about events. It integrates with the devices lots of people use throughout the day and in some cases will be a better option.
 
 ## The format
 
@@ -70,7 +70,7 @@ END:VEVENT
 END:VCALENDAR
 ```
 
-There is also a [validator for iCalendar](https://icalendar.org/validator.html) which is useful for ensuring it adhers to the standard.
+Note: there is a [validator for iCalendar](https://icalendar.org/validator.html) which is useful for ensuring it adhers to the standard.
 
 ## Testing
 
@@ -78,10 +78,10 @@ So that's pretty much all the data we have for that stop in the calendar event. 
 
 The ['Opposite Old Library' Stop iCalendar file is available here](/files/opposite_old_library.ics). After clicking that link and opening on an Android phone it gets automatically added to the phone calendar, with the location, description, etc.
 
-Being on my phone now I'm sure Google will poke it's nose in and tell me when I have to leave to get there on time (which will be quite early considering it's in Aberdeenshire).
+Being on my phone now I'm sure Google will poke it's nose in and tell me what time I have to leave to get there (which will be very early considering it's in Aberdeenshire).
 
 On a Windows laptop it also works, adding the data into the calendar and setting the correct repeating event.
 
 ![Mobile-library-stop-calendar]({{ site.url }}{{ site.baseurl }}/images/2019-04-04-mobile-library-data-icalendar-stop.png)
 
-Sharp viewers may notice the time is showing at 15:05 and the stop is actually at 14:05. This will probably be caused by timezone nonsense now that we're all confused about what time it is. So will have to make sure that's fixed when implementing this for real.
+Sharp viewers may notice the time is showing at 15:05 and the stop is actually at 14:05. This will probably be caused by timezone nonsense, now that we're all confused about what time it is. So will have to make sure this is corrected when implementing for real.
