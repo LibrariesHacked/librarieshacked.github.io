@@ -82,5 +82,5 @@ Being on my phone now I'm sure Google will poke it's nose in and tell me when I 
 
 On a Windows laptop it also works, adding the data into the calendar and setting the correct repeating event.
 
-
+![Mobile-library-stop-calendar]({{ site.url }}{{ site.baseurl }}/images/2019-04-01-mobile-library-data-icalendar-stop.png)
 
