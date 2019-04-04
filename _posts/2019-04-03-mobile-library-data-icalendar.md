@@ -3,7 +3,7 @@ category: data
 tags: opendata stats public mobiles
 title: Mobile library data iCalendars
 excerpt: Generating iCalendar format for mobile library stops
-published: false
+published: true
 meta: data
 ---
 
@@ -11,21 +11,21 @@ This is a brief introduction to the iCalendar format, and how it could be ued in
 
 ## iCalendar
 
-What is iCalendar? It's Internet Calendaring and Scheduling Core Object Specification. Although lots of people will not have heard of it, many will have used it in some form. Ever received an invite to a meeting by email? Or signed up to an Eventbrite event and been asked whether you want to add it to your calendar by clicking on a link? 
+What is iCalendar? Officially it's Internet Calendaring and Scheduling Core Object Specification. Although it's possible main won't have heard of it, it's likely they'll have used it in some form. Ever received an invite to a meeting by email? Or signed up to an Eventbrite event and been asked whether you want to add it to your calendar by clicking on a link? 
 
 These things use a standardised format for calendar appointments. Whether you are on a desktop, laptop, or phone, or using Windows, iOS, or Android, it is likely that your device will have a way of interpreting that calendar appointment, and adding it to your preferred calendar software.
 
-More details are available by [looking up iCalendar on Wikipedia](https://en.wikipedia.org/wiki/ICalendar).
+More details are available by [looking up iCalendar on Wikipedia](https://en.wikipedia.org/wiki/ICalendar) and by reading through [the full specification](https://icalendar.org/RFC-Specifications/iCalendar-RFC-5545/).
 
 ## Mobile library stop timetables
 
 Mobile library timetables are *generally* (not always) provided using PDF files. There's nothing wrong with this. People can save a PDF, they can print it out and pin it to a noticeboard, or whatever they prefer.
 
-But the iCalendar specification has been around since 1998, and is a good way of transferring data on recurring events that can make use of the devices that many people carry and use through the day.
+But the iCalendar specification has been around since 1998, and is a good way of transferring data on recurring events that integrates with devices lots of people carry and use through the day.
 
 ## The format
 
-So what does an iCalendar event really look like? To a user it could be a link, or a confirm option within an email. But behind that there is a data format. Wikipedia have the following as an example of a Bastille Day party.
+So what does an iCalendar event really look like? To a user it could be a link, or a confirm option within an email. But behind that there is data. Wikipedia have the following as an example of a Bastille Day party.
 
 ```
 BEGIN:VCALENDAR
@@ -43,7 +43,7 @@ END:VEVENT
 END:VCALENDAR
 ```
 
-Although it can look a bit daunting, there's not too much in this particular example. The first and second line (BEGIN:VCALENDAR, VERSION:2.0) identify the version of the standard. The PRODID identifies the organsation and product that has been used to create the iCalendar (perhaps we would use 'PRODID:-//Libraries Hacked//NONSGML Mobile Libraries//EN'). And then it gets onto the event it's describing (BEGIN:VEVENT). Within that it specifies the start and end, a summary, geo-coordinates, and some details for the organiser.
+Although it can look a bit daunting, there's not too much in this particular example. The first and second line (BEGIN:VCALENDAR, VERSION:2.0) identify the version of the standard. The PRODID identifies the organisation and product that has been used to create the iCalendar (perhaps we would use 'PRODID:-//Libraries Hacked//NONSGML Mobile Libraries//EN'). And then it gets onto the event it's describing (BEGIN:VEVENT). Within that it specifies the start and end, a summary, geo-coordinates, and some details of the organiser.
 
 ## A mobile library stop version
 
@@ -69,12 +69,14 @@ END:VEVENT
 END:VCALENDAR
 ```
 
+There is a [validator for iCalendar](https://icalendar.org/validator.html) which is useful.
+
 ## Testing
 
 So that's pretty much all the data we have for that stop in the calendar event. How to test it? The calendar event can be saved into a text file and hosted online with a file extension of *.ics*. It's then a case of seeing what happens when clicking on it on a mobile, desktop, or whatever.
 
-The [Opposite Old Library Stop calendar is available here]. After clicking that link on an Android phone
+The ['Opposite Old Library' Stop iCalendar file is available here]. After clicking that link and opening on an Android phone it gets automatically added to the phone calendar, with the location, description, etc.
 
 
 
-
+Being on my phone I'm sure Google will poke it's nose in now and tell me when I have to leave to get there on time (which will be quite early considering it's in Aberdeenshire).

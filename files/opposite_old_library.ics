@@ -9,9 +9,11 @@ DTSTART:20190122T140500Z
 DTEND:20190122T142000Z
 RRULE:FREQ=WEEKLY;INTERVAL=2
 SUMMARY:Mobile Library Central
-DESCRIPTION:Mobile library Central visits Opposite Old Library Green every two weeks
+DESCRIPTION:Mobile library Central visits 
+ Opposite Old Library Green every two weeks
 LOCATION:Opposite Old Library, Green, Udny Green
 GEO:57.3278041;-2.2012194
-URL:https://www.livelifeaberdeenshire.org.uk/media/2808/mobile-north-timetable-160119.pdf
+URL:https://www.livelifeaberdeenshire.org.uk
+ /media/2808/mobile-north-timetable-160119.pdf
 END:VEVENT
 END:VCALENDAR
