@@ -82,6 +82,6 @@ Being on my phone now I'm sure Google will poke it's nose in and tell me when I 
 
 On a Windows laptop it also works, adding the data into the calendar and setting the correct repeating event.
 
-![Mobile-library-stop-calendar]({{ site.url }}{{ site.baseurl }}/images/2019-04-01-mobile-library-data-icalendar-stop.png)
+![Mobile-library-stop-calendar]({{ site.url }}{{ site.baseurl }}/images/2019-04-04-mobile-library-data-icalendar-stop.png)
 
 Sharp viewers may notice the time is showing at 15:05 and the stop is actually at 14:05. This will probably be caused by timezone nonsense now that we're all confused about what time it is. So will have to make sure that's fixed when implementing this for real.
