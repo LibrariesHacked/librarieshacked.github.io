@@ -11,7 +11,7 @@ This is a brief introduction to the iCalendar format, and how it could be ued in
 
 ## iCalendar
 
-What is iCalendar? Officially it's Internet Calendaring and Scheduling Core Object Specification. Although it's possible main won't have heard of it, it's likely they'll have used it in some form. Ever received an invite to a meeting by email? Or signed up to an Eventbrite event and been asked whether you want to add it to your calendar by clicking on a link? 
+What is iCalendar? Officially it's Internet Calendaring and Scheduling Core Object Specification. It's possible many won't have heard of it, but it's likely they'll have used it in some form. Ever received an invite to a meeting by email? Or signed up to an Eventbrite event and been asked whether you want to add it to your calendar by clicking on a link? 
 
 These things use a standardised format for calendar appointments. Whether you are on a desktop, laptop, or phone, or using Windows, iOS, or Android, it is likely that your device will have a way of interpreting that calendar appointment, and adding it to your preferred calendar software.
 
