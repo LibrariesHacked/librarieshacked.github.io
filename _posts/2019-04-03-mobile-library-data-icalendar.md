@@ -3,7 +3,7 @@ category: data
 tags: opendata stats public mobiles
 title: Mobile library data iCalendars
 excerpt: Generating iCalendar format for mobile library stops
-published: false
+published: true
 meta: data
 ---
 
@@ -54,12 +54,11 @@ BEGIN:VCALENDAR
 VERSION:2.0
 PRODID:-//Libraries Hacked//NONSGML Mobile Library Data//EN
 BEGIN:VEVENT
-UID:BDA76F0A-1346-463E-8845-2B7A45AA8113
+UID:oppositeoldlibrary@librarydata.uk
 DTSTAMP:20190403T183700Z
-ORGANIZER;CN=Aberdeenshire Council
-DTSTART:20190122T140500Z
-DTEND:20190122T142000Z
-RRULE:FREQ=WEEKLY;INTERVAL=2
+DTSTART:20190416T140500Z
+DTEND:20190416T142000Z
+RRULE:FREQ=WEEKLY;INTERVAL=2;BYDAY=TU
 SUMMARY:Mobile Library Central
 DESCRIPTION:Mobile library Central visits 
  Opposite Old Library Green every two weeks
@@ -79,6 +78,9 @@ So that's pretty much all the data we have for that stop in the calendar event. 
 
 The ['Opposite Old Library' Stop iCalendar file is available here](/files/opposite_old_library.ics). After clicking that link and opening on an Android phone it gets automatically added to the phone calendar, with the location, description, etc.
 
-
-
 Being on my phone now I'm sure Google will poke it's nose in and tell me when I have to leave to get there on time (which will be quite early considering it's in Aberdeenshire).
+
+On a Windows laptop it also works, adding the data into the calendar and setting the correct repeating event.
+
+
+
