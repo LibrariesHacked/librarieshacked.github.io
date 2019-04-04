@@ -1,0 +1,80 @@
+---
+category: data 
+tags: opendata stats public mobiles
+title: Mobile library data iCalendars
+excerpt: Generating iCalendar format for mobile library stops
+published: false
+meta: data
+---
+
+This is a brief introduction to the iCalendar format, and how it could be ued in the [mobile library data project](/mobile-library-data-project).
+
+## iCalendar
+
+What is iCalendar? It's Internet Calendaring and Scheduling Core Object Specification. Although lots of people will not have heard of it, many will have used it in some form. Ever received an invite to a meeting by email? Or signed up to an Eventbrite event and been asked whether you want to add it to your calendar by clicking on a link? 
+
+These things use a standardised format for calendar appointments. Whether you are on a desktop, laptop, or phone, or using Windows, iOS, or Android, it is likely that your device will have a way of interpreting that calendar appointment, and adding it to your preferred calendar software.
+
+More details are available by [looking up iCalendar on Wikipedia](https://en.wikipedia.org/wiki/ICalendar).
+
+## Mobile library stop timetables
+
+Mobile library timetables are *generally* (not always) provided using PDF files. There's nothing wrong with this. People can save a PDF, they can print it out and pin it to a noticeboard, or whatever they prefer.
+
+But the iCalendar specification has been around since 1998, and is a good way of transferring data on recurring events that can make use of the devices that many people carry and use through the day.
+
+## The format
+
+So what does an iCalendar event really look like? To a user it could be a link, or a confirm option within an email. But behind that there is a data format. Wikipedia have the following as an example of a Bastille Day party.
+
+```
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//hacksw/handcal//NONSGML v1.0//EN
+BEGIN:VEVENT
+UID:uid1@example.com
+DTSTAMP:19970714T170000Z
+ORGANIZER;CN=John Doe:MAILTO:john.doe@example.com
+DTSTART:19970714T170000Z
+DTEND:19970715T035959Z
+SUMMARY:Bastille Day Party
+GEO:48.85299;2.36885
+END:VEVENT
+END:VCALENDAR
+```
+
+Although it can look a bit daunting, there's not too much in this particular example. The first and second line (BEGIN:VCALENDAR, VERSION:2.0) identify the version of the standard. The PRODID identifies the organsation and product that has been used to create the iCalendar (perhaps we would use 'PRODID:-//Libraries Hacked//NONSGML Mobile Libraries//EN'). And then it gets onto the event it's describing (BEGIN:VEVENT). Within that it specifies the start and end, a summary, geo-coordinates, and some details for the organiser.
+
+## A mobile library stop version
+
+Let's see if we can create a version for a mobile library stop, using [Aberdeenshire mobile library data](https://github.com/LibrariesHacked/mobiles-librarydata/blob/master/data/aberdeenshire.csv), and taking an example stop. We'll take the 'Opposite Old Library, Green' stop at Udny Green. This is part of the Central Mobile, on the Central Weeks 1 & 3 Tuesday route, on Tuesday every two weeks from 14:05 to 14:20. Starting on 22nd January 2019.
+
+```
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Libraries Hacked//NONSGML Mobile Library Data//EN
+BEGIN:VEVENT
+UID:BDA76F0A-1346-463E-8845-2B7A45AA8113
+DTSTAMP:20190403T183700Z
+ORGANIZER;CN=Aberdeenshire Council
+DTSTART:20190122T140500Z
+DTEND:20190122T142000Z
+RRULE:FREQ=WEEKLY;INTERVAL=2
+SUMMARY:Mobile Library Central
+DESCRIPTION:Mobile library Central visits Opposite Old Library Green every two weeks
+LOCATION:Opposite Old Library, Green, Udny Green
+GEO:57.3278041;-2.2012194
+URL:https://www.livelifeaberdeenshire.org.uk/media/2808/mobile-north-timetable-160119.pdf
+END:VEVENT
+END:VCALENDAR
+```
+
+## Testing
+
+So that's pretty much all the data we have for that stop in the calendar event. How to test it? The calendar event can be saved into a text file and hosted online with a file extension of *.ics*. It's then a case of seeing what happens when clicking on it on a mobile, desktop, or whatever.
+
+The [Opposite Old Library Stop calendar is available here]. After clicking that link on an Android phone
+
+
+
+
