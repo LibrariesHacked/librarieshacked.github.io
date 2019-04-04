@@ -2,11 +2,18 @@ BEGIN:VCALENDAR
 VERSION:2.0
 PRODID:-//Libraries Hacked//NONSGML Mobile Library Data//EN
 BEGIN:VEVENT
-UID:oppositeoldlibrary-@librarydata.uk
+UID:oppositeoldlibrary@librarydata.uk
 DTSTAMP:20190403T183700Z
+ORGANIZER;CN=Aberdeenshire Council
 DTSTART:20190416T140500Z
 DTEND:20190416T142000Z
 RRULE:FREQ=WEEKLY;INTERVAL=2;BYDAY=TU
 SUMMARY:Mobile Library Central
+DESCRIPTION:Mobile library Central visits 
+ Opposite Old Library Green every two weeks
+LOCATION:Opposite Old Library, Green, Udny Green
+GEO:57.3278041;-2.2012194
+URL:https://www.livelifeaberdeenshire.org.uk
+ /media/2808/mobile-north-timetable-160119.pdf
 END:VEVENT
 END:VCALENDAR
