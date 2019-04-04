@@ -21,7 +21,7 @@ More details are available by [looking up iCalendar on Wikipedia](https://en.wik
 
 Mobile library timetables are *generally* (not always) published using PDF files. There's nothing wrong with this. People can save a PDF, they can print it out and pin it to a noticeboard, or whatever they wish.
 
-But the iCalendar specification has been around since 1998, and is a good way of transferring data about events that integrates with devices lots of people carry and use through the day.
+But the iCalendar specification has been around since 1998, and is a good way of transferring data about events that integrates with the devices lots of people use throughout the day.
 
 ## The format
 
@@ -43,7 +43,7 @@ END:VEVENT
 END:VCALENDAR
 ```
 
-Although it can look a bit daunting, there's not too much in this particular example. The first and second line (BEGIN:VCALENDAR, VERSION:2.0) identify the version of the standard. The PRODID identifies the organisation and product that has been used to create the iCalendar (perhaps we would use 'PRODID:-//Libraries Hacked//NONSGML Mobile Libraries//EN'). And then it gets onto the event it's describing (BEGIN:VEVENT). Within that it specifies the start and end, a summary, geo-coordinates, and some details of the organiser.
+It can look a bit daunting, but there's not too much in this particular example. The first and second line (BEGIN:VCALENDAR, VERSION:2.0) identify the version of the standard. The PRODID names the organisation and product that has been used to create the iCalendar (perhaps we would use 'PRODID:-//Libraries Hacked//NONSGML Mobile Library Data//EN'). And then it gets onto the event (BEGIN:VEVENT). Within that it specifies the start and end, a summary, geo-coordinates, and some details of the organiser.
 
 ## A mobile library stop version
 
@@ -84,3 +84,4 @@ On a Windows laptop it also works, adding the data into the calendar and setting
 
 ![Mobile-library-stop-calendar]({{ site.url }}{{ site.baseurl }}/images/2019-04-01-mobile-library-data-icalendar-stop.png)
 
+Sharp viewers may notice the time is showing at 15:05 and the stop is actually at 14:05. This will probably be caused by timezone nonsense now that we're all confused about what time it is. So will have to make sure that's fixed when implementing this for real.
