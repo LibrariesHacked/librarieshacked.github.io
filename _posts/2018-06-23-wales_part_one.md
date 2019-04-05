@@ -1,8 +1,8 @@
 ---
-category: locations
-tags: wales wikidata
-title: Wales library locations
-meta: Looking at Wales libraries data hosted on WikiData
+title: "Wales: library locations"
+categories:
+    - Wales
+    - Wikidata
 ---
 
 This is the first in a series of posts about libraries in Wales.

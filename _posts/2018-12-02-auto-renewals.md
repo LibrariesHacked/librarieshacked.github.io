@@ -1,8 +1,8 @@
 ---
-category: renewals
-tags: fines renewals scripting
 title: Scheduling auto renewals
-meta: Schedule loan checks using google scripting services
+categories:
+  - Library management systems
+  - Automation
 ---
 
 Library fines can be annoying. Forget to bring a few books back and it doesn't take long to owe more than the cost of a book. Well, so what? That's how libraries work.

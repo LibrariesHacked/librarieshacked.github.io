@@ -1,9 +1,7 @@
 ---
-category: data
-tags: plr data lending
 title: Public lending right
-published: true
-meta:
+categories:
+    - Public lending right
 ---
 
 The best dataset on UK public library usage is Public Lending Right (PLR).

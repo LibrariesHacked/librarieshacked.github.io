@@ -1,9 +1,6 @@
 ---
-category: data 
-tags: opendata stats public
 title: UK public library data schema
 published: false
-meta: data
 ---
 
 For any sector or organisation, 

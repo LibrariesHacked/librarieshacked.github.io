@@ -1,10 +1,6 @@
 ---
-category: data 
-tags: opendata stats public mobiles schemas
-title: Mobile library data schema
+title: "Mobile libraries: data schema"
 excerpt: Designing a data schema to hold mobile library stops and timetables
-published: true
-meta: data
 ---
 
 A [previous post](/mobile-library-data-project) discussed data on mobile libraries, and improving how this data is used internally, and in providing public information. An encouraging number of library services have been in touch to get involved.

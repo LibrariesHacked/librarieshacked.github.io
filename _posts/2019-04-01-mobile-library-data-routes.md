@@ -1,10 +1,6 @@
 ---
-category: data 
-tags: opendata stats public mobiles
-title: Mobile library data routing
+title: "Mobile libraries: routing"
 excerpt: Calculating mobile library routes
-published: true
-meta: data
 ---
 
 There have been two previous posts on a mobile library data project.

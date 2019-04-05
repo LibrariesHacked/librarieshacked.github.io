@@ -1,8 +1,8 @@
 ---
-category: opendata
-tags: cipfa opendata stats public
 title: UK public library stats
-meta: How to get UK public library data into the open
+categories:
+    - Open data
+    - Statistics
 ---
 
 For a while many people, including me, have complained about the UK public library reliance on CIPFA for national statistics. For a simplification of this process:

@@ -1,10 +1,6 @@
 ---
-category: data 
-tags: opendata stats public mobiles
-title: Mobile library data iCalendars
-excerpt: Generating iCalendar format for mobile library stops
-published: true
-meta: data
+title: "Mobile libraries: iCalendars"
+excerpt: Generating iCalendar format data files for mobile library stops
 ---
 
 This is a brief introduction to the iCalendar format, and how it could be ued in the [mobile library data project](/mobile-library-data-project).

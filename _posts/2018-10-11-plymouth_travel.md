@@ -1,8 +1,7 @@
 ---
-category: geo
-tags: plymouth
-title: Plymouth library travel
-meta: Looking at travel distances to PLymouth Libraries
+title: "Plymouth: library travel"
+categories: 
+    - Plymouth
 published: false
 ---
 
@@ -33,9 +32,3 @@ Central Library,167 - 171 Armada Way ,,Plymouth ,PL1 1HZ,50.373002,-4.1429763,08
 Boring names and locations of libraries? What's the use of that? Hopefully lots, but maybe more on that in a bit.
 
 First I wanted to embellish the data a little. The Plymouth website has libraries listed on it, which also includes some details about what is offered at each library. All the usual things that people know and love about libraries, like Naval history collections, and Microfilm Scanners. So I wrote a script (using Python) to 'scrape' the website. Which is like stealing content, except it's often forgiveable if it's fairly obviously public information.
-
-It's too boring to go into the details of that script but you can see it [here on GitHub]().
-
-
-
-### 

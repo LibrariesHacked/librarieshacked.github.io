@@ -1,10 +1,6 @@
 ---
-category: data 
-tags: opendata stats public mobiles
-title: Mobile libraries data project
+title: "Mobile libraries: project introduction"
 excerpt: Promoting the use of mobile library data to solve problems.
-published: true
-meta: data
 header:
   overlay_image: /images/2019-02-23-mobile-library-data-project.png
   overlay_filter: 0.2

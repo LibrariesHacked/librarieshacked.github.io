@@ -1,7 +1,8 @@
 ---
-category: security
-title: Encryption, library catalogues, and security testing
-meta: how seriously are UK public libraries taking web security, and how can it be tested?
+title: "Encryption, library catalogues, and security testing"
+categories:
+    - Security
+    - Library management systems
 ---
 
 You want to talk in confidence with someone while in public. To do this you need to:
