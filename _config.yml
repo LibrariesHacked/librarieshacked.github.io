@@ -2,7 +2,7 @@ remote_theme: mmistakes/minimal-mistakes
 minimal_mistakes_skin: "dirt"
 
 locale: "en-GB"
-title: "#LibraryData Blog"
+title: "Library data blog"
 title_separator: "|"
 name: "Libraries Hacked"
 description: "Articles and tutorials on library data and open data in libraries."
@@ -55,7 +55,7 @@ defaults:
       layout: single
       author_profile: true
       read_time: true
-      share: true
+      share: false
       related: false
   # _pages
   - scope:

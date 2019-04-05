@@ -1,3 +1,5 @@
-## Libraries Hacked
+## Library Data Blog
 
-Promoting open data and data hacks in libraries
+Jekyll GitHub pages site for the library data blog.
+
+
