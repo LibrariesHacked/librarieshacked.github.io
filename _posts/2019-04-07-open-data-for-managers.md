@@ -5,17 +5,17 @@ excerpt: Getting buy-in from senior management for open
 
 Explaining open data can be difficult. Not the *meaning* of open data, a short sentence can serve:
 
-> data made available to the public without any restrictions
+> data made available to the public without restriction
 
 But the *why* is tricky. Why invest time and money in it? What's in it for us? What's in it for me?
 
-There is little hesitation in using open data. Library services wouldn't refuse book covers for catalogue sites, national population/demographic data to analyse library usage, bibliographic data to aid in cataloging. When these are free it's great, and we take advantage of that. Yet the idea that library data could serve external needs isn't often considered. Even when it is, it still doesn't answer *why* it should be done. Services are naturally selfish: happy to use, but not share.
+There is little hesitation in using open data from external sources. Library services wouldn't refuse book covers for catalogue sites, national population/demographic data to analyse library usage, bibliographic data to aid in cataloging. When these are free it's great, and we take advantage of that. Yet the idea that library data could serve external needs is rarely considered. Even when it is, it still doesn't answer *why* it should be done. Services are naturally selfish: happy to use, but not share.
 
-Yet libraries are not historically selfish about data and information. Few would ask why they should be providing books and information to the public for free. We're aware of the value of the public having access to data and information, this is why we exist.
+Yet libraries are not historically selfish about data and information. Few would question whether they should be providing books and information to the public. We're well aware of the value of the public having access to data and information, this is why we exist.
 
-That's a decent reason for an information professional to explore open data, but still wouldn't cut it for a manager. Library services have fixed and costed core functions, like book lending, and computer use. For a manager there'll be little interest in adding to what libraries do, just on the grounds that they *should*.
+That's a good reason for an information professional to pursue open data, but wouldn't cut it for a manager. Library services have fixed and costed core functions, like book lending, and computer use. For a manager there'll be little interest in adding to what libraries do, just on the grounds that they *should*.
 
-Speaking to people enthusiastic about open data, many have a moment when it really *clicked*. That could be attending an event (like the popular [Open Data Camp](http://odcamp.org.uk/) unconference). It could be seeing open data being put to great public use. Or, just frustration at a lack of data in a certain area. It seems like open data has not clicked in UK public libraries, though there is growing awareness of issues from being left behind.
+Speaking to people enthusiastic about open data, many have a moment when it really *clicked*. That could be attending an inspirational event (like [Open Data Camp](http://odcamp.org.uk/) unconference). It could be seeing open data being put to great public use. Or, just frustration from a lack of data in a certain area. It seems like open data has not clicked in UK public libraries, though there is growing awareness of issues from being left behind.
 
 The Libraries Taskforce held data workshops at their Ambition events in 2016. Frustrations included staff not having time to work on data, and not having skills to analyse data. All this while knowing there was more in the data that could be used to inform the service. When people ask 'why?' to open data, a suitable response is to ask if data is currently used to it's potential. If not, can others have a go?
 
@@ -35,7 +35,7 @@ So avoid the use of the T word.
 
 The idea that open data is something that libraries should be doing, for professional integrity and social reasons, is great. But a waste of time for getting buy-in.
 
-Make open data about service improvement. It's about seeing libraries benefit in the ways other services have by embracing open. Use value stories, and examples of where open data is used in extraordinary ways. Point to large open data communities, and ask managers to imagine what could happen if those people suddenly found the library relevant in engaging with what they do.
+Make open data about service improvement. Libraries can benefit in the ways other services have by embracing open. Use value stories, and examples of where open data is used in extraordinary ways. Point to large open data communities, and ask managers to imagine what could happen if those people suddenly found the library relevant in engaging with what they do.
 
 - [Open Data Handbook Value Stories](http://opendatahandbook.org/value-stories/en/)
 - [Open Data Institute Case Studies](https://theodi.org/case-studies)
@@ -50,10 +50,10 @@ The closed nature of CIPFA data isn't compatible with open data priciples. But w
 
 Library services are not seen within local government as being innovative. We know that's lack of investment, but it's the way it is. [Councils are investing in bins](http://www.derbyshiredales.gov.uk/your-council/news-and-publications/latest-news/2462-crushing-blow-for-litter-in-the-dales) that are more innovative than library technology.
 
-Open data is seen as innovation. It may not be, it could more naturally fit as an extension of library functions, but either way, libraries need to lead. Not wait to be the only ones left in local government not doing it. Doing this would mean:
+Open data is seen as innovation. It may not be, realistically it fits naturally as an extension of library work, but anyway, libraries need to lead. Not wait to be the only ones left in local government not doing it. Doing this would mean:
 
 - Being in control of workload. If services wait to do it then it's far more likely to be imposed upon them. That's harder to manage.
-- Access to funding. Councils are investing in open data. Open data project managers, open data programmes, online portals. None of that money is coming to libraries because people don't believe that libraries have anything to do with providing data to the public.
+- Access to funding. Councils are investing in open data. Open data project managers, programmes, online portals. None of that money is coming to libraries because people don't believe that libraries have anything to do with providing data to the public.
 - Career success. Managers can be careerists. Not in a negative way, but they haven't randomly fallen into management roles. There's nothing like leading an innovative service to help a career.
 
 ## 5. Higlight existing policy
