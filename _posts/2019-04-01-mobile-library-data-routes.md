@@ -1,6 +1,8 @@
 ---
 title: "Mobile libraries: routing"
 excerpt: Calculating mobile library routes
+categories:
+  - Mobile libraries
 ---
 
 There have been two previous posts on a mobile library data project.

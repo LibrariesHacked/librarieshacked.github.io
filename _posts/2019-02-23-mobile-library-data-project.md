@@ -1,6 +1,8 @@
 ---
 title: "Mobile libraries: project introduction"
-excerpt: Promoting the use of mobile library data to solve problems.
+excerpt: Promoting the use of mobile library data to solve problems
+categories:
+  - Mobile libraries
 header:
   overlay_image: /images/2019-02-23-mobile-library-data-project.png
   overlay_filter: 0.2

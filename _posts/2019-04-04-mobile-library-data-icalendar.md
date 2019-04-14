@@ -1,6 +1,8 @@
 ---
 title: "Mobile libraries: iCalendars"
 excerpt: Generating iCalendar format data files for mobile library stops
+categories:
+  - Mobile libraries
 ---
 
 This is a brief introduction to the iCalendar format, and how it could be ued in the [mobile library data project](/mobile-library-data-project).
