@@ -49,11 +49,11 @@ We then have two principles we can build on:
 
 The following may change, but is the current proposed solution for managing editing data.
 
-# In the database, associate the mobile library service with an email address domain. (e.g. Somerset Libraries will have an email address domain of somerset.gov.uk).
-# When a member of staff wishes to log in to the system, they enter their email address.
-# The system checks whether their email domain is assigned to an organisation. If not, it tells them to go away.
-# If it is, the system generates a 'token' (using [JSON web tokens](https://jwt.io/)). This will secure their email address into an encrypted string that can act like a password.
-# The user can use the token to log into the system, or follow a link in the email. The website will be set up so that it will cache the token in the browser, so they do not need to re-enter it unless using a different PC/browser.
+1. In the database, associate the mobile library service with an email address domain. (e.g. Somerset Libraries will have an email address domain of somerset.gov.uk).
+2. When a member of staff wishes to log in to the system, they enter their email address.
+3. The system checks whether their email domain is assigned to an organisation. If not, it tells them to go away.
+4. If it is, the system generates a 'token' (using [JSON web tokens](https://jwt.io/)). This will secure their email address into an encrypted string that can act like a password.
+5. The user can use the token to log into the system, or follow a link in the email. The website will be set up so that it will cache the token in the browser, so they do not need to re-enter it unless using a different PC/browser.
 
 The above solution will mean that emails will not need to be stored in the database at all. The tokens will be able to be read by the system, and also do not need to be stored in the database. The web tokens can be set to expire after a set interval so the user could be made to re-verify their email every so often. 
 
