@@ -29,7 +29,7 @@ Many fleets of vehicles have built-in GPS devices which allows their location to
 
 Gritting trucks will often have GPS fitted, and the data is [sometimes publicly shared](https://www.bbc.co.uk/news/uk-england-essex-20211004), to show where the trucks are going and which roads have been gritted.
 
-This isn't very expensive, but would take some time and design to find a way of sharing data from fitted GPS trackers into the mobile library system, and display it to the public. Ambitious Councils may want to do this, and be willing to share some data.
+This isn't very expensive, and many may already have tracking fitted already. But it would take some time and design to find a way of sharing data from fitted GPS trackers into the mobile library system, and display it to the public. Ambitious Councils may want to do this, and be willing to share some data.
 
 ## GPS via mobile devices
 

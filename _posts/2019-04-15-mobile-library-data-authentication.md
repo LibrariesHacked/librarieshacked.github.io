@@ -6,7 +6,7 @@ categories:
 published: false
 ---
 
-It's been full-speed ahead on the mobile libraries project. There are 6 code repositories, each with an issue tracker and project board to track progress. All of them are aspects of the system, but are being developed independently.
+It's full-speed ahead on the mobile libraries project. There are 6 code repositories, each with an issue tracker (to record tasks and issues) and project board to track progress. Each represents an aspect of the system, but they can be developed independently.
 
 | Title | Description |
 | ----- | ----------- |
@@ -14,14 +14,14 @@ It's been full-speed ahead on the mobile libraries project. There are 6 code rep
 | [API](https://github.com/LibrariesHacked/mobilelibraries-api/projects/1) | Application programming interface to allow developers (and ourselves) access to the data |
 | [Schema](https://github.com/LibrariesHacked/mobilelibraries-schema/projects/1) | A standardised schema for mobile library open data |
 | [Data](https://github.com/LibrariesHacked/mobilelibraries-data/projects/1) | Scripting data tasks such as importing existing data |
-| [Admin]() | Website to maintain mobile library services data |
+| [Admin](https://github.com/LibrariesHacked/mobilelibraries-admin/projects/1) | Website to maintain mobile library services data |
 | [Website](https://github.com/LibrariesHacked/mobilelibraries-website) | Public website to provide maps and timetables |
 
 ## Authentication
 
 This post is to record some thoughts on authentication of the system.
 
-Part of the idea of this project was to create a system by which mobile library services could manage their own data (stops and routes). That data will all be published as open data, and anyone will be able to see and use it. However, there still needs to be some kind of *control*. The system will need to support editing the data, and it is unlikely any service would be too happy to allow just anyone to edit it. It should only be done by the relevant library service.
+The system should allow mobile library services to manage their own data (stops and routes). That data will all be published as open data, and anyone will be able to see and use it. However, there still needs to be some kind of *control* over it. The system will need to support editing the data, and it's unlikely any service would be too happy to allow just anyone to edit it. Especially if they adopt the system as a method of providing information to citizens. Edits should only be done by the relevant library service.
 
 Everyone will be pretty familiar with how to solve this. Give all the services a username and password (or many) and lock the system down so only they can edit their data. There's no significant technical challenge in doing this.
 
