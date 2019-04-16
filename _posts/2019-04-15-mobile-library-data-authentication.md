@@ -28,9 +28,9 @@ As soon as you add username and password to any system, it makes the data held m
 
 This system is for holding open data on mobile libraries. Ideally it will hold no personal or sensitive data.
 
-Users are also a lot of maintenance. As soon as somebody else wants to use the system an account needs to be set up for them. People leave organisations and should have their access removed, but in reality third party systems often don't remove accounts.
+Users are also a lot of maintenance. As soon as somebody else wants to use the system an account neds to be set up for them. People leave organisations and should have their access removed, but in reality this often isn't done in third party systems.
 
-Councils are also trying to cut down on the number of logins staff need to remember. Single Sign On, allowing users to use a single login, is more frequently being integrated where possible. But this really is a technical challenge. It would mean significant intergration with each council wanting to do it. It's not currently worth putting in the scope of this project.
+Councils are also trying to cut down on the number of logins staff need to remember. Single Sign On, allowing users to use a single login, is more frequently being integrated where possible. But this really is a technical challenge. It would mean significant integration with each council wanting to do it. It's not currently worth putting in the scope of this project.
 
 Basically, we don't want or need 'traditional' authentication. We need something else.
 
@@ -43,7 +43,7 @@ Email is generally relied upon as a backup to password. When you forget your pas
 We then have two principles we can build on:
 
 - Most people managing a mobile library will have a known email address domain (e.g. somerset.gov.uk)
-- Being able to receive an email is a secure enough way of checking a person is a member of a service
+- Being able to receive an email to that domain is a secure enough way of checking a person is a member of a service
 
 ## Proposed solution
 
@@ -51,10 +51,8 @@ The following may change, but is the current proposed solution for managing edit
 
 1. In the database, associate the mobile library service with an email address domain. (e.g. Somerset Libraries will have an email address domain of somerset.gov.uk).
 2. When a member of staff wishes to log in to the system, they enter their email address.
-3. The system checks whether their email domain is assigned to an organisation. If not, it tells them to go away.
-4. If it is, the system generates a 'token' (using [JSON web tokens](https://jwt.io/)). This will secure their email address into an encrypted string that can act like a password.
-5. The user can use the token to log into the system, or follow a link in the email. The website will be set up so that it will cache the token in the browser, so they do not need to re-enter it unless using a different PC/browser.
+3. The system checks whether their email domain is assigned to an organisation. If not, it politely tells them to go away.
+4. If it is, the system generates a 'token' (using [JSON web tokens](https://jwt.io/)). This will create an encrypted series of characters that can act like a password. The system will be able to decrypt the user email address from those characters and identify the library service.
+5. The user can use the token to log into the system, or follow a link in the email. The website can be set up so that it will cache the token in the browser, so they do not need to re-enter it unless using a different PC/browser.
 
-The above solution will mean that emails will not need to be stored in the database at all. The tokens will be able to be read by the system, and also do not need to be stored in the database. The web tokens can be set to expire after a set interval so the user could be made to re-verify their email every so often. 
-
-It seems to achieve what is required. We will see.
+The above solution will mean that individual emails will not need to be stored in the database at all. The tokens will be able to be read by the system, but also do not need to be stored in the database. The web tokens can be set to expire after a set interval, so the user could be made to re-verify their email every so often. 
