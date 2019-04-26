@@ -25,7 +25,7 @@ So, how to persuade library managers that open data is worth spending time on?
 
 ## 1. It's not about transparency
 
-'Open and transparent government' is a good thing. But it puts the focus on revealing/stopping bad practice. Showing up dodgy dealing, or mistakes. Many of the datasets that councils are legally obliged to release are linked to this, such as expenditure over £500. Most of the library data that people want to get at is harmless for services to release, pretty uncontentious, but immensely interesting.
+'Open and transparent government' is a good thing. But it puts the focus on revealing/stopping bad practice. Showing up dodgy dealing, or mistakes. Many of the datasets that councils are legally obliged to release are linked to this, such as expenditure over £500. Most library data is harmless for services to release, pretty uncontentious, but immensely interesting.
 
 So avoid the use of the T word.
 
