@@ -3,25 +3,23 @@ title: Open data for library managers
 excerpt: Getting buy-in from senior management for open
 ---
 
-Explaining open data can be difficult. Not the *meaning* of open data, a short sentence can serve:
+Explaining open data can be difficult. Not the *meaning* of open data:
 
 > data made available to the public without restriction
 
-But the *why* is tricky. Why invest time and money in it? What's in it for us?
+But the *why* is tricky. Why invest time and money in it?
 
-There is little hesitation in using open data. Library services wouldn't refuse book covers for catalogue sites, national population/demographic data to analyse library usage, bibliographic data to aid in cataloging. When these are free we take advantage of that. But the idea that library data could serve external needs is rarely considered. Even when it is, it still doesn't answer *why* it should be done.
+There is little hesitation in using open data. Library services wouldn't refuse national population/demographic data to analyse library usage, or bibliographic data to aid in cataloging. When these are free we take advantage of that. But the idea that library data could serve external needs is rarely considered. Even when it is, it still doesn't answer *why*.
 
-Yet libraries are not historically selfish about data and information. Few would question providing books and information to the public. We're aware of the value of the public having access to data and information, this is why we exist.
+Yet libraries are not historically selfish about data and information. Few would question providing books and information to the public. We're aware of the value of the public having access to data and information.
 
-That's a good reason for a library worker to pursue open data, but wouldn't cut it for a manager. Library services have fixed and costed core functions, like book lending, and computer use. There may be little interest in adding to what libraries do, just on the grounds that they *should*.
+That's a good reason for a library worker to pursue open data, but wouldn't cut it for a manager. Library services have costed core functions, like book lending, and computer use. There may be little interest in adding to what libraries do, just on the grounds that they *should*.
 
-Speaking to those enthusiastic about open data, many have a moment when it *clicked*. That could be attending an inspirational event (like [Open Data Camp](http://odcamp.org.uk/) unconference). It could be seeing open data being put to public use. Or, just individual frustration from a lack of data in a certain area. It seems like open data has not clicked in UK public libraries, though there is growing awareness of it.
+Speaking to those enthusiastic about open data, many have a moment when it *clicked*. That could be attending an inspirational event (like [Open Data Camp](http://odcamp.org.uk/) unconference). It could be seeing open data being put to public use. Or, just individual frustration from a lack of data in a certain area. It seems like open data has not yet clicked in UK public libraries.
 
-The Libraries Taskforce held data workshops and discussions at their Ambition events in 2016. Frustrations included staff not having time to work on data, and not having skills to analyse data. When people ask 'why?' to open data, a suitable response is to ask if data is currently used to it's potential. If not, could others have a go?
+The Libraries Taskforce held data workshops and discussions at their Ambition events in 2016. Frustrations included staff not having time to work on data, or skills to analyse data. When people ask 'why?' to open data, a suitable response is to ask if data is currently used to it's potential. If not, could others have a go?
 
-IFLA have released their [Library Map of the World](https://librarymap.ifla.org/) showing basic measures of libraries in different library sectors, across many countries. There was no data for the UK. That doesn't mean there's no data that couldn't be put up there in future, but it looks grim.
-
-Frustration at not having skills *still* isn't a good enough argument. Neither is jealousy at other countries, there may be lots of things they do better. We can also hope that a wider audience would make more of data than is currently the case, but it's not guaranteed. Maybe no-one will care. Maybe data will only be used in the same way as it is within library services: at times of crisis and consultation. And that could mean criticism of the service.
+Frustration at not having skills *still* isn't a good enough argument. We can hope that a wider audience would make more of data than is currently the case, but it's not guaranteed. Maybe no-one will care. Maybe data will only be used in the same way as it is within library services: at times of crisis and consultation. And that could mean criticism of the service.
 
 So, how to persuade library managers that open data is worth spending time on?
 
