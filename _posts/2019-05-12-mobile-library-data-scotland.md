@@ -33,7 +33,7 @@ The process for the assessment was to look through each mobile library website a
 
 A pass/fail was then given to the service based upon the following criteria
 
-1. The information should be published as HTML
+1. The information should be published as HTML 
 2. There should be no reliance on colour for meaning
 3. There must be no essential missing information
 4. There must be an accessibility statement
