@@ -70,4 +70,5 @@ footer_scripts:
   - /assets/js/main.min.js
   - https://cdn.datatables.net/1.10.19/js/jquery.dataTables.min.js
   - /js/2016-07-18-https-grading.js
+  - /js/2019-05-12-mobile-library-data-scotland.js
   - https://use.fontawesome.com/releases/v5.7.1/js/all.js
