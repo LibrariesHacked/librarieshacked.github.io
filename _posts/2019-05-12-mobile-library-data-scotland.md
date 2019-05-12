@@ -35,7 +35,7 @@ A pass/fail was then given to the service based upon the following criteria
 
 1. The information should be published as HTML
 2. There should be no reliance on colour for meaning
-3. There must be no missing information
+3. There must be no essential missing information
 4. There must be an accessibility statement
 
 The summary results are shown below, and full data is avilable [in a spreadsheet file on GitHub](https://github.com/LibrariesHacked/mobilelibraries-data/blob/master/organisations_scotland.csv).
