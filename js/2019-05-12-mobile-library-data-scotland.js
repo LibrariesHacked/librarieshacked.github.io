@@ -4,7 +4,7 @@ $(function () {
         complete: function (results) {
             var dataSet = results.data.slice(1);
             $('#tblscottishmobiles').DataTable({
-                pagingType: 'simple',
+                paging: false,
                 info: false,
                 lengthChange: false,
                 searching: false,
