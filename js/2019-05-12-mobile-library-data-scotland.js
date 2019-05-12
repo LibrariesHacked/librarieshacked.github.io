@@ -11,13 +11,7 @@ $(function () {
                 data: dataSet,
                 columns: [
                     { title: 'Service', data: 0 },
-                    { title: 'HTML', data: 1 },
-                    { title: 'Map', data: 2 },
-                    { title: 'PDF', data: 3 },
-                    { title: 'Colour for meaning', data: 4 },
-                    { title: 'Information missing', data: 5 },
-                    { title: 'Accessibility statement', data: 6 },
-                    { title: 'Notes', data: 7 }
+                    { title: 'Pass', data: 8 }
                 ],
                 responsive: true
             });
