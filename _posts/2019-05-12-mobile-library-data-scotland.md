@@ -38,12 +38,12 @@ A pass/fail was then given to the service based upon the following criteria
 3. There must be no essential missing information
 4. There must be an accessibility statement
 
-The summary results are shown below, and full data is avilable [in a spreadsheet file on GitHub](https://github.com/LibrariesHacked/mobilelibraries-data/blob/master/organisations_scotland.csv).
+The summary results are shown below, and full data is available [in a spreadsheet file on GitHub](https://github.com/LibrariesHacked/mobilelibraries-data/blob/master/organisations_scotland.csv).
 
 For the 22 library services key findings were:
 
 - Three library services 'passed'. [Edinburgh](http://www.culturepk.org.uk/libraries/services-in-the-community/mobile-library-service), [Perth and Kinross](http://www.culturepk.org.uk/libraries/services-in-the-community/mobile-library-service), and [Scottish Borders](https://www.scotborders.gov.uk/mobilelibrary). These are worth exploring, and will be very useful for creating a single system to view mobile library data.
-- Only 12 service websites seemed to have any kind of accessibility statement. In many cases the ones that did were outdated and didn't cover the information that needs to be provided.
+- Only 12 service websites seemed to have an accessibility statement. In many cases the ones that did were outdated, and didn't cover the information required to be provided.
 - Almost half (9) relied on colour to convey meaning.
 - 15 still used PDFs to publish mobile timetable information.
 
