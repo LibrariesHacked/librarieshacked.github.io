@@ -44,7 +44,7 @@ For the 22 library services key findings were:
 
 - Three library services 'passed'. [Edinburgh](http://www.culturepk.org.uk/libraries/services-in-the-community/mobile-library-service), [Perth and Kinross](http://www.culturepk.org.uk/libraries/services-in-the-community/mobile-library-service), and [Scottish Borders](https://www.scotborders.gov.uk/mobilelibrary). These are worth exploring, and will be very useful for creating a single system to view mobile library data.
 - Only 12 service websites seemed to have any kind of accessibility statement. In many cases the ones that did were outdated and didn't cover the information that needs to be provided.
-- Almost half (9) relied on clour coding to convey meaning.
+- Almost half (9) relied on colour to convey meaning.
 - 15 still used PDFs to publish mobile timetable information.
 
 <div class="container"><table class="cell-border" id="tblscottishmobiles"></table></div>
