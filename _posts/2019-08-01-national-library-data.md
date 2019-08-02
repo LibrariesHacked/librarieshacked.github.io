@@ -5,9 +5,9 @@ categories:
   - National data
 ---
 
-Conversations come and go about compiling open data that would give an accurate picture of UK public libraries. Their locations, staff, type, financial details, stock, and what goes on in them.
+There is agreement on the need for compiling open data that would give an accurate picture of UK public libraries. Their locations, staff, type, financial details, stock, and what goes on in them.
 
-What would be required to encourage all UK public libraries to publish accurate and timely data to a set standard? Some ideas here.
+But what would be required to encourage all UK public libraries to publish accurate and timely data to a set standard? Some ideas here.
 
 ## Think local
 
