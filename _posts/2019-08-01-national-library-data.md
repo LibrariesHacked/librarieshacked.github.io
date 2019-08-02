@@ -7,11 +7,11 @@ categories:
 
 There is agreement on the need to compile open data to give an accurate picture of UK public libraries. Their locations, staff, type, financial details, stock, and what goes on in them.
 
-But what would be required to encourage all UK public libraries to publish accurate and timely data to a set standard? Some thoughts here.
+What would be required to encourage all UK public libraries to publish accurate and timely data to a set standard? Some thoughts here.
 
 ## Think local
 
-National library statistics normally provide high-level comparative stats. For example, issues per year, per authority. Probably not including anything about individual libraries.
+National library statistics normally provide high-level comparative stats. For example, issues per year, per authority. Probably not much about individual libraries.
 
 The problem with this data is that it has no obvious use. No local authority would accept data internally without the detail of each library. So why compile such data nationally?
 
