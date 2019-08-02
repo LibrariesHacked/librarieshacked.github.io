@@ -7,13 +7,13 @@ categories:
 
 There is agreement on the need to compile open data to give an accurate picture of UK public libraries. Their locations, staff, type, financial details, stock, and what goes on in them.
 
-But what would be required to encourage all UK public libraries to publish accurate and timely data to a set standard? Some ideas here.
+But what would be required to encourage all UK public libraries to publish accurate and timely data to a set standard? Some thoughts here.
 
 ## Think local
 
 National library statistics normally provide high-level comparative stats. For example, issues per year, per authority. Probably not including anything about individual libraries.
 
-The problem with this data is that it has no actual use. No local authority would accept data internally without the detail of each library. So why compile such data nationally?
+The problem with this data is that it has no obvious use. No local authority would accept data internally without the detail of each library. So why compile such data nationally?
 
 Although the end goal is to have national data, the starting point needs to be local data in a standard form.
 
@@ -21,11 +21,11 @@ Although the end goal is to have national data, the starting point needs to be l
 
 ## Make it useful
 
-National stats were made simple for reasons. One of these would have been to make the data more manageable. Perhaps easier to compile and publish on paper. Having borrowing data per library may be fine for one service, but at a national level? Excel would explode! 
+National stats were made simple for reasons. One of these would have been to make the data more manageable. Perhaps easier to compile and publish on paper, or a simple spreadsheet. Having borrowing data per library may be OK for one service, but at a national level? Excel would explode!
 
-Except it wouldn't. Computers are powerful and Excel will be fine. The more detail, the more that can be done. Even monthly data isn't really enough. What does that tell us about how Monday compares to Friday? Nothing.
+Except it wouldn't, not any more. Computers are powerful and Excel will be fine. The more detail the better. Even monthly data isn't really enough. What does that tell us about how Monday compares to Friday? Nothing.
 
-> Task 2: Make the data comprehensive and as detailed as possible
+> Task 2: Make the data schema as comprehensive and detailed as possible
 
 [Dogfooding](https://en.wikipedia.org/wiki/Eating_your_own_dog_food), is a term describing people using their own product.
 
@@ -37,9 +37,9 @@ The goal of publishing data is for it to be used, so let's make it useful, using
 
 ## Promote difference
 
-Libraries all do things differently, and the data will be different. Some services may use 100 item types to categorise their stock, others may have 20.
+Libraries all do things differently, and their data will be different. Some services may use 100 item types to categorise their stock, others may have 20.
 
-Attempts at standardising data often attempt to make these uniform. For example, they provide a set of item types that each library has to map their own to. A waste of time, and ultimately a loss of data, as those differences are one of the interesting parts of the data. It also makes things harder. Someone else can always do that mapping later on if they want to.
+Attempts at standardising data often attempt to make these uniform. For example, they provide a set of item types that each library has to convert their own to. A waste of time, and ultimately a loss of data, as those differences are one of the interesting parts of the data. It also makes things harder. Someone else can always do that work later on if they want to.
 
 > Task 4: Ensure the data schema enforces a standard structure to the data, but allows for useful differences in the data content
 
@@ -49,13 +49,13 @@ That's a goal only served by over-simplified data. People genuinely interested i
 
 It's important to emphasise that more is not better. The numbers don't matter, the reasons for them do. Some libraries may have an increase in borrowing purely due to their location. Good for them, but they're no more important than a library with a decrease in borrowing that serves a particularly deprived area.
 
-> Task 5: Commission projects to look at key questions using trial authority data. Make that process available to any authority publishing using the data schema.
+> Task 5: Commission data analysis to look at key questions using trial authority data. Make that process available to any authority publishing using the data schema.
 
 ## Tell stories
 
 Data has a bad reputation in public libraries, and the people tasked with doing it will be sick of it.
 
-At one local authority, library data meant keying data into a 'key performance indicator' system every month. This included book issues and visits per library. Data from other council services also went into the system. It would be a dull job even for someone who loved data. But for libraries, performance being reported to senior leaders and councillors as a slow downward trend must be soul-destroying.
+At one local authority, data reporting meant keying measures into a 'key performance indicator' system every month. This included book issues and visits per library. Data from other council services also went into the system. It would be a dull job even for someone who loved data. But for libraries, continually reporting performance to senior leaders and councillors as a slow downward trend must be soul-destroying.
 
 That's not how to use data. Data tells us stories about things we are curious about. We don't need it to prove worth, but it's useful for improving services, and making data-informed decisions.
 
@@ -69,15 +69,15 @@ An [Open Data Literacy](https://twitter.com/ODLiteracy) project in Seattle has b
 
 ## Automate it
 
-Noone likes doing the same thing with data all the time. Extracting and publishing datasets should be as automated as possible.
+No-one likes doing the same thing with data all the time. Extracting and publishing datasets should be as automated as possible.
 
-We don't have that many library systems in public libraries. 5 or so? Capita, Civica, Axiell, SirsiDynix, Infor. Probably something else as well, and Durham seem to have their own. But that's around 5 pieces of work to automate those datasets, not 200.
+We don't have that many library systems in public libraries. 6 or so? Capita, Civica, Axiell, SirsiDynix, Infor, Koha. Probably something else as well, and Durham seem to have their own. But that should be 6 pieces of work to automate those datasets, not 200.
 
-> Task 7: Pay a reasonable fee to library suppliers, or individuals experienced with each system, to extract the data on an automated basis. Document it and ensure it's  made available to every library service
+> Task 7: Pay a reasonable fee to library suppliers, or individuals experienced with each system, to extract the data on an automated basis. Document it and ensure it's made available to every library service
 
 ## Provide training
 
-Most essentially, library staff need the skills to do data work themselves. To dictate what they want to find out about their library, and to get away from boring data reporting that doesn't serve their needs.
+Most essentially, library staff need the skills to do data work themselves. To choose what they want to find out about their library, and to get away from boring data reporting that doesn't serve their needs.
 
 There are some excellent resources for data training. Artefacto publish listings of [Free resources to help library staff level up and learn new skills](https://libraryskills.io/), and [library carpentry lessons and workshops](https://librarycarpentry.org/lessons/) are freely available for anyone to use.  
 
