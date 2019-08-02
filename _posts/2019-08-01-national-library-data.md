@@ -29,7 +29,7 @@ Except it wouldn't. Computers are powerful and Excel will be fine. The more deta
 
 [Dogfooding](https://en.wikipedia.org/wiki/Eating_your_own_dog_food), is a term describing people using their own product.
 
-In open data, this means testing and using the data internally. Don't publish what you know wouldn't be useful to yourself.
+In open data, this means testing and using the data internally. Don't publish what you know wouldn't be useful for yourself.
 
 The goal of publishing data is for it to be used, so let's make it useful, using library expertise. Then get early feedback from the public and data analysts as to what else they'd like to see.
 
