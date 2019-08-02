@@ -21,7 +21,7 @@ Although the end goal is to have national data, the starting point needs to be l
 
 ## Make it useful
 
-National stats were made simple for reasons. One of these would have been to make the data more manageable. Perhaps easier to compile and publish on paper, or a simple spreadsheet. Having borrowing data per library may be OK for one service, but at a national level? Excel would explode!
+National stats were made simple for reasons. One of these would have been to make the data more manageable. Perhaps easier to compile and publish on paper, or a simple spreadsheet. Having borrowing data per library may be OK for a single service, but at a national level? Excel would explode!
 
 Except it wouldn't, not any more. Computers are powerful and Excel will be fine. The more detail the better. Even monthly data isn't really enough. What does that tell us about how Monday compares to Friday? Nothing.
 
