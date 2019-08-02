@@ -5,7 +5,7 @@ categories:
   - National data
 ---
 
-There is agreement on the need for compiling open data that would give an accurate picture of UK public libraries. Their locations, staff, type, financial details, stock, and what goes on in them.
+There is agreement on the need to compile open data to give an accurate picture of UK public libraries. Their locations, staff, type, financial details, stock, and what goes on in them.
 
 But what would be required to encourage all UK public libraries to publish accurate and timely data to a set standard? Some ideas here.
 
