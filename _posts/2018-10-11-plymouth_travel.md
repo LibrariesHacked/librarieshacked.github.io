@@ -43,6 +43,6 @@ Travel time
 
 ### Ordnance Survey
 
-What's know as the base 'map tiles' are provided by Ordnance Survey. They have designed a map that changes as you zoom in and out, 
+What's know as the base 'map tiles' are provided by Ordnance Survey. They have designed a map that changes as you zoom in and out, . The product is called Open Zoomstack, and there are 4 different styles available: light (the one used). 
 
 It is slightly customised.
