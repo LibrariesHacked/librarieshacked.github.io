@@ -11,24 +11,26 @@ Plymouth Libraries have embraced open data, releasing [data about their librarie
 
 One of the datasets is [Libraries in Plymouth](https://www.plymouth.gov.uk/sites/default/files/Plymouth%20library%20locations%2C%20opening%20hours%20and%20services_0.csv), a listing of the 12 libraries, with their address and opening hours.
 
+## Library information
+
 Boring names and locations of libraries? What's the use of that, peope can just look on Google! Well, hopefully there is more use to having library locations. First it was worth considering what other information was available about the libraries.
 
 
-## Facilities
+### Facilities
 
 If you're searching for a library you may have a particular task in mind. 
 
 
-## Events
+### Events
 
 If you want to infuriate people, say that "Libraries are not just about books". With a deepo emphasis on the 'just', to make the contempt for books really clear. But it's literally true, libraries aren't just about books. they have events going on as well. So those should be represented in data about libraries.
 
 Over the course of each day the script updates it's listing of library events from the website
 
 
-## Building
+### Buildings
 
-Normally when you plot a library on the map it will show some kind of icon. Maybe a book, or just a stanndard map marker. But what about showing the actual library? Something
+Normally when you plot a library on the map it will show some kind of icon. Maybe a book, or just a stanndard map marker. But what about showing the actual library? Libraries are physical buildings and it would be nice to have some kind of representation of that when viewing them on a map.
 
 Geo
 
