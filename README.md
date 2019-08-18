@@ -15,13 +15,11 @@ Deployed using GitHub pages. Github should automatically deploy and build the si
 
 * **Dave Rowe** - *Writer* - [DaveBathnes](https://github.com/DaveBathnes)
 
-See also the list of [contributors](https://github.com/librarieshacked/project/contributors) who participated in this project.
+See also the list of [contributors](https://github.com/librarieshacked/librarieshacked.github.io/contributors) who participated in this project.
 
 ## License
 
-Minimal Mistakes is published under the [MIT Licence](https://github.com/mmistakes/minimal-mistakes/blob/master/LICENSE).
-
-Content in the blog is published under a [Creative Commons Attribution Licence](https://creativecommons.org/licenses/by/4.0/).
+Minimal Mistakes is published under the [MIT Licence](https://github.com/mmistakes/minimal-mistakes/blob/master/LICENSE). Content in the blog is published under a [Creative Commons Attribution 4.0 Licence](https://creativecommons.org/licenses/by/4.0/).
 
 ## Acknowledgments
 
