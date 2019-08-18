@@ -5,27 +5,36 @@ categories:
 published: false
 ---
 
-One of the long-running Libraries Hacked #librarydata projects is a library finder. This uses Plymouth Libraries' open data on library locations, facilities, and opening hours. Like most projects, it is never ending, and never finished.
+One of the long-running and award-winning (won a tshirt) #librarydata projects is a library finder. This uses Plymouth Libraries' open data on library locations, facilities, and opening hours. Like most projects, it is never finished.
 
-Plymouth Libraries have embraced open data, releasing [data about their libraries](https://www.plymouth.gov.uk/libraries/aboutlibraryservice/librarydata), as well as the Council holding a library themed [DataPlay event](http://www.dataplymouth.co.uk/articles/data-play-9-itinerary), inviting the public to get involved with library data.
+See [plymouth.librarydata.uk](https://plymouth.librarydata.uk)
+
+Plymouth Libraries have embraced open data, releasing [various datasets about their service](https://www.plymouth.gov.uk/libraries/aboutlibraryservice/librarydata), as well as the Council holding a library themed [DataPlay event](http://www.dataplymouth.co.uk/articles/data-play-9-itinerary), inviting the public to get involved with library data.
 
 One of the datasets is [Libraries in Plymouth](https://www.plymouth.gov.uk/sites/default/files/Plymouth%20library%20locations%2C%20opening%20hours%20and%20services_0.csv), a listing of the 12 libraries, with their address and opening hours.
 
 ## Library information
 
-Boring names and locations of libraries? What's the use of that, peope can just look on Google! Well, hopefully there is more use to having library locations. First it was worth considering what other information was available about the libraries.
+Boring names and locations of libraries? What's the use of that? People can look on Google. Well, hopefully there is more use to having library locations, but before getting in to that it was worth considering what other information was available about the libraries. Such as 'Photocopiers (colour and black/white)'.
 
+This seemed like something worth getting into 
 
 ### Facilities
 
-If you're searching for a library you may have a particular task in mind. 
+If you're searching for a library you may have a particular task in mind. You want to use a computer, a printer, a DVD, investigate local history etc. If you want to browse books you can probably expect that in any library but for some of the other things you may need to check ahead.
 
+Plymouth publish a list of services and facilities on the website page for each of their libraries, such as [Central Library](https://www.plymouth.gov.uk/libraries/findlibraryandopeninghours/centrallibrary).
 
 ### Events
 
-If you want to infuriate people, say that "Libraries are not just about books". With a deepo emphasis on the 'just', to make the contempt for books really clear. But it's literally true, libraries aren't just about books. they have events going on as well. So those should be represented in data about libraries.
+Libraries have events going on. So those should be represented in data about libraries.
 
-Over the course of each day the script updates it's listing of library events from the website
+Plymouth library events are listed on their website. 
+
+[This script]() runs throughout each day, updating a data file of Plymouth library events. The events are then published.
+
+This 
+
 
 
 ### Buildings
