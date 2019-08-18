@@ -1,14 +1,14 @@
 remote_theme: mmistakes/minimal-mistakes
-minimal_mistakes_skin: "dirt"
+minimal_mistakes_skin: "air"
 
 locale: "en-GB"
 title: "Library data blog"
 title_separator: "|"
+subtitle: "Promoting open data and hacks in libraries"
 name: "Libraries Hacked"
 description: "Articles and tutorials on library data and open data in libraries."
 url: "https://blog.librarydata.uk"
 repository: "librarieshacked/librarieshacked.github.io"
-logo: "/images/logo.png"
 
 search: true
 words_per_minute: 200
@@ -27,7 +27,6 @@ paginate: 5
 paginate_path: /page:num/
 timezone: Europe/London
 
-# Plugins (previously gems:)
 plugins:
   - jekyll-paginate
   - jekyll-sitemap
@@ -36,7 +35,6 @@ plugins:
   - jemoji
   - jekyll-include-cache
 
-# mimic GitHub Pages with --safe
 whitelist:
   - jekyll-paginate
   - jekyll-sitemap
