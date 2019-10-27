@@ -1,6 +1,6 @@
 ---
 title: A public library data strategy
-description: Steps to create a strategy for national data in public libraries
+excerpt: Steps to create a strategy for national data in public libraries
 categories: 
     - National data
 published: true
