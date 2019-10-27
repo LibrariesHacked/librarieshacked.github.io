@@ -8,7 +8,7 @@ published: true
 
 Libraries Connected recently published [a scoping study towards a blueprint for public library development](https://www.librariesconnected.org.uk/resource/scoping-study-towards-blueprint-public-library-development). This was a joint project with CILIP, conducted by Independent Mind, and funded by the Carnegie UK Trust.
 
-The report scopes out a plan for public libraries, and the national challenges. There are 7 themes.
+The report scopes out a plan for public libraries, and addressing the national challenges. There are 7 themes.
 
 1. Nationally organised and funded programmes
 2. Standards and accreditation
@@ -22,7 +22,7 @@ The report scopes out a plan for public libraries, and the national challenges. 
 
 I read through the report, interested in whether there would be a strategy for public library data.
 
-There was a little, but not much. The main mentions are almost exclusively in regards to the **National monitoring and evaluation** section. This was referencing national data collection of library data, with two potential impacts of the work:
+There was a little, but not much. The main mentions were in regards to the **National monitoring and evaluation** section. This was referencing national data collection of library data, with two potential impacts of the work:
 
 - Evidence of impact and value
 - Information to support making the case for libraries
@@ -37,13 +37,13 @@ But this backfires. The report documented the reactions from workshop participan
 
 > Heads of Service also stated that it would require resourcing and support to deliver because library services may not have capacity or skills to manage this in-house
 
-The objections here are fair. Why should public libraries collect data that will then be used for national evaluation and monitoring, and not benefit them? You can see the funding motivation at the core of local leaders as well. *Why should I compile data on my service, only for you to go and get all the money!*
+The objections here are fair. Why should public libraries collect data that will then be used for national evaluation, and not benefit them? You can see the funding motivation at the core of local leader reactions as well. *Why should I compile data on my service, only for you to go and get all the money!*
 
-It's important to stress in response to this: data standards, compiled and used locally, are essential for EVERY aspect of library development, and maintaining a good and universal service.
+It's important to stress in response to this: data standards, designed nationally and used locally, are essential for EVERY aspect of library development, and maintaining a good and universal service for all areas.
 
-Explain to a Head of Service that you want national data standards so that you can share analysis techniques, empower informed decisions about library policies, and develop the workforce. Then I am sure they will go 'yes, that sounds great!'.
+Explain to a Head of Service that you want national data standards so that you can share analysis techniques, empower informed decisions about library policies, and develop the workforce. Then I am sure they will go 'yes, that sounds great!'. The way this was presented was a horrible way of describing data standards.
 
-This was a missed opportunity to explain why data matters and is useful. Instead heads of service thought they were going to be doing national organisations a favour.
+This was a missed opportunity to explain why data matters and is useful. Instead, people thought they were being asked to do national organisations a favour.
 
 There isn't a single theme in this blueprint that doesn't depend upon data standards to have any chance of succeeding. A national digital library service? There's no chance of that without interoperability and data standards. Workforce development? Urgently requires training in data skills and literacy. Standards and accreditation of library services? That's going to need data. And so on.
 
