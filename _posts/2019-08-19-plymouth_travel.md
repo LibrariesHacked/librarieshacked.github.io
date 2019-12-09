@@ -16,13 +16,12 @@ Boring names and locations of libraries? People can just look on Google! Well, h
 
 ### Opening hours
 
-Plymouth list opening hours for each library. These can be useful in a few ways:
+Plymouth list opening hours for each library. These can be useful in a couple of ways:
 
 - The obvious one of telling people when the library is open
-- Comparing usage data by accounting for number of hours the library is open.
-- Analysing the catchment area including the times of day people are likely to be in the area
+- Analysing the catchment area population of the library, taking into account when people are likely to be in the area
 
-Opening Hours are a good example where data that has previously been published isn't us
+Opening Hours are a good example of data that has often not been published in useful ways. Number of hours open per week, for example, is not that useful
 
 The library finder doesn't do anything too clever with opening hours. It shows libraries that are open at the current time, how long before they are going to close, and when the others are opening. 
 
@@ -75,8 +74,8 @@ The goal of this was to create something that is useful both to the library serv
 It would be nice now to get this data for all libraries in the UK. More detailed heights and building footprint data could be obtained from Ordnance Survey. Having travel distance and populations would be a 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODYzNjUzNzA5LC0xNTE2ODA3NzcxLDE1Mz
-k3MjIzNTAsODgyODU5NzcsLTc0ODM1MTMyMiwtMTA3MDI1MDcz
-MiwxNDY3NDIyMjc2LC0xNjcwMzMyNzIyLC0zNTQ0NjkxOTUsND
-U0NjE3MjkyXX0=
+eyJoaXN0b3J5IjpbLTExMjQ3MTgyNjgsLTE1MTY4MDc3NzEsMT
+UzOTcyMjM1MCw4ODI4NTk3NywtNzQ4MzUxMzIyLC0xMDcwMjUw
+NzMyLDE0Njc0MjIyNzYsLTE2NzAzMzI3MjIsLTM1NDQ2OTE5NS
+w0NTQ2MTcyOTJdfQ==
 -->
