@@ -51,13 +51,13 @@ Like facilities data, this is used in the library finder to provide filters. Som
 
 ### Buildings
 
-Normally when you plot locations on the map it will use some kind of icon. Maybe a book to represent a library, or just a standard map marker. But what about showing the actual building? Libraries are physical structures and it would be nice to have some kind of representation of that when viewing them on a map.
+Normally when locations are plotted on a web map some kind of icon will be used. Maybe a book to represent a library, or just a standard map marker. But what about showing the actual building? Libraries are physical structures and it would be nice to have some kind of representation of that when viewing them on a map.
 
 Geo publish open data on the heights of buildings in certain cities in the UK. This is calculated using environment agency LIDAR data. This is 
 
-So each library is represented by a simple icon (using the library name as an initial). But when zooming in closer the buildings are displayed on the map. 
+So each library is represented by a simple icon (using the library name as an initial). But when zooming in closer the buildings are displayed on the map. These 
 
-<figure> <img src="https://github.com/LibrariesHacked/librarieshacked.github.io/raw/master/images/2019-08-19-plymouth-libraries-building.png" alt="A screenshot of a menu provided options of different facilities such as Cafe, or Scanners"/> <figcaption>Devonport library building</figcaption> </figure>
+<figure> <img src="https://github.com/LibrariesHacked/librarieshacked.github.io/raw/master/images/2019-08-19-plymouth-libraries-building.png" alt="A screenshot of a map, displayed at an angle showing the building as a cube"/> <figcaption>Devonport library building</figcaption> </figure>
 
 ### Travel time and population
 
@@ -73,7 +73,7 @@ The goal of this was to create something that is useful both to the library serv
 It would be nice now to get this data for all libraries in the UK. More detailed heights and building footprint data could be obtained from Ordnance Survey. Having travel distance and populations would be a 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTcyNjAyNjk5OCwtNzQ4MzUxMzIyLC0xMD
+eyJoaXN0b3J5IjpbMTA3OTc3Mjc4MiwtNzQ4MzUxMzIyLC0xMD
 cwMjUwNzMyLDE0Njc0MjIyNzYsLTE2NzAzMzI3MjIsLTM1NDQ2
 OTE5NSw0NTQ2MTcyOTJdfQ==
 -->
