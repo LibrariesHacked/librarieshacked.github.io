@@ -12,12 +12,12 @@ Plymouth Libraries have embraced open data, releasing [various datasets about th
 
 The library locations dataset is called [Libraries in Plymouth](https://www.plymouth.gov.uk/sites/default/files/Plymouth%20library%20locations%2C%20opening%20hours%20and%20services_0.csv), and includes all libraries, with their co-ordinates.
 
-Boring names and locations of libraries? People can just look on Google! Well, hopefully there is more uses for library locations, but before getting in to that it was worth looking at what other information was available about the libraries.
+Boring names and locations of libraries? People can just look on Google! Well, hopefully there are lots of uses for location data, but before getting in to that it was worth looking at what other information was available about the libraries.
 
 
 ### Opening hours
 
-As part of their locations data, Plymouth also list opening hours. 
+Plymouth also list opening hours. 
 
 
 
@@ -30,7 +30,7 @@ Plymouth publish a list of services and facilities on the website page for each 
 
 ### Events
 
-Libraries have events going on. Plymouth events are listed on their website. The number of events account for a large proportion of the website. But they are updated regularly, and it's difficult to convert that set of webpages into data.
+Libraries have events going on. Plymouth events are listed on their website. The number of events account for a large proportion of the website.
 
 [This script]() runs throughout each day, updating a data file held online of all the library events. The events are then published into a separate URL, which published
 
@@ -60,5 +60,5 @@ The goal of this was to create something that is useful both to the library serv
 It would be nice now to get this data for all libraries in the UK. More detailed heights and building footprint data could be obtained from Ordnance Survey. Having travel distance and populations would be a 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkxODAwMjA5XX0=
+eyJoaXN0b3J5IjpbNDU0NjE3MjkyXX0=
 -->
