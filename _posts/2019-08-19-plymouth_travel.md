@@ -12,7 +12,7 @@ Plymouth Libraries release [various datasets about their service](https://www.pl
 
 The library locations dataset is called [Libraries in Plymouth](https://www.plymouth.gov.uk/sites/default/files/Plymouth%20library%20locations%2C%20opening%20hours%20and%20services_0.csv), and includes all libraries, with their co-ordinates.
 
-Boring names and locations of libraries? People can just look on Google! Well, hopefully there are lots of uses for location data, but before getting in to that it was worth looking at what other information was available about the libraries.
+Boring names and locations of libraries? People can just look on Google! Well, hopefully there are lots more uses of location data, but before getting in to that it was worth looking at what other information was available about the libraries.
 
 ### Opening hours
 
@@ -21,6 +21,8 @@ Plymouth list opening hours for each library. These can be useful in a few ways:
 - The obvious one of telling people when the library is and isn't open
 - Comparing usage data by accounting for number of hours the library is open.
 - Factoring in people who are likely to be able to use the library at the times it is open when analysing a catchment area
+
+It's a good example 
 
 The library finder doesn't do anything too clever with opening hours. It shows libraries that are open at the current time, how long before they are going to close, and when the others are opening. 
 
@@ -73,7 +75,7 @@ The goal of this was to create something that is useful both to the library serv
 It would be nice now to get this data for all libraries in the UK. More detailed heights and building footprint data could be obtained from Ordnance Survey. Having travel distance and populations would be a 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUzOTcyMjM1MCw4ODI4NTk3NywtNzQ4Mz
-UxMzIyLC0xMDcwMjUwNzMyLDE0Njc0MjIyNzYsLTE2NzAzMzI3
-MjIsLTM1NDQ2OTE5NSw0NTQ2MTcyOTJdfQ==
+eyJoaXN0b3J5IjpbMTcwODA5OTcwNywxNTM5NzIyMzUwLDg4Mj
+g1OTc3LC03NDgzNTEzMjIsLTEwNzAyNTA3MzIsMTQ2NzQyMjI3
+NiwtMTY3MDMzMjcyMiwtMzU0NDY5MTk1LDQ1NDYxNzI5Ml19
 -->
