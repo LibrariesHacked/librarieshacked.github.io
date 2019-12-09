@@ -60,3 +60,6 @@ The goal of this was to create something that is useful both to the library serv
 
 It would be nice now to get this data for all libraries in the UK. More detailed heights and building footprint data could be obtained from Ordnance Survey. Having travel distance and populations would be a 
 
+<!--stackedit_data:
+eyJoaXN0b3J5IjpbMTg0MTkxNzAzMl19
+-->
