@@ -6,7 +6,7 @@ categories:
 published: false
 ---
 
-One of the long-running Libraries Hacked projects is a library finder. This uses data from Plymouth  Libraries on library locations, facilities, events, and opening hours. 
+One of the long-running Libraries Hacked projects is a library finder. This uses data from Plymouth  Libraries on library locations to explore how these could be presented online. 
 
 You can play with it and see [it in action here](https://plymouth.librarydata.uk).
 
@@ -14,7 +14,7 @@ Plymouth Libraries have embraced open data, releasing [various datasets about th
 
 One of their datasets is [Libraries in Plymouth](https://www.plymouth.gov.uk/sites/default/files/Plymouth%20library%20locations%2C%20opening%20hours%20and%20services_0.csv), a listing of all libraries, with their locations.
 
-Boring names and locations of libraries? People can look on Google. Well, hopefully there is more use to having library locations, but before getting in to that it was worth considering what other information was available about the libraries.
+Boring names and locations of libraries? People can just look on Google! Well, hopefully there is more uses for library locations, but before getting in to that it was worth looking at what other information was available about the libraries.
 
 
 ### Opening hours
@@ -62,5 +62,5 @@ The goal of this was to create something that is useful both to the library serv
 It would be nice now to get this data for all libraries in the UK. More detailed heights and building footprint data could be obtained from Ordnance Survey. Having travel distance and populations would be a 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM4NjQ4NTE5MF19
+eyJoaXN0b3J5IjpbMTA0OTUwMDAwNl19
 -->
