@@ -17,7 +17,10 @@ Boring names and locations of libraries? People can just look on Google! Well, h
 
 ### Opening hours
 
-Plymouth also list opening hours. 
+Plymouth also list opening hours for each library. These can be useful in a few ways:
+
+- The obvious practical one of telling people when the library is and isn't open
+- 
 
 
 
@@ -60,5 +63,5 @@ The goal of this was to create something that is useful both to the library serv
 It would be nice now to get this data for all libraries in the UK. More detailed heights and building footprint data could be obtained from Ordnance Survey. Having travel distance and populations would be a 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDU0NjE3MjkyXX0=
+eyJoaXN0b3J5IjpbLTM1NDQ2OTE5NSw0NTQ2MTcyOTJdfQ==
 -->
