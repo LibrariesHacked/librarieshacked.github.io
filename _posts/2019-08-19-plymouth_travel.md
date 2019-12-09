@@ -1,13 +1,14 @@
 ---
-title: "Plymouth: library finder"
+title: Plymouth library finder
 categories: 
     - Plymouth
+    - Library locations
 published: false
 ---
 
-One of the long-running (and award-winning - it won a t-shirt) Libraries Hacked projects is an example library finder. This uses data from Plymouth  Libraries on library locations, facilities, events, and opening hours. 
+One of the long-running Libraries Hacked projects is a library finder. This uses data from Plymouth  Libraries on library locations, facilities, events, and opening hours. 
 
-See [it in action here](https://plymouth.librarydata.uk)
+You can play with it and see [it in action here](https://plymouth.librarydata.uk)
 
 Plymouth Libraries have embraced open data, releasing [various datasets about their service](https://www.plymouth.gov.uk/libraries/aboutlibraryservice/librarydata). The Council also held a library themed [DataPlay event](http://www.dataplymouth.co.uk/articles/data-play-9-itinerary), inviting the public to get involved specifically with library data.
 
@@ -61,5 +62,5 @@ The goal of this was to create something that is useful both to the library serv
 It would be nice now to get this data for all libraries in the UK. More detailed heights and building footprint data could be obtained from Ordnance Survey. Having travel distance and populations would be a 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg0MTkxNzAzMl19
+eyJoaXN0b3J5IjpbNjIwMjI0OTQxXX0=
 -->
