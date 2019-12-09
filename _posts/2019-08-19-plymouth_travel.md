@@ -33,7 +33,9 @@ If you're searching for a library you may have a particular task in mind. You wa
 
 Plymouth publish a list of services and facilities on the website page for each of their libraries, such as [Central Library](https://www.plymouth.gov.uk/libraries/findlibraryandopeninghours/centrallibrary). Being in a nice standard format, it was possible to convert this to data by scraping the website.
 
-The facilities data is used in filters when searching for a library. The user can select (for example) that they 
+The facilities data is used in filters when searching for a library. The user can select (for example) that they are looking for somewhere with a meeting room. Only libraries with that facility will then be displayed.
+
+
 
 ### Events
 
@@ -70,6 +72,7 @@ The goal of this was to create something that is useful both to the library serv
 It would be nice now to get this data for all libraries in the UK. More detailed heights and building footprint data could be obtained from Ordnance Survey. Having travel distance and populations would be a 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNzAyNTA3MzIsMTQ2NzQyMjI3NiwtMT
-Y3MDMzMjcyMiwtMzU0NDY5MTk1LDQ1NDYxNzI5Ml19
+eyJoaXN0b3J5IjpbLTQwNjkwNDM2LC0xMDcwMjUwNzMyLDE0Nj
+c0MjIyNzYsLTE2NzAzMzI3MjIsLTM1NDQ2OTE5NSw0NTQ2MTcy
+OTJdfQ==
 -->
