@@ -24,8 +24,7 @@ Plymouth list opening hours for each library. These can be useful in a few ways:
 
 The library finder doesn't do anything too clever with opening hours. It shows libraries that are open at the current time, how long before they are going to close, and when the others are opening. 
 
-
-
+<figure> <img src="{{site.url}}/images/libraries_plymouth.png" alt="A screenshot of a menu provided options of different facilities such as Cafe, or Scanners"/> <figcaption></figcaption> </figure>
 
 ### Facilities
 
@@ -72,7 +71,7 @@ The goal of this was to create something that is useful both to the library serv
 It would be nice now to get this data for all libraries in the UK. More detailed heights and building footprint data could be obtained from Ordnance Survey. Having travel distance and populations would be a 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMxNTMxNTc4MSwtNzQ4MzUxMzIyLC0xMD
-cwMjUwNzMyLDE0Njc0MjIyNzYsLTE2NzAzMzI3MjIsLTM1NDQ2
-OTE5NSw0NTQ2MTcyOTJdfQ==
+eyJoaXN0b3J5IjpbLTE3NTc1ODIwODcsLTc0ODM1MTMyMiwtMT
+A3MDI1MDczMiwxNDY3NDIyMjc2LC0xNjcwMzMyNzIyLC0zNTQ0
+NjkxOTUsNDU0NjE3MjkyXX0=
 -->
