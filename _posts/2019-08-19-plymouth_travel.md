@@ -36,7 +36,7 @@ Plymouth publish a list of services and facilities on the website page for each 
 
 ### Events
 
-Libraries have events going on. Plymouth events are listed on their website. The number of events account for a large proportion of the website.
+Libraries have events in them. Plymouth ones are listed on their website. The number of events account for a large proportion of the website.
 
 [This script]() runs throughout each day, updating a data file held online of all the library events. The events are then published into a separate URL, which published
 
@@ -66,6 +66,6 @@ The goal of this was to create something that is useful both to the library serv
 It would be nice now to get this data for all libraries in the UK. More detailed heights and building footprint data could be obtained from Ordnance Survey. Having travel distance and populations would be a 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NzAzMzI3MjIsLTM1NDQ2OTE5NSw0NT
-Q2MTcyOTJdfQ==
+eyJoaXN0b3J5IjpbMjAyMzM0NTc5MCwtMTY3MDMzMjcyMiwtMz
+U0NDY5MTk1LDQ1NDYxNzI5Ml19
 -->
