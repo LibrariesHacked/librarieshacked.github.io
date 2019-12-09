@@ -24,17 +24,17 @@ Plymouth list opening hours for each library. These can be useful in a few ways:
 
 The library finder doesn't do anything too clever with opening hours. It shows libraries that are open at the current time, how long before they are going to close, and when the others are opening. 
 
-<figure> <img src="{{site.url}}/images/libraries_plymouth.png" alt="A screenshot of a menu provided options of different facilities such as Cafe, or Scanners"/> <figcaption></figcaption> </figure>
+
 
 ### Facilities
 
-If you're searching for a library you may have a particular task in mind. You want to use a computer, a printer, research local history, etc. You can probably expect to find books in any library, but for other things you may need to check ahead.
+If you're searching for a library you may have a particular task in mind. You want to use a computer, a printer, research local history, etc. You should expect to find books in any library, but for other things you may need to check ahead.
 
 Plymouth publish a list of services and facilities on the website page for each of their libraries, such as [Central Library](https://www.plymouth.gov.uk/libraries/findlibraryandopeninghours/centrallibrary). Being in a nice standard format, it was possible to convert this to data by scraping the website.
 
 The facilities data is used in filters when searching for a library. The user can select (for example) that they are looking for somewhere with a meeting room. Only libraries with that facility will then be displayed.
 
-
+<figure> <img src="https://github.com/LibrariesHacked/librarieshacked.github.io/raw/master/images/2019-08-19-plymouth-libraries-facilities.png" alt="A screenshot of a menu provided options of different facilities such as Cafe, or Scanners"/> <figcaption>Filtering Plymouth Libraries by facility type</figcaption> </figure>
 
 ### Events
 
@@ -71,7 +71,7 @@ The goal of this was to create something that is useful both to the library serv
 It would be nice now to get this data for all libraries in the UK. More detailed heights and building footprint data could be obtained from Ordnance Survey. Having travel distance and populations would be a 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NTc1ODIwODcsLTc0ODM1MTMyMiwtMT
-A3MDI1MDczMiwxNDY3NDIyMjc2LC0xNjcwMzMyNzIyLC0zNTQ0
-NjkxOTUsNDU0NjE3MjkyXX0=
+eyJoaXN0b3J5IjpbMTg3OTg5OTk2MywtNzQ4MzUxMzIyLC0xMD
+cwMjUwNzMyLDE0Njc0MjIyNzYsLTE2NzAzMzI3MjIsLTM1NDQ2
+OTE5NSw0NTQ2MTcyOTJdfQ==
 -->
