@@ -6,13 +6,11 @@ categories:
 published: false
 ---
 
-One of the long-running Libraries Hacked projects is a library finder. This uses data from Plymouth  Libraries on library locations to explore how these could be presented online. 
-
-You can play with it and see [it in action here](https://plymouth.librarydata.uk).
+One of the long-running Libraries Hacked projects is a library finder. This uses data from Plymouth  Libraries on library locations to explore how these could be presented online. You can play with it and see [it in action here](https://plymouth.librarydata.uk).
 
 Plymouth Libraries have embraced open data, releasing [various datasets about their service](https://www.plymouth.gov.uk/libraries/aboutlibraryservice/librarydata). The Council also held a library themed [DataPlay event](http://www.dataplymouth.co.uk/articles/data-play-9-itinerary), inviting the public to get involved with library data.
 
-One of their datasets is [Libraries in Plymouth](https://www.plymouth.gov.uk/sites/default/files/Plymouth%20library%20locations%2C%20opening%20hours%20and%20services_0.csv), a listing of all libraries, with their locations.
+The library locations dataset is called [Libraries in Plymouth](https://www.plymouth.gov.uk/sites/default/files/Plymouth%20library%20locations%2C%20opening%20hours%20and%20services_0.csv), and includes all libraries, with their co-ordinates.
 
 Boring names and locations of libraries? People can just look on Google! Well, hopefully there is more uses for library locations, but before getting in to that it was worth looking at what other information was available about the libraries.
 
@@ -62,5 +60,5 @@ The goal of this was to create something that is useful both to the library serv
 It would be nice now to get this data for all libraries in the UK. More detailed heights and building footprint data could be obtained from Ordnance Survey. Having travel distance and populations would be a 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA0OTUwMDAwNl19
+eyJoaXN0b3J5IjpbMTkxODAwMjA5XX0=
 -->
