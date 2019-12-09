@@ -41,7 +41,7 @@ The facilities data is used in filters when searching for a library. The user ca
 
 Libraries have events in them. Plymouth ones are listed on their website, and account for almost a third of all pages on the Council website.
 
-Without an easy way of using this data, an online script runs throughout each day, searching the website for library events and updating a data file held online. This data is then published into a separate URL, using a standard
+Without an easy way of using this data directly, an online script runs throughout each day, searching the website for library events and updating a data file held online. This data is then published into a separate URL, using a standard
 
 Like facilities data, this is used in the library finder to provide filters. Someone can search for the nearest library offering code clubs for example.
 
@@ -72,7 +72,7 @@ The goal of this was to create something that is useful both to the library serv
 It would be nice now to get this data for all libraries in the UK. More detailed heights and building footprint data could be obtained from Ordnance Survey. Having travel distance and populations would be a 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NzE3MjIxNjAsLTEwNzAyNTA3MzIsMT
-Q2NzQyMjI3NiwtMTY3MDMzMjcyMiwtMzU0NDY5MTk1LDQ1NDYx
-NzI5Ml19
+eyJoaXN0b3J5IjpbLTc0ODM1MTMyMiwtMTA3MDI1MDczMiwxND
+Y3NDIyMjc2LC0xNjcwMzMyNzIyLC0zNTQ0NjkxOTUsNDU0NjE3
+MjkyXX0=
 -->
