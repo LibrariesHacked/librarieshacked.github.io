@@ -39,7 +39,7 @@ The facilities data is used in filters when searching for a library. The user ca
 
 ### Events
 
-Libraries have events in them. Plymouth ones are listed on their website, these account for almost a third of all pages on the Council website.
+Libraries have events in them. Plymouth ones are listed on their website, and account for almost a third of all pages on the Council website.
 
 Without an easy way of using this data, an online script runs throughout each day, searching the website for library events and updating a data file held online. This data is then published into a separate URL, using a standard
 
@@ -72,7 +72,7 @@ The goal of this was to create something that is useful both to the library serv
 It would be nice now to get this data for all libraries in the UK. More detailed heights and building footprint data could be obtained from Ordnance Survey. Having travel distance and populations would be a 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQwNjkwNDM2LC0xMDcwMjUwNzMyLDE0Nj
-c0MjIyNzYsLTE2NzAzMzI3MjIsLTM1NDQ2OTE5NSw0NTQ2MTcy
-OTJdfQ==
+eyJoaXN0b3J5IjpbLTE2NzE3MjIxNjAsLTEwNzAyNTA3MzIsMT
+Q2NzQyMjI3NiwtMTY3MDMzMjcyMiwtMzU0NDY5MTk1LDQ1NDYx
+NzI5Ml19
 -->
