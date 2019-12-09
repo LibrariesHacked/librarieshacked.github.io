@@ -14,14 +14,13 @@ The library locations dataset is called [Libraries in Plymouth](https://www.plym
 
 Boring names and locations of libraries? People can just look on Google! Well, hopefully there are lots of uses for location data, but before getting in to that it was worth looking at what other information was available about the libraries.
 
-
 ### Opening hours
 
 Plymouth list opening hours for each library. These can be useful in a few ways:
 
 - The obvious practical one of telling people when the library is and isn't open
-- Comparing usage data by accounting for number of hours open.
-- Factoring in people who are likely to be able to use the library at the the times it is open in analysing a catchment area
+- Comparing usage data by accounting for number of hours the library is open.
+- Factoring in people who are likely to be able to use the library at the the times it is open when analysing a catchment area
 
 The library finder doesn't do anything too clever with opening hours. It shows libraries that are open at the current time, and when the others are opening.  
 
@@ -69,6 +68,6 @@ The goal of this was to create something that is useful both to the library serv
 It would be nice now to get this data for all libraries in the UK. More detailed heights and building footprint data could be obtained from Ordnance Survey. Having travel distance and populations would be a 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ2NzQyMjI3NiwtMTY3MDMzMjcyMiwtMz
-U0NDY5MTk1LDQ1NDYxNzI5Ml19
+eyJoaXN0b3J5IjpbLTQzNTI3MjA1OSwxNDY3NDIyMjc2LC0xNj
+cwMzMyNzIyLC0zNTQ0NjkxOTUsNDU0NjE3MjkyXX0=
 -->
