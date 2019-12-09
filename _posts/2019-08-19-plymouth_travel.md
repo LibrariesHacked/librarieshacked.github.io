@@ -57,6 +57,8 @@ Geo publish open data on the heights of buildings in certain cities in the UK. T
 
 So each library is represented by a simple icon (using the library name as an initial). But when zooming in closer
 
+<figure> <img src="https://github.com/LibrariesHacked/librarieshacked.github.io/raw/master/images/2019-08-19-plymouth-libraries-building.png" alt="A screenshot of a menu provided options of different facilities such as Cafe, or Scanners"/> <figcaption>Devonport library building</figcaption> </figure>
+
 ### Travel time and population
 
 Having things on maps allows for displaying additional geographic information. In the case of libraries, it's useful to see how accessible the library is by different means of travel.
@@ -71,7 +73,7 @@ The goal of this was to create something that is useful both to the library serv
 It would be nice now to get this data for all libraries in the UK. More detailed heights and building footprint data could be obtained from Ordnance Survey. Having travel distance and populations would be a 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg3OTg5OTk2MywtNzQ4MzUxMzIyLC0xMD
-cwMjUwNzMyLDE0Njc0MjIyNzYsLTE2NzAzMzI3MjIsLTM1NDQ2
-OTE5NSw0NTQ2MTcyOTJdfQ==
+eyJoaXN0b3J5IjpbLTE0NTY1OTM3OTMsLTc0ODM1MTMyMiwtMT
+A3MDI1MDczMiwxNDY3NDIyMjc2LC0xNjcwMzMyNzIyLC0zNTQ0
+NjkxOTUsNDU0NjE3MjkyXX0=
 -->
