@@ -20,9 +20,9 @@ Plymouth list opening hours for each library. These can be useful in a few ways:
 
 - The obvious practical one of telling people when the library is and isn't open
 - Comparing usage data by accounting for number of hours the library is open.
-- Factoring in people who are likely to be able to use the library at the the times it is open when analysing a catchment area
+- Factoring in people who are likely to be able to use the library at the times it is open when analysing a catchment area
 
-The library finder doesn't do anything too clever with opening hours. It shows libraries that are open at the current time, and when the others are opening.  
+The library finder doesn't do anything too clever with opening hours. It shows libraries that are open at the current time, how long before they are going to close, and when the others are opening. 
 
 
 
@@ -31,7 +31,7 @@ The library finder doesn't do anything too clever with opening hours. It shows l
 
 If you're searching for a library you may have a particular task in mind. You want to use a computer, a printer, research local history, etc. You can probably expect to find books in any library, but for other things you may need to check ahead.
 
-Plymouth publish a list of services and facilities on the website page for each of their libraries, such as [Central Library](https://www.plymouth.gov.uk/libraries/findlibraryandopeninghours/centrallibrary). Being in a nice standard format is was possible to convert this to data by scraping the website.
+Plymouth publish a list of services and facilities on the website page for each of their libraries, such as [Central Library](https://www.plymouth.gov.uk/libraries/findlibraryandopeninghours/centrallibrary). Being in a nice standard format, it was possible to convert this to data by scraping the website.
 
 ### Events
 
@@ -68,6 +68,6 @@ The goal of this was to create something that is useful both to the library serv
 It would be nice now to get this data for all libraries in the UK. More detailed heights and building footprint data could be obtained from Ordnance Survey. Having travel distance and populations would be a 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQzNTI3MjA1OSwxNDY3NDIyMjc2LC0xNj
-cwMzMyNzIyLC0zNTQ0NjkxOTUsNDU0NjE3MjkyXX0=
+eyJoaXN0b3J5IjpbNzY5Mjk2OTExLDE0Njc0MjIyNzYsLTE2Nz
+AzMzI3MjIsLTM1NDQ2OTE5NSw0NTQ2MTcyOTJdfQ==
 -->
