@@ -47,13 +47,9 @@ Without an easy way of using this data directly, an online script runs each day,
 
 If someone has filtered the libraries by a particular event type, the library summary displays when that event is next happening (as it would seem to be what the user is most interested in). In other situation it would display when the next event, of any type, is scheduled.
 
-
-
-
-
 ### Buildings
 
-Normally when locations are plotted on a web map some kind of icon will be used. Maybe a book to represent a library, or just a standard map marker. But what about showing the actual building? Libraries are physical structures and it would be nice to have some kind of representation of that when viewing them on a map.
+When locations are plotted on a web map some kind of icon will normally be used. Maybe a book to represent a library, or just a standard map marker. But what about showing the actual building? Libraries are physical structures and it would be nice to have some kind of representation of that when viewing them on a map.
 
 Geo publish open data on the heights of buildings in certain cities in the UK. This is calculated using environment agency LIDAR data. This is 
 
@@ -75,8 +71,8 @@ The goal of this was to create something that is useful both to the library serv
 It would be nice now to get this data for all libraries in the UK. More detailed heights and building footprint data could be obtained from Ordnance Survey. Having travel distance and populations would be a 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk1MzExMjIwOSwxNjQ4NTM1MjExLC02MT
-c5NjI4MDEsLTE1MTY4MDc3NzEsMTUzOTcyMjM1MCw4ODI4NTk3
-NywtNzQ4MzUxMzIyLC0xMDcwMjUwNzMyLDE0Njc0MjIyNzYsLT
-E2NzAzMzI3MjIsLTM1NDQ2OTE5NSw0NTQ2MTcyOTJdfQ==
+eyJoaXN0b3J5IjpbLTE4MDg2ODg1OTUsMTY0ODUzNTIxMSwtNj
+E3OTYyODAxLC0xNTE2ODA3NzcxLDE1Mzk3MjIzNTAsODgyODU5
+NzcsLTc0ODM1MTMyMiwtMTA3MDI1MDczMiwxNDY3NDIyMjc2LC
+0xNjcwMzMyNzIyLC0zNTQ0NjkxOTUsNDU0NjE3MjkyXX0=
 -->
