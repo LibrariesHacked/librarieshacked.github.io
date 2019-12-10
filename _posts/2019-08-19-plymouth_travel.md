@@ -51,7 +51,7 @@ If someone has filtered the libraries by a particular event type, the library su
 
 When locations are plotted on a web map some kind of icon will normally be used. Maybe a book to represent a library, or just a standard map marker. But what about showing the actual building? Libraries are physical structures and it would be nice to have some kind of representation of that when viewing them on a map.
 
-Geo publish open data on the heights of buildings in certain cities in the UK. This is calculated using environment agency LIDAR data. This is 
+Emu Analytics [publish open data on the heights of buildings](https://buildingheights.emu-analytics.net/) in certain cities. This is calculated using environment agency LIDAR data. That is essentially lasers fired from above ground to map the terrain underneath
 
 So each library is represented by a simple icon (using the library name as an initial). But when zooming in closer the buildings are displayed on the map. These 
 
@@ -71,7 +71,7 @@ The goal of this was to create something that is useful both to the library serv
 It would be nice now to get this data for all libraries in the UK. More detailed heights and building footprint data could be obtained from Ordnance Survey. Having travel distance and populations would be a 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4MDg2ODg1OTUsMTY0ODUzNTIxMSwtNj
+eyJoaXN0b3J5IjpbLTEyNzQwMjgyODQsMTY0ODUzNTIxMSwtNj
 E3OTYyODAxLC0xNTE2ODA3NzcxLDE1Mzk3MjIzNTAsODgyODU5
 NzcsLTc0ODM1MTMyMiwtMTA3MDI1MDczMiwxNDY3NDIyMjc2LC
 0xNjcwMzMyNzIyLC0zNTQ0NjkxOTUsNDU0NjE3MjkyXX0=
