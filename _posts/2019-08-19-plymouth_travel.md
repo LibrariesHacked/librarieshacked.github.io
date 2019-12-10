@@ -23,9 +23,9 @@ Plymouth list opening hours for each library. These can be useful in a couple of
 
 Opening Hours are a good example of data that has often been published in ways that aren't useful. Number of hours open per week, for example, does not allow anyone to do much with it.
 
-The library finder doesn't currently do anything too clever with opening hours. It shows libraries that are open at the current time, how long before they are going to close, and when the others are opening.
+The library finder doesn't currently do anything too clever with opening hours. It shows libraries that are open at the current time, how long before they are going to close, and when the library is next opening.
 
-<figure> <img src="https://github.com/LibrariesHacked/librarieshacked.github.io/raw/master/images/2019-08-19-plymouth-libraries-facilities.png" alt="A screenshot of a menu provided options of different facilities such as Cafe, or Scanners"/> <figcaption>Filtering Plymouth Libraries by facility type</figcaption> </figure>
+<figure> <img src="https://github.com/LibrariesHacked/librarieshacked.github.io/raw/master/images/2018-12-11-plymouth-opening-hours.png" alt="A screenshot of Plymouth Central Library details showing the view of when it is going to open"/> <figcaption>Plymouth Central Library opening in an hour</figcaption> </figure>
 
 ### Facilities
 
@@ -74,8 +74,8 @@ The goal of this was to create something that is useful both to the library serv
 It would be nice now to get this data for all libraries in the UK. More detailed heights and building footprint data could be obtained from Ordnance Survey. Having travel distance and populations would be a 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY0ODUzNTIxMSwtNjE3OTYyODAxLC0xNT
-E2ODA3NzcxLDE1Mzk3MjIzNTAsODgyODU5NzcsLTc0ODM1MTMy
-MiwtMTA3MDI1MDczMiwxNDY3NDIyMjc2LC0xNjcwMzMyNzIyLC
-0zNTQ0NjkxOTUsNDU0NjE3MjkyXX0=
+eyJoaXN0b3J5IjpbLTEwNDc4NjQ0MzYsMTY0ODUzNTIxMSwtNj
+E3OTYyODAxLC0xNTE2ODA3NzcxLDE1Mzk3MjIzNTAsODgyODU5
+NzcsLTc0ODM1MTMyMiwtMTA3MDI1MDczMiwxNDY3NDIyMjc2LC
+0xNjcwMzMyNzIyLC0zNTQ0NjkxOTUsNDU0NjE3MjkyXX0=
 -->
