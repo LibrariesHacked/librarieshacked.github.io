@@ -35,7 +35,7 @@ Plymouth publish a list of services and facilities on a web page for each of the
 
 The data is then used in filters when searching for a library. For example, the user can choose to look for a library with a meeting room. Only libraries with that facility will then be displayed.
 
-<figure> <img src="https://github.com/LibrariesHacked/librarieshacked.github.io/raw/master/images/2019-08-19-plymouth-libraries-facilities.png" alt="A screenshot of a menu provided options of different facilities such as Cafe, or Scanners"/> <figcaption>Filtering Plymouth Libraries by facility type such as Cafe</figcaption> </figure>
+<figure> <img src="https://github.com/LibrariesHacked/librarieshacked.github.io/raw/master/images/2019-08-19-plymouth-libraries-facilities.png" alt="A screenshot of a menu provided options of different facilities such as Cafe, or Scanners"/> <figcaption>Filtering Plymouth Libraries by facility type such as Books for loan</figcaption> </figure>
 
 ### Events
 
@@ -78,10 +78,10 @@ It would be nice now to get this data for all libraries in the UK. More detailed
 Having more detailed 3D building models wold be good to improve the view of the library buildings. 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MTI4MjI1OTEsLTEzODYwNjEwMTIsMT
-U2Mzg0NDk3OSwtOTAwMTM1NjY4LC0zMTU4NDEzMDYsMTY0ODUz
-NTIxMSwtNjE3OTYyODAxLC0xNTE2ODA3NzcxLDE1Mzk3MjIzNT
-AsODgyODU5NzcsLTc0ODM1MTMyMiwtMTA3MDI1MDczMiwxNDY3
-NDIyMjc2LC0xNjcwMzMyNzIyLC0zNTQ0NjkxOTUsNDU0NjE3Mj
-kyXX0=
+eyJoaXN0b3J5IjpbNTQzNDgxMzQ1LC0xMzg2MDYxMDEyLDE1Nj
+M4NDQ5NzksLTkwMDEzNTY2OCwtMzE1ODQxMzA2LDE2NDg1MzUy
+MTEsLTYxNzk2MjgwMSwtMTUxNjgwNzc3MSwxNTM5NzIyMzUwLD
+g4Mjg1OTc3LC03NDgzNTEzMjIsLTEwNzAyNTA3MzIsMTQ2NzQy
+MjI3NiwtMTY3MDMzMjcyMiwtMzU0NDY5MTk1LDQ1NDYxNzI5Ml
+19
 -->
