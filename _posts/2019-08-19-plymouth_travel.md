@@ -49,7 +49,7 @@ If someone has filtered the libraries by a particular event type, the library su
 
 ### Buildings
 
-When locations are plotted on a web map some kind of icon will normally be used. Maybe a book to represent a library, or just a standard map marker. But what about showing the actual building? Libraries are physical structures and it would be nice to have some kind of representation of that when viewing them on a map.
+When locations are plotted on a web map some kind of icon will normally be used. Maybe a book to represent a library, or just a standard map pin. But what about showing the actual building? Libraries are physical structures and it would be nice to have some kind of representation of that when viewing them on a map.
 
 Emu Analytics [publish open data on the heights of buildings](https://buildingheights.emu-analytics.net/) in certain cities. This is calculated using environment agency LIDAR data. That is essentially lasers fired from above ground to map the terrain underneath.
 
@@ -73,7 +73,7 @@ The goal of this was to create something that is useful both to the library serv
 It would be nice now to get this data for all libraries in the UK. More detailed heights and building footprint data could be obtained from Ordnance Survey. Having travel distance and populations would be a 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ1MzYxNzM2OCwtOTAwMTM1NjY4LC0zMT
+eyJoaXN0b3J5IjpbMTM2NTc5NjAzOSwtOTAwMTM1NjY4LC0zMT
 U4NDEzMDYsMTY0ODUzNTIxMSwtNjE3OTYyODAxLC0xNTE2ODA3
 NzcxLDE1Mzk3MjIzNTAsODgyODU5NzcsLTc0ODM1MTMyMiwtMT
 A3MDI1MDczMiwxNDY3NDIyMjc2LC0xNjcwMzMyNzIyLC0zNTQ0
