@@ -43,8 +43,9 @@ Libraries have events in them. Plymouth ones are listed on their website, and ac
 
 Without an easy way of using this data directly, an online script runs each day, searching the website for library events and updating a data file held online. This data is then also used in the library finder. Like choosing facilities, someone can search for the nearest library offering code clubs.
 
-<figure> <img src="https://github.com/LibrariesHacked/librarieshacked.github.io/raw/master/images/2019-08-19-plymouth-libraries-events.png" alt="A screenshot of filtering a list of libraries by events offered. In this case by Adult Coding Groups."/> <figcaption>Filtering Plymouth Libraries by facility type such as Cafe</figcaption> </figure>
+<figure> <img src="https://github.com/LibrariesHacked/librarieshacked.github.io/raw/master/images/2019-08-19-plymouth-libraries-events.png" alt="A screenshot of filtering a list of libraries by events offered and displaying when the next event is"/> <figcaption>Filtering Plymouth Libraries by those offering Adult Coding Groups</figcaption> </figure>
 
+If someone has filtered the libraries by a particular event type, the library summary displayed when that event is next happening (as it would seem to be what the user is most interested in). In other situation it would display when the next event, of any type, is sch
 
 
 
@@ -74,7 +75,7 @@ The goal of this was to create something that is useful both to the library serv
 It would be nice now to get this data for all libraries in the UK. More detailed heights and building footprint data could be obtained from Ordnance Survey. Having travel distance and populations would be a 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NzM1MzYyNzMsMTY0ODUzNTIxMSwtNj
+eyJoaXN0b3J5IjpbLTE3Nzg5MTQ3NDgsMTY0ODUzNTIxMSwtNj
 E3OTYyODAxLC0xNTE2ODA3NzcxLDE1Mzk3MjIzNTAsODgyODU5
 NzcsLTc0ODM1MTMyMiwtMTA3MDI1MDczMiwxNDY3NDIyMjc2LC
 0xNjcwMzMyNzIyLC0zNTQ0NjkxOTUsNDU0NjE3MjkyXX0=
