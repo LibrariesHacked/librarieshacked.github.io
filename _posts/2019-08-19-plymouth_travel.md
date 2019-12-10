@@ -21,9 +21,11 @@ Plymouth list opening hours for each library. These can be useful in a couple of
 - The obvious one of telling people when the library is open
 - Analysing the catchment area population of the library, taking into account the time people are likely to be in the area (e.g. after work)
 
-Opening Hours are a good example of data that has often been published in ways that aren't useful. Number of hours open per week, for example, does not allow anyone any chance to do much with it.
+Opening Hours are a good example of data that has often been published in ways that aren't useful. Number of hours open per week, for example, does not allow anyone to do much with it.
 
-The library finder doesn't do anything too clever with opening hours. It shows libraries that are open at the current time, how long before they are going to close, and when the others are opening. 
+The library finder doesn't currently do anything too clever with opening hours. It shows libraries that are open at the current time, how long before they are going to close, and when the others are opening.
+
+<figure> <img src="https://github.com/LibrariesHacked/librarieshacked.github.io/raw/master/images/2019-08-19-plymouth-libraries-facilities.png" alt="A screenshot of a menu provided options of different facilities such as Cafe, or Scanners"/> <figcaption>Filtering Plymouth Libraries by facility type</figcaption> </figure>
 
 ### Facilities
 
@@ -72,8 +74,8 @@ The goal of this was to create something that is useful both to the library serv
 It would be nice now to get this data for all libraries in the UK. More detailed heights and building footprint data could be obtained from Ordnance Survey. Having travel distance and populations would be a 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzM5MjE1MzQ1LC02MTc5NjI4MDEsLTE1MT
-Y4MDc3NzEsMTUzOTcyMjM1MCw4ODI4NTk3NywtNzQ4MzUxMzIy
-LC0xMDcwMjUwNzMyLDE0Njc0MjIyNzYsLTE2NzAzMzI3MjIsLT
-M1NDQ2OTE5NSw0NTQ2MTcyOTJdfQ==
+eyJoaXN0b3J5IjpbMTY0ODUzNTIxMSwtNjE3OTYyODAxLC0xNT
+E2ODA3NzcxLDE1Mzk3MjIzNTAsODgyODU5NzcsLTc0ODM1MTMy
+MiwtMTA3MDI1MDczMiwxNDY3NDIyMjc2LC0xNjcwMzMyNzIyLC
+0zNTQ0NjkxOTUsNDU0NjE3MjkyXX0=
 -->
