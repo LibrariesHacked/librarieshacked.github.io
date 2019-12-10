@@ -6,7 +6,7 @@ categories:
 published: false
 ---
 
-One of the long-running Libraries Hacked projects is a library finder. This uses data from Plymouth Libraries on library locations to explore how these can be presented online. You can play with it and see [it in action here](https://plymouth.librarydata.uk).
+One of the long-running Libraries Hacked projects is an example library finder. This uses Plymouth library locations data ,to explore how these can be presented online. You can play with it and see [it in action here](https://plymouth.librarydata.uk).
 
 Plymouth Libraries release [various datasets about their service](https://www.plymouth.gov.uk/libraries/aboutlibraryservice/librarydata) as open data. The Council also held a library themed [DataPlay event](http://www.dataplymouth.co.uk/articles/data-play-9-itinerary), inviting the public to get involved with library data.
 
@@ -72,8 +72,8 @@ The goal of this was to create something that is useful both to the library serv
 It would be nice now to get this data for all libraries in the UK. More detailed heights and building footprint data could be obtained from Ordnance Survey. Having travel distance and populations would be a 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYxNzk2MjgwMSwtMTUxNjgwNzc3MSwxNT
-M5NzIyMzUwLDg4Mjg1OTc3LC03NDgzNTEzMjIsLTEwNzAyNTA3
-MzIsMTQ2NzQyMjI3NiwtMTY3MDMzMjcyMiwtMzU0NDY5MTk1LD
-Q1NDYxNzI5Ml19
+eyJoaXN0b3J5IjpbMzM5MjE1MzQ1LC02MTc5NjI4MDEsLTE1MT
+Y4MDc3NzEsMTUzOTcyMjM1MCw4ODI4NTk3NywtNzQ4MzUxMzIy
+LC0xMDcwMjUwNzMyLDE0Njc0MjIyNzYsLTE2NzAzMzI3MjIsLT
+M1NDQ2OTE5NSw0NTQ2MTcyOTJdfQ==
 -->
