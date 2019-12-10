@@ -3,7 +3,7 @@ title: Plymouth library finder
 categories: 
     - Plymouth
     - Library locations
-published: false
+published: true
 ---
 
 One of the long-running Libraries Hacked projects is a library finder. This uses Plymouth library locations, to explore how these can be presented online. You can play with it and see [it in action here](https://plymouth.librarydata.uk).
@@ -78,7 +78,7 @@ It would be nice to get this data for all libraries in the UK. More detailed hei
 Having more detailed 3D building models would also be good to improve the view of the library buildings.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzIwOTQ1MDMxLDgzNzkwNjk1NCwtMTM4Nj
+eyJoaXN0b3J5IjpbOTM2MDQ4NDk4LDgzNzkwNjk1NCwtMTM4Nj
 A2MTAxMiwxNTYzODQ0OTc5LC05MDAxMzU2NjgsLTMxNTg0MTMw
 NiwxNjQ4NTM1MjExLC02MTc5NjI4MDEsLTE1MTY4MDc3NzEsMT
 UzOTcyMjM1MCw4ODI4NTk3NywtNzQ4MzUxMzIyLC0xMDcwMjUw
