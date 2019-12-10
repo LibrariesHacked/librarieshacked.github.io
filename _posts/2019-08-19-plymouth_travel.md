@@ -67,16 +67,18 @@ The map has the functionality to plot isochrones around each library. An isochro
 
 The goal was to create something both useful to the library service and to the public. Library services will be able to see gaps in their provision, and the public will be able to see how long it will take to get to the library.
 
-<figure> <img src="https://github.com/LibrariesHacked/librarieshacked.github.io/raw/master/images/2019-08-19-plymouth-libraries-building.png" alt="A screenshot of a map, displayed at an angle showing the building in 3D as a cube"/> <figcaption>The map showing Devonport library building</figcaption> </figure>
+<figure> <img src="https://github.com/LibrariesHacked/librarieshacked.github.io/raw/master/images/2019-08-19-plymouth-libraries-isochrones.png" alt="A screenshot of an isochrone around a library, showing walking distances at 5 minute intervals"/> <figcaption>Walking time isochrone plotted around Crownhill Library</figcaption> </figure>
+
+
 
 ### The future
 
 It would be nice now to get this data for all libraries in the UK. More detailed heights and building footprint data could be obtained from Ordnance Survey. Having travel distance and populations would be a 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY1ODIyNjg2MywxNTYzODQ0OTc5LC05MD
-AxMzU2NjgsLTMxNTg0MTMwNiwxNjQ4NTM1MjExLC02MTc5NjI4
-MDEsLTE1MTY4MDc3NzEsMTUzOTcyMjM1MCw4ODI4NTk3NywtNz
-Q4MzUxMzIyLC0xMDcwMjUwNzMyLDE0Njc0MjIyNzYsLTE2NzAz
-MzI3MjIsLTM1NDQ2OTE5NSw0NTQ2MTcyOTJdfQ==
+eyJoaXN0b3J5IjpbMTExMjU4NjM3LDE1NjM4NDQ5NzksLTkwMD
+EzNTY2OCwtMzE1ODQxMzA2LDE2NDg1MzUyMTEsLTYxNzk2Mjgw
+MSwtMTUxNjgwNzc3MSwxNTM5NzIyMzUwLDg4Mjg1OTc3LC03ND
+gzNTEzMjIsLTEwNzAyNTA3MzIsMTQ2NzQyMjI3NiwtMTY3MDMz
+MjcyMiwtMzU0NDY5MTk1LDQ1NDYxNzI5Ml19
 -->
