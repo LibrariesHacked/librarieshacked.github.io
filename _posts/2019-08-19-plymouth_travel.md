@@ -6,13 +6,13 @@ categories:
 published: false
 ---
 
-One of the long-running Libraries Hacked projects is an example library finder. This uses Plymouth library locations data ,to explore how these can be presented online. You can play with it and see [it in action here](https://plymouth.librarydata.uk).
+One of the long-running Libraries Hacked projects is a library finder. This uses Plymouth library locations, to explore how these can be presented online. You can play with it and see [it in action here](https://plymouth.librarydata.uk).
 
 Plymouth Libraries release [various datasets about their service](https://www.plymouth.gov.uk/libraries/aboutlibraryservice/librarydata) as open data. The Council also held a library themed [DataPlay event](http://www.dataplymouth.co.uk/articles/data-play-9-itinerary), inviting the public to get involved with library data.
 
 The library locations dataset is called [Libraries in Plymouth](https://www.plymouth.gov.uk/sites/default/files/Plymouth%20library%20locations%2C%20opening%20hours%20and%20services_0.csv), and includes all libraries, with their co-ordinates.
 
-Boring names and locations of libraries? People can just look on Google! Well, hopefully there are lots more uses of location data, but before getting in to that it was worth looking at what other information was available about the libraries.
+Boring names and locations of libraries? People can just look on Google! Well, hopefully there are more uses of location data, but before getting in to that it was worth looking at what other information was available about the libraries.
 
 ### Opening hours
 
@@ -21,11 +21,11 @@ Plymouth list opening hours for each library. These can be useful in a couple of
 - The obvious one of telling people when the library is open
 - Analysing the catchment area population of the library, taking into account the time people are likely to be in the area (e.g. after work)
 
-Opening Hours are a good example of data that has often been published in ways that aren't useful. Number of hours open per week, for example, does not allow anyone to do much with it.
+Opening Hours are a good example of data that has often been published in ways that aren't useful. Number of hours open per week, for example, doesn't allow anyone to do much with it.
 
 The library finder doesn't currently do anything too clever with opening hours. It shows libraries that are open at the current time, how long before they are going to close, and when the library is next opening.
 
-<figure> <img src="https://github.com/LibrariesHacked/librarieshacked.github.io/raw/master/images/2018-12-11-plymouth-opening-hours.png" alt="A screenshot of Plymouth Central Library details showing the view of when it is going to open"/> <figcaption>Plymouth Central Library opening in an hour</figcaption> </figure>
+<figure> <img src="https://github.com/LibrariesHacked/librarieshacked.github.io/raw/master/images/2018-12-11-plymouth-opening-hours.png" alt="A screenshot of Plymouth Central Library details showing the view of when it is going to open"/> <figcaption>Plymouth Central Library when it was opening in an hour</figcaption> </figure>
 
 ### Facilities
 
@@ -78,9 +78,10 @@ It would be nice now to get this data for all libraries in the UK. More detailed
 Having more detailed 3D building models wold be good to improve the view of the library buildings. 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzODYwNjEwMTIsMTU2Mzg0NDk3OSwtOT
-AwMTM1NjY4LC0zMTU4NDEzMDYsMTY0ODUzNTIxMSwtNjE3OTYy
-ODAxLC0xNTE2ODA3NzcxLDE1Mzk3MjIzNTAsODgyODU5NzcsLT
-c0ODM1MTMyMiwtMTA3MDI1MDczMiwxNDY3NDIyMjc2LC0xNjcw
-MzMyNzIyLC0zNTQ0NjkxOTUsNDU0NjE3MjkyXX0=
+eyJoaXN0b3J5IjpbLTEwOTEzNTI2NjAsLTEzODYwNjEwMTIsMT
+U2Mzg0NDk3OSwtOTAwMTM1NjY4LC0zMTU4NDEzMDYsMTY0ODUz
+NTIxMSwtNjE3OTYyODAxLC0xNTE2ODA3NzcxLDE1Mzk3MjIzNT
+AsODgyODU5NzcsLTc0ODM1MTMyMiwtMTA3MDI1MDczMiwxNDY3
+NDIyMjc2LC0xNjcwMzMyNzIyLC0zNTQ0NjkxOTUsNDU0NjE3Mj
+kyXX0=
 -->
