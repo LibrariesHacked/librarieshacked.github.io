@@ -3,7 +3,9 @@ title: Plymouth library finder
 categories: 
     - Plymouth
     - Library locations
-published: true
+header:
+  overlay_image: /images/2019-08-19-plymouth-library-locations.png
+  overlay_filter: 0.2
 ---
 
 One of the long-running Libraries Hacked projects is a library finder. This uses Plymouth library locations, to explore how these can be presented online. You can play with it and see [it in action here](https://plymouth.librarydata.uk).
