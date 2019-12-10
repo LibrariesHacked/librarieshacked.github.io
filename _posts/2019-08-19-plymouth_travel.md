@@ -57,7 +57,7 @@ So each library is represented by a simple icon (using the library name as an in
 
 <figure> <img src="https://github.com/LibrariesHacked/librarieshacked.github.io/raw/master/images/2019-08-19-plymouth-libraries-building.png" alt="A screenshot of a map, displayed at an angle showing the building in 3D as a cube"/> <figcaption>The map showing Devonport library building</figcaption> </figure>
 
-The data only really has a simple height and building footprint. So it is not that great a representation of the building. In Devonport Library's case, the building should be roughly the same height as surrounding buildings but it is a chapel, so has a tower and spire. This has affected the height in the data. Some more information about the building is in this [blog on old churches](https://someolddevonchurches.wordpress.com/2016/09/30/st-aubyns-church-Devonport/). The prayer for the blessing of the building's new life as Devonport Library is worth a read.
+The data only really has a simple height, and footprint for each building. So it is not that great a representation of the building. In Devonport Library's case, the building should be roughly the same height as surrounding buildings but it is a chapel, so has a tower and spire. This has affected the height in the data. Some more information about the building is in this [blog on old churches](https://someolddevonchurches.wordpress.com/2016/09/30/st-aubyns-church-Devonport/). The prayer for the blessing of the building's new life as Devonport Library is worth a read.
 
 ### Travel time and population
 
@@ -78,7 +78,7 @@ It would be nice now to get this data for all libraries in the UK. More detailed
 Having more detailed 3D building models wold be good to improve the view of the library buildings. 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg5MTMxMDMwNywtMTM4NjA2MTAxMiwxNT
+eyJoaXN0b3J5IjpbLTczNDk0MzgxMywtMTM4NjA2MTAxMiwxNT
 YzODQ0OTc5LC05MDAxMzU2NjgsLTMxNTg0MTMwNiwxNjQ4NTM1
 MjExLC02MTc5NjI4MDEsLTE1MTY4MDc3NzEsMTUzOTcyMjM1MC
 w4ODI4NTk3NywtNzQ4MzUxMzIyLC0xMDcwMjUwNzMyLDE0Njc0
