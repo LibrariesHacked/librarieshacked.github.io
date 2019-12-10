@@ -4,7 +4,7 @@ categories:
     - Plymouth
     - Library locations
 header:
-  overlay_image: /images/2019-08-19-plymouth-library-locations.png
+  overlay_image: /images/2019-08-19-plymouth-libraries-locations.png
   overlay_filter: 0.2
 ---
 
