@@ -33,7 +33,7 @@ If you're searching for a library, you may have a particular task in mind. It co
 
 Plymouth publish a list of services and facilities on a web page for each of their libraries, such as [Central Library](https://www.plymouth.gov.uk/libraries/findlibraryandopeninghours/centrallibrary). Being in a nice standard format, it was possible to extract this as data.
 
-The facilities data is then used in filters when searching for a library. For example, the user can choose to look for somewhere with a meeting room. Only libraries with that facility will then be displayed.
+The data is then used in filters when searching for a library. For example, the user can choose to look for a library with a meeting room. Only libraries with that facility will then be displayed.
 
 <figure> <img src="https://github.com/LibrariesHacked/librarieshacked.github.io/raw/master/images/2019-08-19-plymouth-libraries-facilities.png" alt="A screenshot of a menu provided options of different facilities such as Cafe, or Scanners"/> <figcaption>Filtering Plymouth Libraries by facility type such as Cafe</figcaption> </figure>
 
@@ -78,7 +78,7 @@ It would be nice now to get this data for all libraries in the UK. More detailed
 Having more detailed 3D building models wold be good to improve the view of the library buildings. 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4MDA5MTI3MDEsLTEzODYwNjEwMTIsMT
+eyJoaXN0b3J5IjpbLTE2MTI4MjI1OTEsLTEzODYwNjEwMTIsMT
 U2Mzg0NDk3OSwtOTAwMTM1NjY4LC0zMTU4NDEzMDYsMTY0ODUz
 NTIxMSwtNjE3OTYyODAxLC0xNTE2ODA3NzcxLDE1Mzk3MjIzNT
 AsODgyODU5NzcsLTc0ODM1MTMyMiwtMTA3MDI1MDczMiwxNDY3
