@@ -29,11 +29,11 @@ The library finder doesn't currently do anything too clever with opening hours. 
 
 ### Facilities
 
-If you're searching for a library, you may have a particular task in mind. You want to use a computer, a printer, research local history, etc. You should expect to find books in any library, but for other things you may need to check ahead.
+If you're searching for a library, you may have a particular task in mind. It could be to use a computer, a printer, research local history, etc. You should expect to find books in any library, but for other things you may need to check ahead.
 
-Plymouth publish a list of services and facilities on the web page for each of their libraries, such as [Central Library](https://www.plymouth.gov.uk/libraries/findlibraryandopeninghours/centrallibrary). Being in a nice standard format, it was possible to convert this to data by scraping the website.
+Plymouth publish a list of services and facilities on the web page for each of their libraries, such as [Central Library](https://www.plymouth.gov.uk/libraries/findlibraryandopeninghours/centrallibrary). Being in a nice standard format, it was possible to extract this data from the website.
 
-The facilities data is used in filters when searching for a library. The user can select (for example) that they are looking for somewhere with a meeting room. Only libraries with that facility will then be displayed.
+The facilities data is then used in filters when searching for a library. For example, the user can choose to look king for somewhere with a meeting room. Only libraries with that facility will then be displayed.
 
 <figure> <img src="https://github.com/LibrariesHacked/librarieshacked.github.io/raw/master/images/2019-08-19-plymouth-libraries-facilities.png" alt="A screenshot of a menu provided options of different facilities such as Cafe, or Scanners"/> <figcaption>Filtering Plymouth Libraries by facility type</figcaption> </figure>
 
@@ -74,7 +74,7 @@ The goal of this was to create something that is useful both to the library serv
 It would be nice now to get this data for all libraries in the UK. More detailed heights and building footprint data could be obtained from Ordnance Survey. Having travel distance and populations would be a 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNDc4NjQ0MzYsMTY0ODUzNTIxMSwtNj
+eyJoaXN0b3J5IjpbLTE1NTY3MTE4MzMsMTY0ODUzNTIxMSwtNj
 E3OTYyODAxLC0xNTE2ODA3NzcxLDE1Mzk3MjIzNTAsODgyODU5
 NzcsLTc0ODM1MTMyMiwtMTA3MDI1MDczMiwxNDY3NDIyMjc2LC
 0xNjcwMzMyNzIyLC0zNTQ0NjkxOTUsNDU0NjE3MjkyXX0=
