@@ -69,16 +69,18 @@ The goal was to create something both useful to the library service and to the p
 
 <figure> <img src="https://github.com/LibrariesHacked/librarieshacked.github.io/raw/master/images/2019-08-19-plymouth-libraries-isochrones.png" alt="A screenshot of an isochrone around a library, showing walking distances at 5 minute intervals"/> <figcaption>Walking time isochrone plotted around Crownhill Library</figcaption> </figure>
 
-
+The tool also shows how many people are estimated to be within the relevant distance of the library. In the example, there are an estimated 52,770 people within 30 minutes walk of Crownhill Library.
 
 ### The future
 
-It would be nice now to get this data for all libraries in the UK. More detailed heights and building footprint data could be obtained from Ordnance Survey. Having travel distance and populations would be a 
+It would be nice now to get this data for all libraries in the UK. More detailed heights and building footprint data could be obtained from Ordnance Survey. Having travel distance and populations would be useful, and allow for cross-authority analysis of library provision.
+
+Having more detailed 3D building models
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTExMjU4NjM3LDE1NjM4NDQ5NzksLTkwMD
-EzNTY2OCwtMzE1ODQxMzA2LDE2NDg1MzUyMTEsLTYxNzk2Mjgw
-MSwtMTUxNjgwNzc3MSwxNTM5NzIyMzUwLDg4Mjg1OTc3LC03ND
-gzNTEzMjIsLTEwNzAyNTA3MzIsMTQ2NzQyMjI3NiwtMTY3MDMz
-MjcyMiwtMzU0NDY5MTk1LDQ1NDYxNzI5Ml19
+eyJoaXN0b3J5IjpbLTQwNjkyMTgzNSwxNTYzODQ0OTc5LC05MD
+AxMzU2NjgsLTMxNTg0MTMwNiwxNjQ4NTM1MjExLC02MTc5NjI4
+MDEsLTE1MTY4MDc3NzEsMTUzOTcyMjM1MCw4ODI4NTk3NywtNz
+Q4MzUxMzIyLC0xMDcwMjUwNzMyLDE0Njc0MjIyNzYsLTE2NzAz
+MzI3MjIsLTM1NDQ2OTE5NSw0NTQ2MTcyOTJdfQ==
 -->
