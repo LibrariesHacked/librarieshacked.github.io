@@ -61,9 +61,9 @@ The data only really has a simple height, and footprint for each building. So it
 
 ### Travel time and population
 
-Maps also allow for displaying additional geographic information. In the case of libraries, it's useful to see how possible it is to travel to the library by different means.
+Maps also allow for displaying additional geographic information. In the case of libraries, it's useful to see how travel times to the libraries.
 
-The map has the functionality to plot isochrones around each library. An isochrone is ["a line drawn on a map connecting points at which something occurs or arrives at the same time"](https://en.wikipedia.org/wiki/Isochrone_map). In this case we can have lines that represent 5 minute intervals around the library.
+The map has the functionality to plot isochrones around each library. An isochrone is ["a line drawn on a map connecting points at which something occurs or arrives at the same time"](https://en.wikipedia.org/wiki/Isochrone_map). In this case we can have lines that represent 5 minute intervals around the library. This is available for different travel types: walking, cycling, and driving.
 
 The goal was to create something both useful to the library service and to the public. Library services will be able to see gaps in their provision, and the public will be able to see how long it will take to get to the library.
 
@@ -78,10 +78,10 @@ It would be nice now to get this data for all libraries in the UK. More detailed
 Having more detailed 3D building models wold be good to improve the view of the library buildings. 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODM3OTA2OTU0LC0xMzg2MDYxMDEyLDE1Nj
-M4NDQ5NzksLTkwMDEzNTY2OCwtMzE1ODQxMzA2LDE2NDg1MzUy
-MTEsLTYxNzk2MjgwMSwtMTUxNjgwNzc3MSwxNTM5NzIyMzUwLD
-g4Mjg1OTc3LC03NDgzNTEzMjIsLTEwNzAyNTA3MzIsMTQ2NzQy
-MjI3NiwtMTY3MDMzMjcyMiwtMzU0NDY5MTk1LDQ1NDYxNzI5Ml
-19
+eyJoaXN0b3J5IjpbMjAxOTQ3MzU5MSw4Mzc5MDY5NTQsLTEzOD
+YwNjEwMTIsMTU2Mzg0NDk3OSwtOTAwMTM1NjY4LC0zMTU4NDEz
+MDYsMTY0ODUzNTIxMSwtNjE3OTYyODAxLC0xNTE2ODA3NzcxLD
+E1Mzk3MjIzNTAsODgyODU5NzcsLTc0ODM1MTMyMiwtMTA3MDI1
+MDczMiwxNDY3NDIyMjc2LC0xNjcwMzMyNzIyLC0zNTQ0NjkxOT
+UsNDU0NjE3MjkyXX0=
 -->
