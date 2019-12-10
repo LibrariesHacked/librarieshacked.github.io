@@ -63,8 +63,7 @@ The data only really has a simple height and building footprint. So it is not th
 
 Having things on maps allows for displaying additional geographic information. In the case of libraries, it's useful to see how possible it is to travel to the library by different means.
 
-The map has the functionality to plot isochrones around each library. An isochrone 
-
+The map has the functionality to plot isochrones around each library. An isochrone is ["a line drawn on a map connecting points at which something occurs or arrives at the same time"](https://en.wikipedia.org/wiki/Isochrone_map). In this case we can have lines that represent 5 minute intervals around the library.
 
 The goal of this was to create something that is useful both to the library service and to the public. It's a hard task to create tools that can be used both for service delivery and planning, and public information. But if possible it's an efficient use of open data. If it can be useful to everyone it will be more likely to be invested in.
 
@@ -73,9 +72,9 @@ The goal of this was to create something that is useful both to the library serv
 It would be nice now to get this data for all libraries in the UK. More detailed heights and building footprint data could be obtained from Ordnance Survey. Having travel distance and populations would be a 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU2Mzg0NDk3OSwtOTAwMTM1NjY4LC0zMT
-U4NDEzMDYsMTY0ODUzNTIxMSwtNjE3OTYyODAxLC0xNTE2ODA3
-NzcxLDE1Mzk3MjIzNTAsODgyODU5NzcsLTc0ODM1MTMyMiwtMT
-A3MDI1MDczMiwxNDY3NDIyMjc2LC0xNjcwMzMyNzIyLC0zNTQ0
-NjkxOTUsNDU0NjE3MjkyXX0=
+eyJoaXN0b3J5IjpbLTEwNDA0MTgzOTAsMTU2Mzg0NDk3OSwtOT
+AwMTM1NjY4LC0zMTU4NDEzMDYsMTY0ODUzNTIxMSwtNjE3OTYy
+ODAxLC0xNTE2ODA3NzcxLDE1Mzk3MjIzNTAsODgyODU5NzcsLT
+c0ODM1MTMyMiwtMTA3MDI1MDczMiwxNDY3NDIyMjc2LC0xNjcw
+MzMyNzIyLC0zNTQ0NjkxOTUsNDU0NjE3MjkyXX0=
 -->
