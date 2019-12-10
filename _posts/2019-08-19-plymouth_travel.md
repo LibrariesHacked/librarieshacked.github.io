@@ -45,13 +45,13 @@ An online script runs each day, searching the website for library events and upd
 
 <figure> <img src="https://github.com/LibrariesHacked/librarieshacked.github.io/raw/master/images/2019-08-19-plymouth-libraries-events.png" alt="A screenshot of filtering a list of libraries by events offered and displaying when the next event is"/> <figcaption>Filtering Plymouth Libraries by those offering Adult Coding Groups</figcaption> </figure>
 
-If someone has filtered the libraries by a particular event type, the library summary displays when that event is next happening (as it would seem to be what the user is most interested in). In other situation it would display when the next event, of any type, is scheduled.
+If someone has filtered the libraries by a particular event type, the library summary displays when that event is next happening, as it would seem to be what the user is most interested in. In other situations it would display when the next event, of any type, is scheduled.
 
 ### Buildings
 
-When locations are plotted on a web map some kind of icon will normally be used. Maybe a book to represent a library, or just a standard map pin. But what about showing the actual building? Libraries are physical structures and it would be nice to have some kind of representation of that when viewing them on a map.
+When locations are plotted on a web map some kind of icon will normally be used. Maybe a book to represent a library, or just a standard map pin. But what about showing the actual building? Libraries are physical structures and it would be nice to have some kind of representation of that when viewing them online.
 
-Emu Analytics [publish open data on the heights of buildings](https://buildingheights.emu-analytics.net/) in certain cities. This is calculated using environment agency LIDAR data. That data is essentially from lasers fired from above ground to map the terrain underneath.
+Emu Analytics [publish open data on the heights of buildings](https://buildingheights.emu-analytics.net/) in certain cities. This is calculated using environment agency LIDAR data. That data is essentially compiled from lasers fired from above ground to map the terrain underneath.
 
 So each library is represented by a simple icon (using the library name as an initial). But when zooming in closer the buildings are displayed also on the map. The particular library building is highlighted. 
 
@@ -78,10 +78,10 @@ It would be nice now to get this data for all libraries in the UK. More detailed
 Having more detailed 3D building models wold be good to improve the view of the library buildings. 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4OTMwNzY0NTIsLTEzODYwNjEwMTIsMT
-U2Mzg0NDk3OSwtOTAwMTM1NjY4LC0zMTU4NDEzMDYsMTY0ODUz
-NTIxMSwtNjE3OTYyODAxLC0xNTE2ODA3NzcxLDE1Mzk3MjIzNT
-AsODgyODU5NzcsLTc0ODM1MTMyMiwtMTA3MDI1MDczMiwxNDY3
-NDIyMjc2LC0xNjcwMzMyNzIyLC0zNTQ0NjkxOTUsNDU0NjE3Mj
-kyXX0=
+eyJoaXN0b3J5IjpbNTI2MjY4NDg4LC0xMzg2MDYxMDEyLDE1Nj
+M4NDQ5NzksLTkwMDEzNTY2OCwtMzE1ODQxMzA2LDE2NDg1MzUy
+MTEsLTYxNzk2MjgwMSwtMTUxNjgwNzc3MSwxNTM5NzIyMzUwLD
+g4Mjg1OTc3LC03NDgzNTEzMjIsLTEwNzAyNTA3MzIsMTQ2NzQy
+MjI3NiwtMTY3MDMzMjcyMiwtMzU0NDY5MTk1LDQ1NDYxNzI5Ml
+19
 -->
