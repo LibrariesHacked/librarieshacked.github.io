@@ -41,7 +41,7 @@ The data is then used in filters when searching for a library. For example, the 
 
 Libraries have events in them. Plymouth ones are listed on their website, and account for almost a third of all pages on the Council website.
 
-An online script runs each day, searching the website for library events and updating a data file held online. This data is then also used in the library finder. Like choosing facilities, someone can search for the nearest library offering code clubs.
+An online script runs each day, searching the website for library events and updating a data file held online. This data is then also used in the library finder. Like with choosing facilities, someone can search for the nearest library offering code clubs.
 
 <figure> <img src="https://github.com/LibrariesHacked/librarieshacked.github.io/raw/master/images/2019-08-19-plymouth-libraries-events.png" alt="A screenshot of filtering a list of libraries by events offered and displaying when the next event is"/> <figcaption>Filtering Plymouth Libraries by those offering Adult Coding Groups</figcaption> </figure>
 
@@ -78,7 +78,7 @@ It would be nice now to get this data for all libraries in the UK. More detailed
 Having more detailed 3D building models wold be good to improve the view of the library buildings. 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1MDQ4OTUzNzAsLTEzODYwNjEwMTIsMT
+eyJoaXN0b3J5IjpbLTE4OTMwNzY0NTIsLTEzODYwNjEwMTIsMT
 U2Mzg0NDk3OSwtOTAwMTM1NjY4LC0zMTU4NDEzMDYsMTY0ODUz
 NTIxMSwtNjE3OTYyODAxLC0xNTE2ODA3NzcxLDE1Mzk3MjIzNT
 AsODgyODU5NzcsLTc0ODM1MTMyMiwtMTA3MDI1MDczMiwxNDY3
