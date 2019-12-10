@@ -45,7 +45,7 @@ Without an easy way of using this data directly, an online script runs each day,
 
 <figure> <img src="https://github.com/LibrariesHacked/librarieshacked.github.io/raw/master/images/2019-08-19-plymouth-libraries-events.png" alt="A screenshot of filtering a list of libraries by events offered and displaying when the next event is"/> <figcaption>Filtering Plymouth Libraries by those offering Adult Coding Groups</figcaption> </figure>
 
-If someone has filtered the libraries by a particular event type, the library summary displayed when that event is next happening (as it would seem to be what the user is most interested in). In other situation it would display when the next event, of any type, is scheduled.
+If someone has filtered the libraries by a particular event type, the library summary displays when that event is next happening (as it would seem to be what the user is most interested in). In other situation it would display when the next event, of any type, is scheduled.
 
 
 
@@ -75,7 +75,7 @@ The goal of this was to create something that is useful both to the library serv
 It would be nice now to get this data for all libraries in the UK. More detailed heights and building footprint data could be obtained from Ordnance Survey. Having travel distance and populations would be a 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYxODc0NzgwMywxNjQ4NTM1MjExLC02MT
+eyJoaXN0b3J5IjpbMTk1MzExMjIwOSwxNjQ4NTM1MjExLC02MT
 c5NjI4MDEsLTE1MTY4MDc3NzEsMTUzOTcyMjM1MCw4ODI4NTk3
 NywtNzQ4MzUxMzIyLC0xMDcwMjUwNzMyLDE0Njc0MjIyNzYsLT
 E2NzAzMzI3MjIsLTM1NDQ2OTE5NSw0NTQ2MTcyOTJdfQ==
