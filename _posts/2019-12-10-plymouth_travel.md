@@ -5,10 +5,10 @@ categories:
     - Library locations
 header:
   overlay_image: /images/2019-08-19-plymouth-libraries-locations.png
-  overlay_filter: 0.6
+  overlay_filter: 0.7
 ---
 
-One of the long-running Libraries Hacked projects is a library finder. This uses Plymouth library locations, to explore how these can be presented online. You can play with it and see [it in action here](https://plymouth.librarydata.uk).
+A long-running Libraries Hacked projects is a library finder. This uses Plymouth library locations, to explore how these can be presented online. You can play with it and see [it in action here](https://plymouth.librarydata.uk).
 
 Plymouth Libraries release [various datasets about their service](https://www.plymouth.gov.uk/libraries/aboutlibraryservice/librarydata) as open data. The Council also held a library themed [DataPlay event](http://www.dataplymouth.co.uk/articles/data-play-9-itinerary), inviting the public to get involved with library data.
 
