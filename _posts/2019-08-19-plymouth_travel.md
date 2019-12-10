@@ -75,12 +75,12 @@ The tool also shows how many people are estimated to be within the relevant dist
 
 It would be nice now to get this data for all libraries in the UK. More detailed heights and building footprint data could be obtained from Ordnance Survey. Having travel distance and populations would be useful, and allow for cross-authority analysis of library provision.
 
-Having more detailed 3D building models
+Having more detailed 3D building models wold be good to improve the view of the library buildings. 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQwNjkyMTgzNSwxNTYzODQ0OTc5LC05MD
-AxMzU2NjgsLTMxNTg0MTMwNiwxNjQ4NTM1MjExLC02MTc5NjI4
-MDEsLTE1MTY4MDc3NzEsMTUzOTcyMjM1MCw4ODI4NTk3NywtNz
-Q4MzUxMzIyLC0xMDcwMjUwNzMyLDE0Njc0MjIyNzYsLTE2NzAz
-MzI3MjIsLTM1NDQ2OTE5NSw0NTQ2MTcyOTJdfQ==
+eyJoaXN0b3J5IjpbLTEzODYwNjEwMTIsMTU2Mzg0NDk3OSwtOT
+AwMTM1NjY4LC0zMTU4NDEzMDYsMTY0ODUzNTIxMSwtNjE3OTYy
+ODAxLC0xNTE2ODA3NzcxLDE1Mzk3MjIzNTAsODgyODU5NzcsLT
+c0ODM1MTMyMiwtMTA3MDI1MDczMiwxNDY3NDIyMjc2LC0xNjcw
+MzMyNzIyLC0zNTQ0NjkxOTUsNDU0NjE3MjkyXX0=
 -->
