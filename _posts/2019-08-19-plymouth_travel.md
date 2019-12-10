@@ -53,7 +53,7 @@ When locations are plotted on a web map some kind of icon will normally be used.
 
 Emu Analytics [publish open data on the heights of buildings](https://buildingheights.emu-analytics.net/) in certain cities. This is calculated using environment agency LIDAR data. That data is essentially compiled from lasers fired from above ground to map the terrain underneath.
 
-So each library is represented by a simple icon (using the library name as an initial). But when zooming in closer the buildings are displayed also on the map. The particular library building is highlighted. 
+So each library is represented by a simple icon (using the library name as an initial). But when zooming in closer the buildings are displayed also on the map. The particular library building is then highlighted. 
 
 <figure> <img src="https://github.com/LibrariesHacked/librarieshacked.github.io/raw/master/images/2019-08-19-plymouth-libraries-building.png" alt="A screenshot of a map, displayed at an angle showing the building in 3D as a cube"/> <figcaption>The map showing Devonport library building</figcaption> </figure>
 
@@ -78,10 +78,10 @@ It would be nice now to get this data for all libraries in the UK. More detailed
 Having more detailed 3D building models wold be good to improve the view of the library buildings. 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTI2MjY4NDg4LC0xMzg2MDYxMDEyLDE1Nj
-M4NDQ5NzksLTkwMDEzNTY2OCwtMzE1ODQxMzA2LDE2NDg1MzUy
-MTEsLTYxNzk2MjgwMSwtMTUxNjgwNzc3MSwxNTM5NzIyMzUwLD
-g4Mjg1OTc3LC03NDgzNTEzMjIsLTEwNzAyNTA3MzIsMTQ2NzQy
-MjI3NiwtMTY3MDMzMjcyMiwtMzU0NDY5MTk1LDQ1NDYxNzI5Ml
-19
+eyJoaXN0b3J5IjpbLTg5MTMxMDMwNywtMTM4NjA2MTAxMiwxNT
+YzODQ0OTc5LC05MDAxMzU2NjgsLTMxNTg0MTMwNiwxNjQ4NTM1
+MjExLC02MTc5NjI4MDEsLTE1MTY4MDc3NzEsMTUzOTcyMjM1MC
+w4ODI4NTk3NywtNzQ4MzUxMzIyLC0xMDcwMjUwNzMyLDE0Njc0
+MjIyNzYsLTE2NzAzMzI3MjIsLTM1NDQ2OTE5NSw0NTQ2MTcyOT
+JdfQ==
 -->
