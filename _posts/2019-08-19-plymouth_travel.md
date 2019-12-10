@@ -53,7 +53,7 @@ When locations are plotted on a web map some kind of icon will normally be used.
 
 Emu Analytics [publish open data on the heights of buildings](https://buildingheights.emu-analytics.net/) in certain cities. This is calculated using environment agency LIDAR data. That data is essentially from lasers fired from above ground to map the terrain underneath.
 
-So each library is represented by a simple icon (using the library name as an initial). But when zooming in closer the buildings are displayed also on the map. The particular building the library is in is highlighted. 
+So each library is represented by a simple icon (using the library name as an initial). But when zooming in closer the buildings are displayed also on the map. The particular library building is highlighted. 
 
 <figure> <img src="https://github.com/LibrariesHacked/librarieshacked.github.io/raw/master/images/2019-08-19-plymouth-libraries-building.png" alt="A screenshot of a map, displayed at an angle showing the building in 3D as a cube"/> <figcaption>The map showing Devonport library building</figcaption> </figure>
 
@@ -73,7 +73,7 @@ The goal of this was to create something that is useful both to the library serv
 It would be nice now to get this data for all libraries in the UK. More detailed heights and building footprint data could be obtained from Ordnance Survey. Having travel distance and populations would be a 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA1MzI0NDY1NywtOTAwMTM1NjY4LC0zMT
+eyJoaXN0b3J5IjpbMjAwMTA2NjY0MywtOTAwMTM1NjY4LC0zMT
 U4NDEzMDYsMTY0ODUzNTIxMSwtNjE3OTYyODAxLC0xNTE2ODA3
 NzcxLDE1Mzk3MjIzNTAsODgyODU5NzcsLTc0ODM1MTMyMiwtMT
 A3MDI1MDczMiwxNDY3NDIyMjc2LC0xNjcwMzMyNzIyLC0zNTQ0
