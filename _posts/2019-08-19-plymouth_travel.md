@@ -65,16 +65,18 @@ Having things on maps allows for displaying additional geographic information. I
 
 The map has the functionality to plot isochrones around each library. An isochrone is ["a line drawn on a map connecting points at which something occurs or arrives at the same time"](https://en.wikipedia.org/wiki/Isochrone_map). In this case we can have lines that represent 5 minute intervals around the library.
 
-The goal of this was to create something that is useful both to the library service and to the public. It's a hard task to create tools that can be used both for service delivery and planning, and public information. But if possible it's an efficient use of open data. If it can be useful to everyone it will be more likely to be invested in.
+The goal was to create something both useful to the library service and to the public. Library services will be able to see gaps in their provision, and the public will be able to see how long it will take to get to the library.
+
+<figure> <img src="https://github.com/LibrariesHacked/librarieshacked.github.io/raw/master/images/2019-08-19-plymouth-libraries-building.png" alt="A screenshot of a map, displayed at an angle showing the building in 3D as a cube"/> <figcaption>The map showing Devonport library building</figcaption> </figure>
 
 ### The future
 
 It would be nice now to get this data for all libraries in the UK. More detailed heights and building footprint data could be obtained from Ordnance Survey. Having travel distance and populations would be a 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNDA0MTgzOTAsMTU2Mzg0NDk3OSwtOT
-AwMTM1NjY4LC0zMTU4NDEzMDYsMTY0ODUzNTIxMSwtNjE3OTYy
-ODAxLC0xNTE2ODA3NzcxLDE1Mzk3MjIzNTAsODgyODU5NzcsLT
-c0ODM1MTMyMiwtMTA3MDI1MDczMiwxNDY3NDIyMjc2LC0xNjcw
-MzMyNzIyLC0zNTQ0NjkxOTUsNDU0NjE3MjkyXX0=
+eyJoaXN0b3J5IjpbMTY1ODIyNjg2MywxNTYzODQ0OTc5LC05MD
+AxMzU2NjgsLTMxNTg0MTMwNiwxNjQ4NTM1MjExLC02MTc5NjI4
+MDEsLTE1MTY4MDc3NzEsMTUzOTcyMjM1MCw4ODI4NTk3NywtNz
+Q4MzUxMzIyLC0xMDcwMjUwNzMyLDE0Njc0MjIyNzYsLTE2NzAz
+MzI3MjIsLTM1NDQ2OTE5NSw0NTQ2MTcyOTJdfQ==
 -->
