@@ -57,7 +57,7 @@ So each library is represented by a simple icon (using the library name as an in
 
 <figure> <img src="https://github.com/LibrariesHacked/librarieshacked.github.io/raw/master/images/2019-08-19-plymouth-libraries-building.png" alt="A screenshot of a map, displayed at an angle showing the building in 3D as a cube"/> <figcaption>The map showing Devonport library building</figcaption> </figure>
 
-The data only really has a simple height and building footprint. So it is not that great a representation of the building. In Devonport Library's case the building is roughly the same height as surrounding buildings but it is a chapel, so has a tower and spire. This has affected the height in the data. Some more information about the building is recommended in this [blog on old churches](https://someolddevonchurches.wordpress.com/2016/09/30/st-aubyns-church-Devonport/). The prayer for the building 
+The data only really has a simple height and building footprint. So it is not that great a representation of the building. In Devonport Library's case the building is roughly the same height as surrounding buildings but it is a chapel, so has a tower and spire. This has affected the height in the data. Some more information about the building is in this [blog on old churches](https://someolddevonchurches.wordpress.com/2016/09/30/st-aubyns-church-Devonport/). The prayer for the blessing of the building's new life as Devonport Library is worth a read.
 
 ### Travel time and population
 
@@ -73,7 +73,7 @@ The goal of this was to create something that is useful both to the library serv
 It would be nice now to get this data for all libraries in the UK. More detailed heights and building footprint data could be obtained from Ordnance Survey. Having travel distance and populations would be a 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIyMjA1MjY0MywtOTAwMTM1NjY4LC0zMT
+eyJoaXN0b3J5IjpbLTQ1MzYxNzM2OCwtOTAwMTM1NjY4LC0zMT
 U4NDEzMDYsMTY0ODUzNTIxMSwtNjE3OTYyODAxLC0xNTE2ODA3
 NzcxLDE1Mzk3MjIzNTAsODgyODU5NzcsLTc0ODM1MTMyMiwtMT
 A3MDI1MDczMiwxNDY3NDIyMjc2LC0xNjcwMzMyNzIyLC0zNTQ0
