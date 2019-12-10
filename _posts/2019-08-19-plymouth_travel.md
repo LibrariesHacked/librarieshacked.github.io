@@ -61,7 +61,7 @@ The data only really has a simple height, and footprint for each building. So it
 
 ### Travel time and population
 
-Having things on maps allows for displaying additional geographic information. In the case of libraries, it's useful to see how possible it is to travel to the library by different means.
+Maps also allow for displaying additional geographic information. In the case of libraries, it's useful to see how possible it is to travel to the library by different means.
 
 The map has the functionality to plot isochrones around each library. An isochrone is ["a line drawn on a map connecting points at which something occurs or arrives at the same time"](https://en.wikipedia.org/wiki/Isochrone_map). In this case we can have lines that represent 5 minute intervals around the library.
 
@@ -78,10 +78,10 @@ It would be nice now to get this data for all libraries in the UK. More detailed
 Having more detailed 3D building models wold be good to improve the view of the library buildings. 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAwNzE3ODMyMSwtMTM4NjA2MTAxMiwxNT
-YzODQ0OTc5LC05MDAxMzU2NjgsLTMxNTg0MTMwNiwxNjQ4NTM1
-MjExLC02MTc5NjI4MDEsLTE1MTY4MDc3NzEsMTUzOTcyMjM1MC
-w4ODI4NTk3NywtNzQ4MzUxMzIyLC0xMDcwMjUwNzMyLDE0Njc0
-MjIyNzYsLTE2NzAzMzI3MjIsLTM1NDQ2OTE5NSw0NTQ2MTcyOT
-JdfQ==
+eyJoaXN0b3J5IjpbODM3OTA2OTU0LC0xMzg2MDYxMDEyLDE1Nj
+M4NDQ5NzksLTkwMDEzNTY2OCwtMzE1ODQxMzA2LDE2NDg1MzUy
+MTEsLTYxNzk2MjgwMSwtMTUxNjgwNzc3MSwxNTM5NzIyMzUwLD
+g4Mjg1OTc3LC03NDgzNTEzMjIsLTEwNzAyNTA3MzIsMTQ2NzQy
+MjI3NiwtMTY3MDMzMjcyMiwtMzU0NDY5MTk1LDQ1NDYxNzI5Ml
+19
 -->
