@@ -57,7 +57,7 @@ So each library is represented by a simple icon (using the library name as an in
 
 <figure> <img src="https://github.com/LibrariesHacked/librarieshacked.github.io/raw/master/images/2019-08-19-plymouth-libraries-building.png" alt="A screenshot of a map, displayed at an angle showing the building in 3D as a cube"/> <figcaption>The map showing Devonport library building</figcaption> </figure>
 
-The data only really has a simple height and building footprint. So it is notv
+The data only really has a simple height and building footprint. So it is not that great a representation of the building. In Devonport's case the building is roughly the same height as surrounding buildings but it has a 
 
 ### Travel time and population
 
@@ -73,8 +73,9 @@ The goal of this was to create something that is useful both to the library serv
 It would be nice now to get this data for all libraries in the UK. More detailed heights and building footprint data could be obtained from Ordnance Survey. Having travel distance and populations would be a 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMxNTg0MTMwNiwxNjQ4NTM1MjExLC02MT
-c5NjI4MDEsLTE1MTY4MDc3NzEsMTUzOTcyMjM1MCw4ODI4NTk3
-NywtNzQ4MzUxMzIyLC0xMDcwMjUwNzMyLDE0Njc0MjIyNzYsLT
-E2NzAzMzI3MjIsLTM1NDQ2OTE5NSw0NTQ2MTcyOTJdfQ==
+eyJoaXN0b3J5IjpbMTY2NTk5MDg0MSwtMzE1ODQxMzA2LDE2ND
+g1MzUyMTEsLTYxNzk2MjgwMSwtMTUxNjgwNzc3MSwxNTM5NzIy
+MzUwLDg4Mjg1OTc3LC03NDgzNTEzMjIsLTEwNzAyNTA3MzIsMT
+Q2NzQyMjI3NiwtMTY3MDMzMjcyMiwtMzU0NDY5MTk1LDQ1NDYx
+NzI5Ml19
 -->
