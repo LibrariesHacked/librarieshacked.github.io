@@ -51,11 +51,13 @@ If someone has filtered the libraries by a particular event type, the library su
 
 When locations are plotted on a web map some kind of icon will normally be used. Maybe a book to represent a library, or just a standard map marker. But what about showing the actual building? Libraries are physical structures and it would be nice to have some kind of representation of that when viewing them on a map.
 
-Emu Analytics [publish open data on the heights of buildings](https://buildingheights.emu-analytics.net/) in certain cities. This is calculated using environment agency LIDAR data. That is essentially lasers fired from above ground to map the terrain underneath
+Emu Analytics [publish open data on the heights of buildings](https://buildingheights.emu-analytics.net/) in certain cities. This is calculated using environment agency LIDAR data. That is essentially lasers fired from above ground to map the terrain underneath.
 
-So each library is represented by a simple icon (using the library name as an initial). But when zooming in closer the buildings are displayed on the map. These 
+So each library is represented by a simple icon (using the library name as an initial). But when zooming in closer the buildings are displayed also on the map. The particular building the library is in is highlighted. 
 
 <figure> <img src="https://github.com/LibrariesHacked/librarieshacked.github.io/raw/master/images/2019-08-19-plymouth-libraries-building.png" alt="A screenshot of a map, displayed at an angle showing the building in 3D as a cube"/> <figcaption>The map showing Devonport library building</figcaption> </figure>
+
+The data only really has a simple height and building footprint. So it is notv
 
 ### Travel time and population
 
@@ -71,8 +73,8 @@ The goal of this was to create something that is useful both to the library serv
 It would be nice now to get this data for all libraries in the UK. More detailed heights and building footprint data could be obtained from Ordnance Survey. Having travel distance and populations would be a 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNzQwMjgyODQsMTY0ODUzNTIxMSwtNj
-E3OTYyODAxLC0xNTE2ODA3NzcxLDE1Mzk3MjIzNTAsODgyODU5
-NzcsLTc0ODM1MTMyMiwtMTA3MDI1MDczMiwxNDY3NDIyMjc2LC
-0xNjcwMzMyNzIyLC0zNTQ0NjkxOTUsNDU0NjE3MjkyXX0=
+eyJoaXN0b3J5IjpbLTMxNTg0MTMwNiwxNjQ4NTM1MjExLC02MT
+c5NjI4MDEsLTE1MTY4MDc3NzEsMTUzOTcyMjM1MCw4ODI4NTk3
+NywtNzQ4MzUxMzIyLC0xMDcwMjUwNzMyLDE0Njc0MjIyNzYsLT
+E2NzAzMzI3MjIsLTM1NDQ2OTE5NSw0NTQ2MTcyOTJdfQ==
 -->
