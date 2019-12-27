@@ -7,11 +7,13 @@ published: false
 ### 1. More fine-free libraries
 To be fair to Scotland, they've had loads of fine-free libraries for ages. 
 
-But generally in the UK this is a phenomenon  of the past couple of years. In 2019 Bath and North East Somerset, 
-
-The only barrier to becoming fine 
+But generally in the UK this is a phenomenon  of the past couple of years.
 
 ### 2. Open data standards
+
+There are a few library services publishing open data about themselves: Plymouth, Newcastle, Leeds, Calderdale. These will grow as library services catch up with other services in local government.
+
+
 
 ### 3. Hackathons
 
@@ -30,5 +32,5 @@ The only barrier to becoming fine
 ### 10. Digital declaration
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTE2MDMxNDkzLDQ1MzM2NTM0N119
+eyJoaXN0b3J5IjpbLTg3MzEyODAzMSw0NTMzNjUzNDddfQ==
 -->
