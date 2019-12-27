@@ -18,6 +18,8 @@ But the next step is to lead in creating standards for open data. Making data ex
 
 ### 3. Hackathons
 
+There are a few hackathons coming up in early 2020 that could be of interest to public libraries.
+
 ### 4. Making use of open source
 
 ### 5. Software written by libraries for libraries
@@ -33,5 +35,5 @@ But the next step is to lead in creating standards for open data. Making data ex
 ### 10. Digital declaration
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0ODc3OTg5NDgsNDUzMzY1MzQ3XX0=
+eyJoaXN0b3J5IjpbMTU4MTk3MjUzNiw0NTMzNjUzNDddfQ==
 -->
