@@ -5,6 +5,7 @@ published: false
 ---
 
 ### 1. More fine-free libraries
+
 To be fair to Scotland, they've had loads of fine-free libraries for ages. 
 
 But generally in the UK this is a phenomenon  of the past couple of years.
@@ -32,5 +33,5 @@ But the next step is to lead in creating standards for open data. Making data ex
 ### 10. Digital declaration
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY5NDE1MzcwLDQ1MzM2NTM0N119
+eyJoaXN0b3J5IjpbLTE0ODc3OTg5NDgsNDUzMzY1MzQ3XX0=
 -->
