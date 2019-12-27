@@ -1,6 +1,6 @@
 --- 
 title: New year wishes 
-excerpt: Wishes for 2020 in public libraries 
+excerpt: Wishes for public libraries in 2020
 published: false
 ---
 
@@ -25,5 +25,5 @@ published: false
 ### 10. Digital declaration
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU2MTc0NjI1N119
+eyJoaXN0b3J5IjpbNDUzMzY1MzQ3XX0=
 -->
