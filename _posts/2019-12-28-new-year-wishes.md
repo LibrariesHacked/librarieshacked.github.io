@@ -1,7 +1,7 @@
 --- 
 title: New year wishes 
 excerpt: Wishes for 2020 in public libraries 
-published: true 
+published: false
 ---
 
 ### 1. More fine-free libraries
@@ -25,5 +25,5 @@ published: true
 ### 10. Digital declaration
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQwOTk5ODIwOF19
+eyJoaXN0b3J5IjpbMTU2MTc0NjI1N119
 -->
