@@ -11,9 +11,9 @@ But generally in the UK this is a phenomenon  of the past couple of years.
 
 ### 2. Open data standards
 
-There are a few library services publishing open data about themselves: Plymouth, Newcastle, Leeds, Calderdale. These will grow as library services catch up with other services in local government.
+There are a few library services publishing open data about themselves: Plymouth, Newcastle, Leeds, Calderdale. These will grow as library services try to catch up with other services in local government.
 
-
+But the next step is to lead in creating standards for open data. Making data extracts that are as useful as possible, and that are the same as other services.
 
 ### 3. Hackathons
 
@@ -32,5 +32,5 @@ There are a few library services publishing open data about themselves: Plymouth
 ### 10. Digital declaration
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg3MzEyODAzMSw0NTMzNjUzNDddfQ==
+eyJoaXN0b3J5IjpbMTY5NDE1MzcwLDQ1MzM2NTM0N119
 -->
