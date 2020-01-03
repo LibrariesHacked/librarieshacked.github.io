@@ -1,0 +1,94 @@
+---
+title: LSOAs and postcodes
+categories: 
+    - Mapping
+    - Deprivation
+    - Membership
+published: false
+---
+
+Over the past few months, a number of public library staff have been working on a [library open data schema](https://schema.librarydata.uk). One of the datasets defined is a report on library membership.
+
+There are many aspects of membership to be considered.
+
+- What constitutes active membership?
+- What kinds of activity in libraries require membership?
+- Should we be reducing the number of activities requiring membership?
+
+Regardless of definitions of membership, what date would be useful membership? Useful for the library service that is, not necessarily for national evaluation or comparison.
+
+Simple counts of membership, across a local authority are not useful. It may go up or down, but that could reflect the changing services people use. It may be widely different between services, but that could be down to different definitions of membership.
+
+
+
+What IS genuinely useful is knowing where in your authority you have the most or least members. That could of course still reflect some of those issues mentioned above.
+
+
+
+#### Being careful
+
+There are good arguments that it is very difficult to genuinely anonymise data. Even aggregating data using statistical areas has it's dangers. But measures can be put in place
+
+##### Don't report low numbers
+
+
+##### Don't forget people not represented
+
+What about those people who don't have an address. This [Manchester scheme](https://www.bbc.co.uk/news/uk-england-manchester-41775445) provides a means for 
+
+
+
+
+##### Consider high numbers too
+
+
+##### Don't add extra data
+
+Having suppressed 
+
+You also need to be careful about releasing any other data that could be cross-referenced with this data.
+
+Let's say you also released
+
+
+Despite these cautions it is possible to release sensible and useful library data. If anything, the opportunity to 
+
+#### How to do it
+
+OK, so the actual process of converting from postcodes to LSOAs isn't too complicated.
+
+* The ONS publish every quarter a list 
+
+But like with many data tasks, there are complexities
+
+* The ONS conversion file is 
+
+
+#### What we need
+
+It would be idea to have a simple process for this:
+
+1. Upload a file of postcodes to an online service
+2. Download a converted file of LSOAs.
+
+That would be lovely. In fact the ONS provide something of the sort.
+
+There are a couple of issues with it:
+
+1. It does not 
+2. 
+
+
+
+#### Process
+
+1. Convert a list of postcodes to a list of postcode sectors.
+2. Submit a request online to retrieve all the LSOAs and postcodes there are for those postcode sectors
+3. Convert the original list of postcodes to a list of LSOAs
+4. Count how many people are in each LSOA
+5. Ouput spreadsheet
+
+#### Fake data
+
+To test this process we need some fake data.
+
