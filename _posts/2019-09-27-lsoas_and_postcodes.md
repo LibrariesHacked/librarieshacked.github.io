@@ -14,7 +14,7 @@ But there are complications in even thinking about library membership.
 - Is this all members or just 'active' members. 
 - What does active membership mean?
 - What activities in libraries require membership?
-- Should we be reducing the number of activities requiring membership?
+- Should we be reducing the number of activities that require membership?
 
 Even after considering that, what data about membership would be useful for the library service?
 
@@ -94,6 +94,6 @@ There are a couple of issues with it:
 To test this process we need some fake data.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjkxNTg4MDM5LC03NDY1MTUzODksLTQxMT
-A1NTc2Ml19
+eyJoaXN0b3J5IjpbMTc1NTY3ODk4MSwtNzQ2NTE1Mzg5LC00MT
+EwNTU3NjJdfQ==
 -->
