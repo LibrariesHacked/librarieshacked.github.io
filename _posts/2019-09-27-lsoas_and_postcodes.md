@@ -11,8 +11,9 @@ Over the past few months, public library staff have been collaborating on a [lib
 
 But there are complications in even thinking about library membership.
 
+- Is this all members or just 'active' members. 
 - What constitutes active membership?
-- What kinds of activity in libraries require membership?
+- What activities in libraries require membership?
 - Should we be reducing the number of activities requiring membership?
 
 Regardless of definitions of membership, what date would be useful membership? Useful for the library service that is, not necessarily for national evaluation or comparison.
@@ -93,5 +94,5 @@ There are a couple of issues with it:
 To test this process we need some fake data.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NDE4OTMzMTIsLTQxMTA1NTc2Ml19
+eyJoaXN0b3J5IjpbLTc0NjUxNTM4OSwtNDExMDU1NzYyXX0=
 -->
