@@ -26,9 +26,12 @@ Data that is genuinely useful is knowing where in your authority you have the mo
 - Proximity to library and mobile library services
 - Availability of transport such as number of households with a car or public transport options
 
-## The data schema
+## The data schema and LSOAs
 
-The data schema for membership is detailed on a [separate schema website](https://schema.librarydata.uk/membership). A sample record using the schema could look as follows
+
+
+The data schema for membership is detailed on a [separate schema website](https://schema.librarydata.uk/membership). A sample record using the schema is shown below.
+
 
 
 
@@ -101,6 +104,6 @@ There are a couple of issues with it:
 To test this process we need some fake data.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExODAwMzQ5NzUsMTc1NTY3ODk4MSwtNz
-Q2NTE1Mzg5LC00MTEwNTU3NjJdfQ==
+eyJoaXN0b3J5IjpbMTIyNzg1MjEzOCwtMTE4MDAzNDk3NSwxNz
+U1Njc4OTgxLC03NDY1MTUzODksLTQxMTA1NTc2Ml19
 -->
