@@ -22,9 +22,11 @@ Just having counts of membership, active or otherwise, are not useful. They may 
 
 Data that is genuinely useful is knowing where in your authority you have the most or least members. Those differences could be for a variety of reasons:
 
-- Income and other levels in different areas
+- Income and other deprivation measures in different areas
 - Proximity to library and mobile library services
-- 
+- Availability of transport such as number of households with a car or public transport options
+
+
 
 
 
@@ -96,6 +98,6 @@ There are a couple of issues with it:
 To test this process we need some fake data.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NjA1NDAxMzUsMTc1NTY3ODk4MSwtNz
+eyJoaXN0b3J5IjpbLTIwMDQ3NDcyMjIsMTc1NTY3ODk4MSwtNz
 Q2NTE1Mzg5LC00MTEwNTU3NjJdfQ==
 -->
