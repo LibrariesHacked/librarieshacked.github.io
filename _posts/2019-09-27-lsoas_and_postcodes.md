@@ -20,7 +20,11 @@ Even after considering that, what data about membership would be useful for the 
 
 Just having counts of membership, active or otherwise, are not useful. They may go up or down, but that could reflect the changing services people use. It may be interesting to compare between library services, but any differences could be from different definitions of membership.
 
-What IS genuinely useful is knowing where in your authority you have the most or least members. That could of course still reflect some of those issues mentioned above.
+Data that is genuinely useful is knowing where in your authority you have the most or least members. Those differences could be for a variety of reasons:
+
+- Income and other levels in different areas
+- Proximity to library and mobile library services
+- 
 
 
 
@@ -92,6 +96,6 @@ There are a couple of issues with it:
 To test this process we need some fake data.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMDIxNTc3NzcsMTc1NTY3ODk4MSwtNz
+eyJoaXN0b3J5IjpbLTE0NjA1NDAxMzUsMTc1NTY3ODk4MSwtNz
 Q2NTE1Mzg5LC00MTEwNTU3NjJdfQ==
 -->
