@@ -9,7 +9,7 @@ published: false
 
 Over the past few months, public library staff have been collaborating on a [library open data schema](https://schema.librarydata.uk). This includes datasets about libraries that could be standardised and published as open data across all library services. One of the datasets is a report on library membership.
 
-There are many aspects of membership to be considered.
+But there are complications in even thinking about library membership.
 
 - What constitutes active membership?
 - What kinds of activity in libraries require membership?
@@ -93,5 +93,5 @@ There are a couple of issues with it:
 To test this process we need some fake data.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQxMTA1NTc2Ml19
+eyJoaXN0b3J5IjpbLTE0NDE4OTMzMTIsLTQxMTA1NTc2Ml19
 -->
