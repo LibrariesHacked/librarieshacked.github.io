@@ -18,7 +18,7 @@ But there are complications in even thinking about library membership.
 
 Even after considering that, what data about membership would be useful for the library service?
 
-Simple counts of membership, across a local authority are not useful. It may go up or down, but that could reflect the changing services people use. It may be widely different between services, but that could be down to different definitions of membership.
+Simple counts of membership, active or otherwise, across a local authority are not useful. They may go up or down, but that could reflect the changing services people use. It may be interesting to compare between services but any differences could be from different definitions of membership.
 
 
 
@@ -94,6 +94,6 @@ There are a couple of issues with it:
 To test this process we need some fake data.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc2MDg3NTgwMCwtNzQ2NTE1Mzg5LC00MT
-EwNTU3NjJdfQ==
+eyJoaXN0b3J5IjpbNjkxNTg4MDM5LC03NDY1MTUzODksLTQxMT
+A1NTc2Ml19
 -->
