@@ -28,7 +28,10 @@ Data that is genuinely useful is knowing where in your authority you have the mo
 
 ## The data schema
 
-The data schema for membership is detailed on a separate schema website(https://schema.librarydata.uk/membership)
+The data schema for membership is detailed on a [separate schema website](https://schema.librarydata.uk/membership). A sample record using the schema could look as follows
+
+
+
 
 #### Being careful
 
@@ -98,6 +101,6 @@ There are a couple of issues with it:
 To test this process we need some fake data.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMzkyMjk3MDMsMTc1NTY3ODk4MSwtNz
+eyJoaXN0b3J5IjpbLTExODAwMzQ5NzUsMTc1NTY3ODk4MSwtNz
 Q2NTE1Mzg5LC00MTEwNTU3NjJdfQ==
 -->
