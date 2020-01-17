@@ -28,6 +28,8 @@ Data that is genuinely useful is knowing where in your authority you have the mo
 
 ## The data schema and LSOAs
 
+If some detailed aspect of each members location would be useful, what should be published?
+
 
 
 The data schema for membership is detailed on a [separate schema website](https://schema.librarydata.uk/membership). A sample record using the schema is shown below.
@@ -104,6 +106,6 @@ There are a couple of issues with it:
 To test this process we need some fake data.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIyNzg1MjEzOCwtMTE4MDAzNDk3NSwxNz
+eyJoaXN0b3J5IjpbMjA3NzAyMDM3OCwtMTE4MDAzNDk3NSwxNz
 U1Njc4OTgxLC03NDY1MTUzODksLTQxMTA1NTc2Ml19
 -->
