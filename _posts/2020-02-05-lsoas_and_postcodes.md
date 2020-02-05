@@ -29,7 +29,7 @@ An obvious way of monitoring membership beyond just overall counts is recording 
 
 A better option is to use data sources that are more comprehensive. Census data, and other national statistics, which will provide detailed indicators about the population that live in different areas of an authority.
 
-It is an unfortunate situation that geographic location is such an indicator 
+It is an unfortunate situation that geographic location is such an indicator of things such as health, income, education, but it is the case. It isn't an exact science but as libraries will generally hold data on the home location of their members, they ca
 
 #### Lower super output areas (LSOAs)
 
@@ -115,7 +115,7 @@ There are a couple of issues with it:
 To test this process we need some fake data.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjc2NzYxNDE1LC0xNjg4NDE5MzUwLC01MD
-E1NDI2OTksLTEzODM4MTk4MzEsMjEzOTY0NDYzOSwtODAzOTYz
-MzQ1LC0xNTAyNjgzOTY2LC0xNjAzNzY0NzE2XX0=
+eyJoaXN0b3J5IjpbNzg3NjUxMzgsLTE2ODg0MTkzNTAsLTUwMT
+U0MjY5OSwtMTM4MzgxOTgzMSwyMTM5NjQ0NjM5LC04MDM5NjMz
+NDUsLTE1MDI2ODM5NjYsLTE2MDM3NjQ3MTZdfQ==
 -->
