@@ -27,6 +27,8 @@ One responsibility that library services have is to provide library services for
 
 An obvious way of monitoring membership beyond just overall counts is recording demographics such as age, religion, or disabilities. But aside from age, which is often compulsory to provide, this data tends to be patchy at best.
 
+A better option is to use data sources that are more comprehensive. Census data, and other national statistics, which will provide. It is an unfortunate situation that geographic location is such an indicator 
+
 #### Lower super output areas (LSOAs)
 
 If some detailed aspect of each members location would be useful, what should be published?
@@ -118,7 +120,7 @@ There are a couple of issues with it:
 To test this process we need some fake data.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQxMjc2NzA1MiwtNTAxNTQyNjk5LC0xMz
+eyJoaXN0b3J5IjpbLTI3NTU5MjcwOCwtNTAxNTQyNjk5LC0xMz
 gzODE5ODMxLDIxMzk2NDQ2MzksLTgwMzk2MzM0NSwtMTUwMjY4
 Mzk2NiwtMTYwMzc2NDcxNl19
 -->
