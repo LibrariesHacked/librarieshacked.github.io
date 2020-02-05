@@ -25,13 +25,7 @@ Useful data needs to be able to inform actions and policies. You look at the dat
 
 One responsibility that library services have, and need good data for, is the requirement to provide library services for everyone.
 
-Data that is genuinely useful is knowing where in your authority you have the most or least members. Those differences could be for a variety of reasons:
-
-- Income and other deprivation measures in different areas
-- Proximity to library and mobile library services
-- Availability of transport such as number of households with a car or public transport options
-
-### Lower super output areas (LSOAs)
+#### Lower super output areas (LSOAs)
 
 If some detailed aspect of each members location would be useful, what should be published?
 
@@ -122,6 +116,6 @@ There are a couple of issues with it:
 To test this process we need some fake data.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkwNzE0MTQ1NywyMTM5NjQ0NjM5LC04MD
-M5NjMzNDUsLTE1MDI2ODM5NjYsLTE2MDM3NjQ3MTZdfQ==
+eyJoaXN0b3J5IjpbLTEzODM4MTk4MzEsMjEzOTY0NDYzOSwtOD
+AzOTYzMzQ1LC0xNTAyNjgzOTY2LC0xNjAzNzY0NzE2XX0=
 -->
