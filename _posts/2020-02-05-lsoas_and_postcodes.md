@@ -17,7 +17,7 @@ There are many complications in thinking about library membership.
 - Should we be reducing the number of activities that require membership, such as WiFi usage?
 - With many different policies in this area, is it possible to compare membership between different library services?
 
-Before trying to answer those questions, what data about membership would actually be useful for the library service?
+Before trying to answer those questions, what data about membership would be actually useful for the library service?
 
 Just having counts of membership, active or otherwise, are not useful. They may go up or down, but that could reflect the changing services people use. It may be interesting to compare between library services, but any differences could be from different definitions of membership.
 
@@ -118,6 +118,6 @@ There are a couple of issues with it:
 To test this process we need some fake data.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM5NDA1NDY1NSwtMTUwMjY4Mzk2NiwtMT
-YwMzc2NDcxNl19
+eyJoaXN0b3J5IjpbLTE3OTM5MjQxMTEsLTE1MDI2ODM5NjYsLT
+E2MDM3NjQ3MTZdfQ==
 -->
