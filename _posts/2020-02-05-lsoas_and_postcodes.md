@@ -21,7 +21,7 @@ Before trying to answer those questions, what data about membership would be use
 
 Counts of membership, active or otherwise, are not useful. They may go up or down, but that can reflect the changing activities people use the library for. It may seem interesting to compare counts between library services, but it's not operationally useful. Such differences could be from different definitions of membership, or just unavoidable geographic or socioeconomic factors within the relevant authorities.
 
-Data that is useful needs to be able to inform actions and policies. You look at the data one day and do things differently the next. Look at the new data the day after, and so on. Having common standards for data between authorities may provide some use in comparing them, but primarily it provides the opportunity for sharing practice and tools in using that data.
+Useful data needs to be able to inform actions and policies. You look at the data one day and do things differently the next. Look at the new data the day after, and so on. Having common standards for data between authorities may provide some use in comparing them, but primarily it provides the opportunity for sharing practice and tools in using that data.
 
 Data that is genuinely useful is knowing where in your authority you have the most or least members. Those differences could be for a variety of reasons:
 
@@ -120,6 +120,6 @@ There are a couple of issues with it:
 To test this process we need some fake data.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTQ0ODU5NTYsMjEzOTY0NDYzOSwtODAzOT
-YzMzQ1LC0xNTAyNjgzOTY2LC0xNjAzNzY0NzE2XX0=
+eyJoaXN0b3J5IjpbMTQ4OTAwMDMwMywyMTM5NjQ0NjM5LC04MD
+M5NjMzNDUsLTE1MDI2ODM5NjYsLTE2MDM3NjQ3MTZdfQ==
 -->
