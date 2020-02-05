@@ -27,7 +27,9 @@ One responsibility that library services have is to provide library services for
 
 An obvious way of monitoring membership beyond just overall counts is recording demographics such as age, religion, or disabilities. But aside from age, which is often compulsory to provide, this data tends to be patchy at best. And library services has a healthy aversion to collecting more information than they strictly need.
 
-A better option is to use data sources that are more comprehensive. Census data, and other national statistics, which will provide. It is an unfortunate situation that geographic location is such an indicator 
+A better option is to use data sources that are more comprehensive. Census data, and other national statistics, which will provide detailed indicators about the population that live in different areas of an authority.
+
+It is an unfortunate situation that geographic location is such an indicator 
 
 #### Lower super output areas (LSOAs)
 
@@ -120,7 +122,7 @@ There are a couple of issues with it:
 To test this process we need some fake data.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNTM2MTg5MDYsLTUwMTU0MjY5OSwtMT
+eyJoaXN0b3J5IjpbLTE1ODAwMzgzMzMsLTUwMTU0MjY5OSwtMT
 M4MzgxOTgzMSwyMTM5NjQ0NjM5LC04MDM5NjMzNDUsLTE1MDI2
 ODM5NjYsLTE2MDM3NjQ3MTZdfQ==
 -->
