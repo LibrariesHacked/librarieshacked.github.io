@@ -7,7 +7,7 @@ categories:
 published: false
 ---
 
-The [public library open data schema](https://schema.librarydata.uk) includes the design of a standardised dataset for library membership.
+The [public library open data schema](https://schema.librarydata.uk/membership) includes the design of a standardised dataset for library membership.
 
 There are many complications in thinking about library membership.
 
@@ -118,5 +118,6 @@ There are a couple of issues with it:
 To test this process we need some fake data.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMjA3NTE2NCwtMTYwMzc2NDcxNl19
+eyJoaXN0b3J5IjpbLTEwODI1MDEyMTEsLTE2MDM3NjQ3MTZdfQ
+==
 -->
