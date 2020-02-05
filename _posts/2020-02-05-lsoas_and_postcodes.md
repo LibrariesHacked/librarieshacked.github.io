@@ -23,7 +23,7 @@ Counts of membership, active or otherwise, are not useful. They may go up or dow
 
 Useful data needs to be able to inform actions and policies. You look at the data one day and do things differently the next. Look at the new data the day after, and so on. Having common standards for data between authorities may provide some use in comparing them, but primarily it provides the opportunity for sharing practice and tools in using that data.
 
-One responsibility that library services have is to provide library services for everyone. Membership counts will always only be a fraction of the population of an authority. It's not possible to ensure everyone is a member but are there areas of the population where the library service simply isn't reaching?
+One responsibility that library services have is to provide library services for everyone. Membership counts will always only be a fraction of the population of an authority and it's not possible to ensure everyone is a member. But are there areas of the population where the library service simply isn't appealing?
 
 The obvious way of monitoring  
 
@@ -118,7 +118,7 @@ There are a couple of issues with it:
 To test this process we need some fake data.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI1NzE5NjQ3MCwtNTAxNTQyNjk5LC0xMz
+eyJoaXN0b3J5IjpbMTc5NzM3MDEyMSwtNTAxNTQyNjk5LC0xMz
 gzODE5ODMxLDIxMzk2NDQ2MzksLTgwMzk2MzM0NSwtMTUwMjY4
 Mzk2NiwtMTYwMzc2NDcxNl19
 -->
