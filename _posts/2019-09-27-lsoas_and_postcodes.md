@@ -7,7 +7,7 @@ categories:
 published: false
 ---
 
-Over the past few months, public library staff have been collaborating on a [library open data schema](https://schema.librarydata.uk). This includes datasets about libraries that could be standardised and published as open data across all library services. One of the datasets is a report on library membership.
+The [public library open data schema](https://schema.librarydata.uk) includes a definition of a dataset to produce standardised reports on library membership.
 
 But there are complications in even thinking about library membership.
 
@@ -117,7 +117,7 @@ There are a couple of issues with it:
 To test this process we need some fake data.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA2NDkwNjUyNiwtMTYwMzU0NjQ1MiwtMT
-E4MDAzNDk3NSwxNzU1Njc4OTgxLC03NDY1MTUzODksLTQxMTA1
-NTc2Ml19
+eyJoaXN0b3J5IjpbLTM2OTkzMTM4NywxMDY0OTA2NTI2LC0xNj
+AzNTQ2NDUyLC0xMTgwMDM0OTc1LDE3NTU2Nzg5ODEsLTc0NjUx
+NTM4OSwtNDExMDU1NzYyXX0=
 -->
