@@ -23,7 +23,7 @@ Counts of membership, active or otherwise, are not useful. They may go up or dow
 
 Useful data needs to be able to inform actions and policies. You look at the data one day and do things differently the next. Look at the new data the day after, and so on. Having common standards for data between authorities may provide some use in comparing them, but primarily it provides the opportunity for sharing practice and tools in using that data.
 
-One responsibility that library services have, and need good data for, is the requirement to provide library services for everyone.
+One responsibility that library services have, and need good data for, is to provide library services for everyone.
 
 #### Lower super output areas (LSOAs)
 
@@ -116,6 +116,7 @@ There are a couple of issues with it:
 To test this process we need some fake data.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzODM4MTk4MzEsMjEzOTY0NDYzOSwtOD
-AzOTYzMzQ1LC0xNTAyNjgzOTY2LC0xNjAzNzY0NzE2XX0=
+eyJoaXN0b3J5IjpbLTUwMTU0MjY5OSwtMTM4MzgxOTgzMSwyMT
+M5NjQ0NjM5LC04MDM5NjMzNDUsLTE1MDI2ODM5NjYsLTE2MDM3
+NjQ3MTZdfQ==
 -->
