@@ -25,7 +25,7 @@ Useful data needs to be able to inform actions and policies. You look at the dat
 
 One responsibility that library services have is to provide library services for everyone. Membership counts will always only be a fraction of the population of an authority and it's not possible to ensure everyone is a member. But are there areas of the population where the library service simply isn't appealing?
 
-The obvious way of monitoring  
+An obvious way of monitoring some aspects of members is recording demographics such as age and religion, and disabilities. 
 
 #### Lower super output areas (LSOAs)
 
@@ -118,7 +118,7 @@ There are a couple of issues with it:
 To test this process we need some fake data.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc5NzM3MDEyMSwtNTAxNTQyNjk5LC0xMz
-gzODE5ODMxLDIxMzk2NDQ2MzksLTgwMzk2MzM0NSwtMTUwMjY4
-Mzk2NiwtMTYwMzc2NDcxNl19
+eyJoaXN0b3J5IjpbMzcwNjg4OTgsLTUwMTU0MjY5OSwtMTM4Mz
+gxOTgzMSwyMTM5NjQ0NjM5LC04MDM5NjMzNDUsLTE1MDI2ODM5
+NjYsLTE2MDM3NjQ3MTZdfQ==
 -->
