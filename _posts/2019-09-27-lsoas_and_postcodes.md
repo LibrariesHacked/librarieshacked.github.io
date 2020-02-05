@@ -1,9 +1,9 @@
 ---
 title: LSOAs and postcodes
 categories: 
-    - Mapping
-    - Deprivation
-    - Membership
+  - Mapping
+  - Deprivation
+  - Membership
 published: false
 ---
 
@@ -117,7 +117,7 @@ There are a couple of issues with it:
 To test this process we need some fake data.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyOTMzMzU0NTcsMTA2NDkwNjUyNiwtMT
-YwMzU0NjQ1MiwtMTE4MDAzNDk3NSwxNzU1Njc4OTgxLC03NDY1
-MTUzODksLTQxMTA1NTc2Ml19
+eyJoaXN0b3J5IjpbLTMxODY2NTI0OSwxMDY0OTA2NTI2LC0xNj
+AzNTQ2NDUyLC0xMTgwMDM0OTc1LDE3NTU2Nzg5ODEsLTc0NjUx
+NTM4OSwtNDExMDU1NzYyXX0=
 -->
