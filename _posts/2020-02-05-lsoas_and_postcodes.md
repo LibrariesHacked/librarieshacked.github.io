@@ -11,8 +11,8 @@ The [public library open data schema](https://schema.librarydata.uk) includes th
 
 There are many complications in thinking about library membership.
 
-- Should this include all members or just 'active' members. In the context of GDPR is there such a thing as active membership?
-- What does active membership mean?
+- Should this include all members or just 'active' members.
+- What does active membership mean? In the context of only keeping data as long as necessary, does it even exist anymore?
 - What activities in libraries require membership?
 - Should we be reducing the number of activities that require membership?
 
@@ -117,5 +117,5 @@ There are a couple of issues with it:
 To test this process we need some fake data.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTM5OTkyMzYzXX0=
+eyJoaXN0b3J5IjpbLTE2MDM3NjQ3MTZdfQ==
 -->
