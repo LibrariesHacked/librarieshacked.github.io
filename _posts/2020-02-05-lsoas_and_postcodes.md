@@ -33,13 +33,6 @@ It is an unfortunate situation that geographic location is such an indicator
 
 #### Lower super output areas (LSOAs)
 
-If some detailed aspect of each members location would be useful, what should be published?
-
-The UK address system is not one that is directly useful to analyse. 
-
-It is possible to split up the postcode to 
-
-
 
 
 ### Converting to postcode to LSOA
@@ -122,7 +115,7 @@ There are a couple of issues with it:
 To test this process we need some fake data.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1ODAwMzgzMzMsLTUwMTU0MjY5OSwtMT
+eyJoaXN0b3J5IjpbLTE2ODg0MTkzNTAsLTUwMTU0MjY5OSwtMT
 M4MzgxOTgzMSwyMTM5NjQ0NjM5LC04MDM5NjMzNDUsLTE1MDI2
 ODM5NjYsLTE2MDM3NjQ3MTZdfQ==
 -->
