@@ -23,6 +23,8 @@ Counts of membership, active or otherwise, are not useful. They may go up or dow
 
 Useful data needs to be able to inform actions and policies. You look at the data one day and do things differently the next. Look at the new data the day after, and so on. Having common standards for data between authorities may provide some use in comparing them, but primarily it provides the opportunity for sharing practice and tools in using that data.
 
+One responsibility that library services have, and need good data for, is the requirement to provide library services for everyone.
+
 Data that is genuinely useful is knowing where in your authority you have the most or least members. Those differences could be for a variety of reasons:
 
 - Income and other deprivation measures in different areas
@@ -120,6 +122,6 @@ There are a couple of issues with it:
 To test this process we need some fake data.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ4OTAwMDMwMywyMTM5NjQ0NjM5LC04MD
+eyJoaXN0b3J5IjpbMTkwNzE0MTQ1NywyMTM5NjQ0NjM5LC04MD
 M5NjMzNDUsLTE1MDI2ODM5NjYsLTE2MDM3NjQ3MTZdfQ==
 -->
