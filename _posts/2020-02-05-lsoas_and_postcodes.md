@@ -11,7 +11,7 @@ The [public library open data schema](https://schema.librarydata.uk) includes th
 
 There are many complications in thinking about library membership.
 
-- Is this all members or just 'active' members. 
+- Should this include all members or just 'active' members. 
 - What does active membership mean?
 - What activities in libraries require membership?
 - Should we be reducing the number of activities that require membership?
@@ -117,5 +117,5 @@ There are a couple of issues with it:
 To test this process we need some fake data.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUyMjIzNDQwOF19
+eyJoaXN0b3J5IjpbMjQ4NzQyNjVdfQ==
 -->
