@@ -12,7 +12,7 @@ The [public library open data schema](https://schema.librarydata.uk/membership) 
 There are complications in thinking about library membership data.
 
 - Should this include all members or just active members?
-- What does active membership mean? In storing data only as long as necessary, should we even keep records for people we don't consider to be active?
+- What does active membership mean? In storing data only as long as necessary, should we keep records for people we don't consider to be active?
 - What activities in libraries require membership?
 - Should we be reducing the number of activities that require membership, such as WiFi usage?
 - With different policies in this area, is it possible to compare membership between different library services?
@@ -115,7 +115,7 @@ There are a couple of issues with it:
 To test this process we need some fake data.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk5NzkzNjQxLC0xNjg4NDE5MzUwLC01MD
-E1NDI2OTksLTEzODM4MTk4MzEsMjEzOTY0NDYzOSwtODAzOTYz
-MzQ1LC0xNTAyNjgzOTY2LC0xNjAzNzY0NzE2XX0=
+eyJoaXN0b3J5IjpbMTE5MzMxNDY3NywtMTY4ODQxOTM1MCwtNT
+AxNTQyNjk5LC0xMzgzODE5ODMxLDIxMzk2NDQ2MzksLTgwMzk2
+MzM0NSwtMTUwMjY4Mzk2NiwtMTYwMzc2NDcxNl19
 -->
