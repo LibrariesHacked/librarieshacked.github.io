@@ -12,7 +12,7 @@ The [public library open data schema](https://schema.librarydata.uk) includes th
 There are many complications in thinking about library membership.
 
 - Does this include all members or just active members.
-- What does active membership mean? In the context of only keeping data as long as necessary, does it even exist anymore?
+- What does active membership mean? In the context of only keeping data as long as necessary, should we even make the distinction?
 - What activities in libraries require membership?
 - Should we be reducing the number of activities that require membership?
 
@@ -117,5 +117,5 @@ There are a couple of issues with it:
 To test this process we need some fake data.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg5MDkxMzc2MiwtMTYwMzc2NDcxNl19
+eyJoaXN0b3J5IjpbLTg2ODQ3OTc1NiwtMTYwMzc2NDcxNl19
 -->
