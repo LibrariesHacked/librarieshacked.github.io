@@ -25,7 +25,7 @@ Useful data needs to be able to inform actions and policies. You look at the dat
 
 One responsibility that library services have is to provide library services for everyone. Membership counts will always only be a fraction of the population, and it's not possible to ensure everyone is a member. But are there areas of the population where the library service has less appeal than others?
 
-An obvious way of monitoring membership beyond just overall counts is recording demographics such as age, religion, or disabilities. But aside from age, which is often compulsory to provide, this data tends to be patchy at best. And library services has a healthy aversion to collecting these, even if for equalities monitoring, which is rarely done well anyway.
+An obvious way of monitoring membership beyond just overall counts is recording demographics such as age, religion, or disabilities. But aside from age, which is often compulsory to provide, this data tends to be patchy at best. And library services has a healthy aversion to collecting more information than they strictly need.
 
 A better option is to use data sources that are more comprehensive. Census data, and other national statistics, which will provide. It is an unfortunate situation that geographic location is such an indicator 
 
@@ -120,7 +120,7 @@ There are a couple of issues with it:
 To test this process we need some fake data.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgwMjg4Mzg4NCwtNTAxNTQyNjk5LC0xMz
-gzODE5ODMxLDIxMzk2NDQ2MzksLTgwMzk2MzM0NSwtMTUwMjY4
-Mzk2NiwtMTYwMzc2NDcxNl19
+eyJoaXN0b3J5IjpbLTExNTM2MTg5MDYsLTUwMTU0MjY5OSwtMT
+M4MzgxOTgzMSwyMTM5NjQ0NjM5LC04MDM5NjMzNDUsLTE1MDI2
+ODM5NjYsLTE2MDM3NjQ3MTZdfQ==
 -->
