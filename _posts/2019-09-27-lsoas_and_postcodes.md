@@ -9,7 +9,7 @@ published: false
 
 The [public library open data schema](https://schema.librarydata.uk) includes a definition of a dataset to produce standardised reports on library membership.
 
-But there are complications in even thinking about library membership.
+There are many complications in even thinking about library membership.
 
 - Is this all members or just 'active' members. 
 - What does active membership mean?
@@ -117,7 +117,7 @@ There are a couple of issues with it:
 To test this process we need some fake data.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM2OTkzMTM4NywxMDY0OTA2NTI2LC0xNj
-AzNTQ2NDUyLC0xMTgwMDM0OTc1LDE3NTU2Nzg5ODEsLTc0NjUx
-NTM4OSwtNDExMDU1NzYyXX0=
+eyJoaXN0b3J5IjpbMTcwNDk5NTcsMTA2NDkwNjUyNiwtMTYwMz
+U0NjQ1MiwtMTE4MDAzNDk3NSwxNzU1Njc4OTgxLC03NDY1MTUz
+ODksLTQxMTA1NTc2Ml19
 -->
