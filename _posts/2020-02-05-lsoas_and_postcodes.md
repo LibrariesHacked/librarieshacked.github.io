@@ -9,7 +9,7 @@ published: false
 
 The [public library open data schema](https://schema.librarydata.uk/membership) includes a standardised dataset for library membership.
 
-There are many complications in thinking about library membership.
+There are complications in thinking about library membership.
 
 - Should this include all members or just active members?
 - What does active membership mean? In the context of only keeping data as long as necessary, should we store records for people we don't consider as active library users?
@@ -120,6 +120,6 @@ There are a couple of issues with it:
 To test this process we need some fake data.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzUwOTY0MTExLC04MDM5NjMzNDUsLTE1MD
-I2ODM5NjYsLTE2MDM3NjQ3MTZdfQ==
+eyJoaXN0b3J5IjpbMjExNjA0MzAsLTgwMzk2MzM0NSwtMTUwMj
+Y4Mzk2NiwtMTYwMzc2NDcxNl19
 -->
