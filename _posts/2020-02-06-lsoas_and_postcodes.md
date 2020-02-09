@@ -25,7 +25,7 @@ Useful data needs to be able to inform actions and policies. You look at the dat
 
 #### Library needs
 
-Library services should provide library services for everyone. Membership counts will always only be a proportion of the population, and it's not possible to ensure everyone is a member. But are there areas of the population where the library service has less appeal than others?
+Library services should provide library services for everyone. Membership counts will always only be a proportion of the population, and it's not possible to ensure everyone is a member. But how can the library find out what people are not using the service, and why?
 
 An obvious way of monitoring membership beyond just overall counts is recording demographics such as age, religion, or disabilities. But aside from age, which is often compulsory to provide, this data tends to be patchy at best. And library services has a healthy aversion to collecting more information than they strictly need.
 
@@ -116,5 +116,5 @@ There are a couple of issues with it:
 
 To test this process we need some fake data.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjEyMTEwNzYyN119
+eyJoaXN0b3J5IjpbLTEzNDQyMDUwODZdfQ==
 -->
