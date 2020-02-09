@@ -1,10 +1,7 @@
 remote_theme: mmistakes/minimal-mistakes
-minimal_mistakes_skin: "air"
+minimal_mistakes_skin: default
 
-locale: "en-GB"
 title: "Library data blog"
-title_separator: "|"
-subtitle: "Promoting open data and hacks in libraries"
 name: "Libraries Hacked"
 description: "Articles and tutorials on library data and open data in libraries."
 url: "https://blog.librarydata.uk"
@@ -21,8 +18,11 @@ author:
   uri: "https://www.librarieshacked.org"
   github: "librarieshacked"
 
+include:
+  - _pages
+
 # Outputting
-permalink: /:title
+permalink: /:categories/:title/
 paginate: 5
 paginate_path: /page:num/
 timezone: Europe/London
@@ -62,6 +62,13 @@ defaults:
     values:
       layout: single
       author_profile: true
+
+category_archive:
+  type: liquid
+  path: /categories/
+tag_archive:
+  type: liquid
+  path: /tags/
 
 footer_scripts:
   - https://cdnjs.cloudflare.com/ajax/libs/PapaParse/4.6.3/papaparse.min.js

@@ -113,7 +113,3 @@ There are a couple of issues with it:
 #### Fake data
 
 To test this process we need some fake data.
-
-<!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc1MDY3Mjg5OF19
--->
