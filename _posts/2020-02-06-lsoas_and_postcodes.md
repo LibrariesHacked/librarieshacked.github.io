@@ -27,7 +27,7 @@ Useful data needs to be able to inform actions and policies. You look at the dat
 
 Library services should provide library services for everyone. Membership counts will always only be a proportion of the population, and it's not possible to ensure everyone is a member. But how can the library find out what people are not using the service, and why?
 
-An obvious way of monitoring membership is recording membership data such as age, religion, or disabilities. But aside from age, which is often compulsory, this data tends to be patchy at best. And library services have a healthy aversion to collecting more information than they strictly need.
+An obvious way of monitoring membership is recording membership data such as age, religion, or disabilities. But aside from age, which is often compulsory, this data tends to be patchy at best. And library services should be averse to collecting more information than they strictly need.
 
 A better option is to use data sources that are more comprehensive. Census data, and other national statistics, which will provide detailed indicators about the population that live in different areas of an authority.
 
@@ -116,5 +116,5 @@ There are a couple of issues with it:
 
 To test this process we need some fake data.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgzNDM5MzU5MF19
+eyJoaXN0b3J5IjpbLTgyMzU1NzYxMV19
 -->
