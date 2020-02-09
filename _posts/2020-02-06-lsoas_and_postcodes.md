@@ -21,7 +21,7 @@ Before trying to answer those questions, what data about membership is useful fo
 
 Counts of membership, considered active or otherwise, are not useful. They may go up or down, but that can reflect the changing activities people use the library for. It can seem interesting to compare counts between library services, but is it? Such differences could be from different definitions of membership, or just unavoidable geographic or socioeconomic factors within the relevant authorities.
 
-Useful data needs to be able to inform actions and policies. You look at the data one day and do things differently the next, and repeat the process. Common standards for data provide the opportunity to share practices in using data, not compare services.
+Useful data needs to be able to inform actions and policies. You look at the data one day and do things differently the next, and repeat the process. Common standards for data provide the opportunity to share tools and techniques in using data, not compare services.
 
 One responsibility that library services have is to provide library services for everyone. Membership counts will always only be a fraction of the population, and it's not possible to ensure everyone is a member. But are there areas of the population where the library service has less appeal than others?
 
@@ -114,5 +114,5 @@ There are a couple of issues with it:
 
 To test this process we need some fake data.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjgxMDg3OTQ5XX0=
+eyJoaXN0b3J5IjpbNDMwNjUxODc0XX0=
 -->
