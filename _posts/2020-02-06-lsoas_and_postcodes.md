@@ -31,7 +31,7 @@ An obvious way of monitoring membership is recording membership data such as age
 
 A better option is to use data sources that are more comprehensive. Census data, and other national statistics, which will provide detailed indicators about the population that live in different areas of an authority.
 
-It is an unfortunate situation that geographic location is such an indicator of things such as health, income, education, but it is the case. It isn't an exact science but as libraries will generally hold data on the home location of their members, they can both see whether they have membership from all areas of the authority, and make educated guesses about the people more or less likely to use libraries.
+It is an unfortunate situation that geographic location is such an indicator of things such as health, income, education. But it also means that the addresses of members becomes particularly useful data. It isn't an exact science but as libraries will generally hold data on the home location of their members, they can both see whether they have membership from all areas of the authority, and make educated guesses about the people more or less likely to use libraries.
 
 #### Lower super output areas (LSOAs)
 
@@ -41,10 +41,6 @@ It is an unfortunate situation that geographic location is such an indicator of 
 
 
 
-
-### The data schema
-
-The data schema for membership is detailed on a [separate schema website](https://schema.librarydata.uk/membership). A sample record using the schema is shown below.
 
 
 
@@ -116,5 +112,5 @@ There are a couple of issues with it:
 
 To test this process we need some fake data.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgyMzU1NzYxMV19
+eyJoaXN0b3J5IjpbNDkxMDAxMzEsLTgyMzU1NzYxMV19
 -->
