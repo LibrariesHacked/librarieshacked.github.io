@@ -12,24 +12,26 @@ The [public library open data schema](https://schema.librarydata.uk/membership) 
 There are complications in thinking about library membership data.
 
 - Should this include all members or just active members?
-- What does active membership mean? If we store data only as long as necessary, should we have records for people we don't consider to be active?
+- What does active membership mean? If we store data only as long as necessary, should we have records for people not considered as active?
 - What activities in libraries require membership?
 - Should we be reducing the number of activities that require membership, such as WiFi usage?
 - With different policies in this area, is it possible to compare membership between different library services?
 
-Before trying to answer those questions, what data about membership is even useful for a library service?
+Before trying to answer those questions, what data about membership is useful for a library service?
 
-Counts of membership, considered active or otherwise, are not useful. They may go up or down, but that can reflect the changing activities people use the library for. It can seem interesting to compare counts between library services, but it's not. Such differences could be from different definitions of membership, or just unavoidable geographic or socioeconomic factors within the relevant authorities.
+Counts of membership, considered active or otherwise, are not useful. They may go up or down, but that can reflect the changing activities people use the library for. It can seem interesting to compare counts between library services, but is it? Such differences could be from different definitions of membership, or just unavoidable geographic or socioeconomic factors within the relevant authorities.
 
-Useful data needs to be able to inform actions and policies. You look at the data one day and do things differently the next, and repeat the process. Having common standards for data provides the opportunity for sharing practice and tools in using data, not comparing services.
+Useful data needs to be able to inform actions and policies. You look at the data one day and do things differently the next, and repeat the process. Common standards for data provide the opportunity to share tools and techniques in using data, not compare services.
 
-One responsibility that library services have is to provide library services for everyone. Membership counts will always only be a fraction of the population, and it's not possible to ensure everyone is a member. But are there areas of the population where the library service has less appeal than others?
+#### Library needs
 
-An obvious way of monitoring membership beyond just overall counts is recording demographics such as age, religion, or disabilities. But aside from age, which is often compulsory to provide, this data tends to be patchy at best. And library services has a healthy aversion to collecting more information than they strictly need.
+Library services should provide library services for everyone. Membership counts will always only be a proportion of the population, and it's not possible to ensure everyone is a member. But how can the library find out what people are not using the service, and why?
+
+An obvious way of monitoring membership is recording membership data such as age, religion, or disabilities. But aside from age, which is often compulsory, this data tends to be patchy at best. And library services should be averse to collecting more information than they strictly need.
 
 A better option is to use data sources that are more comprehensive. Census data, and other national statistics, which will provide detailed indicators about the population that live in different areas of an authority.
 
-It is an unfortunate situation that geographic location is such an indicator of things such as health, income, education, but it is the case. It isn't an exact science but as libraries will generally hold data on the home location of their members, they can both see whether they have membership from all areas of the authority, and make educated guesses about the people more or less likely to use libraries.
+It is an unfortunate situation that geographic location is such an indicator of things such as health, income, education. But it also means that the addresses of members becomes particularly useful data. It isn't an exact science but as libraries will generally hold data on the home location of their members, they can both see whether they have membership from all areas of the authority, and make educated guesses about the people more or less likely to use libraries.
 
 #### Lower super output areas (LSOAs)
 
@@ -39,10 +41,6 @@ It is an unfortunate situation that geographic location is such an indicator of 
 
 
 
-
-### The data schema
-
-The data schema for membership is detailed on a [separate schema website](https://schema.librarydata.uk/membership). A sample record using the schema is shown below.
 
 
 
@@ -113,3 +111,6 @@ There are a couple of issues with it:
 #### Fake data
 
 To test this process we need some fake data.
+<!--stackedit_data:
+eyJoaXN0b3J5IjpbNDkxMDAxMzEsLTgyMzU1NzYxMV19
+-->
