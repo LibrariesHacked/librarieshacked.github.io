@@ -6,10 +6,11 @@ tags:
     - ISBNs
     - Search
     - Web
-published: false
+    - Autocomplete
+published: true
 ---
 
-Open <abbr title="Application Programming Interfaces">APIs</abbr> (Application Programming Interfaces) provide opportunities to create a wide variety of applications, reusing systems and data for new tools. But sometimes these can also just provide small user-experience functions. This tutorial will cover using an API to develop auto-complete functionality on a website.
+Open <abbr title="Application Programming Interfaces">APIs</abbr> (Application Programming Interfaces) provide opportunities to create a variety of applications, reusing systems and data to create new tools. But sometimes these can also just provide small user-experience functions. This tutorial will cover using an API to develop auto-complete functionality on a website.
 
 #### Why use auto-complete?
 
@@ -18,44 +19,48 @@ A book search is a good example where auto-complete can be useful. When using th
 1. Enter the search term either for an author, or a title. If author it must be in the form **surname, first name**.  Hit search.
 2. Scroll through list of search results (**page 3 of 180...**). If too many results, you can go back the original screen and modify your search. If no results the results page will be empty.
 
-That doesn't give users a speedy experience. Using auto-complete allows you to show data as the user types. As more is typed, the results are refined by the increased detail. Once the user sees the option they want, they can select it.  The underlying data could come from many sources. Sometimes, like when using Google, it's common searches that other people have performed. Other times, it's actually looking at the underlying database, and giving an indication if there are any matches.
+That doesn't give users a speedy experience. Using auto-complete allows you to show data as the user types. As more is typed, the results are refined by the increased detail. Once the user sees the option they want, they can select it. The underlying data could come from many sources. Sometimes, like when using Google, it's common searches that other people have performed. Other times, it's actually looking at the underlying database, and showing if there are any matches.
 
-This kind of dynamic search information can prompt the user for what they're looking for (if they have half a title in their mind). It can also be used to provide them details of their search results before they've even pressed search. There is often no point in showing a results page of zero results, unless an easy option to adjust the search is provided Could the user be informed before they have run the search that no results will be returned?
+This kind of dynamic search information can prompt the user for what they're looking for (if they have half a title in their mind). It can also be used to provide them details of their search results before they've even pressed search. There is often no point in showing a page of zero results, unless an easy option to adjust the search is provided. Could the user be informed before they have run the search that no results will be returned?
 
-The [Google Books API](http://books.google.co.uk/) is one API to provide book searching. There are plenty of others though including [open library](http://openlibrary.org). The Google Books API should normally be used with an API key, which is granted by Google and needs to be included in the URL when a search is made.
+The [Google Books API](http://books.google.co.uk/) is one API to provide book searching. There are plenty of others, including [open library](http://openlibrary.org). For real-world use the Google Books API should normally be used with an API key, which is granted by Google and needs to be included in the URL when a search is made.
 
 #### Step 1. Start with a basic page template
 
 The example will be coded within a single web page; the following is a basic HTML5 page template to get started.
 
-<pre class="prettyprint linenums"><code class="language-html">&lt;!doctype html&gt;
-&lt;html lang=&quot;en&quot;&gt;
-&lt;head&gt;
-    &lt;meta charset=&quot;utf-8&quot;&gt;
-    &lt;title&gt;auto-complete API tutorial&lt;/title&gt;
-    &lt;meta name=&quot;description&quot; content=&quot;auto-complete API tutorial&quot;&gt;
-    &lt;meta name=&quot;author&quot; content=&quot;libraries hacked&quot;&gt;
-&lt;/head&gt;
-&lt;body&gt;
-&lt;/body&gt;
-&lt;/html&gt;</code></pre>
+```html
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>auto-complete API tutorial</title>
+    <meta name="description" content="auto-complete API tutorial">
+    <meta name="author" content="libraries hacked">
+</head>
+<body>
+</body>
+</html>
+```
 
 #### Step 2. Add references to JavaScript and CSS files
 
 For this tutorial we need jQuery and jQuery UI to provide the auto-complete functionality. These are JavaScript **libraries**, created to simplify common JavaScript tasks, making them quicker and easier to code. They are added to the page as shown below:
 
-<pre class="prettyprint linenums"><code class="language-html">&lt;head&gt;
-    &lt;meta charset=&quot;utf-8&quot;&gt;
-    &lt;title&gt;auto-complete API tutorial&lt;/title&gt;
-    &lt;link rel=&quot;stylesheet&quot; href=&quot;//code.jquery.com/ui/1.10.4/themes/smoothness/jquery-ui.css&quot;&gt;
-    &lt;meta name=&quot;description&quot; content=&quot;auto-complete API tutorial&quot;&gt;
-    &lt;meta name=&quot;author&quot; content=&quot;libraries hacked&quot;&gt;
-&lt;/head&gt;
-&lt;body&gt;
-    &lt;script src=&quot;//code.jquery.com/jquery-1.10.2.js&quot;&gt;&lt;/script&gt;
-    &lt;script src=&quot;//code.jquery.com/ui/1.10.4/jquery-ui.js&quot;&gt;&lt;/script&gt;
-    &lt;script src=&quot;script.js&quot;&gt;&lt;/script&gt;
-&lt;/body&gt;</code></pre>
+```html
+<head>
+    <meta charset="utf-8">
+    <title>auto-complete API tutorial</title>
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.10.4/themes/smoothness/jquery-ui.css">
+    <meta name="description" content="auto-complete API tutorial">
+    <meta name="author" content="libraries hacked">
+</head>
+<body>
+    <script src="//code.jquery.com/jquery-1.10.2.js"></script>
+    <script src="//code.jquery.com/ui/1.10.4/jquery-ui.js"></script>
+    <script src="script.js"></script>
+</body>
+```
 
 The files referred to here are held at **code.jquery.com**. These could be hosted as part of the project, but there are advantages to using externally hosted versions:
 
@@ -71,24 +76,26 @@ In the HTML a new file is also referenced, **script.js**. This will contain the 
 
 The web page will just have a header and an input text box, and a space where details of the book will be added dynamically later.
 
-<pre class="prettyprint linenums"><code class="language-html">&lt;body&gt;
-    &lt;h1&gt;auto-complete book search example&lt;/h1&gt;
-    &lt;p&gt;
-        &lt;label for=&quot;txtBookSearch&quot;&gt;select a book&lt;/label&gt;
-        &lt;input id=&quot;txtBookSearch&quot; type=&quot;text&quot;&gt;
-    &lt;/p&gt;
-        &lt;h2&gt;book details&lt;/h2&gt;
-    &lt;div id=&quot;divDescription&quot;&gt;&lt;/div&gt;
-    &lt;script src=&quot;//code.jquery.com/jquery-1.10.2.js&quot;&gt;&lt;/script&gt;
-    &lt;script src=&quot;//code.jquery.com/ui/1.10.4/jquery-ui.js&quot;&gt;&lt;/script&gt;
-    &lt;script src=&quot;js/scripts.js&quot;&gt;&lt;/script&gt;
-&lt;/body&gt;</code></pre>
+```html
+<body>
+    <h1>auto-complete book search example</h1>
+    <p>
+        <label for="txtBookSearch">select a book</label>
+        <input id="txtBookSearch" type="text">
+    </p>
+        <h2>book details</h2>
+    <div id="divDescription"></div>
+    <script src="//code.jquery.com/jquery-1.10.2.js"></script>
+    <script src="//code.jquery.com/ui/1.10.4/jquery-ui.js"></script>
+    <script src="js/scripts.js"></script>
+</body>
+```
 
 ### Step 4. Add the auto-complete JavaScript
 
 The following code is added to the empty **script.js** file, providing a framework for the autocomplete functionality, which is part of JQuery UI.
 
-```
+```JavaScript
 $(document).ready(function () {  //should only run once the document is ready
     $('#txbBookSearch').autocomplete({ // attach the autocomplete functionality to the textbox
         source: function (request, response) {
@@ -115,7 +122,8 @@ There is also the option to specify the number of characters that have to be ent
 
 When a user enters text of at least 2 characters, the code should search all books from the google API, and list the closest matches.
 
-<pre class="prettyprint linenums"><code class="language-javascript">$(document).ready(function () {  // only begin once page has loaded
+```JavaScript
+$(document).ready(function () {  // only begin once page has loaded
     $('#txtBookSearch').autocomplete({ // attach auto-complete functionality to textbox
         // define source of the data
         source: function (request, response) {
@@ -151,7 +159,8 @@ When a user enters text of at least 2 characters, the code should search all boo
         },
         minLength: 2 // set minimum length of text the user must enter
     });
-});</code></pre>
+});
+```
 
 The code added to call the API uses [jQuery's AJAX method](http://api.jquery.com/jquery.ajax/), which allows developers to send a call to a url for data, and specify what will happen once that data is returned.
 
@@ -161,9 +170,10 @@ The code transforms the data returned into a set of values that contain various 
 
 All that's left is to code what will happen when a book is selected. This will depend on the site using the service - it could list all details of the book, or take the user to a page about the book in order to provide further actions. To demonstrate an example usage, this will show some details about the book on the page and provide a link to the OCLC WorldCat page for that book.
 
-Full JavaScript code:
+##### Full code
 
-<pre class="prettyprint linenums"><code class="language-javascript">$(document).ready(function () { // only begin once page has loaded
+```JavaScript
+$(document).ready(function () { // only begin once page has loaded
     $('#txtBookSearch').autocomplete({ // attach auto-complete functionality to textbox
         // define source of the data
         source: function (request, response) {
@@ -201,24 +211,23 @@ Full JavaScript code:
             // we get the currently selected item using ui.item
             // show a pic if we have one
             if (item.image != '') {
-                $('#divDescription').append('&lt;img src="' + ui.item.image + '" style="float: left; padding: 10px;"&gt;');
+                $('#divDescription').append('<img src="' + ui.item.image + '" style="float: left; padding: 10px;">');
             }
             // and title, author, and year
-            $('#divDescription').append('&lt;p&gt;&lt;b&gt;Title:&lt;/b&gt; ' + ui.item.title  + '&lt;/p&gt;');
-            $('#divDescription').append('&lt;p&gt;&lt;b&gt;Author:&lt;/b&gt; ' + ui.item.author  + '&lt;/p&gt;');
-            $('#divDescription').append('&lt;p&gt;&lt;b&gt;First published year:&lt;/b&gt; ' + ui.item.publishedDate  + '&lt;/p&gt;';
+            $('#divDescription').append('<p><b>Title:</b> ' + ui.item.title  + '</p>');
+            $('#divDescription').append('<p><b>Author:</b> ' + ui.item.author  + '</p>');
+            $('#divDescription').append('<p><b>First published year:</b> ' + ui.item.publishedDate  + '</p>';
             // and the usual description of the book
-            $('#divDescription').append('&lt;p&gt;&lt;b&gt;Description:&lt;/b&gt; ' + ui.item.description  + '&lt;/p&gt;');
+            $('#divDescription').append('<p><b>Description:</b> ' + ui.item.description  + '</p>');
             // and show the link to oclc (if we have an isbn number)
             if (ui.item.isbn && ui.item.isbn[0].identifier) {
-                $('#divDescription').append('&lt;p&gt;&lt;b&gt;ISBN:&lt;/b&gt; '
-                + ui.item.isbn[0].identifier + '&lt;/p&gt;');
-                $('#divDescription').append('&lt;a href="http://www.worldcat.org/isbn/'
-                + ui.item.isbn[0].identifier + '" target="_blank"&gt;View item on worldcat&lt;/a&gt;');
+                $('#divDescription').append('<p><b>ISBN:</b> '
+                + ui.item.isbn[0].identifier + '</p>');
+                $('#divDescription').append('<a href="http://www.worldcat.org/isbn/'
+                + ui.item.isbn[0].identifier + '" target="_blank">View item on worldcat</a>');
             }
         },
         minLength: 2 // set minimum length of text the user must enter
     });
-});</code></pre>
-
-An example text box is included on this page to try it out.
+});
+```

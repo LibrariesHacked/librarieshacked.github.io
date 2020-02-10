@@ -1,25 +1,25 @@
 ---
-Title: Wallpaper ebooks - how could it be done?
-Description: Ebooks on walls - allowing users to access ebooks by holding their phone to wallpaper or posters
+Title: "Wallpaper ebooks: how could it be done?"
+Description: Allowing users to access ebooks by holding their phone to wallpaper or posters
 categories:
     - Ideas
 tags:
     - Mobile
     - Technology
     - Ebooks
-published: false
+published: true
 ---
 
-On Twitter, [@publiclibnews](https://twitter.com/publiclibnews/status/476433830124199937) invited thoughts for the three best innovations all public libraries should adopt. One idea, pointed out by [@commonlibraries](https://twitter.com/commonlibraries) was this one (from 2012), of downloadable ebook posters in a subway station.
+On Twitter, [@publiclibnews](https://twitter.com/publiclibnews/status/476433830124199937) invited thoughts for the three best innovations public libraries should adopt. One idea, pointed out by [@commonlibraries](https://twitter.com/commonlibraries) was this one of downloadable ebook posters in a subway station.
 
 - [Digital Library on the Bucharest Subway](http://www.paulkater.com/2012/10/stunning-idea-digital-library-on-the-bucharest-subway-station/)
 
-The idea certainly looks impressive, and is also very simple. QR codes are printed on the book spines on the posters, which provide links to free samples of ebooks hosted on a web site. To do something like that wouldn't be overly difficult or expensive. No greater cost than that of a custom poster or wallpaper, assuming there is a site available to serve the content.
+The idea looks impressive, and is also very simple. QR codes are printed on the book spines on the posters, which provide links to free samples of ebooks hosted on a web site. To do something like that wouldn't be overly difficult or expensive. No greater cost than that of a custom poster or wallpaper, assuming there is a site available to serve the content.
 
 A couple of limitations:
 
-- Scanning QR codes generally needs to have some kind of app installed, to launch and then scan the code. This is possibly a bit of hassle for the end user, especially in a place like an underground station.
-- It also relies on some kind of internet connection to get to the download site.
+- Scanning QR codes generally needs to have some kind of app installed, to launch and then scan the code. This is a bit of hassle for the end user, especially in a place like an underground station.
+- It also relies on some kind of internet connection to get to the download.
 
 The first issue could be addressed using contactless technology. RFID and more recently NFC are established methods of transferring data to mobile devices, and are also on the increase. You hover the phone/device over the receiver/tag, it beeps (perhaps) and the device and receiver do whatever they need to do.
 
@@ -33,9 +33,9 @@ If you assume the user has an active internet connection the problem is fairly s
 
 #### Without internet connection
 
-Without an internet connection (such as at an underground station) it's trickier. Could the NFC tag itself transmit enough information for an ebook sample, without the need for holding the content elsewhere? No. Looking at [NFC tag memory sizes](http://rapidnfc.com/which_nfc_chip), the maximum amount of data is in bytes rather than kilobytes. Suitable for storing URLs and contact details, but not significant files.
+Without an internet connection it's trickier. Could the NFC tag itself transmit enough information for an ebook sample, without the need for holding the content elsewhere? No. Looking at [NFC tag memory sizes](http://rapidnfc.com/which_nfc_chip), the maximum amount of data is in bytes rather than kilobytes. Suitable for storing URLs and contact details, but not significant files.
 
-To provide content in an area where internet access is unreliable you would need some kind of WiFi router, server, and digital content storage that didn't rely on an internet connection. You'd need to use something like a [LibraryBox](http://jasongriffey.net/librarybox/). These are $150 or build your own, and provide all those things - distributing digital content to connected users.
+To provide content in an area where internet access is unreliable you would need a WiFi router, server, and digital content storage. You'd need to use something like a [LibraryBox](http://jasongriffey.net/librarybox/). These are $150 or build your own, and provide all those things - distributing digital content to connected users.
 
 #### Automatic WiFi connection
 

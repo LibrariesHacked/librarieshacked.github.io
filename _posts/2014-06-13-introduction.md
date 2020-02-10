@@ -1,14 +1,14 @@
 ---
-title: Website launched 13th june
+title: Website launched 13th June
 description: Introduction to libraries hacked
 categories:
     - Blog
 tags:
     - Introduction
-published: false
+published: true
 ---
 
-Libraries hacked is a website designed to promote open-source technology hacks and projects in libraries.
+[Libraries hacked](https://www.librarieshacked.org) is a website designed to promote open-source technology hacks and projects in libraries.
 
 #### Data sources
 
@@ -30,7 +30,7 @@ Libraries are places for data and information, and making that open to the commu
 
 Articles from a variety of sources will be put on the site to provide guidance for those interested in the technology.  Some examples of these will be:
 
-- library technology suppliers focussing on the technological aspects of their solutions.
+- library technology suppliers detailing the technological aspects of their solutions.
 - descriptions of tools used for data analysis. 
 - experiences of library hack events.
 
