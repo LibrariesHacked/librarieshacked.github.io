@@ -1,6 +1,6 @@
 ---
-Title: "Wallpaper ebooks: how could it be done?"
-Description: Allowing users to access ebooks by holding their phone to wallpaper or posters
+title: "Wallpaper ebooks: how could it be done?"
+description: Allowing users to access ebooks by holding their phone to wallpaper or posters
 categories:
     - Ideas
 tags:

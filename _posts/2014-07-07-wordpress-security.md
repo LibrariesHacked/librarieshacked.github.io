@@ -5,28 +5,30 @@ categories:
     - Security
 tags:
     - WordPress
-published: false
+published: true
 ---
 
-It's difficult to know how many websites use WordPress, but various reports suggest [19% of the web runs on WordPress](http://venturebeat.com/2013/07/27/19-percent-of-the-web-runs-on-wordpress/).
+It's difficult to know how many websites use WordPress, but one report suggests [19% of the web runs on WordPress](http://venturebeat.com/2013/07/27/19-percent-of-the-web-runs-on-wordpress/).
 
-On the events page of this site it's considerably more (though a small sample): currently 6 of 9 of the links are to WordPress sites. That may be indicative of the nature of those sites - often relatively small sites giving information about hack events and projects. WordPress is known for being used as a personal blog platform, but it is also popular for hacks as it is easy and quick to set up, with a huge number of free themes and plug-ins. And though the standard WordPress templates can make them instantly recognisable, a WordPress site also doesn't have to look like a WordPress site - many web development and design agencies are now WordPress development and design agencies, creating themes and plug-ins for clients to use.
+WordPress is known for being used as a personal blog platform, but it is also popular for hacks as it is easy and quick to set up, with a huge number of free themes and plug-ins. And though the standard WordPress templates can make them instantly recognisable, a WordPress site also doesn't have to look like a WordPress site - many web development and design agencies are now WordPress development and design agencies, creating themes and plug-ins for clients to use.
 
-Using WordPress is hardly a lazy option, but it is one that needs more work than is often considered. One of the main reasons is security, WordPress itself doesn't have severe security vulnerabilities (various plug-ins do), but it puts managing security in the hands of users. When those users are largely people who want a quick and painless way of getting a site up and running, with minimum hassle, that can be a problem.
+Using WordPress isn't a lazy option, but it is one that needs more work than is often considered. One of the main reasons is security, WordPress itself doesn't have severe security vulnerabilities (various plug-ins do), but it puts managing security in the hands of users. When those users are largely people who want a quick and painless way of getting a site up and running, with minimum hassle, that can be a problem.
 
 Here are some quick tips it's worth thinking about if you're a WordPress administrator and hacking together a quick site.
 
 #### Tip 1. Keep usernames secret and secure
 
-It's often not considered important to keep a username secret because people often use email address as username. And that's often public, why should sharing your WordPress login be any more serious than sharing your email address? The problem is that most major email providers have security measures in place to lock down your account if too many attempts are made to access it. In that way, it doesn't matter if other people know the username because they can only try so many times to get access.
+It's not always considered important to keep a username secret because people often use email address as username. And that's often public, why should sharing your WordPress login be any more serious than sharing your email address? The problem is that most major email providers have security measures in place to lock down your account if too many attempts are made to access it. In that way, it doesn't matter if other people know the username because they can only try so many times to get access.
 
-A basic WordPress installation won't make such decisions for an administrator on how many times users are able to try to login. That's left to the administrator and if a username is known then the site will be vulnerable to 'brute force' attacks (trying different passwords over and over again). There are automated tools able to target a site and attempt to login in this way, and if the site doesn't stop that happening there's a significant chance the attack could succeed.
+A basic WordPress installation won't make such decisions for an administrator on how many times users are able to try to login. That's left to the administrator, and if a username is known then the site will be vulnerable to 'brute force' attacks (trying different passwords over and over again). There are automated tools able to target a site and attempt to login in this way, and if the site doesn't stop that happening there's a significant chance the attack could succeed.
 
 If you have a WordPress site it's worth navigating to the following page to see what information on usernames can be found:
 
-- http://[yoursite]/?author=1
+```
+http://yoursite/?author=1
+```
 
-In many cases that redirects to a page showing the username of the first user (often 'admin').
+In some cases that redirects to a page showing the username of the first user (e.g. 'admin').
 
 ##### Don't display usernames in WordPress
 
@@ -34,7 +36,7 @@ One way of giving away usernames to attackers is by listing them on the site pag
 
 ##### Don't allow WordPress login to reveal any secrets
 
-If you go to a WordPress login page, type in your username with an incorrect password what message does it give?  It will probably be something like:
+If you go to a WordPress login page, type in your username with an incorrect password what message does it give? It may be something like:
 
 **ERROR: The password you entered for the username admin is incorrect**
 
