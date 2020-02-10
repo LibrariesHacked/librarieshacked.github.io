@@ -2,33 +2,37 @@
 title: "Encryption, library catalogues, and security testing"
 categories:
     - Security
+tags:
     - Library management systems
+    - Web
 ---
 
 You want to talk in confidence with someone while in public. To do this you need to:
 
 - be sure they're the right person.
-- agree a code to make sure that others, who may be standing near or between you, can't understand what is being said.
+- agree a code, to make sure that others standing near you can't understand what is being said.
 
 Perhaps they would show you some ID. You may even shake hands, and in a secret handshake, agree a code to talk in.
 
-Information Technology often uses real-world terminology to describe technical processes. The above situation is played out whenever you visit a website using encrypted communication, preceded with the <abbr title="HyperText Transfer Protocol Secure">HTTPS</abbr> (**https://**) protocol. This encryption is often described as <abbr title="Secure Sockets Layer">SSL</abbr> encryption. The following are descriptions of some technical terms that relate to this process.
+Information Technology often uses real-world terminology to describe technical processes. The above situation is played out whenever you visit a website using encrypted communication, preceded with the <abbr title="HyperText Transfer Protocol Secure">HTTPS</abbr> (**https://**) protocol. This encryption is often described as <abbr title="Secure Sockets Layer">SSL</abbr>. The following are some technical terms that relate to this process.
 
 - **SSL certificate**. SSL Certificates are small data files that digitally bind a cryptographic key to an organization's details. [^1]
 - **Handshake**. During this handshake, the client and server agree on various parameters used to establish the connection's security: The client sends the server the client's SSL version number, cipher settings, session-specific data, and other information that the server needs to communicate with the client using SSL. [^2]
 - **Man in the middle**. In cryptography and computer security, a man-in-the-middle attack is an attack where the attacker secretly relays and possibly alters the communication between two parties who believe they are directly communicating with each other. [^3]
 
-Using encryption has long been regarded as essential for login and sensitive web transactions like payment, but is more frequently being used for all online communications.
+The SSL certificate is the ID, the handshake is agreeing the code to talk in, and the man in the middle is the person listening in, who in this case can't understand a word that is being said.
 
-It's important to assess the requirement for encryption not just in the context of risk to the data involved on that site and service. Many hacks against individuals have been a result of credentials leaked from insecure accounts, then used to gain access to more secure services. Facebook CEO Mark Zuckerberg had his Twitter and Pinterest accounts hacked as a result of leaked LinkedIn credentials[^4]. Twitter CEO Jack Dorney and Google CEO Sundar Pichai have had similar experiences. If a service requires login there is a strong likelihood that many of the user credentials will also be securing data elsewhere. Protecting them is essential.
+Using encryption has long been regarded as essential for sensitive web transactions like logging in, banking, and payments, but is more frequently being used for all online communications.
+
+It's important to assess the requirement for encryption not just in the context of risk to the data involved on that site and service. Many hacks against individuals have been a result of credentials leaked from insecure accounts, then used to gain access to more secure services. Facebook CEO Mark Zuckerberg had his Twitter and Pinterest accounts hacked as a result of leaked LinkedIn credentials[^4]. Both Twitter CEO Jack Dorney and Google CEO Sundar Pichai have had similar experiences. If a service requires login there is a strong likelihood that the user credentials will also be securing data elsewhere. Protecting them is essential.
 
 ## UK libraries
 
-In a library context, credentials that need protecting are often a user ID and PIN/Password for the online catalogue. An individual's library account may hold information such as email address, home address, date of birth, and equalities information on an individual. And their extensive borrowing history, if retained by the library management system. How well do UK library services secure that information?
+In a library context, credentials that need protecting are often a user ID and PIN/Password for the online catalogue. An individual's library account may also hold information such as email address, home address, date of birth, and equalities information on an individual. And their extensive borrowing history, if retained by the library management system. How well do UK library services secure that information?
 
-Web browsers give users information about the security of the web page they are visiting. A securely encrypted page is normally represented with a padlock symbol, and sometimes a green colour somewhere in the address bar. Chrome also now actively marks sites as **'Not secure'**, where they allow user input and do not have encryption.
+Web browsers give users information about the security of the web page they are visiting. A securely encrypted page is normally represented with a padlock symbol, and sometimes a green colour somewhere in the address bar. Chrome also now actively marks sites as **Not secure**, where they do not have encryption.
 
-Encryption is not just a yes/no. Sites could be grouped into the following categories.
+Encryption is not just a yes/no. Sites can be grouped into the following categories.
 
 | Type | Description |
 | ---- | ----------- |
@@ -55,9 +59,9 @@ Some basic testing of web security doesn't need experienced penetration testers 
 3. If you're the site owner, check the site against an online SSL checker such as SSL Labs[^6].  This will give detailed and complex results, but also a simple grade of quality. You should ideally be getting an A grade, anything lower then report to your supplier and IT to investigate.
 
 
-## Test Updates
+## Updates
 
-This post will be updated to reflect changes. All of the library services with failing standards were contacted to ask what they were doing to address the securty concerns. Some responded by enabling encryption promptly, some did nothing, and others have waited for future system changes.
+This post will be updated to reflect changes. All of the library services with failing standards were contacted to ask what they were doing to address the security concerns. Some responded by enabling encryption promptly, some did nothing, and others have waited for future system changes.
 
 | ----- | ----- |
 | July 2016 | Original tests completed |
