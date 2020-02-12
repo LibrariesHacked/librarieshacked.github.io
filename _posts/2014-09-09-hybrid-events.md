@@ -6,14 +6,14 @@ categories:
 tags:
     - Remote events
     - Hackathons
-published: false
+published: true
 ---
 
 A hybrid event, as described on wikipedia is:
 
 > a tradeshow, conference, unconference, seminar, workshop or other meeting that combines a "live" in-person event with a "virtual" online component.
 
-Many conferences, unconferences and hack events will already have a significant online presence without needing to define themselves as hybrid. These involve a twitter hashtag, website, blog write-ups, and more. What this doesn't always amount to is officially defined virtual participation.
+Many conferences, unconferences and hack events will have a significant online presence without needing to define themselves as hybrid. These involve a twitter hashtag, website, blog write-ups, and more. What this doesn't always amount to is officially defined virtual participation.
 
 It can be difficult to make virtual participation formal in the same way that attendees to an in-person event are. It is also unnecessary to make all virtual participation formal: someone commenting using a hashtag or discussing a blog post wouldn't expect to need to register first.
 

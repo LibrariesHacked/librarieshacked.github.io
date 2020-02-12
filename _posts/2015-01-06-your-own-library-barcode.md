@@ -6,14 +6,12 @@ categories:
 tags:
     - Account
     - Barcodes
-published: false
+published: true
 ---
 
-A recent news story announced that Calgary Public Library were about to release a new smartphone app to replace membership cards. By displaying a barcode on a phone.
+A recent news story announced that Calgary Public Library were about to release a new smartphone app [to replace membership cards](http://mobilesyrup.com/2014/12/19/calgary-public-library-launches-smartphone-app-to-replace-library-cards). By displaying a barcode on a phone.
 
-- [Calgary Public Library launches Smartphone App to replace library cards](http://mobilesyrup.com/2014/12/19/calgary-public-library-launches-smartphone-app-to-replace-library-cards/)
-
-It's already done by the Solus apps in UK libraries, and can be easier for a user to do themselves than to download a whole app for.
+It's already done by the Solus app in UK libraries, and can be easier for a user to do themselves than to download an app for.
 
 The immediate option would be to take a photo of your card, or scan it. But if you don't want a dodgy photo, and want to create your own barcode, it's not difficult to find websites to create a barcode image from text. The main complexity is there are a variety of different standards and types of barcodes. It's likely enough that your library will scan **code 39** type barcodes, but if that doesn't turn out right it may be a different barcode format (such as **code 128**).
 

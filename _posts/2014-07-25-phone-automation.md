@@ -6,27 +6,27 @@ categories:
 tags:
     - Automation
     - Mobile
-published: false
+published: true
 ---
 
-The shift to mobile operating systems like Android and iOS has led to an increased use of phones and tablets as mini-PCs, with the ability to perform the productivity tasks PCs are used for. The keyboards are more fiddly, the screens smaller (although often with greater resolutions than many monitors), but it's easy enough to cast the display onto a TV and add a bluetooth mouse/keyboard. For many people, mobile tech is able to replace their old PC.
+The shift to mobile operating systems like Android and iOS has led to an increased use of phones and tablets as mini-PCs, with the ability to perform productivity tasks. The keyboards are more fiddly, the screens smaller (although often with greater resolutions than monitors), but it's easy enough to cast the display onto a TV and add a bluetooth mouse/keyboard. For many, mobile tech is able to replace their old PC.
 
 A limitation of mobile operating systems is that they don't offer the same level of automation for 'power-users' a desktop operating system does. On a desktop there are countless ways of programming and scripting tasks, using any language of choice.
 
-Both Android and iOS allow users to develop apps and deploy these to their own devices, but this requires creating whole apps rather than just the simple scripting of tasks for automation. There are also plenty of apps that allow tasks to be scheduled, but these don't offer the flexibility of real scripting. Rather than choosing from a list of pre-set tasks, users need to be able to create scripts that do exactly what they want - including automating many processes that will have no relevance to other people.
+Android and iOS allow users to develop apps and deploy these to their own devices, but this requires creating whole apps, rather than just the simple scripting of tasks for automation. There are also plenty of apps that allow tasks to be scheduled, but these don't offer the flexibility of real scripting. Rather than choosing from a list of pre-set tasks, users need to be able to create scripts that do exactly what they want - including automating many processes that will have no relevance to other people.
 
 Apple make scripting difficult - no app would be allowed on the app store that could download and run code. Apps are also 'sandboxed', not allowing integration with other files or apps on the device. This makes sharing data and files between apps difficult.
 
-Despite this, there are still options for automation in iOS. The excellent blog post, [Automating iOS: How Pythonista Changed My Workflow](http://www.macstories.net/stories/automating-ios-how-pythonista-changed-my-workflow), demonstrates using Pythonista, a beautiful looking iOS app for automating tasks, and provides workarounds for the restrictions.
+Despite this, there are still options for automation in iOS. The excellent blog post, [Automating iOS: How Pythonista Changed My Workflow](http://www.macstories.net/stories/automating-ios-how-pythonista-changed-my-workflow), demonstrates using Pythonista, a beautiful looking iOS app for automating tasks. It also provides workarounds for the restrictions.
 
-For Android, one option is SL4A - a scripting tool for android. This allows scripting using a number of different languages, as well as giving direct access to the device functionality - such as location and camera. The example below takes a quick look at using SL4A to use the device location sensor and integrate with an API - the culture grid web service.
+For Android, one option is SL4A - a scripting tool. This allows scripting using a number of different languages, as well as giving direct access to the device functionality - such as location and camera. The example below takes a quick look at using SL4A to use the device location sensor and integrate with an API - the culture grid web service.
 
 #### Step 1. Install and set-up the apps
 
-- You'll need to make sure your android device allows you to install apps that aren't from the Google Play store.  This is a phone setting usually found in the security section
-- Install the SL4A app by navigating to [this link to sl4a](http://code.google.com/p/android-scripting/) on your device.
-- Also install the Python for Android app. This can be done from within SL4A. Launch SL4A, and in the menu navigate to **view > interpreters**. Then launch the menu again and select *add*, and then *python 2.6.2*. This will launch the download of Python for Android.
-- Once installed, launch python for android and click install. You're ready to script with Python within SL4A.
+1. You'll need to make sure your android device allows you to install apps that aren't from the Google Play store. This is a phone setting usually found in the security section
+2. Install the SL4A app by navigating to [this link to sl4a](http://code.google.com/p/android-scripting/) on your device.
+3. Also install the Python for Android app. This can be done from within SL4A. Launch SL4A, and in the menu navigate to **view > interpreters**. Then launch the menu again and select *add*, and then *python 2.6.2*. This will launch the download of Python for Android.
+4. Once installed, launch python for android and click install. You're ready to script with Python within SL4A.
 
 #### Step 2. Create a script
 
@@ -34,7 +34,8 @@ This example will find the current location and then call to the culture grid we
 
 - Launch SL4A and from the menu select **add > python**. This launches a text editor where you can write your python script. Rather than go through line by line, the code below is commented throughout.
 
-<pre class="prettyprint linenums"><code># three python imports are necessary for this.  android, urllib (for calling the web service), and ElementTree (for dealing with the xml data returned)
+```python
+# three python imports are necessary for this.  android, urllib (for calling the web service), and ElementTree (for dealing with the xml data returned)
 import android, urllib, time, xml.etree.ElementTree as ET
 
 droid = android.Android()
@@ -102,7 +103,8 @@ for e in root.findall('.//str'):
         libraryAddress = e.text
 
 # we have all the data - throw it into a toast notification to tell the user
-droid.notify(libraryName, libraryAddress)</code></pre>
+droid.notify(libraryName, libraryAddress)
+```
 
 #### Step 3. Publish the script as a shortcut
 

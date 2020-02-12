@@ -5,7 +5,7 @@ categories:
     - Software
 tags:
     - Library management system
-published: false
+published: true
 ---
 
 There is a mobile app on the Google Play store that combines many library services into one for users to view loans, receive notifications, and renew items - across all their library accounts.
@@ -14,7 +14,7 @@ There is a mobile app on the Google Play store that combines many library servic
 
 #### Web scraping and automation
 
-The app currently covers around 300 UK college, health, university, and public libraries. Library systems do offer integration options that are used by third parties, but these aren't available to public developers. In this case, the integration has been developed purely from automating publicly available web-based functions (using code to mimic the actions of a user on a website).
+The app currently covers around 300 UK college, health, university, and public libraries. Library systems do offer integration options that are used by third parties, but these aren't available to public developers. In this case, the integration has been developed purely from automating publicly available web-based functions. This uses code to mimic the actions of a user on a website.
 
 It's possible for the app to provide so many libraries because there aren't that many types of web catalogues. With a list of libraries, which portal they use, and code to interact with the different types of portal, code can be reused across multiple services. Not a bad prospect if a user is member of a number of different libraries and wants somewhere to manage all their accounts. Just enter the library credentials and let the app access the different sites. The app just needs to know the catalogue type, and URL.
 

@@ -88,5 +88,3 @@ $.getJSON(geocodeUrl, function (data) {
     // add a marker in the given location
     L.marker([lat, lon]).addTo(map).bindPopup('some popup text');
 });</code></pre>
-
-To illustrate the map code [this example page](http://www.librarieshacked.org/examples/librariesnewsmap) should perform an up to date query for libraries news data, separate them into news stories and locations, geocode each of these, and display the results on a map. It may take a few seconds.

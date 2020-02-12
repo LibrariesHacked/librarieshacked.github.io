@@ -5,7 +5,7 @@ categories:
     - Security
 tags:
     - Mobile applications
-published: false
+published: true
 ---
 
 *[HTTPS]: Hyper Text Transfer Protocol Secure

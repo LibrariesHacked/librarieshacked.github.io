@@ -6,27 +6,27 @@ categories:
 tags:
     - Local government
     - Software
-published: false
+published: true
 ---
 
 Open data is widely considered to be a 'good thing'. Greater organisation and government transparency leads to a better informed public and creative re-use of that data.
 
 The government promote an open data policy. The service design manual on gov.uk includes [a page on open data](https://www.gov.uk/service-manual/technology/open-data.html). Key phrases:
 
-- You should publish all public data, unless it is private data collected from people or restricted for national security reasons
-- Your open data should be user-friendly and findable. You should support people who want to reuse it and provide guarantees about how it will be made available
-- Public bodies should actively encourage the reuse of their public data.
+> You should publish all public data, unless it is private data collected from people or restricted for national security reasons ...
+> Your open data should be user-friendly and findable. You should support people who want to reuse it and provide guarantees about how it will be made available ...
+> Public bodies should actively encourage the reuse of their public data.
 
-... and many more such examples. It reads as a manifesto in support of open data, and will be gratifying for people keen for public data to be published in reusable formats.
+... and more such examples. It reads as a manifesto in support of open data, and will be gratifying for people keen for public data to be openly published.
 
-Despite this, for a local council the question will still be 'why?', and though arguments for open data are compelling, they are rarely ones that provide a measurable cost saving, yet they often present implementation costs.
+Despite this, for a local council the question will still be 'why?', and though arguments for open data are compelling, they are rarely ones that provide a measurable cost saving. Yet they often present implementation costs, even just through time spent.
 
 #### What data does a council have?
 
 Councils are not typically organisations that are on top of the data they hold. They may have the following systems:
 
 - an electoral registration database for those registered to vote.
-- a library member database.
+- a library membership database.
 - a database of planning and licensing applications with associated data on individuals (those who have made applications and those who have commented on applications).
 - a CRM (customer relationship management) database used to keep track of engagement with residents.
 - a revenues and benefits system with details of those paying/receiving money from the council (e.g. council tax/housing benefit).
@@ -41,7 +41,7 @@ If a council is going to spend money on opening data to the public they will nee
 - query different systems and platforms to extract the data
 - keep those exports up to date
 
-Despite holding this wealth of information, the systems will rarely be **linked** in any way, despite all the data being related. Those registered to vote will also be on the council tax and benefits systems, and the CRM system, and the library system. Their house will be a registered property which will be on waste and recycling collection routes. They will be a member of a council ward, which will have specific health data, which could be linked to relevant air quality monitors, or directly linked to council spend in that area.
+Despite holding this wealth of information, the systems will rarely be **linked** in any way, despite the data being related. Those registered to vote will also be on the council tax and benefits systems, and the CRM system, and the library system. Their house will be a registered property which will be on waste and recycling collection routes. They will be a member of a council ward, which will have specific health data, which could be linked to relevant air quality monitors, or directly linked to council spend in that area.
 
 #### The cost of opening up data
 
