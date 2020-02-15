@@ -1,6 +1,6 @@
 ---
 title: "Mobile libraries: project introduction"
-description: Promoting the use of mobile library data to solve problems
+excerpt: Promoting the use of mobile library data to solve problems
 categories:
   - Mobile libraries
 header:

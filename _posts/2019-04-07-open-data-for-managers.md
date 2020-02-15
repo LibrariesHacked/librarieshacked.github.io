@@ -1,6 +1,6 @@
 ---
 title: Open data for library managers
-description: Getting buy-in from senior management for open
+excerpt: Getting buy-in from senior management for open data
 categories:
   - Open data
 tags:

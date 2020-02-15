@@ -1,6 +1,6 @@
 ---
 title: Automation on mobile operating systems
-description: Using SL4A to make use of mobile device features and automate tasks
+excerpt: Using SL4A to make use of mobile device features and automate tasks
 categories:
     - Tutorial
 tags:

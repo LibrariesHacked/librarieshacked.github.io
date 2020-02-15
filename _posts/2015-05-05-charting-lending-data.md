@@ -1,6 +1,6 @@
 ---
 title: Creating data driven dashboards
-description: Interactive charts that cross-filter data to provide dynamic dashboards.
+excerpt: Interactive charts that cross-filter data to provide dynamic dashboards.
 categories:
     - Tutorial
 tags:

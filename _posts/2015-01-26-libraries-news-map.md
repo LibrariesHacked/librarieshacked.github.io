@@ -1,6 +1,6 @@
 ---
 title: Create a library news map
-description: Turning RSS WordPress posts into tabular data
+excerpt: Turning RSS WordPress posts into tabular data
 categories:
     - Tutorial
 tags:

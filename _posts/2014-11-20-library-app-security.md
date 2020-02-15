@@ -1,6 +1,6 @@
 ---
 title: How secure is your library app?
-description: Do you know if your login and personal details are encrypted while using your library app?
+excerpt: Do you know if your login and personal details are encrypted while using your library app?
 categories:
     - Security
 tags:

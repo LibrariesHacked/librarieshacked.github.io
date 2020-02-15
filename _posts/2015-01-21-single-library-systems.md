@@ -1,6 +1,6 @@
 ---
 title: A single view of library services
-description: Portals to interact with and combine library catalogue services across authorities and sectors
+excerpt: Portals to interact with and combine library catalogue services across authorities and sectors
 categories:
     - Software
 tags:

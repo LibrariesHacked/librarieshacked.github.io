@@ -1,6 +1,6 @@
 ---
 title: Library catchment areas
-description: How do public libraries define catchment areas?
+excerpt: How do public libraries define catchment areas?
 categories:
     - Analysis
 tags:

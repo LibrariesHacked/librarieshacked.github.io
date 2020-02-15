@@ -1,6 +1,6 @@
 ---
 title: "Wales: library locations"
-description: Looking at library locations in Wales and access to libraries
+excerpt: Looking at library locations in Wales and access to libraries
 categories:
   - Open data
 tags:

@@ -1,6 +1,6 @@
 ---
 title: Book search auto-complete
-description: Helping users to search for items by looking up API data
+excerpt: Helping users to search for items by looking up API data
 categories:
     - Tutorial
 tags:

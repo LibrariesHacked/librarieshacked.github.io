@@ -1,6 +1,6 @@
 ---
-title: world library rankings
-description: ranking literacy by using global library provision
+title: World library rankings
+excerpt: Ranking literacy by using global library provision
 categories:
     - Global
 tags:

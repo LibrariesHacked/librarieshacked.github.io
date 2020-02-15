@@ -1,6 +1,6 @@
 ---
 title: British national bibliography smartwatch app
-description: creating a smartwatch app to show books published or set in the current location
+excerpt: creating a smartwatch app to show books published or set in the current location
 categories:
     - Tutorial
 tags:

@@ -1,6 +1,6 @@
 ---
 title: "Mobile libraries: routing"
-description: Calculating mobile library routes
+excerpt: Calculating mobile library routes
 categories:
   - Mobile libraries
 tags:

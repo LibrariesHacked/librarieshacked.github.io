@@ -1,6 +1,6 @@
 ---
 title: "Mobile libraries: data schema"
-description: Designing a data schema to hold mobile library stops and timetables
+excerpt: Designing a data schema to hold mobile library stops and timetables
 categories:
   - Mobile libraries
 tags:

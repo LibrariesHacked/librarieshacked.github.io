@@ -1,6 +1,6 @@
 ---
 title: Making sure your hack sites can't be hacked
-description: WordPress is a popular platform for hack sites - but it leaves security to the administrator.
+excerpt: WordPress is a popular platform for hack sites - but it leaves security to the administrator.
 categories:
     - Security
 tags:

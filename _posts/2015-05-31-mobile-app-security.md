@@ -1,6 +1,6 @@
 ---
 title: Mobile app security testing
-description: Investigating the security of mobile apps
+excerpt: Investigating the security of mobile apps
 categories:
     - Security
 tags:

@@ -1,6 +1,6 @@
 ---
 title: "IP data: creating an RSS feed"
-description: Use Google apps scripts to make use of IP weekly list data
+excerpt: Use Google apps scripts to make use of IP weekly list data
 categories:
     - Tutorial
 tags:
@@ -49,10 +49,10 @@ To create an apps script you need a Google account.
 
 To deploy the script as a webapp it needs to have a method called doGet(). Modify the new file to look like the following:
 
-<pre class="prettyprint linenums">
-<code>function doGet() {
-}</code>
-</pre>
+```JavaScript
+function doGet() {
+}
+```
 
 The code for the script will all be put within the doGet function.
 
@@ -68,14 +68,16 @@ Any code trying to access the latest list needs to calculate what the current nu
 
 When the code has the current Journal ID it can then access the data using the built in method **UrlFetchApp.fetch**.
 
-<pre class="prettyprint linenums"><code>// Calculate the ID of the journal we're currently on
+```JavaScript
+// Calculate the ID of the journal we're currently on
 // Note: 02 in this case is March! 00 is January.
 var referenceDate = new Date(2016,02,09);
 var currentDate = new Date();
 // The difference between the dates is returned in milliseconds.  Convert that to weeks (/604800000)
 var weeks = Math.floor((currentDate-referenceDate) / 604800000);
 var journalId = parseInt(6616 + weeks);
-var latestJournalText = UrlFetchApp.fetch('https://www.ipo.gov.uk/p-pj-fullfile/xml/' + journalId + '/' + journalId +'.xml').getContentText();</code></pre>
+var latestJournalText = UrlFetchApp.fetch('https://www.ipo.gov.uk/p-pj-fullfile/xml/' + journalId + '/' + journalId +'.xml').getContentText();
+```
 
 #### Step 3. Parse and filter the XML data
 
@@ -118,38 +120,39 @@ Each of these headings is split into sections summarised in the following table.
 
 A sample of the XML structure is:
 
-<pre class="prettyprint linenums"><code>&lt;Journal Number="6616" Date="9 March 2016" ApplicationNoStart="GB1601103.3" ApplicationNoEnd="GB1601537.2" PublicationNoStart="GB2529798" PublicationNoEnd="GB2529995"&gt;
-	&lt;Headings&gt;
-		&lt;Heading Name="Proceedings under the Patents Act 1977" InternalName="Main" ID="1"&gt;
-			&lt;Sections&gt;
-				&lt;Section Title="Applications for Patents filed" InternalName="ApplicationsFiled" ID="1"&gt;
-					&lt;Case&gt;
-						&lt;CaseID&gt;1822232&lt;/CaseID&gt;
-						&lt;ApplicationNo&gt;GB1601394.8&lt;/ApplicationNo&gt;
-						&lt;Title&gt;Seat belt adjuster&lt;/Title&gt;
-						&lt;CaseStatus&gt;AWAITING FORM 9&lt;/CaseStatus&gt;
-						&lt;DateLodged&gt;23 January 2016&lt;/DateLodged&gt;
-						&lt;DateFiled&gt;23 January 2016&lt;/DateFiled&gt;
-						&lt;NotEnglish&gt;false&lt;/NotEnglish&gt;
-					&lt;/Case&gt;
-					...More cases...
-				&lt;/Section&gt;
-			&lt;/Sections&gt;
-			...More sections...
-		&lt;/Heading&gt;
-		...More headings...
-	&lt;/Headings&gt;
-&lt;/Journal&gt;</code></pre>
+```XML
+<Journal Number="6616" Date="9 March 2016" ApplicationNoStart="GB1601103.3" ApplicationNoEnd="GB1601537.2" PublicationNoStart="GB2529798" PublicationNoEnd="GB2529995">
+	<Headings>
+		<Heading Name="Proceedings under the Patents Act 1977" InternalName="Main" ID="1">
+			<Sections>
+				<Section Title="Applications for Patents filed" InternalName="ApplicationsFiled" ID="1">
+					<Case>
+						<CaseID>1822232</CaseID>
+						<ApplicationNo>GB1601394.8</ApplicationNo>
+						<Title>Seat belt adjuster</Title>
+						<CaseStatus>AWAITING FORM 9</CaseStatus>
+						<DateLodged>23 January 2016</DateLodged>
+						<DateFiled>23 January 2016</DateFiled>
+						<NotEnglish>false</NotEnglish>
+					</Case>
+				</Section>
+			</Sections>
+		</Heading>
+	</Headings>
+</Journal>
+```
 
 Putting that data into a single RSS field would be a little too unwieldy, and have little focus. This particular feed will list cases from the **Proceedings under the Patents Act 1977 > Patents Granted** section. It would be possible to create many instances of the script to query different aspects of the data, or Google Apps scripts also allow for passing in parameters as part of the Web App URL which could specify which section to return, or even keywords to search by.
 
 Back in the script, fetching the URL will just fetch the raw text data. For the script to understand the data as XML and to extract values from it, it needs to be loaded as XML. This is done using the **XmlService.parse** method.  Once that's done there are various methods to select specific sections of the data from the XML using the **getChild()** and **getChildren()** XML methods, starting at the root (**getRootElement()**).
 
-<pre class="prettyprint linenums"><code>// Parse the XML to get a list from the applications filed section.
+```JavaScript
+// Parse the XML to get a list from the applications filed section.
 var journalXml = XmlService.parse(latestJournalText);
 var sections = journalXml.getRootElement().getChild('Headings').getChild('Heading').getChild('Sections').getChildren('Section');
 // We are selecting the Patents Granted section which is index 4
-var patentsGranted = sections[4].getChild('Cases').getChildren('Case');</code></pre>
+var patentsGranted = sections[4].getChild('Cases').getChildren('Case');
+```
 
 #### Step 4. Create the RSS Feed
 
@@ -161,7 +164,8 @@ There isn't a lot of detail provided in the XML for each Patent. The script will
 
 The code in the previous step provided a list of Patents Granted that the script can loop through. To create the necessary RSS data the script again uses the **XmlService** (RSS being XML based).  At the end it returns the content using the **ContentService.createTextOutput** method, which is necessary when deploying as a Web App.
 
-<pre class="prettyprint linenums"<code>// Create the RSS document
+```JavaScript
+// Create the RSS document
 var root = XmlService.createElement('rss');
 var channel = XmlService.createElement('channel')
 	.addContent(XmlService.createElement('title').setText('Proceedings under the Patents Act 1977'))
@@ -180,7 +184,8 @@ for (var j = 0; j < applicationsFiled.length; j++) {
 }
 root.addContent(channel);
 var rss = XmlService.getPrettyFormat().format(rssDocument);
-return ContentService.createTextOutput(rss).setMimeType(ContentService.MimeType.RSS);</code></pre>
+return ContentService.createTextOutput(rss).setMimeType(ContentService.MimeType.RSS);
+```
 
 #### Step 5. Deploy as Web App
 

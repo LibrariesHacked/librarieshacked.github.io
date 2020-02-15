@@ -1,7 +1,10 @@
 ---
 title: LSOAs and postcodes
+excerpt: What LSOAs are and how library services can make use of them through membership data
 categories: 
-  - Mapping
+  - Geography
+tags:
+  - Library schema
   - Deprivation
   - Membership
 published: false

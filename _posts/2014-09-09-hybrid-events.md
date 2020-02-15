@@ -1,6 +1,6 @@
 ---
 title: Hybrid events
-description: Exploring hybrid events within hacks and code events.
+excerpt: Exploring hybrid events within hacks and code events.
 categories:
     - Events
 tags:

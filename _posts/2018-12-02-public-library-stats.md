@@ -1,6 +1,6 @@
 ---
 title: Public library stats
-description: Summary of how UK stats for libraries work
+excerpt: Summary of how UK stats for libraries work
 categories:
   - CIPFA
 tags:

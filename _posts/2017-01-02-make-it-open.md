@@ -1,10 +1,11 @@
 ---
 title: Make it open
-description: A cuture of open by default for 2017
+excerpt: A cuture of open by default for 2017
 categories:
-    - Open data
+  - Open data
 tags:
-    - Resolutions
+  - Resolutions
+  - SCL
 published: true
 ---
 

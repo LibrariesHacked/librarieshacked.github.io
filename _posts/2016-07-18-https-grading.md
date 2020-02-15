@@ -1,6 +1,6 @@
 ---
 title: "Encryption, library catalogues, and security testing"
-description: Testing the encryption of library catalogue websites
+excerpt: Testing the encryption of library catalogue websites
 categories:
   - Security
 tags:

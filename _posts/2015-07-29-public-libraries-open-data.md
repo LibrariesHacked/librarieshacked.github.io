@@ -1,6 +1,6 @@
 ---
 title: Public libraries open data
-description: Where is the open data investment for public libraries?
+excerpt: Where is the open data investment for public libraries?
 categories:
     - Open data
 tags:

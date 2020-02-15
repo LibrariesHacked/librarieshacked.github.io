@@ -1,6 +1,6 @@
 ---
 title: Auto renewals
-description: Writing a script to auto-renew your library books
+excerpt: Writing a script to auto-renew your library books
 categories:
   - Tutorial
 tags:

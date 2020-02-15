@@ -1,6 +1,6 @@
 ---
 title: Website launched 13th June
-description: Introduction to libraries hacked
+excerpt: Introduction to libraries hacked
 categories:
     - Blog
 tags:

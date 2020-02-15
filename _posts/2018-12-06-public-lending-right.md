@@ -1,5 +1,6 @@
 ---
 title: Public lending right
+excerpt: How the system of public lending right works in the UK
 categories:
   - Public lending right
 tags:

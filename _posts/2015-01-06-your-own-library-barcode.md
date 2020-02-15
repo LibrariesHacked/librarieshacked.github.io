@@ -1,6 +1,6 @@
 ---
 title: Making your own library account barcode
-description: A new library app advertises an on screen barcode - but you can do your own
+excerpt: A new library app advertises an on screen barcode - but you can do your own
 categories:
     - Tutorial
 tags:

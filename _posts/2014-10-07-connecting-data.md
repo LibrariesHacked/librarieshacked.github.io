@@ -1,6 +1,6 @@
 ---
 title: Connecting and opening local government data
-description: The challenges of opening up data from local government systems
+excerpt: The challenges of opening up data from local government systems
 categories:
     - Open data
 tags:

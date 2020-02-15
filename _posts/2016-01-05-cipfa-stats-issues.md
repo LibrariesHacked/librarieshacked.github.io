@@ -1,6 +1,6 @@
 ---
 title: CIPFA library stats - a race to the bottom
-description: Issues with the UK library performance measures
+excerpt: Issues with the UK library performance measures
 categories:
     - CIPFA
 tags:

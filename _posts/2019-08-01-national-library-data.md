@@ -1,6 +1,6 @@
 ---
 title: National public library data
-description: How to encourage good national library data across services
+excerpt: How to encourage good national library data across services
 categories:
   - Open data
 tags:

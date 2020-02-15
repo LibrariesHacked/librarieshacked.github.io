@@ -1,6 +1,6 @@
 ---
 title: Public libraries and deprivation
-description: Analysing the location of libraries and the indices of deprivation 
+excerpt: Analysing the location of libraries and the indices of deprivation 
 categories:
     - Geography
 tags:

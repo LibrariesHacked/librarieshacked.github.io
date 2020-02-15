@@ -1,6 +1,6 @@
 ---
 title: Where to find public libraries open data
-description: Searching through government portals and local data stores
+excerpt: Searching through government portals and local data stores
 categories:
     - Open data
 tags:

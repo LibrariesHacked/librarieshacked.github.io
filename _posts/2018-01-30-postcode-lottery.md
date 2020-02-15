@@ -1,6 +1,6 @@
 ---
 title: Library postcode lottery
-description: Play the English library postcode lottery
+excerpt: Play the English library postcode lottery
 categories:
     - Geography
 tags:

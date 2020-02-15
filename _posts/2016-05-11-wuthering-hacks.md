@@ -1,6 +1,6 @@
 ---
 title: Wuthering hacks
-description: Newcastle libraries open data process and library hack day 
+excerpt: Newcastle libraries open data process and library hack day 
 categories:
     - Events
 tags:

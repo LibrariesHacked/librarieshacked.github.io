@@ -1,6 +1,6 @@
 ---
 title: "Mobile libraries: GPS"
-description: Visualising mobile library real-time locations
+excerpt: Visualising mobile library real-time locations
 categories:
   - Mobile libraries
 tags:

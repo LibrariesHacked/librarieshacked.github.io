@@ -1,6 +1,6 @@
 ---
 title: "Mobile libraries: authentication"
-description: Managing authentication for mobile library data
+excerpt: Managing authentication for mobile library data
 categories:
   - Mobile libraries
 categories:

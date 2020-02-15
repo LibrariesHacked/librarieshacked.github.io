@@ -1,6 +1,6 @@
 ---
 title: Plymouth library finder
-description: Displaying library open data in a library finder
+excerpt: Displaying library open data in a library finder
 categories:
     - Geography
 tags:
