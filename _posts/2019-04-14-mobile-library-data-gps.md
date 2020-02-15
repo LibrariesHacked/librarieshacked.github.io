@@ -1,8 +1,12 @@
 ---
 title: "Mobile libraries: GPS"
-excerpt: Visualising mobile library real-time locations
+description: Visualising mobile library real-time locations
 categories:
   - Mobile libraries
+tags:
+  - GPS
+  - Geography
+published: true
 ---
 
 Mobile library stops and routes can be visualised on maps. With stops this is fairly common, routes not so often, but it [can be done](/mobile-library-data-routes).

@@ -2,7 +2,12 @@
 title: A public library data strategy
 excerpt: Steps to create a strategy for national data in public libraries
 categories: 
-    - National data
+  - National data
+tags: 
+  - Open data
+  - SCL
+  - DCMS
+  - CILIP
 published: true
 ---
 

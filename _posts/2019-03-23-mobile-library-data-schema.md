@@ -1,8 +1,12 @@
 ---
 title: "Mobile libraries: data schema"
-excerpt: Designing a data schema to hold mobile library stops and timetables
+description: Designing a data schema to hold mobile library stops and timetables
 categories:
   - Mobile libraries
+tags:
+  - Data schema
+  - Table schema
+published: true
 ---
 
 A [previous post](/mobile-library-data-project) discussed data on mobile libraries, and improving how this data is used internally, and in providing public information. An encouraging number of library services have been in touch to get involved.

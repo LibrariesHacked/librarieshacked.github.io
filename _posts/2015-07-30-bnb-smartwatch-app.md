@@ -7,14 +7,14 @@ tags:
     - ISBNs
     - Search
     - Web
-published: false
+published: true
 ---
 
 With the Apple watch, various Android watches, and Microsoft [releasing the Band](https://www.microsoft.com/microsoft-band/en-gb), 2015 may still be set to be the year of the smart watch. Though this telegraph article suggests in terms of **wearables** it is the [year of the smart bra](http://www.telegraph.co.uk/news/predictions/technology/11306735/wearable-technology-trend.html).
 
 #### Pebble
 
-Pebble is a Kickstarter crowdfunded smart watch, the second generation version holds the record for highest funded project at around $2 million. It is also relatively cheap (the first one £80), integrates with iOS and Android phones, and includes a cloud based-development environment, [CloudPebble](http://cloudpebble.net).
+Pebble is a Kickstarter crowdfunded smart watch. The second generation version holds the record for highest funded project at around $2 million. It is also relatively cheap (the first one £80), integrates with iOS and Android phones, and includes a cloud based-development environment, [CloudPebble](http://cloudpebble.net).
 
 Although it is yet to be seen how successful the second watch will be, or how popular smart watches will turn out to be in general, Pebble is at least a fun learning tool for writing simple watch apps that make use of the features of the watch paired with a phone.
 
@@ -22,8 +22,8 @@ Like hybrid apps on phones, Pebble has created an option for developers to write
 
 As an example, this app will:
 
-- query the [British National Bibliography](http://bnb.bl.uk/) (BNB) for a book published in the user's current location
-- also query for a book **set** in the current location
+- Query the [British National Bibliography](http://bnb.bl.uk/) (BNB) for a book published in the user's current location
+- Query for a book **set** in the current location
 
 #### Setting up the app
 
@@ -31,7 +31,8 @@ The app can be written within the cloud pebble environment, which includes a sim
 
 After following steps in the [guide to starting cloud pebble development](http://developer.getpebble.com/guides/js-apps/pebble-js/), the initial set-up of the app is to design the screen, which consists of a single UI 'card' with title, subtitle, and body text.
 
-<pre class="prettyprint linenums"><code>var ui = require('ui');
+```JavaScript
+var ui = require('ui');
 var ajax = require('ajax');
 // test location for use in simulator
 var testLocation = { coords: { latitude: 51.94, longitude: -2.26 } };
@@ -42,7 +43,8 @@ var main = new ui.Card({
   subtitle: 'Search for local books',
   body: 'Push buttons!'
 });
-main.show();</code></pre>
+main.show();
+```
 
 #### Handling events
 
@@ -52,7 +54,8 @@ The Pebble watch has three buttons. Top, middle and bottom. Using the top and bo
 
 The Pebble watch itself does not does not have an Internet connection, or the ability to detect location - all these features are obtained via a Bluetooth connection to a phone. The JavaScript library hides that though, and handles the communication between the phone and the watch.
 
-<pre class="prettyprint linenums"><code>var locationOptions = { timeout: 15000, maximumAge: 60000 };
+```JavaScript
+var locationOptions = { timeout: 15000, maximumAge: 60000 };
 // variable used for tracking the current function (which button was pressed)
 var currentFunction = '';
 // up button (top) will find books published in the current location (BNB)
@@ -64,8 +67,9 @@ main.on('click', 'up', function(e) {
 main.on('click', 'down', function(e) {
   currentFunction = 'setin';
   navigator.geolocation.getCurrentPosition(reverseGeocode, handleError, locationOptions);
-});</code>
-</pre>
+});
+
+```
 
 #### Getting location
 
@@ -83,7 +87,8 @@ In the example above, once the location is retrieved, both actions go on to run 
 
 Open Street Map can be used for reverse geocoding. A single call to a URL (**http://nominatim.openstreetmap.org/reverse?**), passing in the latitude and longitude will return an address, which can then be used for querying the BNB.
 
-<pre class="prettyprint linenums"><code>function reverseGeocode(pos) {
+```JavaScript
+function reverseGeocode(pos) {
   pos = testLocation;
   var lat = pos.coords.latitude;
   var lon = pos.coords.longitude;
@@ -95,7 +100,8 @@ Open Street Map can be used for reverse geocoding. A single call to a URL (**htt
     },
     handleError
   );
-}</code></pre>
+}
+```
 
 #### Querying the BNB
 
@@ -107,7 +113,8 @@ Rather than showing the JavaScript code to pass through SPARQL queries, these ar
 
 #### Books published in a location
 
-<pre class="prettyprint linenums"><code>PREFIX bibo: &lt;http://purl.org/ontology/bibo/&gt;
+```SQL
+PREFIX bibo: &lt;http://purl.org/ontology/bibo/&gt;
 PREFIX blt: &lt;http://www.bl.uk/schemas/bibliographic/blterms#&gt;
 PREFIX dct: &lt;http://purl.org/dc/terms/&gt;
 PREFIX event: &lt;http://purl.org/NET/c4dm/event.owl#&gt;
@@ -120,13 +127,15 @@ SELECT ?book ?title ?isbn ?timeLabel ?creator ?name WHERE {
     bibo:isbn10 ?isbn;
     dct:creator ?creator;
     dct:title ?title.
-}</code></pre>
+}
+```
 
 #### Books set in a location
 
 A notable point about getting books set in a location is that location is typically formatted like 'Gloucester (England)'. So some manipulation of the address data has to be done to combine city and state.
 
-<pre class="prettyprint linenums"><code>PREFIX bibo: &lt;http://purl.org/ontology/bibo/&gt;
+```SQL
+PREFIX bibo: &lt;http://purl.org/ontology/bibo/&gt;
 PREFIX blt: &lt;http://www.bl.uk/schemas/bibliographic/blterms#&gt;
 PREFIX dct: &lt;http://purl.org/dc/terms/&gt;
 PREFIX event: &lt;http://purl.org/NET/c4dm/event.owl#&gt;
@@ -146,16 +155,19 @@ SELECT ?book ?title ?isbn ?creator ?name WHERE {
       dct:creator ?creator;
       dct:spatial ?setIn.
     ?creator foaf:name ?name.
-}</code></pre>
+}
+```
 
 #### Display the data
 
 The easiest way to display the data within a Pebble.JS app is just to update the home card values (title, subtitle, body text) with whatever data has been found.
 
-<pre class="prettyprint linenums"><code>function displayItem(title, subtitle, body){
+```JavaScript
+function displayItem(title, subtitle, body){
   main.title(title);
   main.subtitle(subtitle);
   main.body(body);
-}</code></pre>
+}
+```
 
 And that's it.

@@ -10,10 +10,10 @@ tags:
     - Leeds
     - JavaScript
     - Charts
-published: false
+published: true
 ---
 
-The [tools page](https://www.librarieshacked.org/tools) on this site gives some examples of tools for data analysis and data visualisation.  There are too many to list, but [HighCharts](http://www.highcharts.com/) is an especially easy charting library to create a wide variety of interactive charts with relatively little coding knowledge.
+There are too many data visualisation tools to list, but [HighCharts](http://www.highcharts.com/) is an especially easy charting library to create a wide variety of interactive charts with relatively little coding knowledge.
 
 Note: HighCharts is free for non-commercial and personal use.  For commercial use (which includes government), it does require a developer licence.
 
@@ -33,33 +33,35 @@ This tutorial takes the library computer bookings dataset as an example and uses
 To start from scratch (rather than embedding into an existing page), create a blank HTML file which will include:
 
 - Bootstrap CSS/JavaScript references, and jQuery.  This is optional but gives the page a bit of structure and automatically responsive design.  When quickly 'mocking up' pages it can be a useful first step to producing elegant pages before beginning extra design work.
-- A &lt;div&gt; container with a particular ID (in this case 'chart').  This is where Highcharts will create the chart.
+- A <div> container with a particular ID (in this case 'chart').  This is where Highcharts will create the chart.
 - A link to the HighCharts JavaScript file (hosted at highcharts.com).
 - A link to the Papa Parse JavaScript file (more on that later) - this is used to process the CSV data.
 
-<pre class="prettyprint linenums"><code>&lt;!DOCTYPE html&gt;
-&lt;html lang="en"&gt;
-&lt;head&gt;
-    &lt;meta charset="utf-8"&gt;
-    &lt;meta http-equiv="X-UA-Compatible" content="IE=edge"&gt;
-    &lt;meta name="viewport" content="width=device-width, initial-scale=1"&gt;
-    &lt;title&gt;Library IT usage data visualisation&lt;/title&gt;
-    &lt;link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css"&gt;
-&lt;/head&gt;
-&lt;body&gt;
-    &lt;div class="container"&gt;
-        &lt;h1&gt;Usage data&lt;/h1&gt;
-        &lt;div id="chart" style="height: 600px"&gt;&lt;/div&gt;
-    &lt;/div&gt;
-    &lt;script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"&gt;&lt;/script&gt;
-    &lt;script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"&gt;&lt;/script&gt;
-    &lt;script src="https://code.highcharts.com/highcharts.js"&gt;&lt;/script&gt;
-    &lt;script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/4.1.2/papaparse.min.js"&gt;&lt;/script&gt;
-    &lt;script&gt;
+```HTML
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Library IT usage data visualisation</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Usage data</h1>
+        <div id="chart" style="height: 600px"></div>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+    <script src="https://code.highcharts.com/highcharts.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/4.1.2/papaparse.min.js"></script>
+    <script>
     // JavaScript code will go here
-    &lt;/script&gt;
-&lt;/body&gt;
-&lt;/html&gt;</code></pre>
+    </script>
+</body>
+</html>
+```
 
 #### Step 2.  Write JavaScript to create the chart
 
@@ -72,7 +74,8 @@ The code needs the data from the CSV file.  [Papa Parse](http://papaparse.com/) 
 - Create an array of series object that represent the data values for each library.
 - On the chart div container (*$('#chart')*) create the chart with some optional text values and the data.
 
-<pre class="prettyprint linenums"><code>$(function () {
+```JavaScript
+$(function () {
     // PapaParse takes the link to the CSV file, hosted at Leeds Data Mill
     Papa.parse('https://aql.datapress.com/leeds/dataset/library-computer-bookings/library-it-use.csv', {
         download: true,
@@ -93,7 +96,7 @@ The code needs the data from the CSV file.  [Papa Parse](http://papaparse.com/) 
                 // Add the library to the series array
                 // Because there are so many libraries, the visibility of the library is only set for the first two
                 // The user can then pick and choose which libraries to show.
-                series.push({ name: item[0], data: data, visible: (index &lt;= 2) });
+                series.push({ name: item[0], data: data, visible: (index <= 2) });
             });
 
             // Now we have the data setup, construct the chart with some text options.
@@ -108,4 +111,5 @@ The code needs the data from the CSV file.  [Papa Parse](http://papaparse.com/) 
             });
         }
     });
-});</code></pre>
+});
+```

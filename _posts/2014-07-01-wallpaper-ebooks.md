@@ -7,6 +7,7 @@ tags:
     - Mobile
     - Technology
     - Ebooks
+    - NFC
 published: true
 ---
 

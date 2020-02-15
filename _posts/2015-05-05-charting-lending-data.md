@@ -7,7 +7,7 @@ tags:
     - ISBNs
     - Search
     - Web
-published: false
+published: true
 ---
 
 Creating charts from data is a standard process in tools like Excel, and there are many web publishing tools to create charts for the web (like [Highcharts](http://www.highcharts.com/), [Google Charts](https://developers.google.com/chart/), and [Dimple](http://dimplejs.org/)).
@@ -40,31 +40,34 @@ Combining that with other datasets such as deprivation by ward, or public transp
 
 The majority of 'work' with DC JS is done in JavaScript, so the only HTML required is placeholders for where the charts will appear, and including the relevant supporting scripts and CSS files. The following template can be used to create a line, bar, and two pie charts.
 
-<pre class="prettyprint linenums"><code>&lt;html lang="en"&gt;
-&lt;head&gt;
-    &lt;title&gt;&lt;/title&gt;
-    &lt;meta http-equiv="content-type" content="text/html; charset=UTF8"&gt;
-    &lt;link rel="stylesheet" type="text/css" href="dc.css" media="screen" /&gt;
+```HTML
+<html lang="en">
+<head>
+    <title></title>
+    <meta http-equiv="content-type" content="text/html; charset=UTF8">
+    <link rel="stylesheet" type="text/css" href="dc.css" media="screen" />
 
-    &lt;script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.js" type="text/javascript"&gt;&lt;/script&gt;
-    &lt;script src="http://d3js.org/d3.v3.min.js"&gt;&lt;/script&gt;
-    &lt;script src="https://cdnjs.cloudflare.com/ajax/libs/crossfilter/1.3.11/crossfilter.min.js"&gt;&lt;/script&gt;
-    &lt;script src="dc.min.js"&gt;&lt;/script&gt;
-&lt;/head&gt;
-&lt;body&gt;
-    &lt;div id="chart-date-line"&gt;&lt;/div&gt;
-    &lt;div id="chart-library-row"&gt;&lt;/div&gt;
-    &lt;div id="chart-category-bar"&gt;&lt;/div&gt;
-    &lt;div id="chart-type-pie"&gt;&lt;/div&gt;
-    &lt;div id="chart-librarytype-pie"&gt;&lt;/div&gt;
-&lt;/body&gt;
-&lt;/html&gt;</code></pre>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.js" type="text/javascript"></script>
+    <script src="http://d3js.org/d3.v3.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/crossfilter/1.3.11/crossfilter.min.js"></script>
+    <script src="dc.min.js"></script>
+</head>
+<body>
+    <div id="chart-date-line"></div>
+    <div id="chart-library-row"></div>
+    <div id="chart-category-bar"></div>
+    <div id="chart-type-pie"></div>
+    <div id="chart-librarytype-pie"></div>
+</body>
+</html>
+```
 
 #### Load the data
 
 Having a CSV (comma separated values) file makes it easy to import the data to be used by JavaScript. D3 is used to load in the data, in this case just by referring to the file.
 
-<pre class="prettyprint linenums"><code>d3.csv("LibraryLendingTransactions.csv", function (data) {
+```JavaScript
+d3.csv("LibraryLendingTransactions.csv", function (data) {
     // contents of the CSV can now be accessed through the 'data' variable
     // the dates are in a specific format, which we need to tell D3
     var parseDate = d3.time.format("%m/%d/%Y 12:00:00 AM").parse;
@@ -74,7 +77,8 @@ Having a CSV (comma separated values) file makes it easy to import the data to b
     });
     // set up crossfilter on the data.
     var ndx = crossfilter(data);
-});</code></pre>
+});
+```
 
 ### Set up dimensions
 
@@ -82,7 +86,8 @@ The dimensions exposed to the charts can just be the columns of the data source 
 
 In the code example below, the main columns are each created as dimensions, and also an adult/child/uncategorised dimension is created, based on the existence of *children* or *adult* being present in the category name.  Also there is a dimension to split the library name column into one of mobile/static/council/web.
 
-<pre class="prettyprint linenums"><code>// set up the dimensions
+```JavaScript
+// set up the dimensions
 var dateDim = ndx.dimension(function (d) { return d.date; });
 var categoryDim = ndx.dimension(function (d) { return d.CIPFACategoryName; });
 var typeDim = ndx.dimension(function (d) {
@@ -96,24 +101,28 @@ var libraryTypeDim = ndx.dimension(function (d) {
     if (d.LibraryName.indexOf('Web') != -1) return 'Web';
     if ((d.LibraryName.indexOf('Council') != -1) || (d.LibraryName.indexOf('Callpoint') != -1)) return 'Council';
     return 'Static';
-});</code></pre>
+});
+```
 
 #### Set up the values
 
 For this data, the values we are plotting are really just the number of rows that occur for each dimension filter.   It could be that values come from actual data in the rows though, in that case there are options to take numerical values and create a sum, average etc.
 
-<pre class="prettyprint linenums"><code>// set up the groups/values
+```JavaScript
+// set up the groups/values
 var dateDimGroup = dateDim.group();
 var categoryDimGroup = categoryDim.group();
 var typeDimGroup = typeDim.group();
 var libraryTypeDimGroup = libraryTypeDim.group();
-var libraryGroup = libraryDim.group();</code></pre>
+var libraryGroup = libraryDim.group();
+```
 
 #### Create the charts
 
 Once those things are done the charts are initialised using a set of options to control the height, width, colours, axis scales, and many more. Most importantly the relevant dimension and group to use for each chart is assigned.  The [documentation for DC JS](https://github.com/dc-js/dc.js/blob/master/web/docs/api-latest.md) is comprehensive but it can be more useful just to look through various examples and see how they've been created.
 
-<pre class="prettyprint linenums"><code>// the 5 different charts - options are set below for each one.
+```JavaScript
+// the 5 different charts - options are set below for each one.
 var libraryChart = dc.rowChart('#chart-library-row');
 var totalLine = dc.lineChart("#chart-date-line");
 var categoryChart = dc.barChart("#chart-category-bar");
@@ -182,7 +191,8 @@ libraryType
   .colorAccessor(function (d, i) { return d.value; });
 
 // at the end this needs to be called to actually go through and generate all the graphs on the page.
-dc.renderAll();</code></pre>
+dc.renderAll();
+```
 
 #### Sources
 

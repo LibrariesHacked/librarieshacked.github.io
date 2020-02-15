@@ -1,8 +1,12 @@
 ---
 title: "Wales: library locations"
+description: Looking at library locations in Wales and access to libraries
 categories:
-    - Wales
-    - Wikidata
+  - Open data
+tags:
+  - Wales
+  - Wikidata
+published: true
 ---
 
 This is the first in a series of posts about libraries in Wales.

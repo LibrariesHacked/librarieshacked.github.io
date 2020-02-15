@@ -1,8 +1,13 @@
 ---
 title: National public library data
-excerpt: How to encourage good national library data
+description: How to encourage good national library data across services
 categories:
+  - Open data
+tags:
   - National data
+  - Single digital presence
+  - CIPFA
+published: true
 ---
 
 There is agreement on the need to compile open data to give an accurate picture of UK public libraries. Their locations, staff, type, financial details, stock, and what goes on in them.

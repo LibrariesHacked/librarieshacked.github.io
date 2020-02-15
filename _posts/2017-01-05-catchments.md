@@ -1,13 +1,13 @@
 ---
 title: Library catchment areas
-description: how do public libraries define catchment areas?
+description: How do public libraries define catchment areas?
 categories:
-    - Tutorial
+    - Analysis
 tags:
-    - ISBNs
-    - Search
-    - Web
-published: false
+    - LSOAs
+    - Deprivation
+    - Consultation
+published: true
 ---
 
 What is a library catchment area? Is it the area where people are reasonably able to get to the library? For example, a certain mile radius or travel time? Is it based on home locations of members of the library, or those who have been recent 'borrowers'? Or, is it the area from which ALL visitors to the library may come?

@@ -1,14 +1,15 @@
 ---
 title: Plymouth library finder
-categories: 
+description: Displaying library open data in a library finder
+categories:
+    - Geography
+tags:
     - Plymouth
-    - Library locations
-header:
-  overlay_image: /images/2019-08-19-plymouth-libraries-locations.png
-  overlay_filter: 0.7
+    - Library finder
+published: true
 ---
 
-A long-running Libraries Hacked project is a library finder. This uses Plymouth library locations, to explore how these can be presented online. You can play with it and see [it in action here](https://plymouth.librarydata.uk).
+A long-running Libraries Hacked project is a library finder. This uses Plymouth library locations to explore how these can be presented online. You can play with it and see [it in action here](https://plymouth.librarydata.uk).
 
 Plymouth Libraries release [various datasets about their service](https://www.plymouth.gov.uk/libraries/aboutlibraryservice/librarydata) as open data. The Council also held a library themed [DataPlay event](http://www.dataplymouth.co.uk/articles/data-play-9-itinerary), inviting the public to get involved with library data.
 
@@ -78,4 +79,3 @@ The tool also shows how many people are estimated to be within the relevant dist
 It would be nice to get this data for all libraries in the UK. More detailed heights and building footprint data could be obtained from Ordnance Survey. Combining this with travel distance and population would be useful, and allow for cross-authority analysis of library provision.
 
 Having more detailed 3D building models would also be good to improve the view of the library buildings.
-

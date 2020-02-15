@@ -1,8 +1,12 @@
 ---
-title: UK public library stats
+title: Public library stats
+description: Summary of how UK stats for libraries work
 categories:
-    - Open data
-    - Statistics
+  - CIPFA
+tags:
+  - Open data
+  - Statistics
+published: true
 ---
 
 For a while many people, including me, have complained about the UK public library reliance on CIPFA for national statistics. For a simplification of this process:
@@ -50,7 +54,6 @@ It was interesting to see later that CIPFA had been involved in this. In 2018 I 
 <blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">This is their statement of FOI advice which appears to have been sent, unsolicited, to all the local authorities within their remit. It seems unlikely that the information commissioner would uphold a refusal based on this advice, which I assess as revenue protection by Cipfa. <a href="https://t.co/bVFVZgJtiZ">pic.twitter.com/bVFVZgJtiZ</a></p>&mdash; Aran Lewis (@aranmlewis) <a href="https://twitter.com/aranmlewis/status/1047460077458915329?ref_src=twsrc%5Etfw">October 3, 2018</a></blockquote>
 <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
-
 A few key phrases from the document.
 
 > CIPFA has been contacted by a number of organisations with regards to the release of information pertaining to the CIPFA stats public library data following a number of Freedom of Information requests made by the same requester.
@@ -85,4 +88,4 @@ In November 2018 I contacted CIPFA again, querying if they'd reconsider their an
 
 And this is really where the disagreement is, between CIPFA and any public open data. CIPFA are a registered charity, and to maintain that status what they do will need to be claimed as being in the public interest. But data does not need to be assured by CIPFA for there to be a public interest in it being available. The idea that a small body of non library experts, with limited resource, is a better data validator than the library community itself is absurd.
 
-Those in libraries who have worked on annual library stats will know there are many problems with the data, and know those complexities better than CIPFA do. But those problems don't 'matter' too much, they can be worked on and documented. The main thing is that the data is openly available and can be discussed properly. 
+Those in libraries who have worked on annual library stats will know there are many problems with the data, and know those complexities better than CIPFA do. But those problems don't 'matter' too much, they can be worked on and documented. The main thing is that the data is openly available and can be discussed properly.

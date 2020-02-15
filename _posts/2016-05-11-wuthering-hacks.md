@@ -6,7 +6,8 @@ categories:
 tags:
     - Hackathon
     - Newcastle
-published: false
+    - Open data
+published: true
 ---
 
 Newcastle Libraries held a hack day on 9th April: Wuthering Hacks.

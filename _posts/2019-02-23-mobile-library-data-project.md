@@ -1,11 +1,12 @@
 ---
 title: "Mobile libraries: project introduction"
-excerpt: Promoting the use of mobile library data to solve problems
+description: Promoting the use of mobile library data to solve problems
 categories:
   - Mobile libraries
 header:
   overlay_image: /images/2019-02-23-mobile-library-data-project.png
   overlay_filter: 0.2
+published: true
 ---
 
 It's easy to moan about lack of data on UK public library locations, but there have been various attempts to improve this. The Collections Trust in 2012, the Libraries Taskforce in 2016, and ongoing wider projects on public assets such as Open Street Map and Wikidata.

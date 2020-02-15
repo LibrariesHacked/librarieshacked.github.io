@@ -1,10 +1,12 @@
 ---
 title: "Encryption, library catalogues, and security testing"
+description: Testing the encryption of library catalogue websites
 categories:
-    - Security
+  - Security
 tags:
-    - Library management systems
-    - Web
+  - Library management systems
+  - Web
+published: true
 ---
 
 You want to talk in confidence with someone while in public. To do this you need to:
@@ -72,7 +74,6 @@ This post will be updated to reflect changes. All of the library services with f
 | 31st December 2016 | Cumbria have implemented encryption although there is mixed HTTP/HTTPS content. North Lincolnshire, and Lincolnshire have also upgraded to include encryption. |
 | 15th July 2017 | All of Capita hosted sites have been fixed to make them enforce HTTPS. Chased Capita a couple of times regarding this. |
 | 1st September 2017 | Hillingdon, East Ayrshire, Hounslow, Knowsley, Northumberland, Reading, Vale of Glamorgan, and West Lothian have implemented HTTPS, either on existing or new systems. |
-
 
 ## References
 

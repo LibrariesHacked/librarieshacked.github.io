@@ -1,8 +1,12 @@
 ---
-title: Scheduling auto renewals
+title: Auto renewals
+description: Writing a script to auto-renew your library books
 categories:
+  - Tutorial
+tags:
   - Library management systems
   - Automation
+published: true
 ---
 
 Library fines can be annoying. Forget to bring a few books back and it doesn't take long to owe more than the cost of a book. Well, so what? That's how libraries work.
@@ -39,7 +43,7 @@ Google Apps Scripts are also able to send out emails, at a limit of 100 per day,
 
 As an example, the below script should run against the Axiell web services as an automated task every day to check a library account. It sends an email if a loan is almost due (within 5 days), and then renews it if it is just about to go overdue (the next day). Hopefully this should mean no more library fines! (until Wiltshire scrap them anyway). Now to get testing it by almost going overdue...
 
-{% highlight JavaScript linenos %}
+```JavaScript
 function CheckLoans() {
 
   // user acount details - put your user number, PIN, and email address
@@ -84,24 +88,24 @@ function CheckLoans() {
     namespace = loan.getNamespace();
     var renewal_date = loan.getChild('loanDueDate',namespace).getText().replace('+','T') + ':00.000Z';
     renewal_date = new Date(renewal_date);
-    
+
     // When thee loan was issued
     var loan_date = new Date(loan.getChild('loanDate',namespace).getText());
     // Which branch it was issued in
     var branch = loan.getChild('branch', namespace).getText();
     // ID (for renewing).
     var id = loan.getChild('id', namespace).getText();
-    
+
     var catalogue_record = loan.getChildren()[1];
     namespace = catalogue_record.getNamespace();
-    
+
     // Also get author and title
     var title = catalogue_record.getChild('title', namespace).getText();
     var author = catalogue_record.getChild('author', namespace).getText();
-    
+
     var one_day_milliseconds = 1000 * 60 * 60 * 24; // Number of milliseconds in a day
     var date_difference = Math.ceil((renewal_date.getTime() - today.getTime())/(one_day_milliseconds));
-    
+
     if (date_difference <= email_days) {
       send_email = true;
       if (date_difference <= renewal_days) {
@@ -131,4 +135,4 @@ function CheckLoans() {
     MailApp.sendEmail(email, 'Library renewal notification', email_content);
   }
 }
-{% endhighlight %}
+```
