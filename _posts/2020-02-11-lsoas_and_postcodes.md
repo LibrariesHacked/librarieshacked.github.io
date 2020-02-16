@@ -1,7 +1,7 @@
 ---
 title: LSOAs and postcodes
 excerpt: What LSOAs are and how library services can make use of them through membership data
-categories: 
+categories:
   - Geography
 tags:
   - Library schema
@@ -10,21 +10,19 @@ tags:
 published: false
 ---
 
-The [public library open data schema](https://schema.librarydata.uk/membership) includes a standardised dataset for library membership.
-
-There are complications in thinking about library membership data.
+The [public library open data schema](https://schema.librarydata.uk/membership) includes a standardised dataset for library membership. There are complications in thinking about publishing library membership data.
 
 - Should this include all members or just active members?
-- What does active membership mean? If we store data only as long as necessary, should we have records for people not considered as active?
+- What does active membership mean? If we store data only as long as necessary, should we have records for people not considered active?
 - What activities in libraries require membership?
 - Should we be reducing the number of activities that require membership, such as WiFi usage?
 - With different policies in this area, is it possible to compare membership between different library services?
 
 Before trying to answer those questions, what data about membership is useful for a library service?
 
-Counts of membership, considered active or otherwise, are not useful. They may go up or down, but that can reflect the changing activities people use the library for. It can seem interesting to compare counts between library services, but is it? Such differences could be from different definitions of membership, or just unavoidable geographic or socioeconomic factors within the relevant authorities.
+Counts of membership, considered active or otherwise, are not useful. They may go up or down, but that can reflect the changing activities people use the library for. It can also seem interesting to compare counts between library services, but is it? Such differences could be from different definitions of membership, or just unavoidable geographic or socioeconomic factors within the relevant authorities.
 
-Useful data needs to be able to inform actions and policies. You look at the data one day and do things differently the next, and repeat the process. Common standards for data provide the opportunity to share tools and techniques in using data, not compare services.
+Useful data needs to be able to inform actions and policies. You look at the data one day and do things differently the next, and repeat the process. Common standards for data provide the opportunity to share tools and techniques in using it, not benchmarking services.
 
 #### Library needs
 
@@ -110,10 +108,3 @@ There are a couple of issues with it:
 3. Convert the original list of postcodes to a list of LSOAs
 4. Count how many people are in each LSOA
 5. Ouput spreadsheet
-
-#### Fake data
-
-To test this process we need some fake data.
-<!--stackedit_data:
-eyJoaXN0b3J5IjpbNDkxMDAxMzEsLTgyMzU1NzYxMV19
--->
