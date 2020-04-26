@@ -12,7 +12,7 @@ words_per_minute: 200
 
 author:
   name: "Libraries Hacked"
-  avatar: "/images/logo.png"
+  avatar: "/images/logo_small.png"
   bio: "Promoting open data and hacks in libraries"
   email: "info@librarieshacked.org"
   uri: "https://www.librarieshacked.org"

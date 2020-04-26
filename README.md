@@ -19,7 +19,9 @@ See also the list of [contributors](https://github.com/librarieshacked/libraries
 
 ## Licence
 
-Minimal Mistakes is published under the [MIT Licence](https://github.com/mmistakes/minimal-mistakes/blob/master/LICENSE). Content in the blog is published under a [Creative Commons Attribution 4.0 Licence](https://creativecommons.org/licenses/by/4.0/).
+Minimal Mistakes is published under the [MIT Licence](https://github.com/mmistakes/minimal-mistakes/blob/master/LICENSE).
+
+Any content in the blog is published under a [Creative Commons Attribution 4.0 Licence](https://creativecommons.org/licenses/by/4.0/).
 
 ## Acknowledgments
 
