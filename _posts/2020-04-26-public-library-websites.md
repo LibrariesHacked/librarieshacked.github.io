@@ -2,18 +2,19 @@
 title: Public library websites
 excerpt: Looking through UK public library online services
 categories:
-  - Web content
+  - Online library services
 tags:
   - Library data
   - Accessibility
+  - eBooks
   - PDFs
   - Design
 published: true
 ---
 
-An interesting part of compiling [data on UK library online services](https://airtable.com/shrKkzYDUNMMM6qrJ) was the opportunity to look through all UK library websites.
+An exciting part of compiling [data on UK library online services](https://airtable.com/shrKkzYDUNMMM6qrJ) was the opportunity to look through all UK library websites.
 
-With the lockdown, and a focus on online service, there has been fresh talk about a single digital presence for libraries. The British Library team have [published a new blog on this](https://blogs.bl.uk/living-knowledge/2020/04/a-single-digital-presence-for-uk-libraries-the-project-and-the-platform.html). They also link to a survey for library senior managers and heads of service. One question asked is:
+With the lockdown, and focus on online services, there has been fresh talk about a single digital presence for libraries. The British Library team have [published a new blog on this](https://blogs.bl.uk/living-knowledge/2020/04/a-single-digital-presence-for-uk-libraries-the-project-and-the-platform.html). They also link to a survey for library senior managers and heads of service. One question asked is:
 
 > Overall, how would you rate your online offer from a user perspective on a scale from 1-10? (1 being impossible to use and 10 being an unbeatable user offer)
 >
@@ -25,12 +26,12 @@ It could be useful to highlight the worst examples. But it may not be effective 
 
 ## Keep things simple
 
-Simplicity was definitely welcome when looking for information. I want to go straight to the library homepage and find what I'm looking for quickly. Too many levels of navigation was a problem. Thee shouldn't be a need for more than one click from the homepage. With the more convoluted websites it became easier to use a search engine.
+Simplicity was definitely welcome when looking for information. I want to go to the library homepage and find what I'm looking for quickly. Too many levels of navigation was a problem. There shouldn't be a need for more than one click from the homepage. With the more convoluted websites it became easier to use a search engine.
 
 ### Tips
 
-1. Keep information on as few levels as possible. One page with links to everything the library offers. It should be clear which page is the one people need.
-2. Make contacting the service easy. Have a clear phone number and email address.
+1. Keep information on as few levels as possible. One homepage with links to everything the library offers. It should be clear which link is the one people need.
+2. Make contacting the service easy. Have a prominent phone number and email address.
 3. A contact form is not a replacement for an email address. Do not have an 'email the library' link, which goes through to a contact form.
 4. Choose where you're going to have information. The council site or the catalogue one, not a mix of both.
 
@@ -57,13 +58,13 @@ Most local councils will be auditing their websites for accessibility, to avoid 
 
 ### Good example
 
-The only thing for this is to get your site professionally audited. And ensure all content editors are trained on web accessibility. Good examples can change, and it's easy to quickly make a site inaccessible by using an image inappropriately, or a poorly worded link.
+The only recommendation here is to get your site professionally audited. Ensure all content editors are trained on web accessibility. Good examples can change, and it's easy to quickly make a site inaccessible by using an image inappropriately, or a poorly worded link.
 
 ## Limit eResource providers
 
-There's been a lot of attention on use of online library services, such as eBooks and eAudio. The [BBC have reported figures](https://www.bbc.co.uk/news/uk-england-52368191) showing that usage seems to have increased. From very low previously, to not quite so low during lockdown. Library eBook services are fiddly things, consisting of third party sites to search, additional passwords, apps to install on your phone and tablet, and long waiting lists for eBooks that won't work on your ereader.
+There's been a lot of attention on use of online library services, such as eBooks and eAudio. The [BBC have reported figures](https://www.bbc.co.uk/news/uk-england-52368191) showing that usage seems to have increased. From very low previously, to not quite so low during lockdown. Library eBook services are fiddly things, consisting of third party sites to search, additional passwords, apps to install on your phone and tablet, and long waiting lists for eBooks that won't work on your eReader.
 
-Even a modest increase in usage is impressive given the problems with the offer. The information on library websites is often a webpage listing lots of strange names: uLIBRARY, OverDrive, CloudLibrary. A picture of a big green box. As if people should know what these are, and be able to choose between them. With eBook offers divided across suppliers, services are often advertising 3 or 4 of these, with no guidance for which to go for.
+Even a modest increase in usage is impressive given the poor quality of the offer. But library websites don't help. Often the information provided is a webpage listing lots of strange names: uLIBRARY, OverDrive, CloudLibrary. A picture of a big green box. As if people should know what these are, and be able to choose between them. With eBook offers divided across suppliers, services are often advertising 3 or 4 of these, with no guidance for which to go for.
 
 ### Tips
 
