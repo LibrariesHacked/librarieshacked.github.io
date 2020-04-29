@@ -12,7 +12,7 @@ tags:
 published: true
 ---
 
-An exciting part of compiling [data on UK library online services](https://airtable.com/shrKkzYDUNMMM6qrJ) was the opportunity to look through all UK library websites.
+An exciting part of compiling [data on UK library online services](https://airtable.com/shrKkzYDUNMMM6qrJ) was the opportunity to look through all UK public library websites.
 
 With the lockdown, and focus on online services, there has been fresh talk about a single digital presence for libraries. The British Library team have [published a new blog on this](https://blogs.bl.uk/living-knowledge/2020/04/a-single-digital-presence-for-uk-libraries-the-project-and-the-platform.html). They also link to a survey for library senior managers and heads of service. One question asked is:
 
