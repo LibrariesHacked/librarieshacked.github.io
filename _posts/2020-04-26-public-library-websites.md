@@ -20,7 +20,7 @@ With the lockdown, and focus on online services, there has been fresh talk about
 >
 > -- <cite>British Library single digital presence survey</cite>
 
-It will be interesting to see answers from senior managers. As a member of the public looking through library websites, they weren't great. How many library managers would accept their online service scores a 1?
+It will be interesting to see answers from senior managers. As a member of the public looking through library websites, they weren't great. But how many library managers would accept their online service scores a 1?
 
 It could be useful to highlight the worst examples. But it may not be effective in encouraging change, so this is a list of areas that seem like they could be improved. Also highlighting library services that were impressive.
 
@@ -45,7 +45,7 @@ The [Library of the Isles of Scilly](https://www.scilly.gov.uk/learning-leisure/
 
 ## Be accessible
 
-There's no choice for this one. It's a legal requirement for public sector sector websites to follow [website accessibility legislation](https://www.gov.uk/guidance/accessibility-requirements-for-public-sector-websites-and-apps). And not many do.
+There's no choice for this one. It's a legal requirement for public sector websites to follow [website accessibility legislation](https://www.gov.uk/guidance/accessibility-requirements-for-public-sector-websites-and-apps). Not many do.
 
 Most local councils will be auditing their websites for accessibility, to avoid facing penalties. However, libraries often have their own site through the library catalogue. Responsibility for this site is with the library service. Not the supplier, or IT, or the council digital service.
 
@@ -85,7 +85,7 @@ Instead they provide links to a few free online services such as Project Gutenbe
 
 ## Beautiful design
 
-I have no design skills. So I prefer things that are functional, and that use boring but clean design patterns. But it's a pleasure to see sites that have really good designs. It can go a long way to making the library service enticing.
+I have no design skills. I prefer to create things that are functional, and that use dull but clean design patterns. But it's a pleasure to see sites that have really good designs. It can go a long way to making the library service enticing.
 
 ### Tip
 
@@ -93,4 +93,4 @@ I have no design skills. So I prefer things that are functional, and that use bo
 
 ### Example
 
-[Hamphire library service website](https://www.hants.gov.uk/librariesandarchives/library) demonstrates this well. There's quite a lot going on on that site. It's maybe a little overwhelming, and doesn't pass the simplicity test, but the quality of the design work makes the library service look like they're making an effort with online content.
+[Hampshire library service website](https://www.hants.gov.uk/librariesandarchives/library) demonstrates this well. There's quite a lot going on on that site. It's maybe a little overwhelming, and doesn't pass the simplicity test, but the quality of the design work makes the library service look like they're making an effort with online content.
