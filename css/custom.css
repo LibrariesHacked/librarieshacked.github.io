@@ -1,13 +1,13 @@
 table {
-    background: none !important;
-    font-size: 0.9em !important;
+  background: none !important;
+  font-size: 0.9em !important;
 }
 
 table thead {
-    border: none !important;
-    background: none !important;
+  border: none !important;
+  background: none !important;
 }
 
 table td, table th {
-    border: 1px solid #CECFD1 !important;
+  border: 1px solid #CECFD1 !important;
 }
