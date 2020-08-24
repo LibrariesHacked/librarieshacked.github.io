@@ -46,7 +46,7 @@ In the membership schema we have an extra dimension to the data called 'Area cod
 
 While trialling the data schema we saw Plymouth membership data. It looked like about 10% of members lived in other local authorities. Some of these obvious: Cornwall, Hampshire, Devon. But also Bristol, Wiltshire, and Surrey. 10% may not seem much. But in Bath and Bristol this became closer to 15%. In other areas it may then be significantly more. We don't know until we start getting more data.
 
-Reporting the geographic location of members then allows for accurate use of population data relative to membership.
+Reporting the geographic location of members then genuinely allows for accurate use of population data relative to membership.
 
 <figure>
   <img src="https://github.com/LibrariesHacked/librarieshacked.github.io/raw/master/images/2020-08-24-plymouth-members.png" alt="Plymouth library membership plotted on a map and shaded by concentration of members relative to population"/>
