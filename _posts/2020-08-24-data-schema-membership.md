@@ -46,15 +46,15 @@ But, even if they're accurate, is it valid to report relative to the population 
 
 In the membership schema we have an extra dimension to the data called 'Area code'. This is to break down membership counts by Lower Super Output Area (LSOA). These are small areas devised for statistics, and provide consistency in number of people (between 1,000 and 3,000), and households (betweeen 400 and 1,200). They allow for counting members from outside of the authority, but also provide additional detail.
 
-While trialling the data schema we saw Plymouth membership data. About 10% of members lived in other local authorities. Some of these obvious: Cornwall, Hampshire, Devon. But also Bristol, Wiltshire, and Surrey. 10% may not seem much. But in Bath and Bristol this became closer to 15%. In other areas it may then be more. We don't know until we start getting more data.
+While trialling the data schema we saw Plymouth membership data. About 10% of members lived in other local authorities. Some of these were obvious places: Cornwall and Devon mainly. But also Bristol, Wiltshire, and Surrey. 10% may not seem much, but in Bath and Bristol out of area membership became closer to 15%. In other areas it may be more. We don't know until we start getting more data.
 
 <figure>
   <img src="https://github.com/LibrariesHacked/librarieshacked.github.io/raw/master/images/2020-08-24-plymouth-members.png" alt="Plymouth library membership plotted on a map and shaded by concentration of members relative to population"/>
-  <figcaption>Plotting the locations of members of Plymouth libraries. This shades the map to highlight membership concentrations, relative to population. This particular example includes an area of Devon which has 19% membership of Plymouth libraries.</figcaption>
+  <figcaption>Plotting the locations of Plymouth libraries members. This shades the map to highlight membership concentrations, relative to population. This particular example includes an area of Devon which has 19% membership of Plymouth libraries.</figcaption>
 </figure>
 
-## Extra analysis
+## Additional analysis
 
-This all works best when many services release data. Geographic data on membership allows for services to see areas where they have low or high membership. But what about people who live within their authority, but use libraries outside of it? Without other libraries releasing data, they have no view of them. It could be easy to assume certain areas don't use libraries, when in reality they just find it easier to go to the neighbouring service!
+This all works best when more services release data. Geographic data on membership allows for services to see areas where they have low or high membership. But what about people who live within their authority, but use libraries outside of it? Without other libraries releasing data, they have no knowledge of them. It could be easy to assume certain areas don't use libraries, when in reality they just find it easier to go to the neighbouring service!
 
-An extra point about these geographic areas is they're designed to combine with other datasets providing data at that level. They are census-level geographies, so all the data from the Census will be available. There is also additional information such as the deprivation of the area in different measures: health, education, crime, etc. These are all essential datasets for library services to use when analysing their membership.
+An extra point about these geographic areas is they're designed to combine with other datasets which provide data at that level. They are census-level geographies, so all the data from the Census will be available. There is also additional information such as the deprivation of the area in different measures: health, education, employment, income, etc. These are all worthwhile datasets for library services to use when analysing their membership.
