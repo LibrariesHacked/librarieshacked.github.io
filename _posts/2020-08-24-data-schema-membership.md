@@ -13,14 +13,14 @@ tags:
 
 Last year a working group organised by the DCMS began creating a public library data schema. There is more detail on that in [library open data: an update](https://dcmslibraries.blog.gov.uk/2020/08/03/library-open-data-an-update/) by Claire Back. The [library data schema pages](https://schema.librarydata.uk) are also available to explore. But here's some personal thoughts on the membership dataset.
 
-All public libraries hold data on members. And it has plenty of problems and discussion points. To start with, how long do people remain members without using their library? I have loads of library cards, and like to think of myself as a member of them all. But those libraries will have deleted me years ago.
+All public libraries hold membership data. And it has plenty of problems and discussion points. To start with, how long do people remain members without using their library? I have loads of library cards, and like to think of myself as a member of them all. But many of those libraries will have deleted me years ago.
 
 <figure>
   <img src="https://github.com/LibrariesHacked/librarieshacked.github.io/raw/master/images/2020-08-24-library-cards.jpg" alt="A set of library cards including a school library and 7 other library services"/>
   <figcaption>I'm a 'cardholder' of quite a few library services. But no longer a member.</figcaption>
 </figure>
 
-Do I even need to be a member to use these libraries? People that only go in to read papers aren't. Or those working on laptops. Or are they? I've heard some services insist on checking out newspapers in the same way as books. And require membership to log onto WiFi. These are decisions for library services, though they'll affect how easy it is to compare data.
+Do I even need to be a member to use these libraries? People that only go in to read papers aren't. Or those working on laptops. Or are they? I've heard some services insist loan out newspapers in the same way as books. And require membership to log onto WiFi. These are decisions for library services, though they'll affect how easy it is to compare data.
 
 ## Quirks in the data
 
@@ -38,9 +38,9 @@ Collecting metadata about different policies is then a good way of communicating
 
 ## Geography
 
-CIPFA combine borrower counts and population of the local authority, and report the number of borrowers per 1,000 population. For example, in 2019 North East Lincolnshire declared 7,381 active borrowers. This is 46 borrowers per 1,000 population (5%). Merton libraries had a very different report, with 347 members per 1,000 population (35%). That's a huge difference. One service have 7 times as many borrowers, relatively speaking, as the other.
+CIPFA combine borrower counts and population of the local authority, and report the number of borrowers per 1,000 population. For example, in 2019 North East Lincolnshire declared 7,381 active borrowers. This is 46 borrowers per 1,000 population (5%). Merton libraries reported 347 members per 1,000 population (35%). That's a huge difference. One service have 7 times as many borrowers, relatively speaking, as the other.
 
-It's possible that both are to the CIPFA definition of active borrowers, but I doubt it. Partly because one service happens to be using a system that doesn't work that way.
+It's possible that both are to the correct CIPFA definition of active borrowers, but I doubt it. Partly because one service happens to be using a system that doesn't work that way.
 
 But, even if they're accurate, is it valid to report relative to the population of the local authority? Only if you're only counting borrowers who live in the service. But there will be plenty of people using libraries between authorities, particularly in small urban areas. CIPFA, to be fair, primarily compare services against those with a similar local authority profile. But we have no data on where members live, or how significant that may be to comparisons.
 
