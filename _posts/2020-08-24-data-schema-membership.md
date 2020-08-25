@@ -13,7 +13,7 @@ tags:
 
 Last year a working group organised by the DCMS began creating a public library data schema. There is more detail on that in [library open data: an update](https://dcmslibraries.blog.gov.uk/2020/08/03/library-open-data-an-update/) by Claire Back. The [library data schema pages](https://schema.librarydata.uk) are also available to explore. But here's some personal thoughts on the membership dataset.
 
-All public libraries hold data on members. And it has plenty of problems and discussion points. To start with, how long do people remain members without using their library? I have loads of library cards, and like to think of myself as a member of them. But those libraries will have deleted me years ago.
+All public libraries hold data on members. And it has plenty of problems and discussion points. To start with, how long do people remain members without using their library? I have loads of library cards, and like to think of myself as a member of them all. But those libraries will have deleted me years ago.
 
 <figure>
   <img src="https://github.com/LibrariesHacked/librarieshacked.github.io/raw/master/images/2020-08-24-library-cards.jpg" alt="A set of library cards including a school library and 7 other library services"/>
