@@ -19,13 +19,13 @@ One of these was accessibility, and how important it was for libraries to make b
 
 Equality legislation mandates making adjustments to ensure services can be used by all citizens. But the Public Sector Bodies Accessibility Regulations 2018 went further for web accessibility. Public sector websites should be accessible to a particular standard: AA from the [WCAG 2.1 standard](https://www.gov.uk/service-manual/helping-people-to-use-your-service/understanding-wcag). They must also publish an Accessibility Statement, which should say how this standard has been achieved, and plans to address any problems.
 
-2018? Old news! Although two years old, there has been a period of grace to get websites up to standard. This period came to an end on 23rd September 2020. More comprehensive guidelines are available at [accessibility requirements for public sector websites and apps](https://www.gov.uk/guidance/accessibility-requirements-for-public-sector-websites-and-apps)
+2018? Old news! Although two years old, there has been a period of grace to get websites up to standard. This period came to an end on 23rd September 2020. More comprehensive guidelines are available at [accessibility requirements for public sector websites and apps](https://www.gov.uk/guidance/accessibility-requirements-for-public-sector-websites-and-apps).
 
-A common example of inaccessible web content is hyperlinks with the text 'click here'. People do this because they've seen it a lot. But it makes little sense when you consider that to 'click' is not always relevant, unless using a mouse. And the word 'here' is only valid when browsing the website in a visual way. It makes assumptions about how the user is interacting with the page.
+A common example of inaccessible web content is hyperlinks with the text 'click here' (such as "click here to login" with the 'here' word formatted as a link). People do this because they've seen it a lot. But it makes little sense when you consider that to 'click' is not always relevant, unless using a mouse. And the word 'here' is only valid when browsing the website in a visual way. It makes assumptions about how the user is interacting with the page.
 
-Imagine you are reading the text of the page to a user, and they ask for the options for going to other pages, based upon the links on the page. If the page had ten 'click here' links you may end up saying "well, you can go to 'click here', or 'click here', or 'click here'..".
+Imagine you are reading the text of the page to a user, and they ask for a list of the further links to other pages. If the page had ten 'click here' links you may end up saying "well, you can go to 'click here', or 'click here', or 'click here'..".
 
-It's the equivalent of a fork in the road where a signpost has 'this way' written for each direction, instead of place names. Completely useless, and a sure way of ensuring people get lost and annoyed.
+It's the equivalent of a fork in the road with a signpost having 'this way' written for each direction, instead of place names. Completely useless, and a sure way of ensuring people get lost and annoyed.
 
 But it's an easy mistake to make, and there are other common examples.
 
@@ -71,11 +71,11 @@ It's easy for the best websites to make mistakes. I'm not an accessibility exper
 
 Feedback from the previous post about library webpages was that it essentially wasn't the library service's fault. "Libraries often don't have access to edit web content, sometimes there are strict controls from their parent council" was the argument.
 
-And that's understanstandable. How can you make something better if you're not allowed near it? But this didn't ring true. Local government has some good digital practice. If you join the [Local Gov Digital Slack group](https://localgov.digital) you will see a healthy and thriving community of web content people discussing accessibility issues. And they have been for the last two years.
+And that's understanstandable. How can you make something better if you're not allowed near it? But this didn't ring true. Local government has some good digital practice. If you join the [Local Gov Digital Slack group](https://localgov.digital) you will see a healthy and thriving community of people discussing accessibility issues. And they have been for the last two years.
 
-I was also noticing that it was the library content that was in-line with the parent council that was most likely to be good. It was content on library catalogue sites, away from Council interference, that was particularly bad. The greater the library involvement, the worse things became.
+I was also noticing that it was the library content on council sites that was most likely to be good. Content on library catalogue sites, away from Council interference, was particularly bad. The greater the library involvement, the worse things became.
 
-To try to eliminate Council interference I looked again at library websites, but only where the website wasn't part of the Council site. The test was simple, how many of these had an accessibility statement that would comply with the 2018 legislation?
+To try to eliminate Council influence I looked again at library websites, but only where the website wasn't part of the Council site. The test was simple, how many of these had an accessibility statement that would comply with the 2018 legislation?
 
 Of 34 sites, the number with compliant accessibility statements was two. Just over 5% legally compliant.
 
@@ -83,7 +83,7 @@ That's individual services, but what about the national leadership organisations
 
 Both [Libraries Connected](https://www.librariesconnected.org.uk) and the [Scottish Library and Information Council](https://scottishlibraries.org) are charities, but are publicly funded and therefore come under the legislation. Neither of them had Accessibility Statements, and both of them had clear accessibility issues on their websites.
 
-There is at least one exception to this performance. Leeds libraries are clearly putting a lot of effort into this, and are doing their best to work with suppliers to provide accessible websites.
+There is at least one exception to this performance. Leeds Libraries are clearly putting a lot of effort into this, and are doing their best to work with suppliers to provide accessible websites.
 
 ### Who cares?
 
