@@ -6,7 +6,6 @@ categories:
 tags:
   - Accessibility
   - Public sector websites
-published: false
 ---
 
 ## Public library web accessibility
@@ -45,12 +44,12 @@ Many people rely on screen readers to comsume webpages. In that situation, image
 A common mistake on library websites is to link to external resources by their logo. Sometimes a series of logos with no text. To library staff, these are treasured and expensive e-resources. To the public it's a meaningless series of links that they're unlikely to follow.
 
 <figure>
-  <img src="https://github.com/LibrariesHacked/librarieshacked.github.io/raw/master/images/2020-09-24-accessibility-logos.png" alt="A screenshot showing a list of logos from a library service website, linking to their various e-resource providers."/>
-  <figcaption>This series of links may look familiar to libraries but will mean nothing to those not viewing the images, and are unlikely to mean much to anyone not fmailiar with them.</figcaption>
+  <img src="https://github.com/LibrariesHacked/librarieshacked.github.io/raw/master/images/2020-09-24-accessibility-logos.png" alt="A screenshot showing a list of logos from a library service website, linking to various e-resource providers."/>
+  <figcaption>This series of links may look familiar to libraries but will mean nothing to those not viewing the images, and are even unlikely to mean much to anyone not familiar with them.</figcaption>
 </figure>
 
 <figure>
-  <img src="https://github.com/LibrariesHacked/librarieshacked.github.io/raw/master/images/2020-09-24-accessibility-ancestry.png" alt="A screenshot of instructions given to access the Ancestry service online at one library service which rely on being able to log in first and then click on the Ancestry logo"/>
+  <img src="https://github.com/LibrariesHacked/librarieshacked.github.io/raw/master/images/2020-09-24-accessibility-ancestry.png" alt="A screenshot of instructions given to access the Ancestry service at one library service, which relies on being able to log in first and then click on the Ancestry logo"/>
   <figcaption>There are many issues with this way of providing access to Ancestry. The click 'here' link, alongside making it necessary to recognise the Ancestry logo. And just complex instructions!</figcaption>
 </figure>
 
