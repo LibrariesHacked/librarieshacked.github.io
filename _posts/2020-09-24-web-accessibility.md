@@ -88,7 +88,7 @@ Do libraries care about any of this? Given current standards, no (with some exce
 
 But that's not malicious disregard for citizens. If those users were accessing libraries physically they would undoubtedly experience a top class service with accessible options: good buildings, large print books, guidance on using the Internet, and more.
 
-The problem is digital literacy. Web accessibility is seen as a 'tech' thing. Either the responsibility of IT, website providers, the Council web team, the LMS provider. ut it's not, it's the responsibility of any service serious about having an online presence.
+The problem is digital literacy. Web accessibility is seen as a 'tech' thing. Either the responsibility of IT or website providers. But it's not, it's the responsibility of any service serious about an online presence.
 
 There are other symptoms as well as poor accessibility. Library online presences are characterised by adaptations of print experiences. All libary reports from library organisations are still released as PDF files. They're not truly published online, they are print formats made available to download and print.
 
@@ -96,7 +96,7 @@ There are other symptoms as well as poor accessibility. Library online presences
 
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">One of the best ways to measure digital information illiteracy is to measure the quantity of PDFs an org creates. A PDF is a sure sign that an org has not adapted to digital but is rather forcing digital to adapt to its print culture and practices.</p>&mdash; Gerry McGovern (@gerrymcgovern) <a href="https://twitter.com/gerrymcgovern/status/1284824726200778755?ref_src=twsrc%5Etfw">July 19, 2020</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
-Libraries in lockdown have been forced online. But that has meant pushing print practices online, where they are inappropriate. Many services used poster templates to put their online events into image format, and then posted these on social media. In some cases the image was the only way to discover the events that were being run. That's not a mature digital service.
+Libraries have been forced online. But that's meant pushing print practices online, where they are inappropriate. Many services used poster templates to put their online events into image format, and then posted these on social media. In some cases the image was the only way to discover the events that were being run. That's not a mature digital service.
 
 #### What is the answer?
 
