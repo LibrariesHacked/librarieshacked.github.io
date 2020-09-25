@@ -4,8 +4,6 @@ permalink: /accessibility/
 author_profile: true
 ---
 
-## Accessibility
-
 I want as many people as possible to be able to use this website. For example, that means you should be able to:
 
 - change colours, contrast levels and fonts
