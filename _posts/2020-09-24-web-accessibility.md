@@ -31,7 +31,7 @@ But it's an easy mistake to make, and there are other common examples.
 You may have a lovely high quality monitor that makes your website look great. But not everyone has the same hardware, or the same eyesight. Having a high contrast between text and background helps to make text clear.
 
 <figure class="align-center">
-  <img src="https://raw.githubusercontent.com/LibrariesHacked/librarieshacked.github.io/master/images/2020-09-24-accessibility-contrast.PNG" alt="A sample image showing poor contrast with text of dark grey on a medium grey background."/>
+  <img style="width: 50%" src="https://raw.githubusercontent.com/LibrariesHacked/librarieshacked.github.io/master/images/2020-09-24-accessibility-contrast.PNG" alt="A sample image showing poor contrast with text of dark grey on a medium grey background."/>
   <figcaption>It can often be tempting to have low contrast for subtle design purposes, but the contrast here is far too low.</figcaption>
 </figure>
 
@@ -42,12 +42,12 @@ Many people rely on screen readers. Images are of no use, as they cannot be 'rea
 A common mistake on library websites is to link to external resources by their logo. Sometimes a series of logos with no text. To library staff, these are treasured and expensive e-resources. To the public it's a meaningless series of links that they're unlikely to follow.
 
 <figure class="align-center">
-  <img src="https://raw.githubusercontent.com/LibrariesHacked/librarieshacked.github.io/master/images/2020-09-24-accessibility-logos.PNG" alt="A screenshot showing a list of logos from a library service website, linking to various e-resource providers."/>
+  <img style="width: 50%" src="https://raw.githubusercontent.com/LibrariesHacked/librarieshacked.github.io/master/images/2020-09-24-accessibility-logos.PNG" alt="A screenshot showing a list of logos from a library service website, linking to various e-resource providers."/>
   <figcaption>This series of links may look familiar to libraries, but will mean nothing to those not viewing the images. They are even unlikely to mean much to anyone who doesn't know what they are.</figcaption>
 </figure>
 
 <figure class="align-center">
-  <img src="https://raw.githubusercontent.com/LibrariesHacked/librarieshacked.github.io/master/images/2020-09-24-accessibility-ancestry.PNG" alt="A screenshot of instructions given to access the Ancestry service at one library service, which relies on being able to log in first and then click on the Ancestry logo"/>
+  <img style="width: 50%" src="https://raw.githubusercontent.com/LibrariesHacked/librarieshacked.github.io/master/images/2020-09-24-accessibility-ancestry.PNG" alt="A screenshot of instructions given to access the Ancestry service at one library service, which relies on being able to log in first and then click on the Ancestry logo"/>
   <figcaption>There are many issues with this way of providing access to Ancestry. The click 'here' link, alongside making it necessary to recognise the Ancestry logo. And just complex instructions!</figcaption>
 </figure>
 
@@ -56,7 +56,7 @@ A common mistake on library websites is to link to external resources by their l
 Colour is great. But recognising colours shouldn't be necessary in interpreting information. That means trying to find different methods in graphs and diagrams to convey meaning. For mobile library timetables, this means stopping the common pattern of having a calendar with dates coloured to indicate when the mobile library is visiting.
 
 <figure class="align-center">
-  <img src="https://raw.githubusercontent.com/LibrariesHacked/librarieshacked.github.io/master/images/2020-09-24-accessibility-colour.PNG" alt="A sample image showing a single calendar month with the date numbers coloured differently to indicate which route the mobile library will be taking."/>
+  <img style="width: 50%" src="https://raw.githubusercontent.com/LibrariesHacked/librarieshacked.github.io/master/images/2020-09-24-accessibility-colour.PNG" alt="A sample image showing a single calendar month with the date numbers coloured differently to indicate which route the mobile library will be taking."/>
   <figcaption>Mobile library timetables often use colour to match a library route to when the library is visiting.</figcaption>
 </figure>
 
