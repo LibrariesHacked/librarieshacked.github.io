@@ -1,6 +1,6 @@
 ---
 title: Library web accessibility
-excerpt: Time is up to comply with current legislation for accessibility
+excerpt: Time is up to comply with accessibility legislation
 categories:
   - Websites
 tags:
@@ -8,15 +8,15 @@ tags:
   - Public sector websites
 ---
 
-An earlier post [public library websites](https://blog.librarydata.uk/public-library-websites/), looked at common problems with library websites.
+An earlier post, [public library websites](https://blog.librarydata.uk/public-library-websites/), looked at common problems with library websites.
 
-One of these was accessibility, and the importance for libraries to make web content that everyone could access.
+One of these was accessibility, and the importance for libraries to make web content everyone can access.
 
 ### What is web accessibility?
 
-It is already necessary to make adjustments to ensure services can be used by all citizens. But the Public Sector Bodies Accessibility Regulations 2018 went further for web accessibility. Public sector websites should be accessible to a particular level: AA from the [WCAG 2.1 standard](https://www.gov.uk/service-manual/helping-people-to-use-your-service/understanding-wcag). They must also publish an Accessibility Statement, which should say how this has been achieved, and plans to address any problems.
+It is already necessary to ensure services can be used by all citizens. But the Public Sector Bodies Accessibility Regulations 2018 address web accessibility. Public sector websites should be accessible to level AA from the [WCAG 2.1 standard](https://www.gov.uk/service-manual/helping-people-to-use-your-service/understanding-wcag). They must also publish an Accessibility Statement, which should say how this has been achieved, and plans to address any problems.
 
-2018? Old news! There has been two years to allow websites to get up to standard, with time up on 23rd September 2020. More comprehensive guidelines are available at [accessibility requirements for public sector websites and apps](https://www.gov.uk/guidance/accessibility-requirements-for-public-sector-websites-and-apps).
+2018? Old news! There's been two years to allow websites to get up to standard, with time up on 23rd September 2020. More comprehensive guidelines are available at [accessibility requirements for public sector websites and apps](https://www.gov.uk/guidance/accessibility-requirements-for-public-sector-websites-and-apps).
 
 A common example of inaccessible web content is links with the text 'click here'. People do this because they've seen it a lot. But it makes little sense when you consider that to 'click' is not always relevant, unless using a mouse. And the word 'here' is only valid when looking at the page. It makes assumptions about how the user interacts with web pages.
 
@@ -55,7 +55,7 @@ Colour is great. But it should not be necessary for users to recognise colours. 
   <figcaption>Mobile library timetables often use colour to match a library route to the date the library is visiting.</figcaption>
 </figure>
 
-Accessible design makes the web better for everyone. Everyone wants content that's clear, well laid out, with plain language, and descriptive links. All these things are welcome, and make a site nice and easy to use. It increases usage and is win-win.
+Accessible design makes the web better for everyone. Everyone wants content that's clear, well laid out, with plain language, and descriptive links. All these things are welcome, and make a site easier to use. It increases usage and is win-win.
 
 The best websites make mistakes. I'm not an accessibility expert, and there's no substitute for testing with real users. By trying to follow accessibility guidelines, attempting good content, and publishing an accessibility statement it shows as an organisation that you care about trying to make things better, and will correct mistakes.
 
@@ -79,7 +79,7 @@ There is at least one exception to this performance. Leeds Libraries are clearly
 
 Do libraries care about any of this? Given current standards, no, with exceptions.
 
-But that's not malicious disregard for citizens. If those users were accessing physical libraries they would likely experience a top class service with accessible options: good buildings, large print books, guidance on using the Internet, and more.
+That's not malicious disregard for citizens. For users accessing physical libraries they likely experience a top-class service with accessible options: good buildings, large print books, guidance on using the Internet, and more.
 
 The problem is digital literacy. Web accessibility is seen as a 'tech' thing. Either the responsibility of IT, or website providers. But it's not, it's the responsibility for any service serious about an online presence.
 
