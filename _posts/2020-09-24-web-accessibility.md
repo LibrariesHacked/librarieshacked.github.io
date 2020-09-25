@@ -47,7 +47,7 @@ A common mistake on library websites is to link to external resources by their l
 </figure>
 
 <figure class="align-center">
-  <img style="width: 50%; border: 1px solid #e5e5e5" src="https://raw.githubusercontent.com/LibrariesHacked/librarieshacked.github.io/master/images/2020-09-24-accessibility-ancestry.PNG" alt="A screenshot of instructions given to access the Ancestry service at one library service, which relies on being able to log in first and then click on the Ancestry logo"/>
+  <img style="border: 1px solid #e5e5e5" src="https://raw.githubusercontent.com/LibrariesHacked/librarieshacked.github.io/master/images/2020-09-24-accessibility-ancestry.PNG" alt="A screenshot of instructions given to access the Ancestry service at one library service, which relies on being able to log in first and then click on the Ancestry logo"/>
   <figcaption>There are many issues with this way of providing access to Ancestry. The click 'here' link, alongside making it necessary to recognise the Ancestry logo. And just complex instructions!</figcaption>
 </figure>
 
