@@ -47,13 +47,13 @@ A common mistake on library websites is to link to external resources by their l
 </figure>
 
 <figure class="align-center">
-  <img style="width: 50%" src="https://raw.githubusercontent.com/LibrariesHacked/librarieshacked.github.io/master/images/2020-09-24-accessibility-ancestry.PNG" alt="A screenshot of instructions given to access the Ancestry service at one library service, which relies on being able to log in first and then click on the Ancestry logo"/>
+  <img src="https://raw.githubusercontent.com/LibrariesHacked/librarieshacked.github.io/master/images/2020-09-24-accessibility-ancestry.PNG" alt="A screenshot of instructions given to access the Ancestry service at one library service, which relies on being able to log in first and then click on the Ancestry logo"/>
   <figcaption>There are many issues with this way of providing access to Ancestry. The click 'here' link, alongside making it necessary to recognise the Ancestry logo. And just complex instructions!</figcaption>
 </figure>
 
 #### Don't use colour as the only way of conveying meaning
 
-Colour is great. But recognising colours shouldn't be necessary in interpreting information. That means trying to find different methods in graphs and diagrams to convey meaning. For mobile library timetables, this means stopping the common pattern of having a calendar with dates coloured to indicate when the mobile library is visiting.
+Colour is great. But it should not be necessary to need to recognise colours. That means trying to find different methods in graphs and diagrams to convey meaning. For mobile library timetables, this means not having a calendar with dates coloured to indicate when the mobile library is visiting.
 
 <figure class="align-center">
   <img style="width: 50%" src="https://raw.githubusercontent.com/LibrariesHacked/librarieshacked.github.io/master/images/2020-09-24-accessibility-colour.PNG" alt="A sample image showing a single calendar month with the date numbers coloured differently to indicate which route the mobile library will be taking."/>
