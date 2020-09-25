@@ -31,7 +31,7 @@ But it's an easy mistake to make, and there are other common examples.
 You may have a lovely high quality monitor that makes your website look great. But not everyone has the same hardware, or the same eyesight. Having a high contrast between text and background helps to make text clear.
 
 <figure class="align-center">
-  <img style="width: 50%; border: 1px solid #e5e5e5" src="https://raw.githubusercontent.com/LibrariesHacked/librarieshacked.github.io/master/images/2020-09-24-accessibility-contrast.PNG" alt="A sample image showing poor contrast with text of dark grey on a medium grey background."/>
+  <img style="width: 50%" src="https://raw.githubusercontent.com/LibrariesHacked/librarieshacked.github.io/master/images/2020-09-24-accessibility-contrast.PNG" alt="A sample image showing poor contrast with text of dark grey on a medium grey background."/>
   <figcaption>It can often be tempting to have low contrast for subtle design purposes, but the contrast here is far too low.</figcaption>
 </figure>
 
