@@ -1,6 +1,6 @@
 ---
 title: Library web accessibility
-excerpt: Time is up to comply with accessibility legislation
+excerpt: Time to comply with accessibility legislation
 categories:
   - Websites
 tags:
