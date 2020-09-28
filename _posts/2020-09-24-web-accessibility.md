@@ -10,23 +10,23 @@ tags:
 
 A previous post, [public library websites](https://blog.librarydata.uk/public-library-websites/), looked at common problems with library websites.
 
-One problem was accessibility, and ensuring everyone can access library services online.
+One problem was accessibility, and ensuring everyone can access online library services.
 
 ### What is web accessibility?
 
-Web accessibility is covered by the Public Sector Bodies Accessibility Regulations 2018. This says websites should be accessible to level AA from the [WCAG 2.1 standard](https://www.gov.uk/service-manual/helping-people-to-use-your-service/understanding-wcag). They must publish an Accessibility Statement, which should say how this has been achieved, and how problems are being addressed.
+Web accessibility is covered by the Public Sector Bodies Accessibility Regulations 2018. This says websites should be accessible to level AA from the [WCAG 2.1 standard](https://www.gov.uk/service-manual/helping-people-to-use-your-service/understanding-wcag). They must publish an Accessibility Statement to say how this has been achieved, and how problems are being addressed.
 
 2018? Old news! There's been two years to get up to standard, ending on 23rd September 2020. Comprehensive guidelines are available at [accessibility requirements for public sector websites and apps](https://www.gov.uk/guidance/accessibility-requirements-for-public-sector-websites-and-apps).
 
-An example of poor web content is links containing the text 'click here'. People do this because they've seen it a lot. But not everyone 'clicks', unless using a mouse. And the word 'here' is only valid when looking at the page. It's making assumptions about how users interact with web pages.
+An example of poor web content is links containing the text 'click here'. People do this because they've seen it a lot. But not everyone 'clicks', unless using a mouse. And the word 'here' is only valid when looking at a page. It's making assumptions about how users interact with web pages.
 
-Imagine you are reading a webpage to someone, and they ask which sites are linked to. You could end up saying "well, you can go to 'click here', or 'click here', or 'click here'..". It's the equivalent of a signpost having 'this way' for each direction, instead of place names. Useless, and a way of ensuring people become lost and annoyed.
+Imagine you are reading a webpage to someone, and they ask which sites are linked to. You could end up saying "well, there's 'click here', and 'click here', and 'click here'..". It's the equivalent of a signpost having 'this way' for each direction, instead of place names. Useless, and a way of ensuring people become lost and annoyed.
 
 It's one of many common mistakes.
 
 #### Use appropriate contrast for text
 
-You may have a lovely monitor, making your website look great. But not everyone has the same hardware, or the same eyesight. Having a high contrast between text and background helps make text clear.
+You may have a lovely monitor, making your website look great. But not everyone has the same hardware, or the same eyesight. Good contrast between text and background helps make text clear.
 
 <figure class="align-center">
   <img style="width: 50%" src="https://raw.githubusercontent.com/LibrariesHacked/librarieshacked.github.io/master/images/2020-09-24-accessibility-contrast.PNG" alt="A sample image showing poor contrast with text of dark grey on a medium grey background."/>
@@ -37,7 +37,7 @@ You may have a lovely monitor, making your website look great. But not everyone 
 
 Many people use screen readers. Images cannot be read, unless they have alternative text.
 
-Lots of library websites link to resources by their logo alone. To library staff, these are treasured and expensive e-resources. To the public it's a meaningless series of logos they're unlikely to follow.
+Lots of library websites link to resources by their logo. To library staff, these are treasured and expensive e-resources. To the public it's a meaningless series of logos they're unlikely to follow.
 
 <figure class="align-center">
   <img style="width: 50%; border: 1px solid #e5e5e5" src="https://raw.githubusercontent.com/LibrariesHacked/librarieshacked.github.io/master/images/2020-09-24-accessibility-logos.PNG" alt="A screenshot showing a list of logos from a library service website, which provides links to various e-resource providers."/>
@@ -50,10 +50,10 @@ Colours are great. But it shouldn't be necessary to recognise them. Services nee
 
 <figure class="align-center">
   <img style="width: 50%; border: 1px solid #e5e5e5" src="https://raw.githubusercontent.com/LibrariesHacked/librarieshacked.github.io/master/images/2020-09-24-accessibility-colour.PNG" alt="A sample image showing a single calendar month with the date numbers coloured differently to indicate which route the mobile library will be taking."/>
-  <figcaption>Mobile library timetables often use colour to show what dates a mobile library route is running.</figcaption>
+  <figcaption>Mobile library timetables often use colour to show mobile library schedules.</figcaption>
 </figure>
 
-Accessible design is better for everyone. Everyone wants well laid-out content, with plain language and descriptive links. All these things make a site easier to use, increase usage, and are win-win.
+Accessible design is better for everyone. Everyone wants well laid-out content, with plain language and descriptive links. These things are win-win, they make a site easier to use and increase usage.
 
 The best websites make mistakes. I'm no accessibility expert, and there's no substitute for user testing. By trying to follow guidelines, attempting good content, and publishing a statement, it shows that you care about trying to make things better.
 
@@ -63,7 +63,7 @@ Feedback from the previous post about library webpages was that it wasn't the li
 
 And that's understandable. How can you make something better if you're not allowed to? But this didn't ring true. Local government has good shared practice. If you join the [Local Gov Digital Slack group](https://localgov.digital) you will see a thriving community of people who have been discussing accessibility issues for the past two years.
 
-I also noticed it was the information on library catalogue sites, away from council interference, that was particularly bad. The greater the library involvement, the worse things were.
+I also noticed the content on library catalogue sites, away from council interference, was particularly bad. The greater the library involvement, the worse things were.
 
 To try to eliminate council influence I looked again at library websites, but only where the website wasn't part of the council site. The test was simple, how many had an accessibility statement that would comply with the legislation?
 
@@ -87,10 +87,10 @@ There are other symptoms of digital literacy problems. Library online presences 
 
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">One of the best ways to measure digital information illiteracy is to measure the quantity of PDFs an org creates. A PDF is a sure sign that an org has not adapted to digital but is rather forcing digital to adapt to its print culture and practices.</p>&mdash; Gerry McGovern (@gerrymcgovern) <a href="https://twitter.com/gerrymcgovern/status/1284824726200778755?ref_src=twsrc%5Etfw">July 19, 2020</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
-Libraries have been forced to push their existing practices online, where they are inappropriate. Over the summer many services used poster templates to put their events into image format, and then posted these on social media. In some cases the image was the only available listing of events. That isn't providing a digital service.
+Libraries have been forced to push their practices online, without adapting them. Over the summer many services used poster templates to put their events into image format, and then posted these on social media. In some cases the image was the only available listing of events. That isn't a digital service.
 
 #### What to do?
 
-Well, I don't know. The inconvenient truth is that this was previously just a bit rubbish. Now it's illegal.
+Well, I don't know. Previously this was just a bit rubbish. Now it's illegal.
 
 Will that trigger a change? Probably not directly. But if enforcement action is taken then it's possible. The legislation is enforceable by the [Equality and Human Rights Commission](https://www.equalityhumanrights.com/en). The public have a clear right to accessible public websites, and they can demand this through the EHRC.
