@@ -89,8 +89,8 @@ There are other symptoms of digital literacy problems. Library online presences 
 
 Libraries have been forced to push their existing practices online, where they are inappropriate. Over the summer many services used poster templates to put their events into image format, and then posted these on social media. In some cases the image was the only available listing of events. That isn't providing a digital service.
 
-#### What is the answer?
+#### What to do?
 
 Well, I don't know. The inconvenient truth is that this was previously just a bit rubbish. Now it's illegal.
 
-Will that trigger a change? Probably not directly. But if enforcement action is taken then it's possible. The legislation is enforceable by the [Equality and Human Rights Commission](https://www.equalityhumanrights.com/en). The public now have a clear right to accessible public websites, and this can be demanded through the EHRC.
+Will that trigger a change? Probably not directly. But if enforcement action is taken then it's possible. The legislation is enforceable by the [Equality and Human Rights Commission](https://www.equalityhumanrights.com/en). The public have a clear right to accessible public websites, and they can demand this through the EHRC.
