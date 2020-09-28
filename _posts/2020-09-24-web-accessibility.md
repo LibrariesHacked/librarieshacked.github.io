@@ -10,17 +10,17 @@ tags:
 
 A previous post, [public library websites](https://blog.librarydata.uk/public-library-websites/), looked at common problems with library websites.
 
-One problem was accessibility, and how important it is to ensure everyone can access library services online.
+One problem was accessibility, and ensuring everyone can access library services online.
 
 ### What is web accessibility?
 
-Web accessibility is legally covered by the Public Sector Bodies Accessibility Regulations 2018, which says websites should be accessible to level AA from the [WCAG 2.1 standard](https://www.gov.uk/service-manual/helping-people-to-use-your-service/understanding-wcag). They must also publish an Accessibility Statement, which should say how this has been achieved, and plans to address any problems.
+Web accessibility is covered by the Public Sector Bodies Accessibility Regulations 2018. This says websites should be accessible to level AA from the [WCAG 2.1 standard](https://www.gov.uk/service-manual/helping-people-to-use-your-service/understanding-wcag). They must publish an Accessibility Statement, which should say how this has been achieved, and how problems are being addressed.
 
-2018? Old news! There's been two years to allow websites to get up to standard, ending on 23rd September 2020. More comprehensive guidelines are available at [accessibility requirements for public sector websites and apps](https://www.gov.uk/guidance/accessibility-requirements-for-public-sector-websites-and-apps).
+2018? Old news! There's been two years to get up to standard, ending on 23rd September 2020. Comprehensive guidelines are available at [accessibility requirements for public sector websites and apps](https://www.gov.uk/guidance/accessibility-requirements-for-public-sector-websites-and-apps).
 
 An example of poor web content is links containing the text 'click here'. People do this because they've seen it a lot. But not everyone 'clicks', unless using a mouse. And the word 'here' is only valid when looking at the page. It's making assumptions about how users interact with web pages.
 
-Imagine you are reading the page to someone, and they ask for the links to other pages. If it had many 'click here' links you'd end up saying "well, you can go to 'click here', or 'click here', or 'click here'..". It's the equivalent of a signpost having 'this way' for each direction, instead of place names. Useless, and a way of ensuring people become lost and annoyed.
+Imagine you are reading a webpage to someone, and they ask which sites are linked to. You could end up saying "well, you can go to 'click here', or 'click here', or 'click here'..". It's the equivalent of a signpost having 'this way' for each direction, instead of place names. Useless, and a way of ensuring people become lost and annoyed.
 
 It's one of many common mistakes.
 
