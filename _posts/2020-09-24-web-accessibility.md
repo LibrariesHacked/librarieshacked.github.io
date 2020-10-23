@@ -16,11 +16,11 @@ One problem was accessibility, and ensuring everyone can access online library s
 
 Web accessibility is covered by the Public Sector Bodies Accessibility Regulations 2018. This says websites should be accessible to level AA from the [WCAG 2.1 standard](https://www.gov.uk/service-manual/helping-people-to-use-your-service/understanding-wcag). They must publish an Accessibility Statement to say how this has been achieved, and how problems are being addressed.
 
-2018? Old news! There's been two years to get up to standard, ending on 23rd September 2020. Comprehensive guidelines are available at [accessibility requirements for public sector websites and apps](https://www.gov.uk/guidance/accessibility-requirements-for-public-sector-websites-and-apps).
+2018? That old news! There have been two years to get up to standard, ending on 23rd September 2020. Comprehensive guidelines are available at [accessibility requirements for public sector websites and apps](https://www.gov.uk/guidance/accessibility-requirements-for-public-sector-websites-and-apps).
 
-An example of poor web content is links containing the text 'click here'. People do this because they've seen it a lot. But not everyone 'clicks', unless using a mouse. And the word 'here' is only valid when looking at a page. It's making assumptions about how users interact with web pages.
+An example of poor web content is links containing 'click here'. People do this because they've seen it a lot. But not everyone 'clicks', unless they're using a mouse. And the word 'here' is only valid when looking at a page. It's making assumptions about how users interact with web pages.
 
-Imagine you are reading a webpage to someone, and they ask which sites are linked to. You could end up saying "well, there's 'click here', and 'click here', and 'click here'..". It's the equivalent of a signpost having 'this way' for each direction, instead of place names. Useless, and a way of ensuring people become lost and annoyed.
+Imagine you are reading a webpage to someone, and they ask which site they could go to from there. You could end up saying "well, there's 'click here', and 'click here', and 'click here'..". It's the equivalent of a signpost having 'this way' for each direction, instead of place names. Useless, and a way of ensuring people become lost and annoyed.
 
 It's one of many common mistakes.
 
@@ -35,7 +35,7 @@ You may have a lovely monitor, making your website look great. But not everyone 
 
 #### Be careful of putting information in images
 
-Many people use screen readers. Images cannot be read, unless they have alternative text.
+Many people use screen readers. Images cannot be read, unless alternative text content is provided.
 
 Lots of library websites link to resources by their logo. To library staff, these are treasured and expensive e-resources. To the public it's a meaningless series of logos they're unlikely to follow.
 
@@ -59,17 +59,17 @@ The best websites make mistakes. I'm no accessibility expert, and there's no sub
 
 ### How are libraries doing?
 
-Feedback from the previous post about library webpages was that it wasn't the library's fault. "Libraries aren't allowed by the council to change the web content" was the argument.
+Feedback from the previous post about library webpages was that it wasn't always the library's fault. "Libraries aren't allowed by the council to change the web content" was the argument.
 
-And that's understandable. How can you make something better if you're not allowed to? But this didn't ring true. Local government has good shared practice. If you join the [Local Gov Digital Slack group](https://localgov.digital) you will see a thriving community of people who have been discussing accessibility issues for the past two years.
+And that's understandable. How can you make something better if you're not allowed to? But this isn't always true. Local government has good shared practice. If you join the [Local Gov Digital Slack group](https://localgov.digital) you will see a thriving community of people who have been discussing accessibility issues for the past two years.
 
-I also noticed the content on library catalogue sites, away from council interference, was particularly bad. The greater the library involvement, the worse things were.
+I also noticed content on library catalogue sites, away from council interference, was particularly bad. The greater the library involvement, the worse things were.
 
-To try to eliminate council influence I looked again at library websites, but only where the website wasn't part of the council site. The test was simple, how many had an accessibility statement that would comply with the legislation?
+To try to eliminate council influence I looked again at library websites, but only where the website wasn't part of a council site. The test was simple, how many had an accessibility statement that would comply with the legislation?
 
 Of 34 sites, there were two compliant.
 
-What about national organisations? [Libraries Connected](https://www.librariesconnected.org.uk) and the [Scottish Library and Information Council](https://scottishlibraries.org) are charities, but are publicly funded and subject to the legislation. Neither had Accessibility Statements, and both had accessibility issues on their websites.
+What about national organisations? [Libraries Connected](https://www.librariesconnected.org.uk) and the [Scottish Library and Information Council](https://scottishlibraries.org) are charities, but also subject to the legislation. Neither had Accessibility Statements, and both had accessibility issues.
 
 There was at least one exception. [Leeds Libraries](https://leeds.ent.sirsidynix.net.uk/client/en_GB/default/?rm=ACCESSIBILITY+0%7C%7C%7C1%7C%7C%7C0%7C%7C%7Ctrue) are clearly putting a lot of effort into accessibility, and doing their best to work with suppliers to provide good websites.
 
@@ -77,11 +77,11 @@ There was at least one exception. [Leeds Libraries](https://leeds.ent.sirsidynix
 
 Do libraries care about any of this? Given current standards, no, with exceptions.
 
-That's not malicious disregard for citizens. For those accessing physical libraries they will experience a top-class service with accessible options: good buildings, large print books, guidance on using the Internet, etc.
+But that's not malicious. For users accessing physical libraries they will experience a top-class service: accessible buildings, large print books, guidance on using the Internet, etc.
 
-The problem is digital literacy. Web accessibility is seen as a 'tech' thing. Either the responsibility of IT, or website providers. Even though it affects access to library services.
+The problem is digital literacy. Web accessibility is seen as a 'tech' thing. Either the responsibility of IT, or website providers. Even though it affects library services.
 
-There are other symptoms of digital literacy problems. Library online presences look like adapted print experiences. Reports from library organisations are still normally PDF files. That's not online publishing, it's print formats made available to download.
+There are other symptoms of digital literacy problems. Library online presences look like adapted print experiences. Reports from library organisations are normally PDF files. That's not online publishing, it's print formats available to download.
 
 [Gerry McGovern](https://gerrymcgovern.com), a particularly good writer on web content, summarised the use of PDFs in a recent tweet.
 
