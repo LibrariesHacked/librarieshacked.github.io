@@ -1,5 +1,5 @@
 ---
-title: Libraries Hacked plans
+title: Libraries Hacked 2021
 excerpt: Everybody's losing someone
 categories:
   - Libraries Hacked
