@@ -8,16 +8,16 @@ tags:
   - Mind
 ---
 
-I've been considering plans for the Libraries Hacked project for 2021.
+With 2020 coming to an end I've been considering plans for Libraries Hacked in 2021.
 
 ## Library lab
 
-There were a few 'hacks' in the last couple of years that share similar features. Primarily the [Mobile libraries project](https://www.mobilelibraries.org/), [Libraries at home](https://www.librariesathome.co.uk/), and [Library map](https://www.librarymap.co.uk/). 
+There were a few hacks in the last couple of years that share features. Primarily the [Mobile libraries project](https://www.mobilelibraries.org/), [Libraries at home](https://www.librariesathome.co.uk/), and [Library map](https://www.librarymap.co.uk/). 
 
 * They're prototypes. Not finished products, but showing what could be done with library data
 * They could do with help: collaboration on code, branding, user experience expertise, and data knowledge.
 
-To bring projects like that together into a single place I've launched [Library lab](https://www.librarylab.uk/). This holds ideas about digital applications - where anyone can get involved and contribute.
+To bring projects like that together into a single place I've launched [Library lab](https://www.librarylab.uk/). This holds ideas for digital applications - where anyone can get involved and contribute.
 
 <figure>
   <img src="https://raw.githubusercontent.com/LibrariesHacked/librarylab/master/assets/images/homepage-lab.jpg" alt="A labrador looking mega excited!"/>
@@ -47,21 +47,21 @@ So more of that needed - tools change, politics and situations change, but it wo
 
 ## Collaboration
 
-There are about 50 repositories on the [Libraries Hacked GitHub page](https://github.com/librarieshacked). These are all projects, some long term, others one-off. With the code available to view.
+There are about 50 repositories on the [Libraries Hacked GitHub page](https://github.com/librarieshacked). Some of these are long term projects, others one-off. With the code available to view.
 
 However, open source is not just about making code visible. One of the benefits is to enable collaboration.
 
-I've been really pleased that a couple of times in the last month people have contributed code to Libraries Hacked projects. It would be amazing if that continued.
+I've been really pleased that twice in the last month people have contributed code to Libraries Hacked projects. It would be amazing if that continued.
 
 ## Talk to the public not libraries
 
-UK public libraries are short-staffed, under-funded, lacking in digital training, and busy. It's not good, but it's true. With some amazing exceptions, they have little sympathy for extending digital services, prototyping digital applications, or releasing open data. Not negativity for those things, just enough on their plate.
+UK public libraries are short-staffed, under-funded, lacking in digital training, and busy. It's not good, but it's true. With some amazing exceptions, they have little sympathy for developing digital services, prototyping applications, or releasing open data. Not negativity for those things, just enough on their plate.
 
-And coming to that realisation has been important. Being a library user, the projects I enjoy are ones that have a public focus rather than a library service one.
+Coming to that realisation has been important. Being a library user, the projects I enjoy are ones that have a public focus rather than a library service one.
 
 For example, I'd like to experiment with alternative library websites. Providing the usual facilities like browsing books, placing reservations, managing loans, but taking the opportunity to do these in ways they haven't been done before.
 
-That doesn't require direct input from library services. It would be purely related to the public experience of using libraries and makes sense to involve the public more and leave libraries alone.
+That doesn't require input from library services. It would be purely related to the public experience of using libraries, and makes sense to involve the public more and leave libraries alone.
 
 ## Sponsorship
 
@@ -75,14 +75,14 @@ Still to be decided though. I'm definitely not interested in ad revenue.
 
 ## Mind
 
-I don't think I'll be pushing for hacking sponsorship until things are looking better in the current crisis. More worthwhile at the moment would be to [donate to Mind](https://www.mind.org.uk/donate/) to tackle the mental health emergency.
+I don't think I'll be pushing for sponsorship until things are looking better in the current crisis. More worthwhile at the moment would be to [donate to Mind](https://www.mind.org.uk/donate/) to tackle the mental health emergency.
 
-My incredibly clever and very dear brother was found dead while living alone earlier this year. An existing mental illness had flared up during furlough in the first lockdown, and he'd found things too much to handle. I'm sure there are many such cases, 2020 will have devastated many families.
+My incredibly clever and very dear brother was found dead while living alone earlier this year. An existing mental illness had flared up during the first lockdown, and he'd found things too much to handle. I'm sure there are many such cases, 2020 will have devastated many families.
 
 I'd like to explore more about mental health and digital services. People often consider the best digital services to be those that achieve a function most efficiently, or simply. And there's certainly beauty in that. But I'm not so sure anymore.
 
-Like going travelling and taking a bus, or a train. In theory the transport should be judged on how quickly, comfortably, and cheaply they get you to your destination. But the reality is that sitting on the train, looking out the window with a coffee and some music, becomes the most enjoyable part of going away. I suspect the same can be true of good digital services.
+Like going travelling and taking a bus, or a train. In theory the transport should be judged on how quickly, comfortably, and cheaply it gets you to your destination. But the reality is that sitting on the train, looking out the window with a coffee and some music, becomes the most enjoyable aspect of going away. I suspect the same can be true of good digital services.
 
-I don't think we consider enough the mental health benefits of digital services, and how much pleasure they can give. With library services we have such appreciation for physical aspects of libraries, smelling books, sitting quietly in the library, all those great things. But there is as much in digital, and I'd like to think about that while working.
+I don't think we consider enough the mental health benefits of digital services, and how much pleasure they can give. With library services we have such appreciation for physical aspects, smelling books, sitting quietly in the library, all those great things. But there is as much in digital, and I'd like to think about that while working.
 
-One of my favourite open data projects is [Open Benches](https://openbenches.org/), which crowd-sources locations and photos of memorial benches (over 17,000 across the world). When I heard that Paul's colleagues were getting him a memorial bench I was so happy at the idea that in future I'll be able to go and take a photo of the bench and upload it to the site to be open data. As a digital service bringing a lot of joy it's definitely up there with the best.
+One of my favourite open data projects is [Open Benches](https://openbenches.org/), which crowd-sources locations and photos of memorial benches (over 17,000 across the world!). When I heard that Paul's colleagues were getting him a memorial bench I was so happy that in future I'll be able to go and take a photo of the bench and upload it to the site to be open data. As a digital service bringing a lot of joy it's definitely up there with the best.
