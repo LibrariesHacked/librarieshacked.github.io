@@ -11,7 +11,7 @@ tags:
 published: true
 ---
 
-On Twitter, [@publiclibnews](https://twitter.com/publiclibnews/status/476433830124199937) invited thoughts for the three best innovations public libraries should adopt. One idea, pointed out by [@commonlibraries](https://twitter.com/commonlibraries) was this one of downloadable ebook posters in a subway station.
+On Twitter, [@publiclibnews](https://twitter.com/publiclibnews/status/476433830124199937) invited thoughts for the three best innovations public libraries should adopt. One idea, pointed out by [@commonlibraries](https://twitter.com/commonlibraries) was one of downloadable ebook posters in a subway station.
 
 - [Digital Library on the Bucharest Subway](http://www.paulkater.com/2012/10/stunning-idea-digital-library-on-the-bucharest-subway-station/)
 
