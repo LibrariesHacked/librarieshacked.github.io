@@ -64,9 +64,9 @@ It's all very well to demand 'where's the single digital presence?' But it is as
 
 This isn't just being a smart arse about the term single digital presence. That's clear in expressing the benefits of someone being able to go to one place and see information about multiple library services, catalogues, resources, etc.
 
-However, in the ideal situation we would have multiple digital presences. Or perhaps better described as multiple single digital presences. Need an app to quickly reserve library books? Search the app store, look at the reviews, and choose one. What if the Reading Agency want to put a search for UK libraries on their website? Of course, they should go for it. Delivery of those presences is then out of the hands of library services and their partners.
+However, in the ideal situation we would have multiple digital presences. Or perhaps better described as multiple single digital presences. Want an app to quickly reserve library books? Sure, search the app store, look at the reviews, and choose one. What if the Reading Agency want to put a search for UK libraries on their website? Of course, they should go for it. Delivery of those presences is then out of the hands of library services and their partners.
 
-True digital transformation will mean giving up control. The library website won't necessarily be the place people go to find out about their libraries. The official library catalogue site won't be the place users reserve and renew their loans. They may choose the alternative site that allows them to tick the auto-renew option - that website will then handle renewing items for them. And that's a good thing.
+True digital transformation will mean giving up control. The library website won't necessarily be the place people go to find out about their libraries. The official library catalogue site won't be the place users reserve and renew their loans. They may choose the alternative site that allows them to tick the auto-renew option - that website will then handle renewing items for them.
 
 ### Work in the open
 
