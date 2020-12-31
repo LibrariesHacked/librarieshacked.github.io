@@ -17,20 +17,20 @@ There were a few projects in the last couple of years that share features. Parti
 * They're prototypes. Not finished products, but showing uses of library data
 * They need help: collaboration on code, branding, user experience expertise, and data knowledge.
 
-To bring projects like that together I've launched [Library lab](https://www.librarylab.uk/). This is designed to collect ideas for digital applications. Where anyone can get involved and contribute.
+To bring projects like that together I launched [Library lab](https://www.librarylab.uk/). This is designed to collect ideas for digital applications, inviting anyone to get involved and contribute.
 
 <figure>
   <img src="https://raw.githubusercontent.com/LibrariesHacked/librarylab/master/assets/images/homepage-lab.jpg" alt="A labrador looking mega excited!"/>
   <figcaption>A lab looking mega excited! Photo "Labrador-Puppy" by tyleruk2000 is <a href="https://creativecommons.org/licenses/by/2.0/">licensed with CC BY 2.0</a>.</figcaption>
 </figure>
 
-It would be great if 2021 could have more projects, plus developing the existing ones, and getting others involved, from leadership organisations. If you're interested, please have an explore!
+It would be great if 2021 could have more projects, plus developing the existing ones, and getting others involved. If you're interested, please have an explore!
 
 ## Mobile apps
 
 I have a new iPad, a new Android phone, and an itch to do some mobile app development. Nothing extravagant, but something that makes use of the phone/tablet rather than something a responsive website could do.
 
-One idea is to write an app that keeps track of your current library loans and sends notifications when they are due to return. No sharing or posting to social media, just something for people to use. It could even be 'real' checking, as the app would query library accounts on library websites. Then renew loans just before they go overdue. All the data (including passwords) would be stored securely on your personal device only.
+One idea is to write an app that keeps track of your library loans and sends notifications when they are due to return. No sharing or posting to social media, just something for people to use. It would be 'real' checking, as the app would query library accounts on library websites. Then renew loans just before they go overdue. All the data (including passwords) would be stored securely on your personal device only.
 
 I'd use it!
 
@@ -43,7 +43,7 @@ There are very few original ideas that can't be found in old books. My latest ob
   <figcaption>Mobile libraries book with pull-out map showing library routes in Somerset</figcaption>
 </figure>
 
-From my perspective, I need more appreciation of the old. Tools change, politics and situations change, but it would be silly not to look to books for learning.
+Tools change, politics and situations change, but it would be silly not to look to books for learning.
 
 ## Collaboration
 
@@ -55,7 +55,7 @@ I've been really pleased that twice in the last month people have contributed co
 
 ## Talk to the public not libraries
 
-UK public libraries are short-staffed, under-funded, lacking in digital training, and busy. It's not good, but it's true. With some amazing exceptions, they have little sympathy for developing digital services, prototyping applications, or releasing open data. NOT negativity for those things, just enough on their plate.
+UK public libraries are short-staffed, under-funded, lacking in digital training, and busy. It's not good, but it's true. With some amazing exceptions, they have little sympathy for developing digital services, prototyping applications, or releasing open data. Not negativity for those things, just enough on their plate.
 
 Coming to that realisation has been important. As a library user, the projects I enjoy most are ones that have a public focus rather than a library service one.
 
