@@ -91,4 +91,4 @@ That principle of adopting standards, plus building upon past work is an importa
 
 But one thing it didn't delve into was how, if at all, those projects were linked. There is benefit in a 'failed' project if it gets the current situation further down the road. Have they done some groundwork of interoperability between systems, some standards for sharing data, or at least documented the work so it can be picked up the next time?
 
-Other than thinking I know what a couple were, I don't have details of those 5 projects. But if they had been completed openly then it would mean that more information would be available about them. As it is, it doesn't look like they were.
+Other than thinking I know what a couple were, I don't have details of those 5 projects. But if they had been completed openly then more information would be available about them. As it is, it doesn't look like they were.
