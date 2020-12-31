@@ -15,7 +15,7 @@ With 2020 at an end I've been considering plans for Libraries Hacked in 2021.
 There were a few projects in the last couple of years that share features. Particularly the [Mobile libraries project](https://www.mobilelibraries.org/), [Libraries at home](https://www.librariesathome.co.uk/), and [Library map](https://www.librarymap.co.uk/). 
 
 * They're prototypes. Not finished products, but showing uses of library data
-* They could do with help: collaboration on code, branding, user experience expertise, and data knowledge.
+* They need help: collaboration on code, branding, user experience expertise, and data knowledge.
 
 To bring projects like that together I've launched [Library lab](https://www.librarylab.uk/). This is designed to collect ideas for digital applications. Where anyone can get involved and contribute.
 
@@ -24,7 +24,7 @@ To bring projects like that together I've launched [Library lab](https://www.lib
   <figcaption>A lab looking mega excited! Photo "Labrador-Puppy" by tyleruk2000 is <a href="https://creativecommons.org/licenses/by/2.0/">licensed with CC BY 2.0</a>.</figcaption>
 </figure>
 
-It would be great if 2021 could have more projects, plus developing the existing ones, and getting others involved. If you're interested, please have an explore!
+It would be great if 2021 could have more projects, plus developing the existing ones, and getting others involved, from leadership organisations. If you're interested, please have an explore!
 
 ## Mobile apps
 
@@ -65,7 +65,7 @@ That doesn't require input from library services. It would be purely related to 
 
 ## Sponsorship
 
-It's a luxury, but I try to avoid library projects that involve money. The process of estimating, invoicing, and getting money is hard. I'm fortunate to have a job with normal taxed pay, and that's enough for me. (Though if you use freelancers, please pay them promptly!).
+It's a luxury, but I avoid library projects that involve money. The process of estimating, invoicing, and getting money is hard. I'm fortunate to have a job with normal taxed pay, and that's enough for me. (Though if you use freelancers, please pay them promptly!).
 
 That being said, Libraries Hacked costs money. The hosting for databases and web applications, plus some things like domain names and certificates comes to almost £1,000 a year. 
 
