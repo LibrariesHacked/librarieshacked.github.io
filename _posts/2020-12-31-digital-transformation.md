@@ -8,7 +8,7 @@ tags:
   - British library
 ---
 
-It was the British Library Labs symposium in mid-December. Watching it, I was interested to see a quick update on the public libraries Single Digital Presence (SDP) work. Check out the video of the whole [library labs symposium on YouTube](https://www.youtube.com/watch?v=ZCdakFvVYEc). It's all ace, but the SDP update is [2 hours into the streaming event](https://youtu.be/ZCdakFvVYEc?t=7216). 
+It was the British Library Labs symposium in mid-December. I was interested to see a quick update on the public libraries Single Digital Presence (SDP) work. Check out the video of the whole [library labs symposium on YouTube](https://www.youtube.com/watch?v=ZCdakFvVYEc). It's all ace, but the SDP update is [2 hours into the streaming event](https://youtu.be/ZCdakFvVYEc?t=7216). 
 
 The Bookseller also published a recent update from the team: [transforming the digital offer for public libraries](https://www.thebookseller.com/blogs/transforming-digital-offer-public-libraries-1220211), and research partners DXW have published a case study on [creating a national digital presence for public libraries](https://www.dxw.com/case-studies/creating-a-national-digital-presence-for-public-libraries/)
 
@@ -18,7 +18,7 @@ Having thought a little about digital transformation, and my experience of it, I
 
 ### Fix before building
 
-I try to advocate for the [Local Digital Declaration](https://localdigital.gov.uk/declaration/) government initiative. Many local government organisations have signed up to this.
+I try to advocate for the [Local Digital Declaration](https://localdigital.gov.uk/declaration/), which many local government organisations have signed up to.
 
 > We will ‘fix our plumbing’ to break our dependence on inflexible and expensive technology that doesn’t join up effectively
 >
@@ -26,7 +26,7 @@ I try to advocate for the [Local Digital Declaration](https://localdigital.gov.u
 
 The key is to fix the issues that cause problems and hamper projects. This will include issues in data and software, but also culture and skills.
 
-The recent Bookseller piece comented fairly reservedly on the current state of library digital presences.
+The recent Bookseller piece included a fairly reserved comment on the current state of library digital presences.
 
 > many familiar with the sector will recognise that the quality and consistency of libraries’ digital offerings could be improved
 >
@@ -34,15 +34,15 @@ The recent Bookseller piece comented fairly reservedly on the current state of l
 
 But what in particular is broken? Yes, the websites and services have poor usability, and accessibility, and aren't pleasant to use. But those are symptoms, not underlying issues.
 
-In November I was approached by a web developer. Enthusiastic about library services in their local area they wanted to create a new and accessible way of browsing the library catalogue (no, it wasn't me!). They had approached the library service, via freedom of information, for a copy of the items in the catalogue. They'd requested this in spreadsheet format with data fields such as ISBN and stock level.
+In November I was approached by a web developer. Enthusiastic about library services in their local area they wanted to create a new and accessible way of browsing the library catalogue (no, it wasn't me!). They had approached the library service, via freedom of information, for a copy of the catalogue data. They'd requested this in spreadsheet format with data fields such as ISBN and stock level.
 
 This isn't an odd request, and it should be a situation that we jump at the chance of. Local people creating software for interacting with the library? Great, get them that data!
 
-Unfortunately the library service replied that as there were over 1 million records it wouldn't be possible to provide the data within the £600 freedom of information limit. On appeal, the library service then also insisted they were exempt from the request as the data was publicly searchable from the online catalogue.
+Unfortunately the library service replied that as there were over 1 million records it wouldn't be possible to provide the data within the £600 freedom of information limit. On appeal, the library service then insisted they were exempt from the request as the data was publicly searchable from the online catalogue.
 
-It would be easy to be critical of the library service in this situation. To say they were either overly protective of the data, or even intentionally obstructive. But I think they can be taken at face value. They likely don't have the required knowledge to do it, and unfortunately would have to go to a supplier, costing well over £600. But in this situation the public go away disappointed with poor service from the library.
+It would be easy to be critical of the library service. To say they were either overly protective of the data, or even intentionally obstructive. But I think they can be taken at face value. They likely don't have the required knowledge to do it, and unfortunately would have to go to a supplier, costing well over £600. But in this situation the member of the public is sent away disappointed with poor service from the library.
 
-That's (partly) what is broken. It should not be a problem to extract the library catalogue and provide it to a member of the public in a reasonable data format. It's the primary data held by library management systems. The problem is the investment in skills and training for staff to be able to do it.
+That's (partly) what is broken. It should not be a problem to extract catalogue data and provide it on request. It's the primary data held by library management systems. The problem is the investment in skills and training for staff to be able to do it.
 
 If there isn't enough investment in library system administration, what likelihood is there to be expertise in content design and user experience? These are essential skills for presenting digital services.
 
@@ -54,15 +54,15 @@ There are hugely encouraging words from the British Library that show they fully
 
 ### Everyone needs to be engaged
 
-Digital projects aren't delivered to organisations with immediate success. Whether it is an Intranet, a new Document Management System, or whatever. They can be implemented, but they need to be understood, adopted, and used well.
+Digital projects aren't delivered to organisations with immediate success. Whether it's an Intranet, a new Document Management System, or whatever. They can be implemented, but they need to be understood, adopted, and used well.
 
-The tech industry can be guilty of solutionism by trying to sell software as a solution in itself. Software is never a complete solution, but it can be an effective tool. But on the other side, the library world can be guilty of buying such solutions without considering the engagement and investment they will need to put into them. The funding rarely goes beyond commissioning the software.
+The tech industry can be guilty of solutionism by trying to sell software as a solution in itself. Software can only ever be an effective tool. But on the other side, the library world can be guilty of buying software without considering the engagement and investment they will need to put in. The funding rarely goes that far.
 
-It's all very well to demand 'where's the single digital presence?' But it is as relevant to ask library services what they have been doing to prepare for it. For all the work being done by the British Library to research, prepare and advise, far more will be needed from each library service to make it a success.
+It's all very well to demand 'where's the single digital presence?' But it is as relevant to ask library services what they have been doing to prepare for it. For all the work being done by the British Library to research, and advise, far more will be needed from each library service to make it a success.
 
 ### We need multiple digital presences
 
-This isn't just being a smart arse about the single digital presence. SDP is a term that is clear in expressing the benefits of someone being able to go to one place and see information about multiple library services, catalogues, resources, etc.
+This isn't just being a smart arse about the term single digital presence. That's clear in expressing the benefits of someone being able to go to one place and see information about multiple library services, catalogues, resources, etc.
 
 However, in the ideal situation we would have multiple digital presences. Or perhaps better described as multiple single digital presences. Need an app to quickly reserve library books? Search the app store, look at the reviews, and choose one. What if the Reading Agency want to put a search for UK libraries on their website? Of course, they should go for it. Delivery of those presences is then out of the hands of library services and their partners.
 
@@ -80,7 +80,7 @@ And why not? It informs the public who may be interested, it will undoubtedly im
 
 ### Don't reinvent the wheel
 
-Working last year with library colleagues and the DCMS on the [library open data schemas](https://schema.librarydata.uk/) I was nervous that it must surely have all been done before. You know that comic about standards and constantly creating new ones? That was on my mind. As it was, for the particular task of constructive data schemas for things like public library membership, footfall, and issues, no, it hadn't. And hopefully that work can go on to be used in projects like the single digital presence.
+Working last year with library colleagues and the DCMS on the [library open data schemas](https://schema.librarydata.uk/) I was nervous that it must surely have all been done before. You know that comic about standards and constantly creating new ones? That was on my mind. As it was, for data schemas like public library membership, footfall, and issues, no, it hadn't. And hopefully that work can go on to be used in projects like the single digital presence.
 
 <figure class="align-center">
   <img src="https://imgs.xkcd.com/comics/standards.png" alt="A comic showing how standards proliferate. Situation: there are 14 competing standards. 14! Ridiculous we need to create one universal standard that covers everyones use cases. (Soon) Situation: there are 15 competing standards."/>
