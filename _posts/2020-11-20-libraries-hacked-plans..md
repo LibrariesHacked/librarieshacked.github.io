@@ -4,7 +4,6 @@ excerpt: Everybody's losing someone
 categories:
   - Libraries Hacked
 tags:
-  - Project update
   - Mind
 ---
 
@@ -36,7 +35,7 @@ I'd use it!
 
 ## More reading
 
-There are very few original ideas that can't be found in old books. My latest obtained book on Mobile libraries, "Mobile Libraries & other public library transport" (by C.R. Eastwood) was written in 1966, but doesn't seem irrelevant in any way.
+There are few original ideas that can't be found in old books. My latest obtained book on Mobile libraries, "Mobile Libraries & other public library transport" (by C.R. Eastwood) was written in 1966, but doesn't seem irrelevant in any way.
 
 <figure>
   <img src="https://raw.githubusercontent.com/LibrariesHacked/librarieshacked.github.io/master/images/2020-11-20-mobile-libraries.jpg" alt="Mobile libraries book opened at the pull-out map pages"/>

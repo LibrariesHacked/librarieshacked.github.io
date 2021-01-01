@@ -16,7 +16,7 @@ One problem was accessibility, and ensuring everyone can access online library s
 
 Web accessibility is covered by the Public Sector Bodies Accessibility Regulations 2018. This says websites should be accessible to level AA from the [WCAG 2.1 standard](https://www.gov.uk/service-manual/helping-people-to-use-your-service/understanding-wcag). They must publish an Accessibility Statement to say how this has been achieved, and how problems are being addressed.
 
-2018? That old news! There have been two years to get up to standard, ending on 23rd September 2020. Comprehensive guidelines are available at [accessibility requirements for public sector websites and apps](https://www.gov.uk/guidance/accessibility-requirements-for-public-sector-websites-and-apps).
+2018? That's old news! There have been two years to get up to standard, ending on 23rd September 2020. Comprehensive guidelines are available at [accessibility requirements for public sector websites and apps](https://www.gov.uk/guidance/accessibility-requirements-for-public-sector-websites-and-apps).
 
 An example of poor web content is links containing 'click here'. People do this because they've seen it a lot. But not everyone 'clicks', unless they're using a mouse. And the word 'here' is only valid when looking at a page. It's making assumptions about how users interact with web pages.
 
