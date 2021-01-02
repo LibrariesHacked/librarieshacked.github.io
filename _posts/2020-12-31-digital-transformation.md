@@ -89,6 +89,6 @@ Working last year with library staff and the DCMS on the [library open data sche
 
 That principle of adopting standards, plus building upon past work is an important one. I recently rediscovered a blog post by Nick Poole about his learnings from being involved in 5 attempts to create a Single Digital Presence, called [building a successful online presence for libraries](https://nickpoole.org.uk/online-libraries/). This is essential reading for making a success of such a project (more so than this meandering one). 
 
-But one thing it didn't delve into was how, if at all, those projects were linked. There is benefit in a 'failed' project if it mpves the current situation further along. Have they done some groundwork of interoperability between systems, some standards for sharing data, or documented the work so it can be picked up the next time?
+But one thing it didn't delve into was how, if at all, those projects were linked. There is benefit in a 'failed' project if it moves the current situation further along. Have they done some groundwork of interoperability between systems, some standards for sharing data, or documented the work so it can be picked up the next time?
 
 Other than thinking I know what a couple were, I don't have details of those 5 projects. But if they had included working in the open then more information would be available about them. As it is, it doesn't look like they were.
