@@ -34,7 +34,7 @@ The recent Bookseller piece included a fairly reserved comment on the current st
 
 But what in particular is broken? Yes, the websites and services have poor usability, accessibility, and aren't pleasant to use. But those are symptoms, not underlying problems.
 
-In November I was approached by a web developer. Enthusiastic about libraries in their local area they wanted to create a new and accessible way of browsing the library catalogue (no, it wasn't me!). They had asked their library service, via freedom of information, for data on the all the titles in the catalogue. They'd requested this in a spreadsheet format.
+In November I was approached by a web developer. Enthusiastic about libraries in their local area they wanted to create a new and accessible way of browsing the library catalogue (no, it wasn't me!). They had asked their library service, via freedom of information, for data on all the titles in the catalogue, in spreadsheet format.
 
 This isn't an odd request, and it should be a situation that we jump at the chance of fulfilling. People creating software for interacting with their library? Great, get them that data!
 
