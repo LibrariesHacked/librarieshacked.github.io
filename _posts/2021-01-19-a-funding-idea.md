@@ -19,17 +19,17 @@ Within our team we were 'doing' open data and had great management support. But 
 
 Surely libraries can improve on that? Public data should be able to engage the public, and there is no more perfect setting than a library for that. I wanted to create a website that would not only provide links to the data we were publishing, but tell stories about that data. Each time a new dataset was released it would have accompanying visualisations and interesting insight.
 
-It wouldn't be online-only. We'd produce physical postcards for the datasets, reproducing some of the visualisations and information into a digestible physical form. These would be scattered around libraries for library users. When there were enough of them we'd create a newspaper that would collect together all the data stories and visualisations. I had an image of a library data newspaper sitting in the library newspaper racks, it being chosen to read, and someone settling down on a comfy chair with it.
+It wouldn't be online-only. We'd produce physical postcards for the datasets, reproducing some of the visualisations and information into a physical form. These would be scattered around libraries for library users. When there were enough of them we'd create a newspaper that would collect together the data stories and visualisations. I had an image of someone choosing the library data newspaper sitting in the library newspaper racks, then someone settling down on a comfy chair with it.
 
-Having gathered interest through both online and physical means, we'd have an event. A bit like a hackathon, but ensuring everyone had a chance to get involved and explore the data. People could go away happily having chatted about the data, or loaded up a spreadsheet. Or even gone as far as creating some software based on the data. It would be educational as well as engaging.
+Having gathered interest through online and physical, we'd have an event. A bit like a hackathon, but ensuring everyone had a chance to get involved and explore the data. People could go away happily having chatted about the data, or loaded up a spreadsheet. Or even gone as far as creating some software based on the data. It would be educational as well as engaging.
 
 Finally, we'd produce a small booklet bringing it all together. The visualisations, stories, and ideas from the event. And put those booklets into the library catalogue and distribute in libraries.
 
-Reminiscing honestly back on this idea, I still stick by it. If anything, I like it more than ever, to hell with the others! Although hardly possible at the moment, it would have been amazing to do. It would engage the public with library open data, show that data wasn't just something for developers, and generate a lot of great ideas.
+Reminiscing honestly back on this idea, I still stick by it. If anything, I like it more than ever, to hell other projects! Although hardly possible at the moment, it would have been amazing to do. It would engage the public with library open data, show that data wasn't just something for developers, and generate great ideas.
 
 ## What went wrong?
 
-The application process was to complete a form covering the idea, and include a sponsor statement from manager and head of service. I think that all went well. It was probably competent at least.
+The application process was to complete a form covering the idea, and include a sponsor statement from manager and head of service. I think that was probably competent at least.
 
 It went well enough to move me to the final stage of the process, which was a judging panel. At that stage the project was declined. After dwelling on this for years, I think there were a few problems.
 
