@@ -25,7 +25,7 @@ Having gathered interest through online and physical, we'd have an event. A bit 
 
 Finally, we'd produce a small booklet bringing it all together. The visualisations, stories, and ideas from the event. And put those booklets into the library catalogue and distribute in libraries.
 
-Reminiscing honestly back on this idea, I still stick by it. If anything, I like it more than ever, to hell other projects! Although hardly possible at the moment, it would have been amazing to do. It would engage the public with library open data, show that data wasn't just something for developers, and generate great ideas.
+Reminiscing honestly back on this idea, I still stick by it. If anything, I like it more than ever, to hell with other projects! Although hardly possible at the moment, it would have been amazing to do. It would engage the public with library open data, show that data wasn't just something for developers, and generate great ideas.
 
 ## What went wrong?
 
@@ -39,17 +39,17 @@ It admittedly sounds like a lot of "wouldn't it be cool if..." things. Wouldn't 
 
 And there's a strong smell of it being overly self-indulgent. Is this what actual humans need, or is it what a software developer wants some money for? 
 
-> We're not giving this guy £7,000 to go away and have a good time making newspapers. And an event? Sounds like he wants a party for his 'open data' mates! There'll be alcohol as well.
+> We're not giving this guy £7,000 to go away and have a good time making newspapers. And an event? Sounds like he wants a party for his 'open data' mates! He'll be buying alcohol.
 >
 > **Imaginary judging panel discussion**
 
-I don't believe it is those things, but the successful projects I saw felt like they expressed worthwhile outcomes better. Which leads onto the next problem.
+I don't believe it is those things, but the successful projects I saw seemed to express worthwhile outcomes better. Which leads onto the next problem.
 
 ### 2. Not everyone knows open data
 
 One of the problems with a general fund is that it's difficult to introduce unfamiliar concepts. If your idea is to tackle poverty, or hunger, or help those suffering bereavement, that doesn't need much background. No-one with a heart is going to go, "Hang on, remind me why feeding starving children is a good thing?" *(Ed. there's a current affairs subtext here)*
 
-My own thoughts on open data is that it easily sits alongside these 'for good' things. But an open data proposal needs background information: about good data management, software, transparency, citizen engagement, and more. It could take pages. I didn't have pages, I think I had a 200 word limit.
+My own thoughts on open data is that it sits alongside these 'for good' things. But an open data proposal needs background information: about good data management, software, transparency, citizen engagement, and more. It could take pages. I didn't have pages, I think I had a 200 word limit.
 
 But maybe that's being disingenuous, and trying to excuse a poorly argued application. It could easily be said that if you can't explain the benefit of your idea in 200 words it doesn't have the clarity required for success. 
 
