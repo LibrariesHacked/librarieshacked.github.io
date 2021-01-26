@@ -18,7 +18,7 @@ All public libraries hold membership data. And it has plenty of discussion point
   <figcaption>I'm a 'cardholder' of quite a few library services. But no longer a member.</figcaption>
 </figure>
 
-Do I even need to be a member to use these libraries? People that only go in to read papers aren't. Or those working on laptops. Or are they? I've heard some services insist loan out newspapers in the same way as books. And require membership to log onto WiFi. These are decisions for library services, though they'll affect how easy it is to compare data.
+Do I even need to be a member to use these libraries? People that only go in to read papers aren't. Or those working on laptops. Or are they? I've heard some services insist in loaning out newspapers in the same way as books. And require membership to log onto WiFi. These are decisions for library services, though they'll affect how easy it is to compare data.
 
 ## Quirks in the data
 
@@ -28,9 +28,9 @@ Do I even need to be a member to use these libraries? People that only go in to 
 
 CIPFA can be as specific as they like, library data won't be. Some systems don't work like that. A system may store a date against each member and update it when that person 'does' something. This may be borrowing a book, logging into their account, using an e-resource, booking a PC, etc. This data will be the basis of reporting active membership. I remember asking a library supplier what library services did to meet the strict 'borrower' definition, as it wasn't possible in their reporting. "They don't" was the concise answer, and it remains true. Library systems staff will know these problems, but few other people will. It makes for some lovely geeky library data conversations though.
 
-A lesson learned from the data discussions was that if we specified data beyond what was possible we'd end up with these hidden problems. The schema needed to be flexible, and give guidance on handling differences. Having an overly-strict definition is deceptive to the end-user, pretending the data is something it's not. It's better to publish real data and communicate the problems it contains.
+A lesson learned from the data discussions was that if we specified definitions beyond what was possible we'd end up with these hidden problems. The schema needed to be flexible, and give guidance on handling differences. Having an overly-strict definition is deceptive to the end-user, pretending the data is something it's not. It's better to publish real data and communicate the problems it contains.
 
-Services maintain their membership databases to remove members they don't consider active (people like me, despite my library cards). My view always tends to be: the more data, the better. If services can publish a summary of members in their membership database, that will be a simple and comprehensive outcome.
+Services maintain their membership databases to remove members they don't consider active (people like me, despite my library cards). My view always tends to be: the more data, the better. If services can publish a summary of members in their membership database, that will be a simple outcome.
 
 Collecting metadata about different policies is then a good way of communicating the differences.
 
