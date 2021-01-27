@@ -61,7 +61,7 @@ This process was transparent from the start, but I don't do videos. I also don't
 
 Recording a video of myself was absurdly difficult. I managed to find software where I could record myself looking into a webcam without having to see the image, but it still made me horrendously anxious. After hours of trying to record a 1 minute video, with intermittent breaks to be sick, I finally completed it. Then without viewing it, I uploaded and deleted all traces.
 
-By some fluke, it may have been amazing. The best they watched. But it seems unlikely. The video application process was a good idea though. Judging a series of videos of each candidate must have been useful and immediate, rather than reading through applications. But looking back on it I should have requested an alternative, a screenshare demo or something, despite being against the guidelines.
+By some fluke, it may have been amazing. The best they watched. But it seems unlikely. The video application process was a good idea though. Judging a series of videos of each candidate must have been useful and immediate, rather than only reading through applications. But looking back on it I should have requested an alternative, a screenshare demo or something, despite being against the guidelines.
 
 On a positive note, the idea now lives within this blog!
 
