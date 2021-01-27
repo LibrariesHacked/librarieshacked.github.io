@@ -8,7 +8,7 @@ tags:
   - Arts Council
 ---
 
-I've had a few conversations recently about library data project funding. Either as an individual/organisation, or in collaboration with a library service.
+I've had a few conversations recently about library data project funding. Either as an individual/organisation, or with a library service.
 
 In [Libraries Hacked plans for 2021](https://blog.librarydata.uk/libraries-hacked-plans) I mentioned that sponsorship was one of my goals. Not for a big project, but making Libraries Hacked costs sustainable.
 
@@ -70,4 +70,4 @@ The idea was that a library service could release open data, with a series of pu
 
 So, a few ideas. Are they good, bad, nonsense? There are loads of untapped projects in the digital/data space. Lots seem simple, but they need engagement and funding.
 
-It was genuinely good to see the [Arts Council providing £150k for library service digital products (ebooks)](https://twitter.com/libsconnected/status/1351937972510355457?s=20). But it's split between 150 services, giving them £1,000 each. This is spreading money quite thinly, though it's been pointed out that existing budgets are small and this could have a big impact. But in addition to that funding it would be awesome to see the equivalent spend on national data projects for libraries and the public.
+It was genuinely good to see the [Arts Council providing £150k for library service digital products (ebooks)](https://twitter.com/libsconnected/status/1351937972510355457?s=20). But it's split between 150 services, £1,000 each. This is spreading money quite thinly, though it's been pointed out that existing budgets are small and this could have a big impact. But in addition to that funding it would be awesome to see the equivalent spend on national data projects for libraries and the public.
