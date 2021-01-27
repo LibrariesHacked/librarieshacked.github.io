@@ -12,18 +12,18 @@ I've had a few conversations recently about library data project funding. Either
 
 In [Libraries Hacked plans for 2021](https://blog.librarydata.uk/libraries-hacked-plans) I mentioned that sponsorship was one of my goals. Not for a big project, but making Libraries Hacked costs sustainable.
 
-Wider funding has always seemed out of reach. Library-related funds (ACE, Carnegie, SLIC, etc) are restricted to library services, at most allowing others to be partners. Most Arts Council funds allow individuals to apply, but this is not true for library projects. I think this is bad. It seems to limit the potential ideas.
+Wider funding has always seemed out of reach. Library-related funds (Arst Council, Carnegie, SLIC, etc) are restricted to library services, at most allowing others to be partners. Most Arts Council funds allow individuals to apply, except when applying for library projects. I think this is a shame and limits the potential ideas.
 
-Regardless I've been considering ideas for possible projects. Firstly, why not just carry on creating non-funded prototype tools and apps (like [Libraries at Home](https://www.librariesathome.co.uk/))?
+Regardless, I've been considering ideas for possible projects. Firstly, why not just carry on with non-funded prototype tools and apps (like [Libraries at Home](https://www.librariesathome.co.uk/))?
 
 ## Things need money to be good
 
-Digital services cost money. A prototype shouldn't be widely used by the public or library services. They need investment and professional expertise.
+Digital services cost money. A prototype can't be widely used by the public or library services. They need investment and professional expertise.
 
-* **Support**. Does everything need 24/7 support? No - but problems should be resolved quickly. In the worst case scenario with everything broken, is anyone available to sort it out?
-* **Hosting**. I run things with a 'Development' pricing tier. That means that people can use them, but they may be slow, or the amount of connections may be limited.
+* **Support**. Does everything need 24/7 support? No - but problems should be resolved quickly. In the worst case scenario, with everything broken, is anyone available to sort it out?
+* **Hosting**. I run things with a 'Development' pricing tier. That means that people can use them, but they may be slow, or the amount of connections may be limited. Hosting is expensive.
 * **Accessibility**. It is hard to get websites right, and public sector ones need to be accessible to all. GOV UK [guidelines on Accessibility Auditing](https://www.gov.uk/service-manual/helping-people-to-use-your-service/making-your-service-accessible-an-introduction#:~:text=Budget%20for%20accessibility,%C2%A33%2C000%20and%20%C2%A37%2C000.) advise that it can cost between £3,000 and £7,000. You can't create a new digital service unless you can cover the accessibility costs, and you should want to!
-* **Branding**. There's a good reason why the British Library have made branding part of their libraries Single Digital Presence work. Because it's important for people to recognise what your thing is about. 
+* **Branding**. There's a good reason why the British Library have made branding part of their libraries Single Digital Presence work. Because it's important that people recognise what your thing is about. 
 * **User experience**. I'm not under any illusions that I'm good at user experience. It's not always good to have the person who codes a thing deciding whether it makes sense to the public. It needs fresh and critical expertise from people who know process design.
 
 OK, there's loads more, the point is money.
