@@ -12,7 +12,7 @@ I've had a few conversations recently about library data project funding. Either
 
 In [Libraries Hacked plans for 2021](https://blog.librarydata.uk/libraries-hacked-plans) I mentioned that sponsorship was one of my goals. Not for a big project, but making Libraries Hacked costs sustainable.
 
-Wider funding has always seemed out of reach. Library-related funds (Arst Council, Carnegie, SLIC, etc) are restricted to library services, at most allowing others to be partners. Most Arts Council funds allow individuals to apply, except when applying for library projects. I think this is a shame and limits the potential ideas.
+Wider funding has always seemed out of reach. Library-related funds (Arts Council, Carnegie, SLIC, etc) are restricted to library services, at most allowing others to be partners. Most Arts Council funds allow individuals to apply, except when applying for library projects. I think this is a shame and limits the potential ideas.
 
 Regardless, I've been considering ideas for possible projects. Firstly, why not just carry on with non-funded prototype tools and apps (like [Libraries at Home](https://www.librariesathome.co.uk/))?
 
