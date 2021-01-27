@@ -14,11 +14,11 @@ In [Libraries Hacked plans for 2021](https://blog.librarydata.uk/libraries-hacke
 
 Wider funding has always seemed out of reach. Library-related funds (ACE, Carnegie, SLIC, etc) are restricted to library services, at most allowing others to be partners. Most Arts Council funds allow individuals to apply, but this is not true for library projects. I think this is bad. It seems to limit the potential ideas.
 
-Regardless I've been considering ideas for possible projects. Firstly, why not just carry on creating prototype tools and apps (like [Libraries at Home](https://www.librariesathome.co.uk/))?
+Regardless I've been considering ideas for possible projects. Firstly, why not just carry on creating non-funded prototype tools and apps (like [Libraries at Home](https://www.librariesathome.co.uk/))?
 
 ## Things need money to be good
 
-Digital services cost money. A prototype cannot be widely used by the public or library services. They need investment and professional expertise.
+Digital services cost money. A prototype shouldn't be widely used by the public or library services. They need investment and professional expertise.
 
 * **Support**. Does everything need 24/7 support? No - but problems should be resolved quickly. In the worst case scenario with everything broken, is anyone available to sort it out?
 * **Hosting**. I run things with a 'Development' pricing tier. That means that people can use them, but they may be slow, or the amount of connections may be limited.
@@ -38,7 +38,7 @@ What if we could streamline tedious data tasks? It may be an extreme example, bu
 
 We need tools that can take the data as it's held in library systems. Then do instantly useful things with it. And when we have such a tool it should be shared with library services that use similar data (all of them).
 
-And we shall call it library data tools. A prototype I'm working on takes postcodes of library members (held in all library management systems) and creates an interactive map to explore library membership. The map will display the percentage of the population who are library members in each area, with additional info such as deprivation measures. The idea is relatively simple, take data that all services can extract, and provide a tool that does something useful.
+And we shall call it library data tools. A prototype I'm working on takes postcodes of library members (held in all library management systems) and creates an interactive map to explore library membership. The map will display the percentage of the population who are library members in each area, with additional info such as deprivation measures. The idea is relatively simple: take data that all services can extract, and provide a tool that does something useful.
 
 <figure>
   <img src="https://github.com/LibrariesHacked/librarieshacked.github.io/raw/master/images/2020-08-24-plymouth-members.png" alt="Plymouth library membership plotted on a map and shaded by concentration of members relative to population"/>
