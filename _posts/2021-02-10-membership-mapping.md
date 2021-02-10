@@ -8,7 +8,7 @@ tags:
   - Membership
 ---
 
-These are instructions for two web tools, designed to aid in visualising membership data. The prerequisite is for library services to extract postcodes of library members. In this case it is down to the service which postcodes to include: it could be all members, those who are borrowers, PC users, etc.
+These are instructions for two web tools, to aid in visualising membership data. The prerequisite is for library services to extract postcodes of library members. In this case it's down to the service which postcodes to include: it could be all members, those who are borrowers, PC users, etc.
 
 1. Convert postcodes to a standard format with anonymised, census-based areas
 2. Visualise the data on a map and provide additional context on population and deprivation
@@ -20,6 +20,8 @@ These tools take the privacy of library users seriously. Security considerations
 ## Stage 1: Create data in the correct format
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/u8CRSplPfRo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+
 
 The first stage involves getting data into the required format. The format is a recently created standard from the DCMS co-ordinated [library data schema project](https://schema.librarydata.uk/membership). Census-based areas are useful for analysis: we can look at counts of library members relative to population, as well as deprivation measures. This first tool converts postcodes to these areas. For postcodes in England and Wales it converts to LSOA (lower super output area), for Northern Ireland to Small Area, and for Scotland, Data Zones. 
 
@@ -90,32 +92,32 @@ The file required is the second one listed, titled 'Library membership'. Choose 
   <img src="https://raw.githubusercontent.com/LibrariesHacked/librarieshacked.github.io/master/images/2021-02-05-instructions-4-download-file.png" alt="Screenshot of the option to save the file to your local PC"/>
   <figcaption>Saving the generated library membership file</figcaption>
 </figure>
+Congratulations! You have data on library members that is in a standard format that can be used in the visualisation tool. The data is anonymised, and using areas appropriate for statistics. You may wish to share the data widely and give more people access to explore it using this tool. If releasing as open data it would be worth including all members, to match with others using the same format.
 
-Congratulations! You have data on library members that is in a standard format that can be used in the visualisation tool.
+If you are interested in exploring this process, but not yet ready to use your own data, you could use [Barnet membership data](https://open.barnet.gov.uk/dataset/23py1/library-membership). Download the latest copy of their data and move to the next stage.
 
 ## Stage 2: Visualise data
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/dLHFC7Lg9wc" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-Now comes the exciting part! Another tool has been created to visualise this data. This loads on your local PC and the data will not be shared online.
 
-However, at this point the data you are using is already anonymised, and using areas appropriate for statistics. You may wish to share the data widely and give more people access to explore it using this tool.
 
-If you are interested in exploring this process, but not yet ready to use your own data, you could also use [Barnet membership data](https://open.barnet.gov.uk/dataset/23py1/library-membership). Download the latest copy of their data and you can get a good view of how the tool works.
+Now comes the exciting part! Another tool has been created to visualise this data.
 
 ### Load the data 
 
 In a web browser navigate to [Membership map](https://create.librarydata.uk/membership-map)
 
-Choose the file you have saved from Stage 1. It should be loaded into the tool, and all being well the map will zoom to the relevant library service.
+Choose the file you have saved from Stage 1. It will be loaded into the tool, and all being well, the map will zoom to the relevant library service.
 
 ### Explore
 
-And that's really it! The map should provide a view of membership data, and an option to toggle to display areas of high deprivation. If you zoom in the map will display population percentages and the index of multiple deprivation for each area.
+And that's really it! The map provides a view of membership data, and an option to toggle to display areas of high deprivation. If you zoom in the map will display population percentages and the index of multiple deprivation for each area.
+
+Feedback as to the usability is most important, so I shouldn't go into too much detail as to the features. Please try it out, and kindly report problems and suggestions. It is designed as an open and free tool for library services to use and to influence the development.
 
 <figure>
   <img src="https://raw.githubusercontent.com/LibrariesHacked/librarieshacked.github.io/master/images/2021-02-05-instructions-5-display-map.png" alt="Screenshot of the mapping tool showing an area of Barnet library authority with membership shaded relative to population"/>
   <figcaption>Using the library membership mapping tool to explore Barnet libraries membership data</figcaption>
 </figure>
 
-Feedback as to the usability is most important, so I shouldn't go into too much detail as to the features. Please try it out, and kindly report problems and suggestions. It is designed as an open and free tool for library services to use, and there should be a lot of opportunity for new features.
