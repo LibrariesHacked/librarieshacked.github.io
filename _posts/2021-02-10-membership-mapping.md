@@ -8,7 +8,7 @@ tags:
   - Membership
 ---
 
-These are instructions for two web tools, designed to visualise membership data. The prerequisite for library services is to be able to extract postcodes of library members. It is down to the service as to which postcodes to include: it could be all members, those who are borrowers, PC users, etc. Whatever it is you wish to explore.
+These are instructions for two web tools, designed to aid in visualising membership data. The prerequisite is for library services to extract postcodes of library members. It is down to the service as to which postcodes to include: it could be all members, those who are borrowers, PC users, etc. Whatever it is you wish to explore.
 
 1. Convert postcodes to a standard format with anonymised, census-based areas
 2. Visualise the data on a map and provide additional context on population and deprivation
@@ -17,13 +17,15 @@ Please provide feedback on the usability of the tools, and additional features t
 
 #### Security
 
-There is nothing more important than the privacy of library users, and security of personal data. These tools take this seriously. Security considerations are described in these instructions, and while using the tools. If there are any queries or concerns please do stop and email [info@librarieshacked.org](mailto:info@librarieshacked.org).
+These tools take the privacy of library users, and security of personal data seriously. Security considerations are described in these instructions, and while using the tools. If there are any queries or concerns please do stop and email [info@librarieshacked.org](mailto:info@librarieshacked.org).
 
 ## Stage 1: Create data in the correct format
 
-An overview of this stage is available as a YouTube video. See [Membership map stage 1: converting postcodes]().
+An overview of this stage is available as a YouTube video. See [Library data tools: converting membership postcodes](https://youtu.be/u8CRSplPfRo).
 
-The first stage involves getting data into the required format. Census-based geographic areas are useful for analysis: we can look at counts of library members relative to population, as well as area deprivation measures. This first tool converts from postcodes to census areas. For postcodes in England and Wales it converts to LSOA (lower super output area), for Northern Ireland to OA (output area), and for Scotland, Data Zones.
+The first stage involves getting data into the required format. Census-based geographic areas are useful for analysis: we can look at counts of library members relative to population, as well as area deprivation measures. This first tool converts postcodes to census areas. For postcodes in England and Wales it converts to LSOA (lower super output area), for Northern Ireland to Small Area, and for Scotland, Data Zones. The format is from the DCMS co-ordinated [library data schema project](https://schema.librarydata.uk/membership).
+
+If services do not wish to use a web tool for this step, an alternative is to perform this step themselves, and do the conversion using the [Office for National Statistics Postcode directory](https://geoportal.statistics.gov.uk/datasets/ons-postcode-directory-november-2020) data. Then skip to stage 2. Please feel free to get in touch for guidance on performing this step manually.
 
 ### Create a CSV file of your postcodes
 
@@ -64,8 +66,6 @@ You may be thinking 'surely now those postcodes are sent off somewhere?'. They a
 
 It's inefficient, but the tool is able to look up details of postcodes without sharing the full postcode online. Regardless of this, the data communication is securely encrypted, and no data is saved on the server. An alternative would be for the tool to download ALL postcode/area combinations. That would be possible but there are about 2.5 million postcodes, and it would be a lot of data. If services are keen on this though, it could be provided as an option.
 
-Alternatively, services can perform this step themselves, and do the conversion using the [Office for National Statistics Postcode directory](https://geoportal.statistics.gov.uk/datasets/ons-postcode-directory-november-2020) data. Then skip to stage 2. But this tool is much easier.
-
 ### Generate the data
 
 On completing the previous step, the tools whirrs for a period of time, then reports results. That includes a table of how many postcodes were valid, how many unrecognised, and how many out of date (terminated).
@@ -78,7 +78,7 @@ Congratulations! You have data on library members that is in a standard format, 
 
 ## Stage 2: Visualise data
 
-An overview of this process is available as a YouTube video. See [Membership map stage 2: visualising data]()
+An overview of this process is available as a YouTube video. See [Library data tools: displaying membership on a map](https://youtu.be/dLHFC7Lg9wc)
 
 Now comes the exciting part! Another tool has been created to visualise this data. Again, this runs on your local PC and the data you load into it will not be shared online.
 
@@ -94,6 +94,11 @@ Choose the file you have saved from Stage 1. It should be loaded into the tool, 
 
 ### Explore
 
-And that's really it! The map should provide a view of membership data, and an option to toggle to display areas of high deprivation.
+And that's really it! The map should provide a view of membership data, and an option to toggle to display areas of high deprivation. If you zoom in the map will display population percentages and the index of multiple deprivation for each area.
 
-Really though, feedback as to the usability is most important and it should be easy to pick up. So please try it out, and kindly report problems and suggestions.
+<figure>
+  <img src="https://raw.githubusercontent.com/LibrariesHacked/librarieshacked.github.io/master/images/2021-02-05-instructions-5-display-map.png" alt="Screenshot of the mapping tool showing an area of Barnet library authority with membership shaded relative to population"/>
+  <figcaption>Using the library membership mapping tool to explore Barnet libraries membership data</figcaption>
+</figure>
+
+Really though, feedback as to the usability is most important, so I shouldn't go into too much detail as to the features. So please try it out, and kindly report problems and suggestions. It is designed as an open tool for library services to use, and there should be a lot of opportunity for new features.
