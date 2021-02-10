@@ -8,32 +8,30 @@ tags:
   - Membership
 ---
 
-These are instructions for two web tools, designed to aid in visualising membership data. The prerequisite is for library services to extract postcodes of library members. It is down to the service as to which postcodes to include: it could be all members, those who are borrowers, PC users, etc. Whatever it is you wish to explore.
+These are instructions for two web tools, designed to aid in visualising membership data. The prerequisite is for library services to extract postcodes of library members. It is down to the service which postcodes to include: it could be all members, those who are borrowers, PC users, etc. Whatever it is you wish to explore.
 
 1. Convert postcodes to a standard format with anonymised, census-based areas
 2. Visualise the data on a map and provide additional context on population and deprivation
 
-Please provide feedback on the usability of the tools, and additional features that you would like.
-
 #### Security
 
-These tools take the privacy of library users, and security of personal data seriously. Security considerations are described in these instructions, and while using the tools. If there are any queries or concerns please do stop and email [info@librarieshacked.org](mailto:info@librarieshacked.org).
+These tools take the privacy of library users seriously. Security considerations are described in these instructions, and while using the tools. If there are any queries or concerns please do stop and email [info@librarieshacked.org](mailto:info@librarieshacked.org).
 
 ## Stage 1: Create data in the correct format
 
 An overview of this stage is available as a YouTube video. See [Library data tools: converting membership postcodes](https://youtu.be/u8CRSplPfRo).
 
-The first stage involves getting data into the required format. Census-based geographic areas are useful for analysis: we can look at counts of library members relative to population, as well as area deprivation measures. This first tool converts postcodes to census areas. For postcodes in England and Wales it converts to LSOA (lower super output area), for Northern Ireland to Small Area, and for Scotland, Data Zones. The format is from the DCMS co-ordinated [library data schema project](https://schema.librarydata.uk/membership).
+The first stage involves getting data into the required format. The format is a recently created standard from the DCMS co-ordinated [library data schema project](https://schema.librarydata.uk/membership). Census-based geographic areas are useful for analysis: we can look at counts of library members relative to population, as well as area deprivation measures. This first tool converts postcodes to these areas. For postcodes in England and Wales it converts to LSOA (lower super output area), for Northern Ireland to Small Area, and for Scotland, Data Zones. 
 
-If services do not wish to use a web tool for this step, an alternative is to perform this step themselves, and do the conversion using the [Office for National Statistics Postcode directory](https://geoportal.statistics.gov.uk/datasets/ons-postcode-directory-november-2020) data. Then skip to stage 2. Please feel free to get in touch for guidance on performing this step manually.
+If services do not wish to use a web tool for this step, an alternative is to perform this stage themselves, and do the conversion using the [Office for National Statistics Postcode directory](https://geoportal.statistics.gov.uk/datasets/ons-postcode-directory-november-2020) data. Then skip to stage 2. Please feel free to get in touch for help performing this step manually.
 
 ### Create a CSV file of your postcodes
 
 A CSV file (comma separated values) is a computer-readable format for storing table data. Most spreadsheet programs like Excel will be able to save to CSV (using ```File > Save As```).
 
-This step depends on you being able to extract postcodes from where they are held - most likely your library management system. You will need to produce a file that contains a single column with a header as the first row, and a list of postcodes for the remaining rows in the column. No other data should exist in the column. If your data also includes additional columns it is recommended you remove these for this process.
+This step depends on you being able to extract postcodes - most likely from your library management system. You will need to produce a file that contains a single column with a header as the first row, and a list of postcodes for the remaining rows in the column. No other data should exist in the column. If your data includes any additional data it is recommended you remove this.
 
-Your file should include data such as the following (for however many postcodes there are). There is no need to count the postcodes, or aggregate them in any way.
+Your file should look like the following (for however many postcodes there are). There is no need to count the postcodes, or aggregate them in any way.
 
 | Postcode |
 | ------------- |
@@ -46,33 +44,55 @@ In a web browser navigate to [Convert postcode data to statistical area](https:/
 
 Choose your file containing postcodes. As long as it is a valid CSV file it will be loaded into the tool. This is not **uploading** data. The data file remains only on your local PC, accessed by the web browser on your PC.
 
+<figure>
+  <img src="https://raw.githubusercontent.com/LibrariesHacked/librarieshacked.github.io/master/images/2021-02-05-instructions-1-select-file.png" alt="Screenshot of selecting a postcode file to use for the conversion, showing an area where drag and drop of files is supported"/>
+  <figcaption>Selecting a file to use for the conversion</figcaption>
+</figure>
+
 ### Select which column contains postcodes
 
-The tool will ask you which column contains postcodes. If you have data as described in Step 1 then this will be the only column, called 'Postcode'. However, if you have a file with many columns then select the one that holds postcodes.
+The tool will ask you which column contains postcodes. If you have data as described in Step 1 then this will be the only column, called 'Postcode'.
 
-You can ignore the optional drop down asking for a count column. This is used for data that already has counts of members per postcode, and needs to take that into account.
+You can ignore the optional drop down asking for a count column. This is used for data that already has counts of members per postcode.
 
 Select to convert the data and continue.
 
+<figure>
+  <img src="https://raw.githubusercontent.com/LibrariesHacked/librarieshacked.github.io/master/images/2021-02-05-instructions-2-choose-postcode-column.png" alt="Screenshot of a drop down list showing a single option of postcode for column headings, and a button saying Convert."/>
+  <figcaption>Choosing the right column and triggering the conversion</figcaption>
+</figure>
+
 #### More security notes
 
-You may be thinking 'surely now those postcodes are sent off somewhere?'. They aren't, but it's a sensible thought. The tool does send data online, to work out what the corresponding areas are, but not the full postcodes. Imagining the process as a discussion between the web browser (your PC) and the server (online), it would be like this:
+You may be worried that those postcodes are sent off somewhere. They aren't, but it's a sensible concern. The tool does send data online, to work out what the corresponding areas are, but not the full postcodes.
 
-> **Your PC:** Hello online service, I have a postcode I want more details about, what can you tell me about postcode sector "BA1 1"?
+Imagining the process as a discussion between the web browser (your PC) and the server (online), it would be like this:
+
+> **Your PC:** Hello online service, I have a postcode I want more details about, what can you tell me about the postcode sector "BA1 1"?
 >
 > **Online:** Well, postcode sector "BA1 1" has 353 postcodes in it, here they are, with the statistical area code for each one.
 >
 > **Your PC:** Thank you. That's more than I really need, but I can look through those and find the right postcode.
 
-It's inefficient, but the tool is able to look up details of postcodes without sharing the full postcode online. Regardless of this, the data communication is securely encrypted, and no data is saved on the server. An alternative would be for the tool to download ALL postcode/area combinations. That would be possible but there are about 2.5 million postcodes, and it would be a lot of data. If services are keen on this though, it could be provided as an option.
+It's inefficient, but the tool is able to look up details of postcodes without sharing the full postcode online. Regardless of this, the data communication is securely encrypted, kept within the UK, and no data is saved on the server. An alternative would be for the tool to download ALL postcode/area combinations. That would be possible, but there are about 2.5 million postcodes, and it would be a lot of data. If services are keen on this though, it could be provided as an option.
 
 ### Generate the data
 
-On completing the previous step, the tools whirrs for a period of time, then reports results. That includes a table of how many postcodes were valid, how many unrecognised, and how many out of date (terminated).
+On completing the previous step, the tools whirrs for a period of time (it could be at least a few minutes), then reports results. That includes a table of how many postcodes were valid, how many unrecognised, and how many out of date (terminated).
 
-This is worthwhile for library services just to validate their current data. You may find you have around 95% accuracy on postcodes, or it could be much better or worse. 
+<figure>
+  <img src="https://raw.githubusercontent.com/LibrariesHacked/librarieshacked.github.io/master/images/2021-02-05-instructions-3-review-results.png" alt="Screenshot of the results of the conversion showing postcodes processed, and how many were successful, old, or unrecognised"/>
+  <figcaption>Displaying a summary of how your postcodes did in the conversion</figcaption>
+</figure>
+
+This is worthwhile for library services to validate their current data. You may find you have around 95% accuracy on postcodes, or it could be much better or worse. 
 
 The file required is the second one listed, titled 'Library membership'. Choose your service name, select a date you did the extract, and select to save the file.
+
+<figure>
+  <img src="https://raw.githubusercontent.com/LibrariesHacked/librarieshacked.github.io/master/images/2021-02-05-instructions-4-download-file.png" alt="Screenshot of the option to save the file to your local PC"/>
+  <figcaption>Saving the generated library membership file</figcaption>
+</figure>
 
 Congratulations! You have data on library members that is in a standard format, appropriately anonymised, that can be used in the visualisation tool.
 
