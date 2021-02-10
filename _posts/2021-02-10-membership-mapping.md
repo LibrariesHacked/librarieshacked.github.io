@@ -8,7 +8,7 @@ tags:
   - Membership
 ---
 
-These are instructions for two web tools, designed to aid in visualising membership data. The prerequisite is for library services to extract postcodes of library members. It is down to the service which postcodes to include: it could be all members, those who are borrowers, PC users, etc. Whatever it is you wish to explore.
+These are instructions for two web tools, designed to aid in visualising membership data. The prerequisite is for library services to extract postcodes of library members. In this case it is down to the service which postcodes to include: it could be all members, those who are borrowers, PC users, etc.
 
 1. Convert postcodes to a standard format with anonymised, census-based areas
 2. Visualise the data on a map and provide additional context on population and deprivation
@@ -19,9 +19,9 @@ These tools take the privacy of library users seriously. Security considerations
 
 ## Stage 1: Create data in the correct format
 
-An overview of this stage is available as a YouTube video. See [Library data tools: converting membership postcodes](https://youtu.be/u8CRSplPfRo).
+<iframe width="560" height="315" src="https://www.youtube.com/embed/u8CRSplPfRo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-The first stage involves getting data into the required format. The format is a recently created standard from the DCMS co-ordinated [library data schema project](https://schema.librarydata.uk/membership). Census-based geographic areas are useful for analysis: we can look at counts of library members relative to population, as well as area deprivation measures. This first tool converts postcodes to these areas. For postcodes in England and Wales it converts to LSOA (lower super output area), for Northern Ireland to Small Area, and for Scotland, Data Zones. 
+The first stage involves getting data into the required format. The format is a recently created standard from the DCMS co-ordinated [library data schema project](https://schema.librarydata.uk/membership). Census-based areas are useful for analysis: we can look at counts of library members relative to population, as well as deprivation measures. This first tool converts postcodes to these areas. For postcodes in England and Wales it converts to LSOA (lower super output area), for Northern Ireland to Small Area, and for Scotland, Data Zones. 
 
 If services do not wish to use a web tool for this step, an alternative is to perform this stage themselves, and do the conversion using the [Office for National Statistics Postcode directory](https://geoportal.statistics.gov.uk/datasets/ons-postcode-directory-november-2020) data. Then skip to stage 2. Please feel free to get in touch for help performing this step manually.
 
@@ -29,7 +29,7 @@ If services do not wish to use a web tool for this step, an alternative is to pe
 
 A CSV file (comma separated values) is a computer-readable format for storing table data. Most spreadsheet programs like Excel will be able to save to CSV (using ```File > Save As```).
 
-This step depends on you being able to extract postcodes - most likely from your library management system. You will need to produce a file that contains a single column with a header as the first row, and a list of postcodes for the remaining rows in the column. No other data should exist in the column. If your data includes any additional data it is recommended you remove this.
+This step depends on you being able to extract postcodes - most likely from your library management system. You will need to produce a file that contains a column with a header as the first row, and a list of postcodes for the remaining rows. If your data includes any additional data it is recommended you remove this.
 
 Your file should look like the following (for however many postcodes there are). There is no need to count the postcodes, or aggregate them in any way.
 
@@ -45,40 +45,37 @@ In a web browser navigate to [Convert postcode data to statistical area](https:/
 Choose your file containing postcodes. As long as it is a valid CSV file it will be loaded into the tool. This is not **uploading** data. The data file remains only on your local PC, accessed by the web browser on your PC.
 
 <figure>
-  <img src="https://raw.githubusercontent.com/LibrariesHacked/librarieshacked.github.io/master/images/2021-02-05-instructions-1-select-file.png" alt="Screenshot of selecting a postcode file to use for the conversion, showing an area where drag and drop of files is supported"/>
+  <img src="https://raw.githubusercontent.com/LibrariesHacked/librarieshacked.github.io/master/images/2021-02-05-instructions-1-select-file.PNG" alt="Screenshot of selecting a postcode file to use for the conversion, showing an area where drag and drop of files is supported"/>
   <figcaption>Selecting a file to use for the conversion</figcaption>
 </figure>
 
+
 ### Select which column contains postcodes
 
-The tool will ask you which column contains postcodes. If you have data as described in Step 1 then this will be the only column, called 'Postcode'.
+The tool will ask you which column contains postcodes. If you have data as in the previous example then there will be one option called 'Postcode'.
 
-You can ignore the optional drop down asking for a count column. This is used for data that already has counts of members per postcode.
+You can ignore the additional drop-down asking for a count column. This is used for data that already has counts of members per postcode.
 
 Select to convert the data and continue.
 
-<figure>
-  <img src="https://raw.githubusercontent.com/LibrariesHacked/librarieshacked.github.io/master/images/2021-02-05-instructions-2-choose-postcode-column.png" alt="Screenshot of a drop down list showing a single option of postcode for column headings, and a button saying Convert."/>
-  <figcaption>Choosing the right column and triggering the conversion</figcaption>
-</figure>
 
 #### More security notes
 
-You may be worried that those postcodes are sent off somewhere. They aren't, but it's a sensible concern. The tool does send data online, to work out what the corresponding areas are, but not the full postcodes.
+You may be worried that those postcodes are sent off somewhere online. They aren't, but it's a sensible concern. The tool does send data online, to work out what the corresponding areas are, but not the full postcodes.
 
 Imagining the process as a discussion between the web browser (your PC) and the server (online), it would be like this:
 
-> **Your PC:** Hello online service, I have a postcode I want more details about, what can you tell me about the postcode sector "BA1 1"?
+> **Your PC:** Hello, I have a postcode I want more details about, what can you tell me about the postcode sector 'BA1 1'?
 >
-> **Online:** Well, postcode sector "BA1 1" has 353 postcodes in it, here they are, with the statistical area code for each one.
+> **Online:** Well, postcode sector 'BA1 1' has 353 postcodes in it, here they are, with the statistical area code for each one.
 >
-> **Your PC:** Thank you. That's more than I really need, but I can look through those and find the right postcode.
+> **Your PC:** Thank you. That's more than I need, but I can look through those and find the right postcode.
 
-It's inefficient, but the tool is able to look up details of postcodes without sharing the full postcode online. Regardless of this, the data communication is securely encrypted, kept within the UK, and no data is saved on the server. An alternative would be for the tool to download ALL postcode/area combinations. That would be possible, but there are about 2.5 million postcodes, and it would be a lot of data. If services are keen on this though, it could be provided as an option.
+The tool is able to look up details of postcodes without sharing the full postcode online. Regardless of this, the data communication is securely encrypted, kept within the UK, and no data is saved on the server. An alternative would be for the tool to download ALL postcode/area combinations. That would be possible, but there are about 2.5 million postcodes, and it would be a lot of data. If services are keen on this it could be provided.
 
 ### Generate the data
 
-On completing the previous step, the tools whirrs for a period of time (it could be at least a few minutes), then reports results. That includes a table of how many postcodes were valid, how many unrecognised, and how many out of date (terminated).
+On completing the previous step, the tools whirrs for a period of time (it could be at least a few minutes), then reports results. That includes a table of how many postcodes were valid, how many out of date (terminated), and how many unknown.
 
 <figure>
   <img src="https://raw.githubusercontent.com/LibrariesHacked/librarieshacked.github.io/master/images/2021-02-05-instructions-3-review-results.png" alt="Screenshot of the results of the conversion showing postcodes processed, and how many were successful, old, or unrecognised"/>
@@ -94,15 +91,15 @@ The file required is the second one listed, titled 'Library membership'. Choose 
   <figcaption>Saving the generated library membership file</figcaption>
 </figure>
 
-Congratulations! You have data on library members that is in a standard format, appropriately anonymised, that can be used in the visualisation tool.
+Congratulations! You have data on library members that is in a standard format that can be used in the visualisation tool.
 
 ## Stage 2: Visualise data
 
-An overview of this process is available as a YouTube video. See [Library data tools: displaying membership on a map](https://youtu.be/dLHFC7Lg9wc)
+<iframe width="560" height="315" src="https://www.youtube.com/embed/dLHFC7Lg9wc" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-Now comes the exciting part! Another tool has been created to visualise this data. Again, this runs on your local PC and the data you load into it will not be shared online.
+Now comes the exciting part! Another tool has been created to visualise this data. This loads on your local PC and the data will not be shared online.
 
-However, at this point the data you are using is already anonymised and using areas appropriate for statistics. You may wish to share the data widely and give more people access to explore it using this tool.
+However, at this point the data you are using is already anonymised, and using areas appropriate for statistics. You may wish to share the data widely and give more people access to explore it using this tool.
 
 If you are interested in exploring this process, but not yet ready to use your own data, you could also use [Barnet membership data](https://open.barnet.gov.uk/dataset/23py1/library-membership). Download the latest copy of their data and you can get a good view of how the tool works.
 
@@ -121,4 +118,4 @@ And that's really it! The map should provide a view of membership data, and an o
   <figcaption>Using the library membership mapping tool to explore Barnet libraries membership data</figcaption>
 </figure>
 
-Really though, feedback as to the usability is most important, so I shouldn't go into too much detail as to the features. So please try it out, and kindly report problems and suggestions. It is designed as an open tool for library services to use, and there should be a lot of opportunity for new features.
+Feedback as to the usability is most important, so I shouldn't go into too much detail as to the features. Please try it out, and kindly report problems and suggestions. It is designed as an open and free tool for library services to use, and there should be a lot of opportunity for new features.
