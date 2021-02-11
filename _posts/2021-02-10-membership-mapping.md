@@ -8,7 +8,7 @@ tags:
   - Membership
 ---
 
-These are instructions for two prototype web tools, to aid in visualising membership data. The prerequisite is for library services to extract postcodes of library members. In this case it's down to the service which postcodes to include: it could be all members, those who are borrowers, PC users, etc.
+These are instructions for two prototype web tools, for visualising membership data. The pre-requisite is for library services to extract postcodes of library members. In this case it's down to the service which postcodes to include: it could be all members, those who are borrowers, PC users, etc.
 
 1. Convert postcodes to a standard format with anonymised, census-based areas
 2. Visualise the data on a map and provide additional context on population and deprivation
@@ -28,14 +28,14 @@ If services do not wish to use a web tool for this step, an alternative is to pe
 
 ### Create a CSV file of your postcodes
 
-A CSV file (comma separated values) is a computer-readable format for storing table data. Most spreadsheet programs like Excel will be able to save to CSV (using ```File > Save As```).
+A CSV file (comma separated values) is a computer-readable format for storing data. Most spreadsheet programs like Excel will be able to save to CSV (using ```File > Save As```).
 
-This step depends on you being able to extract postcodes - most likely from your library management system. You will need to produce a file that contains a column with a header as the first row, and a list of postcodes for the remaining rows. If your data includes any additional data it is recommended you remove this.
+This step depends on you being able to extract postcodes from your library management system. You will need to produce a file that contains a column with a header as the first row, and a list of postcodes for the remaining rows. It's recommended that you remove any additional data.
 
 Your file should look like the following (for however many postcodes there are). There is no need to count the postcodes, or aggregate them in any way.
 
 | Postcode |
-| ------------- |
+| -------- |
 | BA1 1RG |
 | BA2 2PU |
 
@@ -43,22 +43,20 @@ Your file should look like the following (for however many postcodes there are).
 
 In a web browser navigate to [Convert postcode data to statistical area](https://create.librarydata.uk/postcode-to-lsoa)
 
-Choose your file containing postcodes. As long as it is a valid CSV file it will be loaded into the tool. This is not **uploading** data. The data file remains only on your local PC, accessed by the web browser on your PC.
+Choose your file containing postcodes. As long as it is a valid CSV file it will be loaded into the tool. This is not **uploading** data, the data remains only on your local PC, accessed by the web browser on your PC.
 
 <figure>
   <img src="https://raw.githubusercontent.com/LibrariesHacked/librarieshacked.github.io/master/images/2021-02-05-instructions-1-select-file.PNG" alt="Screenshot of selecting a postcode file to use for the conversion, showing an area where drag and drop of files is supported"/>
   <figcaption>Selecting a file to use for the conversion</figcaption>
 </figure>
 
-
 ### Select which column contains postcodes
 
-The tool will ask you which column contains postcodes. If you have data as in the previous example then there will be one option called 'Postcode'.
+The tool will ask you which column contains postcodes. If you have data as in the previous example there will be one option called 'Postcode'.
 
-You can ignore the additional drop-down asking for a count column. This is used for data that already has counts of members per postcode.
+You can ignore the additional drop-down asking for a count column. This is used for data that has counts of members per postcode.
 
-Select to convert the data and continue.
-
+Select to convert the data.
 
 #### More security notes
 
