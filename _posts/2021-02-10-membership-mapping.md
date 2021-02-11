@@ -20,8 +20,7 @@ These tools take the privacy of library users seriously. Security considerations
 ## Stage 1: Create data in the correct format
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/u8CRSplPfRo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-\
+<br/>
 
 The first stage involves getting data into the required format. The format is a recently created standard from the DCMS co-ordinated [library data schema project](https://schema.librarydata.uk/membership). Census-based areas are useful for analysis: we can look at counts of library members relative to population, as well as deprivation measures. This first tool converts postcodes to these areas. For postcodes in England and Wales it converts to LSOA (lower super output area), for Northern Ireland to Small Area, and for Scotland, Data Zones. 
 
@@ -99,8 +98,7 @@ If you are interested in exploring this process, but not yet ready to use your o
 ## Stage 2: Visualise data
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/dLHFC7Lg9wc" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-\
+<br/>
 
 Now comes the exciting part! Another tool has been created to visualise this data.
 
