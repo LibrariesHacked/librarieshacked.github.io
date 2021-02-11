@@ -8,7 +8,7 @@ tags:
   - Membership
 ---
 
-These are instructions for two web tools, to aid in visualising membership data. The prerequisite is for library services to extract postcodes of library members. In this case it's down to the service which postcodes to include: it could be all members, those who are borrowers, PC users, etc.
+These are instructions for two prototype web tools, to aid in visualising membership data. The prerequisite is for library services to extract postcodes of library members. In this case it's down to the service which postcodes to include: it could be all members, those who are borrowers, PC users, etc.
 
 1. Convert postcodes to a standard format with anonymised, census-based areas
 2. Visualise the data on a map and provide additional context on population and deprivation
@@ -21,7 +21,7 @@ These tools take the privacy of library users seriously. Security considerations
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/u8CRSplPfRo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-
+\
 
 The first stage involves getting data into the required format. The format is a recently created standard from the DCMS co-ordinated [library data schema project](https://schema.librarydata.uk/membership). Census-based areas are useful for analysis: we can look at counts of library members relative to population, as well as deprivation measures. This first tool converts postcodes to these areas. For postcodes in England and Wales it converts to LSOA (lower super output area), for Northern Ireland to Small Area, and for Scotland, Data Zones. 
 
@@ -100,7 +100,7 @@ If you are interested in exploring this process, but not yet ready to use your o
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/dLHFC7Lg9wc" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-
+\
 
 Now comes the exciting part! Another tool has been created to visualise this data.
 
