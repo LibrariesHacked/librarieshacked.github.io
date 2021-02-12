@@ -22,7 +22,7 @@ These tools take the privacy of library users seriously. Security is described i
 <iframe width="560" height="315" src="https://www.youtube.com/embed/u8CRSplPfRo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 <br/>
 
-The first stage is getting data into the right format. The format is a standard from the library data schema project](https://schema.librarydata.uk/membership), co-ordinated by the DCMS, and detailed in that link. Census-based areas are useful for analysis: they allow us to count library members relative to population, as well as displaying deprivation measures. This first tool converts postcodes into these areas. For postcodes in England and Wales it converts to LSOA (lower super output area), for Northern Ireland to Small Area, and for Scotland, Data Zones. 
+The first stage is getting data into the right format. The format is a standard from the [library data schema project](https://schema.librarydata.uk/membership), co-ordinated by the DCMS, and detailed in that link. Census-based areas are useful for analysis: they allow us to count library members relative to population, as well as displaying deprivation measures. This first tool converts postcodes into these areas. For postcodes in England and Wales it converts to LSOA (lower super output area), for Northern Ireland to Small Area, and for Scotland, Data Zones. 
 
 If services do not wish to use a web tool for this step, it can be done using [Office for National Statistics Postcode directory](https://geoportal.statistics.gov.uk/datasets/ons-postcode-directory-november-2020), but this would require more data wrangling. Then skip to stage 2.
 
