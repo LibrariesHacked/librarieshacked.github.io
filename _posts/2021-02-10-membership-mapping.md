@@ -41,7 +41,7 @@ Your file should look like the following (for however many postcodes there are).
 
 ### Load the data into the postcode tool
 
-In a web browser navigate to [Convert postcode data to statistical area](https://create.librarydata.uk/postcode-to-lsoa)
+Go to [Convert postcode data to statistical area](https://create.librarydata.uk/postcode-to-lsoa)
 
 Choose your file containing postcodes. As long as it is a valid CSV file it will be loaded into the tool. This is not **uploading** data, the data is accessed by the web browser on your PC.
 
@@ -104,7 +104,7 @@ Now comes the exciting part! Another tool has been created to visualise this dat
 
 ### Load the data 
 
-In a web browser navigate to [Membership map](https://create.librarydata.uk/membership-map)
+Go to [Membership map](https://create.librarydata.uk/membership-map)
 
 Choose the file you have saved from Stage 1. It will be loaded into the tool, and all being well, the map will zoom to the relevant library service.
 
