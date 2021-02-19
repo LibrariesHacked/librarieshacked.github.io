@@ -18,7 +18,7 @@ Library leadership normally tend towards positivity, but the primary emotion fro
 
 What do I mean by 'traditional' library data? I'd say firstly the services available: the number and location of libraries and mobile library stops, PCs, library opening hours, library stock, digital services, lists of events. Then usage of those things: membership, library footfall, checkouts, renewals, digital service usage, PC bookings, enquiries, and event attendance.
 
-People talk what libraries should measure and collect, but the data is already there. They're really talking about how hard to look at the data already held. Libraries tend to hold too much data, and not look at it enough.
+People discuss what libraries should measure and collect, but the data is already there. They're really talking about how hard to look at the data already held. Libraries tend to hold too much data, and not look at it enough.
 
 In the report, few of these datasets are mentioned at all, but when they are it is within a negative context:
 
@@ -29,13 +29,13 @@ In the report, few of these datasets are mentioned at all, but when they are it 
 > "Superficial measures – footfall, loans, hours"
 
 
-This isn't just cherry-picking quotes, this is all the mentions of library data. It's dismissed as superficial, non-genuine in terms of impact, and unrelated to the experience of using a library.
+This isn't just cherry-picking quotes, this is all the mentions of library data. Existing data is dismissed as superficial, non-genuine in terms of impact, and unrelated to the experience of using a library.
 
-It has become more common to be critical of existing data, but normally within a context such as "we shouldn't ONLY look at this". Or more defensively, "this doesn't fully represent what we do". And that seems reasonable, though often comes from using data poorly.
+It is more common to be critical of library data, but normally within a context such as "we shouldn't ONLY look at this". Or more defensively, "this doesn't fully represent what we do". And that seems reasonable, though is often from using data poorly.
 
 But the quotes above are actively hostile. The comment on data being superficial was the report describing pitfalls they'd need to be careful not to fall down. In other words, be careful not to look at footfall, loans or opening hours.
 
-It can be annoying to see data being dismissed when it's already significantly underused. Not to mention insulting for those who have long campaigned against reductions in opening hours and stock. Those things aren't superficial, they relate to:
+It can be annoying to see certain data dismissed when it's already significantly underused. Not to mention insulting for those who have long campaigned against reductions in opening hours and stock. Those things aren't superficial, they relate to:
 
 - How attractive the library is to users
 - How much the library is visited
