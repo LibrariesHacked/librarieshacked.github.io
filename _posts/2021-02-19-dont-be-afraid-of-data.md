@@ -31,9 +31,9 @@ In the report, few of these datasets are mentioned at all, but when they are it 
 
 This isn't just cherry-picking quotes, this is all the mentions of library data. Existing data is dismissed as superficial, non-genuine in terms of impact, and unrelated to the experience of using a library.
 
-It is more common to be critical of library data, but normally within a context such as "we shouldn't ONLY look at this". Or more defensively, "this doesn't fully represent what we do". And that seems reasonable, though is often from using data poorly.
+It is common to be critical of library data, but normally within a context such as "we shouldn't ONLY look at this". Or more defensively, "this doesn't fully represent what we do". And that seems reasonable, though is often from using data poorly.
 
-But the quotes above are actively hostile. The comment on data being superficial was the report describing pitfalls they'd need to be careful not to fall down. In other words, be careful not to look at footfall, loans or opening hours.
+But the report displays active hostility to library data. The comment on data being superficial was the report describing pitfalls they'd need to be careful not to fall down. In other words, be careful not to look at footfall, loans or opening hours.
 
 It can be annoying to see certain data dismissed when it's already significantly underused. Not to mention insulting for those who have long campaigned against reductions in opening hours and stock. Those things aren't superficial, they relate to:
 
@@ -45,9 +45,9 @@ They seem relevant to a quality framework.
 
 ## Funding
 
-Its hard to not be cynical about these things. When the first lockdown hit, and library services were going digital-only, the main news stories were huge increases in digital usage: 200%, 400%, 700%. At that time such data wasn't described as superficial. And that was even when the increases were from fairly low baselines, such as 50 users to 150 users.
+Its hard to not be cynical about these things. When the first lockdown hit, and library services were going digital-only, the main news stories were huge increases in digital usage: 200%, 400%, 700%. At that time it wasn't described as superficial. And that was even when the increases were from low baselines, such as 50 users to 150 users.
 
-We seem to be stuck in a situation where data is good or bad news. Either good for advocacy or bad for it. Useful for funding, or better avoided. And I believe this is a mistake. Data is always useful. If it's ONLY used as a way of criticising libraries then of course they will hate it and turn against it. Data should be used for operational running and improvement of the service.
+We seem to be stuck in a situation where data is positive or negative. Either good for advocacy or bad for it. Useful for funding, or better avoided. And I believe this is a mistake. Data is always useful. If it's ONLY used as a way of criticising libraries then of course they will hate it and turn against it. Data should be used for operational running and improvement of the service.
 
 ## An alternative view
 
