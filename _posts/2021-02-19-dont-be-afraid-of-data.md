@@ -68,7 +68,7 @@ I would propose the following as one aspect of a quality framework for libraries
     3. Extending the datasets to contain extra data particular to the service
 3. Further credit achieved by demonstrating internal service improvement, or external public benefit, from using the data
 
-There will be many other aspects of quality. But this one would enable a modern-day sharing of data, would fit with current government and local government digital standards and strategy, and put data into the hands of the public. And also directly deliver service improvement.
+There will be many other aspects of quality. But this one would enable a modern-day sharing of data, would align with government and local government digital standards and strategy, and put data into the hands of the public. And also directly deliver service improvement.
 
 ## Conclusion
 
