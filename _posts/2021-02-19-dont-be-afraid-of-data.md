@@ -14,9 +14,9 @@ To start on a positive note, library data is the most interesting public data th
 
 Libraries Connected released an interim report on their [accreditation for libraries work](https://www.librariesconnected.org.uk/news/accreditation-libraries-update). This looks at how library services can be quality-assessed.
 
-Library leadership normally tend towards positivity, but the overriding emotion from the report seems to be one of caution, if not fear. Worries about judgements, defensive over standards, and afraid of traditional data. The report is good: it accurately reflects the views from workshops, surveys, and meetings.
+Library leadership normally tend towards positivity, but the overriding emotion from the report seems to be one of caution, if not fear. Worries about judgements, defensive over standards, and afraid of traditional data. The report is good: it accurately reflects views from workshops, surveys, and meetings.
 
-What is 'traditional' library data? I'd say firstly what is available: the location of libraries and mobile library stops, PCs, library opening hours, library stock, digital services, lists of events. Then data from usage of those things: membership, library footfall, checkouts, renewals, digital services, PC bookings, enquiries, and event attendance.
+What is 'traditional' library data? I'd say firstly what is available: the location of libraries and mobile library stops, PCs, library opening hours, library stock, digital services, lists of events. Then data from usage of those things: membership, library footfall, checkouts, renewals, PC bookings, enquiries, and event attendance.
 
 People discuss what libraries should measure and collect, but the data already exists. They're really talking about how hard to look at the data held. Libraries tend to hold too much data, and not look at it enough.
 
@@ -57,9 +57,9 @@ Everyone will have their own ideas around public library quality. But the public
 
 Funding and funders are mentioned a number of times in the report. But the primary library funders are the public. They control what happens in the local authority, and provide the money. There is little mention of the public or library campaigners.
 
-There was an opportunity to link this work to another. The [library open data schemas](https://schema.librarydata.uk/) were developed in collaboration with library services in 2019/2020 (disclaimer: I helped). They are designed to provide a structure for which library services can share data about themselves, to enable collaboration and further analysis. Details on this were sent to the accreditation project, but they didn't show any interest in it.
+There was an opportunity to link this work to another. The [library open data schemas](https://schema.librarydata.uk/) were developed in collaboration with library services in 2019/2020 (disclaimer: I helped). They are designed to provide a structure for which library services can share data about themselves, to enable collaboration and further analysis. Details on this were sent to the accreditation project, but they didn't reply.
 
-I would propose the following as an aspect of a quality framework for libraries.
+I would propose the following as one aspect of a quality framework for libraries.
 
 1. Library services achieve a level of quality by releasing each dataset within the data schemas as open data
 2. Additional levels of quality are achieved by:
@@ -72,9 +72,9 @@ There will be many other aspects of quality. But this one would enable a modern-
 
 ## Conclusion
 
-This is a bit of a pipe-dream. The accreditation work seems unlikely to become anything like that, and that's OK.
+This is a bit of a pipe-dream. The accreditation work seems unlikely to include anything like that, and that's OK.
 
-It appears to be an internal tool for library service heads to (optionally) accredit themselves with bronze/silver/gold status, with little reference to the public. The audience for that accreditation is additional funders of various kinds.
+Being an interim report, it remains to be seen. But it appears to be an internal tool for library service heads to (optionally) accredit themselves with bronze/silver/gold status, with little reference to the public. The audience for that accreditation is funders of various kinds.
 
 Perhaps that's a good thing - if this is an avenue for more money to come to libraries then it's hard to criticise. But unfortunately it doesn't appear to be something that will relate to the public experience of using libraries, library open data, or open standards.
 
