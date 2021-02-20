@@ -57,7 +57,7 @@ Everyone will have their own ideas around public library quality. But the public
 
 Funding and funders are mentioned a number of times in the report. But the primary library funders are the public. They control what happens in the local authority, and provide the money. There is little mention of the public or library campaigners.
 
-There was an opportunity to link this work to another. The [library open data schemas](https://schema.librarydata.uk/) were developed in collaboration with library services in 2019/2020 (disclaimer: I helped). They are designed to provide a structure for which library services can share data about themselves, to enable further analysis and collaboration. Details around this were sent to the accreditation project, but it's not mentioned.
+There was an opportunity to link this work to another. The [library open data schemas](https://schema.librarydata.uk/) were developed in collaboration with library services in 2019/2020 (disclaimer: I helped). They are designed to provide a structure for which library services can share data about themselves, to enable collaboration and further analysis. Details on this were sent to the accreditation project, but they didn't show any interest in it.
 
 I would propose the following as an aspect of a quality framework for libraries.
 
@@ -68,13 +68,13 @@ I would propose the following as an aspect of a quality framework for libraries.
     3. Extending the datasets to contain extra data particular to the service
 3. Further credit achieved by demonstrating internal service improvement, or external public benefit, from using the data
 
-There will be many other aspects of quality. But this one would enable a modern-day sharing of data, would fit with current government and local government digital standards and strategy, and the transparency code. And also directly deliver service improvement.
+There will be many other aspects of quality. But this one would enable a modern-day sharing of data, would fit with current government and local government digital standards and strategy, and put data into the hands of the public. And also directly deliver service improvement.
 
 ## Conclusion
 
 This is a bit of a pipe-dream. The accreditation work seems unlikely to become anything like that, and that's OK.
 
-It appears to be an internal tool for library service heads to (optionally) accredit themselves with bronze/silver/gold status, with little reference to the public. The audience for that accreditation is other library services, and non-public funders of various kinds. 
+It appears to be an internal tool for library service heads to (optionally) accredit themselves with bronze/silver/gold status, with little reference to the public. The audience for that accreditation is additional funders of various kinds.
 
 Perhaps that's a good thing - if this is an avenue for more money to come to libraries then it's hard to criticise. But unfortunately it doesn't appear to be something that will relate to the public experience of using libraries, library open data, or open standards.
 
