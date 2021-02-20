@@ -8,7 +8,7 @@ tags:
   - British library
 ---
 
-I was watching the British Library Labs symposium and was interested to see a quick update on the public libraries Single Digital Presence (SDP) work. Check out the video of the whole [library labs symposium on YouTube](https://www.youtube.com/watch?v=ZCdakFvVYEc). It's all ace, but the SDP update is [2 hours into the streaming event](https://youtu.be/ZCdakFvVYEc?t=7216). 
+I was watching the British Library Labs symposium and was interested to see an update on the public libraries Single Digital Presence (SDP) work. Check out the video of the [library labs symposium on YouTube](https://www.youtube.com/watch?v=ZCdakFvVYEc). It's all ace, but the SDP update is [2 hours into the streaming event](https://youtu.be/ZCdakFvVYEc?t=7216). 
 
 The Bookseller also published a recent update from the team, [transforming the digital offer for public libraries](https://www.thebookseller.com/blogs/transforming-digital-offer-public-libraries-1220211), and research partners DXW have published a case study on [creating a national digital presence for public libraries](https://www.dxw.com/case-studies/creating-a-national-digital-presence-for-public-libraries/)
 
@@ -18,13 +18,13 @@ Having thought a little about digital transformation, I think there are a number
 
 ### Fix before building
 
-I try to advocate for the [Local Digital Declaration](https://localdigital.gov.uk/declaration/).
+I try to advocate for the Local Government [Digital Declaration](https://localdigital.gov.uk/declaration/).
 
 > We will ‘fix our plumbing’ to break our dependence on inflexible and expensive technology that doesn’t join up effectively
 >
 > **Local Digital Declaration**
 
-It includes fixing the issues that cause problems and hamper projects. These could be related to data and software, but also culture and skills.
+It includes fixing issues that cause problems and hamper projects. These could be related to data and software, but also culture and skills.
 
 The recent Bookseller piece included a fairly reserved comment on the current state of library digital presences.
 
@@ -34,13 +34,13 @@ The recent Bookseller piece included a fairly reserved comment on the current st
 
 But what in particular is broken? Yes, the websites and services have poor usability, accessibility, and aren't pleasant to use. But those are symptoms, not underlying problems.
 
-In November I was approached by a web developer. Enthusiastic about libraries in their local area they wanted to create a new and accessible way of browsing the library catalogue (no, it wasn't me!). They had asked their library service, via freedom of information, for data on all the titles in the catalogue, in spreadsheet format.
+In November I was approached by a web developer. Enthusiastic about libraries in their local area they wanted to create a new and accessible way of browsing the library catalogue (no, it wasn't me!). They had asked their library service, via freedom of information, for data on the titles in the catalogue, in spreadsheet format.
 
-This isn't an odd request, and it should be a situation that we jump at the chance of fulfilling. People creating software for interacting with their library? Great, get them that data!
+This isn't an odd request. It should be a situation that we jump at the chance of fulfilling. People creating software for interacting with their library? Great, get them that data!
 
-Unfortunately the library service replied that with over 1 million records it wouldn't be possible to provide the data within the £600 freedom of information limit. On appeal, they then insisted they were exempt from the request as the data was publicly searchable from the online catalogue.
+Unfortunately the library service replied that with over 1 million records it wouldn't be possible to provide the data within the £600 freedom of information limit. On appeal, arguing that it should be achievable from digital records, the service then insisted they were exempt from the request as the online catalogue provided a search.
 
-It would be easy to be critical of the service. To say they were either overly protective of the data, or even intentionally obstructive. But I think they can be taken at face value. They likely don't have the required knowledge to do it, and would have to go to the supplier, costing well over £600. But the member of the public is sent away disappointed with poor service from the library.
+It would be easy to be critical of the service. To say they were either overly protective of the data, or even intentionally obstructive. But I think they can be taken at face value. They likely don't have the required knowledge to do it, and would have to go to the supplier, costing well over £600. But the member of the public is sent away disappointed with poor service.
 
 That's (partly) what is broken. The library catalogue is the primary data held by a library management system, it shouldn't be a problem to extract data on it. The problem is the skills and training for staff to be able to do it.
 
@@ -56,15 +56,15 @@ There are hugely encouraging words from the British Library showing they fully a
 
 Digital projects aren't delivered to organisations with immediate success. Whether it's an Intranet, a new Document Management System, or whatever. After implementation they need to be understood, adopted, and used effectively.
 
-The tech industry can be guilty of solutionism by selling software as a fix for a problem, when it is only a tool to be used by people. But on the other side, libraries will buy software without considering the time and investment they need to put in. The funding rarely goes far enough to appreciate that whatever it costs to create and deliver, you will need a lot more after that.
+The tech industry can be guilty of solutionism by selling software as a fix for a problem, when it is a tool to be used by people. But on the other side, libraries will buy software without considering the time and investment they need to put in. The funding rarely goes far enough to appreciate that whatever it costs to implement, you will need a lot more after that.
 
-It's all very well to demand 'where's the single digital presence?' But it is as relevant to ask library services how they are preparing for it. For all the work being done by the British Library to research and advise, more will be needed from each library service to make it a success.
+It's all very well to demand 'where's the single digital presence?' But it's as relevant to ask library services how they are preparing for it. For all the work being done by the British Library to research and advise, more will be needed from each library service to make it a success.
 
 ### We need multiple digital presences
 
 This isn't just being a smart arse about the term single digital presence. SDP clearly expresses someone being able to go to one place to see information about multiple services, catalogues, resources, etc.
 
-However, in the ideal situation we would have multiple digital presences. Or perhaps more accurately: multiple single digital presences. Want an app to quickly reserve library books? Sure, search the app store, check the reviews, and choose one. What if the Reading Agency want to put a search for UK libraries on their website? Great, they should go for it. Delivery of those websites and apps can be out of the hands of library services.
+However, in the ideal situation we would have multiple digital presences. Or more accurately: multiple single digital presences. Want an app to quickly reserve library books? Sure, search the app store, check the reviews, and choose one. What if the Reading Agency want to put a search for UK libraries on their website? Great, they should go for it. Delivery of those websites and apps can be out of the hands of library services.
 
 True digital transformation will mean giving up control. The library website won't necessarily be the place people go to find out about their libraries. The library catalogue site won't be where users reserve and renew their loans. They may choose the alternative site that allows them to tick the auto-renew option; that website will then handle renewing items for them.
 
