@@ -15,7 +15,7 @@ Despite those, there are also great things that have been going on in the past 5
 
 Newcastle library service began publishing open data in 2016, and have run two hackathons engaging the public with that data.
 
-The libraries datasets are in available in a few places, giving them a wide audience. The [Newcastle City Council website](https://www.newcastle.gov.uk/local-government/access-information-and-data/open-data/libraries-data-sets), as well as a [ToonLibraries account on github.com)](https://github.com/toonlibraries), and the [Data Mill North open data portal](https://datamillnorth.org/publisher/newcastle-city-council).
+The libraries datasets are in available in a few places, giving them a wide audience. The [Newcastle City Council website](https://www.newcastle.gov.uk/local-government/access-information-and-data/open-data/libraries-data-sets), as well as a [ToonLibraries account on GitHub](https://github.com/toonlibraries), and the [Data Mill North open data portal](https://datamillnorth.org/publisher/newcastle-city-council).
 
 I attended both the Wuthering Hacks, and the Datamorphosis hackathons that ran alongside the open data programme. They were events that paid attention to teaching, and engaging the public with the data. Not exclusive events for those who may already be familiar with library data, or have particular skills. And that's as it should be, and a good reason to have more library open data, as well as data events in libraries!
 
@@ -23,11 +23,11 @@ More details are available in [Releasing and re-using library data](https://dcms
 
 ### Suffolk kiosks
 
-Library services use a Library Management System (LMS), and choose a Kiosk provider that integrates with the LMS to allow users to self-check out, check in, and renew items. Those big kiosks can be clunky though. Often going wrong, bulky, and needing support contracts with the provider.
+Library services use a Library Management System (LMS), and choose a Kiosk provider that integrates with that LMS to allow users to self-check out, check in, and renew items. Those big kiosks can be clunky though. Often going wrong, bulky, and needing support contracts with the provider.
 
 Suffolk decided to go their own way and create their own solution. This runs on tablets, cased within a stand that provides a barcode scanner for the library card and items. More information is available at this [Suffolk Libraries Self Service Demo from 2018](https://www.suffolklibraries.co.uk/about/news/self-service-demo).
 
-There should be more of this going on. The solution doesn't need to do much. Login, Issue, Return, and Renew. And most LMS solutions will have Application Programming Interfaces (APIs) that allow integration with those processes. Suffolk and [technology partner Dootrix](https://dootrix.com/work/suffolklibraries/) were demoing this around the UK in the hope that other services might sign up to use the solution. If those services used an alternative LMS, a connector could be developed.
+There should be more of this going on. The solution doesn't need to be complex. Login, Issue, Return, and Renew. And most LMS solutions will have Application Programming Interfaces (APIs) that allow integration with those processes. Suffolk and [technology partner Dootrix](https://dootrix.com/work/suffolklibraries/) were demoing this around the UK in the hope other services might join them. If those services used an alternative LMS, a connector could be developed.
 
 I would have liked something like this to be [coded in the open](https://gds.blog.gov.uk/2017/09/04/the-benefits-of-coding-in-the-open/), as per Government Digital Service standards. But Suffolk Libraries are an independent charity rather than a public body, and will have different commercial considerations.
 
@@ -43,17 +43,17 @@ And not just that, but there are many kinds of accessibility-aware aspects of th
 
 > The number 50 and 50a bus stop is situated on Town Street – approximately 150 metres from the Hub. The number 97 bus stop is situated on Broadgate Lane – approximately 150 metres from the Hub.
 >
-> **Leeds Libraries website Bus Stop details for Horsforth Community Hub**
+> **Leeds Libraries website bus details**
 
 Maybe many library services do this. But the comprehensive nature of those information sections on each library really stood out. It's clearly something they've put plenty of thought into, rather than only trying to comply with the legal requirements.
 
 ### Plymouth data play
 
-The [Data Plymouth](http://www.dataplymouth.co.uk/) project has actually been run by the planning department in Plymouth. Not a department you might expect, except that Planning tend to have significant data requirements, particularly with geospatial data. DataPlay events provided talks on open data and technology, and explored new datasets. They also provided the opportunity for the public to propose projects and ideas that would be provided with a small amount of funding from the Council.
+The [Data Plymouth](http://www.dataplymouth.co.uk/) project is run by the Planning department in Plymouth. Not a department you might expect, except that Planning tend to have significant data requirements, particularly with geospatial data. DataPlay events provided talks on open data and technology, and explored new datasets. They also provided the opportunity for the public to propose projects and ideas that would be provided with a small amount of funding from the Council.
 
 Plymouth libraries were always involved in these events, promoting and attending them. And Plymouth already had a significant engagement with the community in this area through their [Coding and Digital Making](https://www.plymouth.gov.uk/libraries/childrenandyoungpeople/codinganddigitalmaking) events and clubs.
 
-At  [DataPlay 9: Libraries and city challenges](http://www.dataplymouth.co.uk/data-play-9), the whole event became about libraries. This included looking at data in order to Measure the impact of libraries, tell stories, and look at library use.
+At  [DataPlay 9: Libraries and city challenges](http://www.dataplymouth.co.uk/data-play-9), the whole event became about libraries. This included looking at data in order to measure the impact of libraries, tell stories, and look at library use.
 
 The pandemic has put a stop to lots of events like these. But it would be great to see more of these, where the public are able to come and chat and get involved in library data.
 
