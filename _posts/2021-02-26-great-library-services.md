@@ -31,7 +31,7 @@ There should be more of this going on. The solution doesn't need to be complex. 
 
 I would have liked something like this to be [coded in the open](https://gds.blog.gov.uk/2017/09/04/the-benefits-of-coding-in-the-open/), as per Government Digital Service standards. But Suffolk Libraries are an independent charity rather than a public body, and will have different commercial considerations.
 
-The utopia is to have public library services building and maintaining open source software, with a mix of in-service skills and external collaboration. That isn't what this is, but it's still an impressive example of how libraries can develop control their own software.
+The utopia is to have public library services building and maintaining open source software, with a mix of in-service skills and external collaboration. That isn't what this is, but it's still an impressive example of how libraries can control their own software.
 
 ### Leeds web accessibility
 
