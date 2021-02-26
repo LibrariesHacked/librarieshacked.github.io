@@ -37,7 +37,7 @@ The utopia is to have public library services building and maintaining open sour
 
 Leeds are well known for their digital inclusion programmes, such as [100% Digital Leeds](https://leedsdigitalinclusion.wordpress.com/). Note the top-quality accessibility statement on that site.
 
-Less acknowledged is that they were one of the few library services to follow the [website accessibility requirements for public sector bodies](https://www.gov.uk/guidance/accessibility-requirements-for-public-sector-websites-and-apps). This included looking at the accessibility of all their websites, such as the [online public catalogue](https://leeds.ent.sirsidynix.net.uk/client/en_GB/default/?rm=ACCESSIBILITY%2B0%7C%7C%7C1%7C%7C%7C0%7C%7C%7Ctrue).
+Less acknowledged is that they were one of the few library services to follow [website accessibility requirements for public sector bodies](https://www.gov.uk/guidance/accessibility-requirements-for-public-sector-websites-and-apps). This included looking at the accessibility of all their websites, such as the [online public catalogue](https://leeds.ent.sirsidynix.net.uk/client/en_GB/default/?rm=ACCESSIBILITY%2B0%7C%7C%7C1%7C%7C%7C0%7C%7C%7Ctrue).
 
 And not just that, but there are many kinds of accessibility-aware aspects of their web presence. My favourite was seeing the 'Access information' provided for each library, which gives details about bus stops and how close they are.
 
@@ -59,9 +59,9 @@ The pandemic has put a stop to lots of events like these. But it would be great 
 
 ### North Ayrshire open data role
 
-I was amazed to see in 2019 that a library service (North Ayrshire) was recruiting for a role called 'Open data development officer'. As far as I know, this was the first dedicated role in open data for public libraries. It's not odd for Councils to have such roles. Many do, and many who have significantly cut funding to libraries have invested in open data roles and supporting technology. But it sits well within the existing role of libraries.
+I was amazed to see in 2019 that a library service (North Ayrshire) was recruiting for a role called 'Open data development officer'. As far as I know, this was the first dedicated role in open data for public libraries. It's not odd for Councils to have such roles. Many do, and many who have significantly cut funding to libraries have invested in open data roles and supporting technology. But it sits well within the existing remit of libraries.
 
-It looked important enough for North Ayrshire Council to include it in an update report on their 5-year plan. From a look at how this role has gone it looks like it really delved into working with the community around signposting Council (and other) data available in the local area.
+It looked important enough for North Ayrshire Council to include it in an update on their 5-year plan. From a look at how this role has gone, it looks like it really delved into working with the community around signposting Council and other data available in the local area.
 
 You can find out more at [Open Data & Libraries - A PLIF Blog](https://scottishlibraries.org/about-us/news/open-data-libraries-a-plif-blog/).
 
