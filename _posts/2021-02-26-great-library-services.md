@@ -37,7 +37,7 @@ The utopia is to have public library services building and maintaining open sour
 
 Leeds are well known for their digital inclusion programmes, such as [100% Digital Leeds](https://leedsdigitalinclusion.wordpress.com/). Note the comprehensive accessibility statement on that site.
 
-But less acknowledged is that they were one of the few library services to follow the [website accessibility requirements for public sector bodies](https://www.gov.uk/guidance/accessibility-requirements-for-public-sector-websites-and-apps). This included looking at the accessibility of all their websites, such as the [online public catalogue](https://leeds.ent.sirsidynix.net.uk/client/en_GB/default/?rm=ACCESSIBILITY+0|||1|||0|||true).
+But less acknowledged is that they were one of the few library services to follow the [website accessibility requirements for public sector bodies](https://www.gov.uk/guidance/accessibility-requirements-for-public-sector-websites-and-apps). This included looking at the accessibility of all their websites, such as the [online public catalogue](https://leeds.ent.sirsidynix.net.uk/client/en_GB/default/?rm=ACCESSIBILITY%2B0%7C%7C%7C1%7C%7C%7C0%7C%7C%7Ctrue).
 
 And not just that, but there are many kinds of accessibility-aware aspects of their web presence. My favourite was seeing the 'Access information' provided for each library, which gives details about bus stops and how close they are.
 
