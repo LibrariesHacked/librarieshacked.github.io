@@ -7,7 +7,7 @@ tags:
   - Excellence
 ---
 
-I spoke to someone recently about this data blog and they said 'you seem frustrated'. I wasn't sure if they were talking exclusively about data, or life in general. But in open data and technology, there are definitely some frustrations in the public library world.
+I spoke to someone recently about this data blog and they said 'you seem frustrated'. I wasn't sure if they were suggesting it was about data, or life in general. But there are definitely some frustrations in the public library open data world.
 
 Despite those, there are also great things that have been going on in the past 5 years or so, directly from library services. Here are some awesome examples that relate to library data and technology.
 
@@ -35,17 +35,17 @@ The utopia is to have public library services building and maintaining open sour
 
 ### Leeds web accessibility
 
-Leeds are well known for their digital inclusion programmes, such as [100% Digital Leeds](https://leedsdigitalinclusion.wordpress.com/) (note the comprehensive accessibility statement on that site).
+Leeds are well known for their digital inclusion programmes, such as [100% Digital Leeds](https://leedsdigitalinclusion.wordpress.com/). Note the comprehensive accessibility statement on that site.
 
-But less acknowledged is that they were one of the few library services to really follow the [website accessibility requirements for public sector bodies](https://www.gov.uk/guidance/accessibility-requirements-for-public-sector-websites-and-apps). This included looking at the accessibility of all their websites, such as the [online public catalogue](https://leeds.ent.sirsidynix.net.uk/client/en_GB/default/?rm=ACCESSIBILITY+0|||1|||0|||true).
+But less acknowledged is that they were one of the few library services to follow the [website accessibility requirements for public sector bodies](https://www.gov.uk/guidance/accessibility-requirements-for-public-sector-websites-and-apps). This included looking at the accessibility of all their websites, such as the [online public catalogue](https://leeds.ent.sirsidynix.net.uk/client/en_GB/default/?rm=ACCESSIBILITY+0|||1|||0|||true).
 
-And not just that, but there are many kinds of accessibility-aware aspects of their web presence. My favourite was seeing the 'Access information' provided for each library site such as for [Horsforth Community Hub](https://www.leeds.gov.uk/community-hubs/horsforth) which gives details about the bus stop and bus services.
+And not just that, but there are many kinds of accessibility-aware aspects of their web presence. My favourite was seeing the 'Access information' provided for each library, which gives details about bus stops and how close they are.
 
 > The number 50 and 50a bus stop is situated on Town Street – approximately 150 metres from the Hub. The number 97 bus stop is situated on Broadgate Lane – approximately 150 metres from the Hub.
 >
 > **Leeds Libraries website Bus Stop details for Horsforth Community Hub**
 
-Maybe many library services have this. But the comprehensive nature of those information sections on each library really stood out. It's clearly something they've put plenty of work and thought into, rather than only trying to comply with the legal requirements.
+Maybe many library services do this. But the comprehensive nature of those information sections on each library really stood out. It's clearly something they've put plenty of thought into, rather than only trying to comply with the legal requirements.
 
 ### Plymouth data play
 
