@@ -61,7 +61,7 @@ A recent blog post by Ayub Khan, [on reading habits over lockdown](https://www.t
 
 For data insight though, we should not be using official PLR releases. PLR reports are annual, with a delay, due to the process of collecting author info and calculating payments. The raw data coming out of library services is only two months out of date.
 
-As with the other two, this is simply public data. Although the team are awesome, and with no commercial interests for the data, it should still be open by default. It also seems strange to still using a sample of library services, when the majority is automated processes. Some adjustments could also make it nightly extracts, rather than every two months.
+As with the other two, this is simply public data. Although the team are awesome, and with no commercial interests for the data, it should still be open by default. It's also strange to still use a sample of library services, when it's largely an automated process. Some adjustments could also make it nightly extracts, rather than every two months.
 
 ## A better system
 
