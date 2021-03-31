@@ -9,39 +9,39 @@ tags:
   - PLR
 ---
 
-I'm keen on public library open data. Not just the public being allowed data about their own libraries, but the untapped benefit it would provide for library services. Libraries can't do everything in terms of data analysis, and they don't really have time to do much at all. Keeping data restricted has a negative effect on their operational capabilities.
+I'm keen on public library open data. Not just the public getting data about their own libraries, but the untapped benefit it would provide for library services. Libraries can't do everything in terms of data analysis, and don't have time to do much at all. Keeping data restricted has a negative effect on their operational capabilities.
 
 There are some existing datasets that could become open data. The process tends to go:
 
-1. A third party offers a professional service to libraries and request some library data
-2. The library agrees to this service and puts the third party in touch with library system supplier
+1. Third party offers a professional service to libraries and requests library data
+2. The library agrees and puts the third party in touch with library system supplier
 3. The system supplier and third party arrange a mechanism for transferring that data
 4. The library receive their service
-5. This is repeated with multiple library services, building up larger datasets
+5. This happens with multiple library services, giving that third party powerful larger datasets
 
 For libraries this is a hands-off approach to data management. Very easy, and understandable. I've been in that position where someone from 'the business' (a horrible phrase!) goes "I'll leave you techies to sort it out between yourselves if that's OK". They then scarper.
 
-That in itself is bad - managing data flows is a important practice to be involved in, with public data especially so.
+This is bad. Managing data flows is a important practice to be involved in, with public data especially so.
 
 Here are a few examples.
 
 ## Nielsen LibScan
 
-Nielsen are [experts on books](https://nielsenbook.co.uk/). For book sales their BookScan data "collects point-of-sale data from more than 25,000 stores worldwide". They work with lots of data and presumably do it well.
+Nielsen are [experts on books](https://nielsenbook.co.uk/). For book sales, their BookScan data "collects point-of-sale data from more than 25,000 stores worldwide". They work with lots of data and presumably do it well.
 
-They also have something called LibScan which does a similar thing for public libraries. A set of public library services (between 50 and 100 or so I believe) have system reports which collect the ISBNs that have been loaned every couple of weeks. This data is automatically transferred over to Nielsen servers using FTP.
+They also have something called LibScan which does a similar thing for public libraries. A set of public library services have system reports to collect the ISBNs that have been loaned every couple of weeks. This data is transferred over to Nielsen servers using FTP.
 
 This started in 2009. A blog post from Capita Libraries at around that time, [Nielsen Libscan Service Rolling Out](https://blogs.capita-libraries.co.uk/decisions/2009/06/01/nielsen-libscan-service-rolling-out/), gives some more details of the process.
 
-This is a good example of data that should never be exclusively in third-party hands. Nielsen make reports available to library services, but you would be hard-pressed to find many regularly using these, if at all. In reality public libraries are acting as a data service for a commercial operation.
+This is a good example of data that should never be exclusively in third-party hands. Nielsen make reports available to library services, but you would be hard-pressed to find regular users, if at all. In reality public libraries are acting as a data service for a commercial operation.
 
-The data is sold by Nielsen in the form of ad-hoc or subscription based access. It's likely not a lucrative (if even profitable) thing for Nielsen. It's just a poor setup for public data.
+The data is sold by Nielsen in the form of ad-hoc or subscription based access. It's likely not a lucrative, if even profitable, thing for Nielsen. Just a poor setup for public data.
 
 ## CIPFA Library profiles
 
-In comparison to something like the power of LibScan, CIPFA does nothing in any detail. But it is the broadest data on library funding, services, and activity.
+In comparison to something like the power of LibScan, CIPFA does nothing in any detail. But it is broad data on library funding, services, and activity.
 
-At the end of each financial year CIPFA send a spreadsheet to library services asking for annual data on various things. How many books were issued, how much money was spent, etc. A diminishing number of services spend time completing this spreadsheet. 9 months later aggregated data is then sold back to libraries and other CIPFA subscribers.
+At the end of each financial year CIPFA send a spreadsheet to library services asking for annual data on various things. How many books were issued, how much money was spent, etc. A diminishing number of services spend time completing this spreadsheet. Nine months later aggregated data is sold back to libraries and CIPFA subscribers.
 
 Again, it's questionable how much income CIPFA make. But it's certainly something they want to keep tight control of. For public library services it is just habit and fear of change that keeps it going.
 
@@ -59,7 +59,7 @@ A recent blog post by Ayub Khan, [on reading habits over lockdown](https://www.t
 >
 > **Ayub Khan, Head of Warwickshire Libraries**
 
-For data insight though, we should not be using official PLR releases. PLR reports are annual, with a delay, due to the process of collecting author info and calculating payments. The raw data coming out of library services is at most only two months out of date.
+For data insight though, we should not be using official PLR releases. PLR reports are annual, with a delay, due to the process of collecting author info and calculating payments. The raw data coming out of library services is only two months out of date.
 
 As with the other two, this is simply public data. Although the team are awesome, and with no commercial interests for the data, it should still be open by default. It also seems strange to still using a sample of library services, when the majority is automated processes. Some adjustments could also make it nightly extracts, rather than every two months.
 
@@ -71,13 +71,12 @@ Yes, and one that does not hinder any organisation (Nielsen, CIPFA, PLR) in prov
 
 An alternative:
 
-1. All library services set up standardised exports from library management systems. These will not be defined by specific requirements, rather they will be about individual datasets (e.g. loans data)
-2. This data is published as freely available open data by the library services 
-3. The public, and any interested party, can pick up that data and use it under an open licence.
-4. Those data extracts are maintained by library services to fulfil current and future data requirements
+1. Library services set up standardised exports from library management systems. These will be individual datasets (e.g. loans), and not be defined by specific requirements
+2. This is published as open data by the library services 
+3. The public, and any interested party, can pick up that data and use it under an open licence
 
-It would be a process that put library services at the heart of what data is shared from their systems. It would make that data available in an efficient way (no duplicate exports), and it would provide it to everyone.
+It would put library services at the heart of what data is shared from their systems. It would make that data available in an efficient way (no duplicate exports), and it would provide it to everyone.
 
-It looks simple written down. And it's not a technical challenge but is a significant culture change. The required coordination currently doesn't exist in UK libraries, with noone holding this responsibility. Libraries Connected are closest in having influence over service operations, but don't have the data literacy or will. Similarly, the Arts Council are a funding organisation, and are unlikely to involve themselves.
+It looks simple written down. And it's not a technical challenge, but is a significant culture change. The required coordination currently doesn't exist in UK libraries, with no-one holding this responsibility. Libraries Connected are closest to influence service operations, but don't have the data literacy or will. Similarly, the Arts Council are a funding organisation, and are unlikely to involve themselves in operational data.
 
-But with these existing processes there remain 'quick wins' to make them open and useful. Looking at current library leadership, that may need to wait for a new generation at least, but future generations fixing those would create an immensely powerful opportunity for libraries.
+But there remain 'quick wins' to make existing processes open and useful. That may need to wait for a new leadership generation at least, but future leaders fixing those processes would create an immensely powerful opportunity for public libraries.
