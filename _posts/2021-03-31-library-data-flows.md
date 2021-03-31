@@ -1,6 +1,6 @@
 ---
 title: Library data flows
-excerpt: How library data flows from libraries to third parties
+excerpt: How library data flows from public libraries to third parties
 categories:
   - Open data
 tags:
@@ -9,19 +9,19 @@ tags:
   - PLR
 ---
 
-I'm keen on public library open data. Not just the public getting data about their own libraries, but the untapped benefit it would provide for library services. Libraries can't do everything in terms of data analysis, and don't have time to do much at all. Keeping data restricted has a negative effect on their operational capabilities.
+I'm keen on public library open data. Not just the public getting data about their own libraries, but the benefit it would provide for library services. Keeping data restricted has a negative effect on library operational capabilities.
 
 There are some existing datasets that could become open data. The process tends to go:
 
-1. Third party offers a professional service to libraries and requests library data
+1. Third party offers a service to libraries and requests library data
 2. The library agrees and puts the third party in touch with library system supplier
-3. The system supplier and third party arrange a mechanism for transferring that data
+3. The supplier and third party arrange a mechanism for transferring that data
 4. The library receive their service
-5. This happens with multiple library services, giving that third party powerful larger datasets
+5. This happens with multiple library services, giving that third party powerful datasets
 
-For libraries this is a hands-off approach to data management. Very easy, and understandable. I've been in that position where someone from 'the business' (a horrible phrase!) goes "I'll leave you techies to sort it out between yourselves if that's OK". They then scarper.
+For libraries this is hands-off data management. Very easy, and understandable. I've been in that position where someone from 'the business' (a horrible phrase!) goes "I'll leave you techies to sort it out between yourselves if that's OK". They then scarper.
 
-This is bad. Managing data flows is a important practice to be involved in, with public data especially so.
+But it's bad. Managing data flows is a important practice to be involved in, with public data especially so.
 
 Here are a few examples.
 
@@ -29,11 +29,11 @@ Here are a few examples.
 
 Nielsen are [experts on books](https://nielsenbook.co.uk/). For book sales, their BookScan data "collects point-of-sale data from more than 25,000 stores worldwide". They work with lots of data and presumably do it well.
 
-They also have something called LibScan which does a similar thing for public libraries. A set of public library services have system reports to collect the ISBNs that have been loaned every couple of weeks. This data is transferred over to Nielsen servers using FTP.
+They also have something called LibScan which does a similar thing for public libraries. A set of library services have system reports to collect the ISBNs that have been loaned every couple of weeks. This data is transferred over to Nielsen servers using FTP.
 
 This started in 2009. A blog post from Capita Libraries at around that time, [Nielsen Libscan Service Rolling Out](https://blogs.capita-libraries.co.uk/decisions/2009/06/01/nielsen-libscan-service-rolling-out/), gives some more details of the process.
 
-This is a good example of data that should never be exclusively in third-party hands. Nielsen make reports available to library services, but you would be hard-pressed to find regular users, if at all. In reality public libraries are acting as a data service for a commercial operation.
+This is a good example of data that should never be exclusively in third-party hands. Nielsen make reports available to library services, but you would be hard-pressed to find regular users. In reality public libraries are acting as a data service for a commercial operation.
 
 The data is sold by Nielsen in the form of ad-hoc or subscription based access. It's likely not a lucrative, if even profitable, thing for Nielsen. Just a poor setup for public data.
 
@@ -43,7 +43,7 @@ In comparison to something like the power of LibScan, CIPFA does nothing in any 
 
 At the end of each financial year CIPFA send a spreadsheet to library services asking for annual data on various things. How many books were issued, how much money was spent, etc. A diminishing number of services spend time completing this spreadsheet. Nine months later aggregated data is sold back to libraries and CIPFA subscribers.
 
-Again, it's questionable how much income CIPFA make. But it's certainly something they want to keep tight control of. For public library services it is just habit and fear of change that keeps it going.
+Again, it's questionable how much income CIPFA make. But it's something they keep tight control of. For public library services it is just habit and fear of change that keeps it going.
 
 ## Public lending right
 
@@ -68,8 +68,6 @@ As with the other two, this is simply public data. Although the team are awesome
 Is there are better way?
 
 Yes, and one that does not hinder any organisation (Nielsen, CIPFA, PLR) in providing their services.
-
-An alternative:
 
 1. Library services set up standardised exports from library management systems. These will be individual datasets (e.g. loans), and not be defined by specific requirements
 2. This is published as open data by the library services 
