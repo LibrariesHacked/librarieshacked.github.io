@@ -8,7 +8,7 @@ tags:
   - Membership
 ---
 
-Thanks to all who provided feedback on the initial version of the library membership mapping tool. The instructions and details for that testing are available at [Library membership mapping](https://blog.librarydata.uk/membership-mapping/). Please read that post if you'd like to get involved in testing. For anyone who didn't participate, no worries, and you still can!
+Thanks to all who provided feedback on the initial version of the library membership mapping tool. The instructions and details for that testing are available at [Library membership mapping](https://blog.librarydata.uk/membership-mapping/). Please read that post if you'd like to get involved in testing. For anyone who didn't participate, you still can!
 
 <figure>
   <img src="https://raw.githubusercontent.com/LibrariesHacked/librarieshacked.github.io/master/images/2021-02-05-instructions-5-display-map.png" alt="Screenshot of the mapping tool showing an area of Barnet library authority with membership shaded relative to population"/>
@@ -23,27 +23,27 @@ I've split the feedback into a few sections.
 
 * It was easy to follow the instructions and quick to go from postcodes to visualising membership data. Great!
 * The conversion process was quick. I've not done a lot of performance testing on this yet, but it will depend on a number of things (for example a delay while it 'wakes up' when not used for a little while). The main thing is that people aren't left sitting around for too long! (e.g. greater than 5 minutes)
-* Some had high levels of the 'unknown' or 'terminated' postcodes. This is just your own library data and can seem bad, but I don't think is too much to worry about! Many may be small typos from manual entry in your systems (mixing up 0 and O is surprisingly common!). If you do want to do something about your data quality, the conversion tool could be used with a spreadsheet that included customer ID or something similar as an additional column. It would then provide you sheet that you could work through to correct.
+* Some had high levels of the 'unknown' or 'terminated' postcodes. This is just your own library data and can seem bad, but I don't think is too much to worry about! Many may be typos from manual entry in your systems (mixing up 0 and O is surprisingly common!).
 * It was mentioned it was great to not have to share any data outside of the organisation. This is a key part of the design, and for security in the conversion process. But I should also promote that the final aggregated and anonymous data would be great as open data for anyone to explore.
 
 ### Map layers
 
-At the moment the two initial views available on the map are:
+At the moment the two available options on the map are:
 
 * Percentage of the population who are members within each census area
 * The index of multiple deprivation for the area
 
 The following have all been suggested as additional layers.
 
-* Location of libraries. This also has a good linkup potentially with the [Library map project](https://www.librarymap.co.uk) where I have an initial dataset on library locations (and some mobile library stops).
+* Location of libraries. This also has a good linkup with the [Library map project](https://www.librarymap.co.uk) where I have an initial dataset on library locations (and some mobile library stops).
 * Public transport stops and route lines. I think bus stops would definitely be interesting. It will be hard to assess the significance of an individual bus stop, as it could be a service that runs weekly, or every hour. But it could be quite revealing in certain areas. I'll also look at plotting where the route lines go.
 * Ward boundaries. In particular it was requested to display membership and population at this level. That sounds good and is certainly possible.
-* Digital exclusion/deprivation. I've been interested in mapping this in the past. I don't believe there is a single open data indicator of this that is available at the detailed geographies that we're using. But I know many local authorities have created their own, and I wonder if I could merge various national data sources into a good indicator. These often use a combination of factors such as:
-  * Broadband and mobile speeds (quite often linked to rural/urban classifications)
+* Digital exclusion/deprivation. I've been interested in mapping this in the past. I don't believe there is a national open data indicator of this available at the detailed geographies that we're using. But I know many local authorities have created their own, and I wonder if I could merge various data sources into a good indicator. These often use a combination of factors such as:
+  * Broadband and mobile speeds (which quite often link to rural/urban classifications)
   * Age of population
   * Income and employment
-* Literacy levels. I've had a look at the individual data that goes into the deprivation indicators. Within those there are two 'sub domains for education, skills and training. One covers adults, with the underlying data being English language proficiency, and the other being qualifications. The data for children covers key stage 2 and 4 achievement levels, as well as school absence, and entry to higher and further education. (A long winded way of saying I believe we could show both these as useful indicators!)
-* Other library service data. I appreciate at the moment people looking at this are doing so in isolation for their library service. However, I would be very keen at trialling neighbouring authorities to share their data, and we could then see how these could be displayed alongside each other.
+* Literacy levels. I've had a look at the individual data that goes into the deprivation indicators. Within the educations and skills indicator there are two 'sub domains'. One covers adults, with the underlying data being English language proficiency and qualifications. Another covers children using data on Key Stage 2 and 4 achievement levels, as well as school absence, and entry to higher and further education. That's a long-winded way of saying I believe we could show both these as useful literacy-related indicators!
+* Other library service data. I appreciate at the moment people looking at this are doing so in isolation, for their library service. However, I would be very keen at trialling neighbouring authorities to share their data, and we could then see how these could be displayed alongside each other.
 
 ### Map design
 
