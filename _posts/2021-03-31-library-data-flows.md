@@ -11,15 +11,15 @@ tags:
 
 I'm keen on public library open data. Not just the public getting data about their own libraries, but the benefit it would provide for library services. Keeping data restricted has a negative effect on library operational capabilities.
 
-There are some existing datasets that could become open data. Historically, the process for data reports has been:
+There are some existing datasets that could be converted to open data. A historical process for library data has been:
 
 1. A third party offers a service to libraries and requests library data
 2. The library agrees and puts them in touch with library system supplier
-3. The supplier and third party arrange a mechanism for transferring that data
+3. The supplier and third party arrange a mechanism for extracting and transferring that data
 4. The library receive their service
-5. This happens with multiple library services, giving that third party a significant dataset
+5. This repeats with multiple library services, giving that third party a significant dataset
 
-For libraries this is hands-off data management. Very easy, and understandable. I've been in that position where someone from 'the business' (a horrible phrase!) goes "I'll leave you techies to sort it out between yourselves if that's OK". They then scarper.
+For libraries this is low responsibility data management. Very easy, and understandable. I've been in that position where someone from 'the business' (a horrible phrase!) goes "I'll leave you techies to sort it out between yourselves if that's OK". They then scarper.
 
 But it's bad. Managing data flows is a important practice to be involved in, especially so with public data.
 
@@ -33,7 +33,7 @@ They also have something called LibScan which does a similar thing for public li
 
 This started in 2009. A blog post from Capita Libraries at around that time, [Nielsen Libscan Service Rolling Out](https://blogs.capita-libraries.co.uk/decisions/2009/06/01/nielsen-libscan-service-rolling-out/), gives some more details of the process.
 
-This is a good example of data that should never be exclusively in third-party hands. Nielsen make reports available to library services, but you would be hard-pressed to find regular users. In reality public libraries are acting as a data service for a commercial operation.
+This is a good example of data that should never be exclusively in third-party hands. Nielsen make reports available to library services free of charge, but you would be hard-pressed to find regular users. In reality public libraries are acting as a data service for a commercial operation.
 
 The data is sold by Nielsen in the form of ad-hoc or subscription based access. It's likely not a lucrative (if even profitable) thing for Nielsen. Just a poor setup for public data.
 
