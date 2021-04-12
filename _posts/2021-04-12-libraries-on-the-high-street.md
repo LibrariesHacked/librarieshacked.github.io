@@ -8,7 +8,7 @@ tags:
   - High streets
 ---
 
-High Streets are considered important. In December there was an announcement of [£830 million funding boost for high streets](https://www.gov.uk/government/news/830-million-funding-boost-for-high-streets), to cover 72 regeneration projects.
+High Streets are important. In December there was an announcement of [£830 million funding boost for high streets](https://www.gov.uk/government/news/830-million-funding-boost-for-high-streets), covering 72 regeneration projects.
 
 > High streets are more than simply shopping areas. They are important hubs for communities and play a big role in entertainment, housing and our health – as highlighted by Public Health England’s [Healthy High Streets research](https://www.gov.uk/government/publications/healthy-high-streets-good-place-making-in-an-urban-setting). They are important for the UK’s economy and for our well-being. 
 >
@@ -20,29 +20,27 @@ What is a high street? Many streets have the name ‘High Street’, but the dic
 
 Based on concentrations of retail buildings alongside streets, Ordnance Survey (OS) were able to [map Britain’s High Streets](https://www.ordnancesurvey.co.uk/business-government/sectors/public-sector/high-streets).
 
-The Office for National Statistics (ONS) use these to develop intelligence about Britain's High Streets. See [High streets in Great Britain](https://www.ons.gov.uk/peoplepopulationandcommunity/populationandmigration/populationestimates/articles/highstreetsingreatbritain/march2020) for details, such as employment and population patterns. This analysis will be essential in understanding how high streets are changing, and the effect of regeneration projects.
+The Office for National Statistics (ONS) use these to develop intelligence. See [High streets in Great Britain](https://www.ons.gov.uk/peoplepopulationandcommunity/populationandmigration/populationestimates/articles/highstreetsingreatbritain/march2020) for details, such as employment and population patterns. This analysis will be essential in understanding how high streets are changing, and the effect of regeneration projects.
 
-There are 6,136 individual high streets in England. Yet more than one street in a single shopping area counts. For example, Gloucester has four streets leading from the centre, with all 4 counted as high streets. It would also be useful to combine multiple high streets that form a single retail destination.
+There are 6,136 individual high streets in England. Yet more than one street in a single shopping area counts. For example, Gloucester has four streets leading from the centre, and all 4 count as high streets. It would be useful to combine multiple high streets into single retail destinations.
 
 <figure>
   <img src="https://raw.githubusercontent.com/LibrariesHacked/librarieshacked.github.io/master/images/2021-04-12-gloucester-high-streets.png" alt="Map of the centre of GLouceser with lines plotted along the high streets and a point plotted for Gloucester library"/>
   <figcaption>Gloucester, with multiple high streets leading from the centre, and the library a short way from one of these streets. Contains OS data &copy; Crown copyright and database rights 2021.</figcaption>
 </figure>
-
-
-By grouping high streets that are within 150 metres of one another, there are 3,131 high street destinations in England. Different clustering options give different results, so there's no exact number. The rest of this post also tries to avoid being deceptively precise.
+By grouping high streets that are within 150 metres of one another, there are 3,131 high street destinations in England. Different clustering options give different results, so there's no exact number. The rest of this post tries to avoid being deceptively precise.
 
 ## Libraries and high streets
 
-Public libraries and high streets share footfall and provide mutual benefits. Venues that provide culture and learning should be as welcome to high streets as shopping. It's refreshing to have a location where you can take a break from retail, and still have a great time. In 2020 the Arts Council published [Culture on our High Streets](https://www.artscouncil.org.uk/news-and-announcements/culture-our-high-streets), which looked into these benefits.
+Public libraries and high streets share footfall and are mutually beneficial. Venues that bring culture and learning to the high street should be as welcome as shopping. It's refreshing to have a location where you can take a break from retail, and still have a great time. In 2020 the Arts Council published [Culture on our High Streets](https://www.artscouncil.org.uk/news-and-announcements/culture-our-high-streets), which looked into these benefits.
 
-On behalf of public libraries, Libraries Connected are a part of the Sector Leaders Group which provides insight to the [High Streets Task Force](https://www.highstreetstaskforce.org.uk/). Documents such as [Libraries Deliver: Ambition for Public Libraries in England](https://www.highstreetstaskforce.org.uk/resources/details/?id=5f538224-45be-45a2-96fa-746337e0527a) are listed in high street resources. Libraries are clearly considered to be important to high streets, but there is little available about their relationship. How many libraries are on a high street? What is the proportion of high streets with a library?
+On behalf of public libraries, Libraries Connected are a part of the Sector Leaders Group which provides insight to the [High Streets Task Force](https://www.highstreetstaskforce.org.uk/). Documents such as [Libraries Deliver: Ambition for Public Libraries in England](https://www.highstreetstaskforce.org.uk/resources/details/?id=5f538224-45be-45a2-96fa-746337e0527a) are key high street resources. Libraries are clearly considered to be important to high streets, but there's no information about their relationship. How many libraries are on a high street? What is the proportion of high streets with a library?
 
-Much more could be possible. Both libraries and high streets measure footfall, how do these compare? Do they show similar patterns throughout the day, across the week, and between seasons? For libraries seeing declining visits, is the same true of the associated high street? National patterns can be useful, but there will need to be further exploration at a local level, and sharing the resulting insight.
+Much more could be possible. Libraries and high streets measure footfall, how do these compare? Do they show similar patterns throughout the day, across the week, and between seasons? For libraries seeing declining visits, is the same true of the associated high street? National patterns can be useful, but there will need to be detailed exploration at a local level, and sharing the resulting insight.
 
 ## Not all libraries are the same
 
-Taking a step back, libraries are located in many different areas. Each library will serve a different mix of users who are local residents, shoppers, visitors, etc.
+Taking a step back, libraries are located in different types of areas. Each library will serve a different mix of users who are local residents, shoppers, visitors, etc.
 
 The ONS publish [rural/urban classifications](https://www.ons.gov.uk/methodology/geography/geographicalproducts/ruralurbanclassifications/2011ruralurbanclassification) for areas in England. These classify locations into either rural or urban, and 10 sub-groups. These range from the most urban of 'Major Conurbation', to the mega rural 'Hamlets and Isolated Dwellings in a sparse setting'.
 
@@ -68,15 +66,12 @@ I wouldn't over-emphasise a strategic benefit for libraries to be located on hig
 
 But for high streets, libraries still have a hugely significant presence. Other high street venues may be exclusively located on high streets, but there will be few with comparable numbers to libraries. I estimated that over half of high street destinations have an associated library. Strategies for high street regeneration will need to consider library activity as being a key to attracting visitors. It would also make sense for this to be reflected in the funding available to library services. On the part of libraries, usage data should be made openly available [with the aid of the library open data schemas](https://schema.librarydata.uk/).
 
-For all libraries, an important task is to make appropriate use of data. For those on a high street, the high street data provides essential intelligence. Other datasets such as deprivation and rural/urban classifications can provide further insight.
-
-All public sector organisations can access data on high streets using the [Public Sector Geospatial Agreement](https://www.ordnancesurvey.co.uk/business-government/public-sector-geospatial-agreement).
+All public sector organisations can access high street data using the [Public Sector Geospatial Agreement](https://www.ordnancesurvey.co.uk/business-government/public-sector-geospatial-agreement).
 
 ## Summary
 
 1. There are around 3,500 high street destinations in England and 2,500-3,000 libraries.
-2. Libraries in England are in all rural/urban classifications, with about 75% in urban areas.
-3. Libraries in England are in areas of all deprivation measures.
+2. Libraries in England are in all rural/urban and deprivation classifications
 4. About 25% of English public libraries are on high streets, with 65-70% close to high streets.
 5. Over half of high street destinations in England have a library.
 
