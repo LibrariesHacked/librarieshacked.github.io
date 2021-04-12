@@ -62,11 +62,9 @@ For extra context I compared this to locations of Waterstones book shops. They a
 
 ## Strategies
 
-I wouldn't over-emphasise a strategic benefit for libraries to be located on high streets. Libraries are not retail, and it's likely that a strength is to remain in a variety of locations.
+Libraries are not retail, and it's likely that they are stronger in a variety of locations.
 
-But for high streets, libraries still have a hugely significant presence. Other high street venues may be exclusively located on high streets, but there will be few with comparable numbers to libraries. I estimated that over half of high street destinations have an associated library. Strategies for high street regeneration will need to consider library activity as being a key to attracting visitors. It would also make sense for this to be reflected in the funding available to library services. On the part of libraries, usage data should be made openly available [with the aid of the library open data schemas](https://schema.librarydata.uk/).
-
-All public sector organisations can access high street data using the [Public Sector Geospatial Agreement](https://www.ordnancesurvey.co.uk/business-government/public-sector-geospatial-agreement).
+But for high streets, libraries still have a hugely significant presence. Other venues may be exclusively located on high streets, but there will be few with comparable numbers to libraries. I estimated that over half of high street destinations have an associated library. Strategies for high street regeneration will need to consider library activity as being key to attracting visitors. It would also make sense for this to be reflected in the funding for regeneration. On the part of libraries, usage data should be made openly available [with the aid of the library open data schemas](https://schema.librarydata.uk/).
 
 ## Summary
 
@@ -75,3 +73,4 @@ All public sector organisations can access high street data using the [Public Se
 4. About 25% of English public libraries are on high streets, with 65-70% close to high streets.
 5. Over half of high street destinations in England have a library.
 
+All public sector organisations can access high street data using the [Public Sector Geospatial Agreement](https://www.ordnancesurvey.co.uk/business-government/public-sector-geospatial-agreement).
