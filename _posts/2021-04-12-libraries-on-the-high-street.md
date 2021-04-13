@@ -65,13 +65,11 @@ For extra context I compared this to locations of Waterstones book shops. Almost
 
 Libraries are not retail, and it's good that they remain strong in a variety of locations.
 
-But for high streets, libraries have a hugely significant presence. Other venues may be exclusively located on high streets, but there will be few with comparable numbers to libraries. I estimated over half of high street destinations have an associated library. Strategies for high street regeneration will need to consider library activity as being key to attracting visitors. It would also make sense for this to be reflected in regeneration funding. On the part of libraries, usage data should be made openly available [with the aid of the library open data schemas](https://schema.librarydata.uk/).
+But for high streets, libraries have a hugely significant presence. Other venues may be exclusively located on high streets, but few with comparable numbers to libraries. I estimated over half of high street destinations have an associated library. Strategies for high street regeneration will need to consider library activity as being key to attracting visitors. It would also make sense for this to be reflected in regeneration funding. On the part of libraries, usage data should be made openly available [with the aid of the library open data schemas](https://schema.librarydata.uk/).
 
 ## Summary
 
 1. There are around 3,500 high street destinations in England and 2,500-3,000 libraries.
 2. Libraries in England are in all rural/urban and deprivation classifications
-4. About 25% of English public libraries are on high streets, with 65-70% close to high streets.
+4. About 25% of English public libraries are on high streets, with 65% close to high streets.
 5. Over half of high street destinations in England have a library.
-
-All public sector organisations can access high street data using the [Public Sector Geospatial Agreement](https://www.ordnancesurvey.co.uk/business-government/public-sector-geospatial-agreement).
