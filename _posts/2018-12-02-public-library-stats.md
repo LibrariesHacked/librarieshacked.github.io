@@ -9,13 +9,13 @@ tags:
 published: true
 ---
 
-For a while many people, including me, have complained about the UK public library reliance on CIPFA for national statistics. For a simplification of this process:
+For a while many people, including me, have complained about the UK public library reliance on CIPFA for national statistics. The process is:
 
-1. Library services collect annual data about themselves, usage of their services, and their users, and send this to CIPFA.
-2. CIPFA check and aggregate these, and create reports.
-3. CIPFA provide the reports and data to paying subscribers, and for a one-off purchase cost of £650.
+1. At the end of each financial year library services gather annual data about their services, financial details, and usage, and send this to CIPFA.
+2. CIPFA validate and aggregate these, and create reports.
+3. CIPFA provide the reports and data to paying subscribers, and for a one-off purchase cost of hundreds of pounds.
 
-There is very little available to the public, other than DCMS funded PDF reports for each library service.
+There is little available to the public. For English library services in the past the DCMS have funded PDF reports for each library service.
 
 With increasingly open government (to some extent), data portals, and open data communities, this has left public libraries behind other services in providing information about themselves. An embarassing situation given the nature of libraries.
 
