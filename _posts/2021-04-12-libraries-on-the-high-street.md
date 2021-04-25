@@ -18,16 +18,17 @@ What is a high street? Many streets are called ‘High Street’, but the dictio
 
 ## Defining high streets
 
-By analysing concentrations of retail buildings alongside streets, Ordnance Survey (OS) were able to define and [map Britain’s High Streets](https://www.ordnancesurvey.co.uk/business-government/sectors/public-sector/high-streets).
+By analysing concentrations of retail buildings alongside streets, Ordnance Survey (OS) defined and [mapped Britain’s High Streets](https://www.ordnancesurvey.co.uk/business-government/sectors/public-sector/high-streets).
 
-The Office for National Statistics (ONS) use these to develop intelligence. See [High streets in Great Britain](https://www.ons.gov.uk/peoplepopulationandcommunity/populationandmigration/populationestimates/articles/highstreetsingreatbritain/march2020) for analysis, such as employment and population patterns. This helps understand how high streets are changing, and the effect of regeneration projects.
+The Office for National Statistics (ONS) use this to develop intelligence. See [High streets in Great Britain](https://www.ons.gov.uk/peoplepopulationandcommunity/populationandmigration/populationestimates/articles/highstreetsingreatbritain/march2020) for analysis, such as employment and population patterns. This helps understand how high streets are changing, and the effect of regeneration projects.
 
 There are 6,136 individual high streets in England. Yet more than one street in a single shopping area can count. For example, Gloucester has four streets leading from the centre, with all 4 counted as high streets. It would be useful to combine these to define single destinations.
 
 <figure>
-  <img src="https://raw.githubusercontent.com/LibrariesHacked/librarieshacked.github.io/master/images/2021-04-12-gloucester-high-streets.png" alt="Map of the centre of GLouceser with lines plotted along the high streets and a point plotted for Gloucester library"/>
+  <img src="https://raw.githubusercontent.com/LibrariesHacked/librarieshacked.github.io/master/images/2021-04-12-gloucester-high-streets.png" alt="Map of the centre of Gloucester with lines plotted for the high streets and a point plotted for Gloucester library"/>
   <figcaption>Gloucester, with high streets leading from the centre, and the library a short distance from these. Contains OS data &copy; Crown copyright and database rights 2021.</figcaption>
 </figure>
+
 
 
 
@@ -37,9 +38,9 @@ By grouping high streets within 150 metres of one another, there are 3,131 high 
 
 Venues bringing culture and learning to the high street should be as welcome as retail. Public libraries and high streets share footfall and mutual benefits. It's refreshing to have a location where you can take a break from shopping, and have a great time. In 2020 the Arts Council looked into these benefits with [Culture on our High Streets](https://www.artscouncil.org.uk/news-and-announcements/culture-our-high-streets).
 
-On behalf of public libraries, [Libraries Connected](https://www.librariesconnected.org.uk/) are a part of the Sector Leaders Group which provides insight to the [High Streets Task Force](https://www.highstreetstaskforce.org.uk/). Documents like [Libraries Deliver: Ambition for Public Libraries in England](https://www.highstreetstaskforce.org.uk/resources/details/?id=5f538224-45be-45a2-96fa-746337e0527a) are key high street resources. Libraries are considered important to high streets, but there's no information about their relationship. How many libraries are on a high street? What proportion of high streets have a library?
+On behalf of public libraries, [Libraries Connected](https://www.librariesconnected.org.uk/) are a part of the Sector Leaders Group which provides insight to the [High Streets Task Force](https://www.highstreetstaskforce.org.uk/). Documents like [Libraries Deliver: Ambition for Public Libraries in England](https://www.highstreetstaskforce.org.uk/resources/details/?id=5f538224-45be-45a2-96fa-746337e0527a) are key high street resources. Libraries are important to high streets, but there's no information about their relationship. How many libraries are on a high street? What proportion of high streets have a library?
 
-Much more is possible. Libraries and high streets measure footfall, how do these compare? Do they show similar patterns throughout the day, across the week, and between seasons? For libraries with declining visits, is the same true of the associated high street? National patterns can be useful, but there needs to be detailed exploration at a local level, and sharing any insight.
+Much more is possible. Libraries and high streets measure footfall, how do these compare? Do they show similar patterns throughout the day, across the week, and between seasons? For libraries with declining visits, is the same true of the associated high street? National patterns are useful, but there should be detailed exploration at local levels, with any insight shared.
 
 ## Not all libraries are the same
 
@@ -65,9 +66,9 @@ For extra context I compared this to Waterstones book shops. Almost all were in 
 
 ## Strategy
 
-Libraries are not retail, and remaining in a variety of locations should be seen as a strength. 
+Libraries are not retail, and remaining in a variety of locations is a strength. 
 
-But for high streets, libraries have a hugely significant presence. Other venues may be exclusively located on high streets, but few with comparable numbers to libraries. Strategies and funding for high street regeneration need to consider library activity as essential for attracting visitors. To enable this, libraries should make usage data openly available [with the aid of the library open data schemas](https://schema.librarydata.uk/).
+But for high streets, libraries have a hugely significant presence. Other venues may be exclusively located on high streets, but few with comparable numbers to libraries. Funding and effort towards high street regeneration needs to consider library activity as essential to attracting visitors. To enable this, libraries should make usage data openly available [with the aid of the library open data schemas](https://schema.librarydata.uk/).
 
 ## Summary
 
