@@ -20,19 +20,15 @@ What is a high street? Many streets are called ‘High Street’, but the dictio
 
 By analysing concentrations of retail buildings alongside streets, Ordnance Survey (OS) defined and [mapped Britain’s High Streets](https://www.ordnancesurvey.co.uk/business-government/sectors/public-sector/high-streets).
 
-The Office for National Statistics (ONS) use this to develop intelligence. See [High streets in Great Britain](https://www.ons.gov.uk/peoplepopulationandcommunity/populationandmigration/populationestimates/articles/highstreetsingreatbritain/march2020) for analysis, such as employment and population patterns. This helps understand how high streets are changing, and the effect of regeneration projects.
+The Office for National Statistics (ONS) use this to develop intelligence. See [High streets in Great Britain](https://www.ons.gov.uk/peoplepopulationandcommunity/populationandmigration/populationestimates/articles/highstreetsingreatbritain/march2020) for analysis, such as employment and population patterns. This helps understand high street changes, and the effect of regeneration projects.
 
-There are 6,136 individual high streets in England. Yet more than one street in a single shopping area can count. For example, Gloucester has four streets leading from the centre, with all 4 counted as high streets. It would be useful to combine these to define single destinations.
+There are 6,136 individual high streets in England. Yet more than one street in a single shopping area can count. For example, Gloucester has four streets leading from the centre, with all 4 counting as high streets. It would be useful to combine these to define single destinations.
 
 <figure>
   <img src="https://raw.githubusercontent.com/LibrariesHacked/librarieshacked.github.io/master/images/2021-04-12-gloucester-high-streets.png" alt="Map of the centre of Gloucester with lines plotted for the high streets and a point plotted for Gloucester library"/>
   <figcaption>Gloucester, with high streets leading from the centre, and the library a short distance from these. Contains OS data &copy; Crown copyright and database rights 2021.</figcaption>
 </figure>
-
-
-
-
-By grouping high streets within 150 metres of one another, there are 3,131 high street destinations in England. Different clustering options give different results, so there's not really an exact number. The rest of this post tries to avoid being deceptively precise.
+By grouping high streets within 150 metres of one another, there are 3,131 high street destinations in England. Different clustering options give different results, so there's no exact number. The rest of this post tries to avoid being deceptively precise.
 
 ## Libraries and high streets
 
