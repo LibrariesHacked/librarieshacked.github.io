@@ -16,9 +16,10 @@ I don't currently use a mobile library but I used to. Growing up, the nearest st
 Of course it's not really only nostalgia. Though not a current user it's important to remember what you needed in the past, and mobile libraries serve areas that don't have certain permanent services. And it's a real library - you can look round, and actually browse books. There may be alternative services like drop off points, book containers, home delivery, but they're not actual libraries.
 
 <figure>
-  <img src="https://raw.githubusercontent.com/LibrariesHacked/librarieshacked.github.io/master/images/2021-05-05-devon-mobile-lab.jpg" alt="A labrador sittng nicely in a mobile library"/>
+  <img src="https://raw.githubusercontent.com/LibrariesHacked/librarieshacked.github.io/master/images/2021-05-06-devon-mobile-lab.jpg" alt="A labrador sittng nicely in a mobile library"/>
   <figcaption>Dogs and mobile libraries go well together.</figcaption>
 </figure>
+
 
 ## Digitally appalling
 
