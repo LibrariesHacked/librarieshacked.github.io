@@ -44,21 +44,21 @@ I was once querying this with a service and the response was essentially 'most o
 
 Static libraries are in one place, all the time. It's boring. Where's the library going to be today? The same place as it was yesterday. Will it be open? No, of course not, it's a Tuesday. It will open on Wednesday at 1:30pm (2pm if it's the 5th Wednesday of the month). At the same place? Yes, it's a static library, it's always there.
 
-With mobile libraries, they're only 'shut' when they're on the road, as it would be dangerous otherwise. But when at a stop they're always open, and they go to hundreds of different stops. When not on the road, or at a stop, they effectively doesn't exist. That's better than being closed.
+With mobile libraries, they're only 'shut' when they're on the road, as it would be dangerous otherwise. But when at a stop they're always open, and they go to hundreds of different stops. When not on the road, or at a stop, they effectively don't exist. That's better than being closed.
 
-Mobile libraries involve maps. I love maps. They involve routes. I love routes. They involve interesting geographic places. Not addresses. Addresses are also a bit boring - they all have postcodes and official fields like 'address line 1'. Mobile libraries at located at places like 'Opposite the big tree, down the round from the farm'. Real locations. 
+Looking at mobile libraries involves maps. I love maps. It involves routes. I love routes. They involve interesting geographic places. Not addresses. Addresses are also a bit boring - they all have postcodes and official fields like 'address line 1'. Mobile libraries at located at places like 'Opposite the big tree, down the round from the farm'. Real locations. Geocoding them becomes more of an interesting challenge. Should they use [Plus Codes](https://maps.google.com/pluscodes/)? That would be interesting.
 
 ## Location location location
 
-The previous post on this blog was [libraries on the high street](https://blog.librarydata.uk/libraries-on-the-high-street/), about the geographic location of libraries.
+The previous post on this blog was [libraries on the high street](https://blog.librarydata.uk/libraries-on-the-high-street/), about the strategic location of libraries.
 
-Location is important. I don't know where libraries 'should' be in a changing world. They're already in a variety of locations. I proposed once that it might be useful to have more libraries in out of town shopping areas like retail parks. Not because libraries are similar to those things, but because that's where people are. But someone just said they should definitely stay on the high streets (which they're not necessarily on anyway). 
+Location is important. I don't know where libraries 'should' be in a changing world. They're already in a variety of locations. I proposed once that it might be useful to have more libraries in out of town shopping areas like retail parks. Not because libraries are similar to those things, but because that's where people go. But someone said no, they should definitely stay on the high street (which they're not necessarily on to start with). 
 
 Anyway, the point is that mobile libraries can go anywhere. They could be used to try out loads of different locations. But they don't really - they go to a set batch of stops.
 
-I used to work on a dull industrial estate. At lunchtime a sandwich van would turn up outside the office, which was exciting. But they weren't great sandwiches, the only reason we used the sandwich van was because the only alternative was a greasy spoon, and we'd already been there for breakfast. What would have been amazing though would be a mobile library turning up a lunchtime. The office workers stuck on that industrial estate would have fought desperately to get a chance to go on a mobile library.
+I used to work on a dull industrial estate. At lunchtime a sandwich van would turn up outside the office, which was exciting. But they weren't great sandwiches, the only reason we used the sandwich van was because the only alternative was a greasy spoon, and we'd already been there for breakfast. What would have been amazing would be a mobile library turning up a lunchtime. Those office workers stuck on that industrial estate would have fought desperately to get a chance to go on a mobile library.
 
-I know there are plenty of services that think mobile libraries are expensive, inefficient, and smelly liabilities. That hardly have any users, and breakdown all the time. And then when they need replacing (which they do) they haven't got the money to do it because a replacement library isn't part of their budget, and no one will pay for it.
+I know there are plenty of services that think mobile libraries are expensive, inefficient, and smelly liabilities. That hardly have any users, and breakdown all the time. And when they need replacing (which they do) they haven't got the money to do it because a replacement library isn't part of their budget.
 
 But they're great and they should be invested in.
 
