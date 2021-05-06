@@ -38,7 +38,7 @@ I was once querying this with a service and the response was essentially 'most o
 1.  It implies no new users. Caring about existing users is important, but information needs to also inform new users. 
 2. It's not sustainable. If you say your user base is elderly, and also that you aren't going to attract new users, that's not a sustainable situation.
 3. Online usage is changing. Even if it were true (and it's not) that a current set of elderly mobile library users aren't online, it's not going to be the case forever.
-4. It's self-fulfilling. Maybe this is from using mobile libraries as a child, but I'm not sure that the view of mobile libraries being for the elderly isn't just self-fulfilling. If the mobile library is only promoted through work of mouth in certain communities it won't have a chance to be more widely used.
+4. It's self-fulfilling. Maybe this is from using mobile libraries as a child, but I'm not sure that the view of mobile libraries being for the elderly isn't just self-fulfilling. If the mobile library is only promoted through word of mouth in certain communities it won't have a chance to be more widely used.
 
 ## Exciting
 
