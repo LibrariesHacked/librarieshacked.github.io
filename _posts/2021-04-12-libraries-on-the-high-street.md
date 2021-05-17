@@ -8,7 +8,7 @@ tags:
   - High streets
 ---
 
-High Streets are important. In December there was an announcement of [£830 million funding boost for high streets](https://www.gov.uk/government/news/830-million-funding-boost-for-high-streets), covering 72 regeneration projects.
+High Streets are important. In December there was an announcement of [£830 million funding for high streets](https://www.gov.uk/government/news/830-million-funding-boost-for-high-streets), covering 72 regeneration projects.
 
 > High streets are more than simply shopping areas. They are important hubs for communities and play a big role in entertainment, housing and our health – as highlighted by Public Health England’s [Healthy High Streets research](https://www.gov.uk/government/publications/healthy-high-streets-good-place-making-in-an-urban-setting). They are important for the UK’s economy and for our well-being. 
 >
@@ -66,7 +66,7 @@ For extra context I compared this to Waterstones book shops. Almost all were in 
 
 Libraries are not retail, and remaining in a variety of locations is a strength. 
 
-But for high streets, libraries have a hugely significant presence. Other venues may be exclusively located on high streets, but few with comparable numbers to libraries. Funding and effort towards high street regeneration needs to consider library activity as essential to attracting visitors. To enable this, libraries should make usage data openly available [with the aid of the library open data schemas](https://schema.librarydata.uk/).
+But for high streets, libraries have a hugely significant presence. Other venues may be exclusively located on high streets, but few with comparable numbers to libraries. Funding and regeneration of high streets needs to consider library activity as essential to attracting visitors. To enable this, libraries should make usage data openly available [with the aid of the library open data schemas](https://schema.librarydata.uk/).
 
 ## Summary
 
