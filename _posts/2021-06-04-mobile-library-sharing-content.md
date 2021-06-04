@@ -46,7 +46,7 @@ For example, PDFs are primarily a print format, and some users may want a printo
 
 These can be a created from data. The mobile library API also provides a way of accessing a PDF for each stop. The PDF can be made available by a simple link. Services could list these on their websites.
 
-It's also possible to generate a PDF that lists all stops for a particular mobile, route, or library service. Although many services do this I'm not convinced it's that useful for users. It's harder to navigate and filter PDFs - in many cases it makes finding information about a single stop more difficult.
+It's also possible to generate a PDF that lists all stops for a particular mobile, route, or library service. Although many services do something similar to this I'm not convinced it's that useful for users. It's hard to navigate and filter PDFs - in many cases it makes finding information about a single stop more difficult.
 
 ## Feedback
 
