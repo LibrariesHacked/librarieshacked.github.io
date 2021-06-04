@@ -11,7 +11,7 @@ published: true
 
 The [mobile library project](https://www.mobilelibraries.org/) takes standardised data on mobile library stops, routes, and timetables, and aims to present that information in one place.
 
-However, library services will want to present information on their own library websites. They generally do this currently, but the majority currently break [accessibility requirements for public sector bodies](https://www.gov.uk/guidance/accessibility-requirements-for-public-sector-websites-and-apps). One of the goals of the project was to explore ways in which this information could be made as simple as possible, and presented with accessibility in mind.
+However, library services will want to present information on their own library websites. They do this currently, but the majority break [accessibility requirements for public sector bodies](https://www.gov.uk/guidance/accessibility-requirements-for-public-sector-websites-and-apps). One of the goals of the project was to explore ways in which this information could be made as simple as possible, and presented with accessibility in mind.
 
 Displaying information outside of library websites is fine, but clearly isn't the answer. How do we present mobile library information in a standard, accessible way, and also get it onto library websites?
 
