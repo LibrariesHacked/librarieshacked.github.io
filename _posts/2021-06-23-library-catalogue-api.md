@@ -31,7 +31,7 @@ A national website providing this, and also being able to search multiple catalo
 
 ## Other uses
 
-That's about a digital service we're already pretty familiar with. Searching for a library book.
+That's about improving a digital service we're already pretty familiar with. Searching for a library book.
 
 But there are a range of benefits from a platform that could search multiple library catalogues. The Google Chrome [Library Extension](https://www.libraryextension.com/) can search multiple catalogues for a particular ISBN. You choose your library service and when you are  browsing online shopping sites (e.g. Amazon), the extension will detect the ISBN on the page and search your library service for the book. Coverage in the UK is patchy though. A version built from a single maintained platform could be much better.
 
@@ -43,7 +43,7 @@ An underlying API (application programming interface) would be useful as a digit
 
 Years ago I began a project to create an API that would search any UK public library catalogue. With the results provided as well-formatted data. It works by:
 
-1. Understanding each online catalogue 'type'. For example. Axiell's arena web catalogue. The code can knows how to search and find results from that catalogue.
+1. Understanding each online catalogue 'type'. For example. Axiell's arena web catalogue. The code knows how to search and find results from that catalogue.
 
 2. It uses a [data file](https://github.com/LibrariesHacked/catalogues-api/blob/master/data/data.json) which has UK public library catalogues, what their web address is, and what type they are.
 
@@ -53,12 +53,12 @@ Years ago I began a project to create an API that would search any UK public lib
 [{"service":"Wiltshire","code":"E06000054","availability":[{"library":"Royal Wootton Bassett","available":0,"unavailable":1}],"start":"2021-06-23T06:52:53.140Z","end":"2021-06-23T06:52:59.203Z","url":"https://libraries.wiltshire.gov.uk/web/arena/search?p_p_id=searchResult_WAR_arenaportlets&p_p_lifecycle=1&p_p_state=normal&p_p_mode=view&p_r_p_687834046_facet_queries=&p_r_p_687834046_search_type=solr&p_r_p_687834046_search_query=organisationId_index:AUK000040|1+AND+number_index:9780099478423"}]
 ```
 
-Thhe key part of that data is ```{"library":"Royal Wootton Bassett","available":0,"unavailable":1}``` which tells me there's 1 copy (currently unavailable) in Royal Wootton Bassett. Change the library service name in the request and it would search a different catalogue.
+The key part of that data is ```{"library":"Royal Wootton Bassett","available":0,"unavailable":1}``` which tells me there's 1 copy (currently unavailable) at Royal Wootton Bassett. Change the library service name in the request and it would search a different catalogue.
 
 It can only search by ISBN. This is a problem for many reasons - people want to search by title and author. A particular title could also have loads of different ISBNs.
 
 It's also hard to maintain. Libraries don't change systems too often. But when you're dealing with 200 or so systems then it seems like they do.
 
-But regardless, it is currently working and ready for more publishing and promotion. I'm going to provide documentation so that people can either use the published API with their own services, or they can duplicate it using [the code which is open-source](https://github.com/LibrariesHacked/catalogues-api).
+But regardless, it is currently working and ready for publishing and promotion. I'm going to provide documentation so that people can either use the published API with their own services, or they can duplicate it using [the code which is open-source](https://github.com/LibrariesHacked/catalogues-api).
 
 Look out for it next month.
