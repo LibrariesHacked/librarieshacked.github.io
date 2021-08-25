@@ -10,9 +10,9 @@ published: true
 
 I hate PDFs.
 
-Is that irrational hatred? If it were regardless of context then possibly. So, I'd better clarify: I hate PDFs when they're used to publish important online information.
+Is that irrational? If it were regardless of context then possibly. So, I'd better clarify: I hate PDFs when they're used to publish important online information.
 
-PDF stands for Portable Document Format. And for what they're designed to do, they do it. Transferring documents so that they can be exactly reproduced elsewhere with fixed text and graphics. For example, as a method of sending a document to be printed they're fine.
+PDF stands for Portable Document Format. And for what they're designed to do, they do it. Transferring documents so that they can be accurately reproduced elsewhere with fixed text and graphics. For example, as a method of sending a document to be printed they're fine.
 
 As web content they're not OK. While browsing the web people use a lot of different devices and screen types. Web browsers are specifically designed to display web content, with additional features such as being able to increase the size of text, use screen readers, change contrast, etc. Web content is not fixed text and graphics - on a mobile phone a paragraph may be ten lines, on a desktop, 3 lines.
 
@@ -31,7 +31,7 @@ But as with many public library reports, it was released as PDF. There may be a 
   <figcaption>With PDFs you have to do a lot of zooming and scrolling around the page to read things comfortably.</figcaption>
 </figure>
 
-Publishing it only as a printable document serves so few people it's a staggering thing to do for the sector. Yet it would be unfair to SLIC to wholly single them out - this is a common occurence and comes from trying replicate a print culture on the web.
+Publishing it exclusively as a printable document serves so few people it's a staggering thing to do for the sector. Yet it would be unfair to SLIC to wholly single them out on this. This is a common occurence, and comes from trying replicate a print culture on the web.
 
 ## What to do?
 
