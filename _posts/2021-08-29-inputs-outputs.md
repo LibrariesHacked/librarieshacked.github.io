@@ -8,28 +8,28 @@ tags:
 published: true
 ---
 
-There is a good general principle in understanding data and information: information is an output from processing data. Data in, information out. Things get a lot more complex than that, and it's not a perfect rule, but I quite like it.
+There is a good general principle for data and information: information is an output from processing data. Data in, information out. Things get a lot more complex than that, and it's not a perfect rule, but I quite like it.
 
 <div class="mermaid">
 flowchart LR;
-  Input --> Process;
-  Process --> Output;
-  Output --> Input;
+  Input-->|Data|Process;
+  Process-->|Information|Output;
+  Output-->|Feedback|Input;
 </div>
 
-Data analysis should follow this pattern. The addition of a feedback loop is there to show that it's most effective when you have continuous improvement. You start with your data sources, process them, and end up with information - and hopefully with some expertise you get some insight. Then you adjust things and go back to the start.
+Data analysis should follow this pattern. A feedback loop adds that it's most effective when you have continuous improvement. You start with your data sources, process them, and end up with information - hopefully with some expertise you get some insight. Then you adjust things and go back to the start.
 
 I've noticed that discussions involving public library data rarely involve this idea of data as an input. Some of the key data for public libraries is primarily described as an output. And always specifically an output that is used to show how the quality of the service.
 
-Systems and processes generate data and therefore surely it's fair to say that data is some kind of output? Not really, it would be more accurate to say that data is collected and generated during the running of a system, and is a by-product.
+Well, systems and processes generate data so surely it's fair to say that data is some kind of output? Not really, it would be more accurate to say that data is collected and generated during the running of a system as a by-product.
 
-Or is it just because these are mainly discussions that involve statistics, rather than raw data? [Statistics are different from data](https://libguides.lib.msu.edu/datastats) and can legitimately be argued to be a kind of output from processing data. But these particular statistics tend to be from measures that are so basic that they are at most a summary of the raw data held in the system. For example, they might be a count of loans per month, rather than an actual table of loans.
+Or is it just because these are mainly discussions about statistics, rather than raw data? [Statistics are different from data](https://libguides.lib.msu.edu/datastats) and can legitimately be argued to be a kind of output from data processing. But these particular statistics tend to be so basic that they are at most a summary of the raw data held in the system. For example, they might be a count of loans per year, rather than an actual table of the loans that have occured.
 
-And perhaps that is the problem - the rest of the world has moved on from simple aggregation being considered an output. Where once a report of the count of loans per library per month was seen as management information, processed from a sophisticated library management system, this is now just a loss of detail of the raw data.
+And perhaps that is the problem - we have moved on from simple aggregation being considered an output. Where once a report of the count of loans per library per month was seen as management information, processed from a sophisticated library management system, this is now just a loss of detail.
 
-This mostly comes from outdated performance measurement methodology. Decide what you want to measure and and report on it, at simplistic levels of detail. But data analysis is far more sophisticated, as well as accessible, these days. You can have all the data on library loans merged with data on library and city footfall, as well as all manner of data sources.
+That comes from outdated performance measurement methodology. The theory goes that you decide what you want to measure as being good and and report on it. But data analysis is far more sophisticated, as well as accessible, these days. You can have all the data on library loans merged with data on all manner of data sources that are impossible to pre-define your measures for.
 
-There is no need to use clunky performance measures - provide people with the data to explore and make decisions on the information that results from that process. Data in, information out.
+There is no need to use clunky performance measures - provide people with the data and tools to explore that data. They can then make decisions on the information that results from that analysis.. Data in, information out.
 
 ## Examples
 
