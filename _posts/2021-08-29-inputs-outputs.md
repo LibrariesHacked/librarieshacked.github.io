@@ -1,5 +1,5 @@
 ---
-title: Inside out data outcomes
+title: Inside out data
 excerpt: Mixing up inputs and outputs
 categories:
   - Public libraries
