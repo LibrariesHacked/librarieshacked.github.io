@@ -45,23 +45,21 @@ This was from a recent article about Suffolk libraries. I'd agree with Bruce Lee
 >
 > Public Libraries Online, the article [Inputs, Outputs, and Outcomes - Oh My!](http://publiclibrariesonline.org/2014/12/inputs-outputs-and-outcomes-oh-my/)
 
-Similar to the above, I'm not sure this is correct in what an output is, it just presents it as an simplistic aggregation of data (activity size).
+I'm not sure this is correct in what an output is, it just presents it as a simplistic aggregation of data (activity size).
 
-In both these cases 'outcomes' are raised - as preferential to outputs. This doesn't make any sense if you go back to what an output is. Outcomes in this context generally seem more vague, but in any case would need to go through processing to produce information outputs. Both quantitative and qualitative data are inputs.
+In both these cases 'outcomes' are raised - as preferential to outputs. This doesn't make any sense if you go back to what an output is, which would seem to include outcomes.
 
-## Why does this happen?
+## Why?
 
-I think it's fair to say that a mixed up picture of inputs and outputs, and also perceiving outcomes to be an alternative, is prevalent across the public library sector.
+I think it's fair to say that a mixed up picture of inputs, outputs, and outcomes, is prevalent across the public library sector.
 
 There isn't really a mystery of why this happens:
 
-1. Historic poor performance measures are mistakenly used as reportable outputs
+1. Historic performance measures are used as reportable outputs
 
-2. These declare poor performance, as in general library use is declining
+2. These declare poor performance, as library use is declining
 
 3. Alternatives to this data is sought - 'outcomes'. This is primarily in initiatives to communicate the value of libraries for funding/survival purposes
 
-My full sympathy with library leaders having to go through this, when there are so many better things to be doing. But we are in a decade of accessible and powerful data analysis tools. Within minutes you can take library data on membership and loans and combine with other sources to see things like what demographics visited the library yesterday and who didn't. You can then likely start understanding why. Understanding who isn't using libraries would be of huge practical use. As it is it appears that library services are desperate to get outcome validation from people who already use the service.
-
-I use libraries both for borrowing, as well as using the space, but I consider any outcomes from my library use to be completely personal and of no business of the library! 
+My full sympathy with library leaders having to go through this, when there are so many better things to be doing. But we are in a decade of accessible and powerful data analysis tools. Within minutes you can take library data on membership and loans and combine with other sources to see things like what demographics visited the library yesterday and who didn't. You can then likely start understanding why that was the case. Understanding who isn't using libraries would be of huge practical use rather than worrying about what existing users get from the service, which is none of our business.
 
