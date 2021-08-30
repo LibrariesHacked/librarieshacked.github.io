@@ -8,7 +8,7 @@ tags:
 published: true
 ---
 
-There is a good general principle for data and information: information is an output from processing data. Data in, information out. Things get a lot more complex than that, and it's not a perfect rule, but I like it.
+There is a good general principle for data and information: data in, information out. Things get a lot more complex than that, and it's not a perfect rule, but I like it.
 
 <div class="mermaid">
 flowchart LR;
@@ -17,29 +17,29 @@ flowchart LR;
   Output-->|Feedback|Input;
 </div>
 
-Data analysis should follow this pattern. A feedback loop shows that it's most effective when you have continuous improvement. You start with your data sources, process them, and end up with information - hopefully with some expertise you get some insight. Then you adjust things and go back to the start.
+Data analysis should follow this pattern. A feedback loop shows that it's most effective when you have continuous improvement. You start with your data sources, process them, and end up with information - hopefully with some expertise you can get some insight. Then you adjust things and go back to the start.
 
-I've noticed that discussions involving public library data rarely involve this idea of data as an input. Some of the key data for public libraries is primarily described as an output. And always an output that is used to determine the quality of the service.
+I've noticed that discussions involving public library data rarely involve this idea of data as an input. Some of the key data for public libraries is often described as an output. And always an output used to determine the quality of the service.
 
-Well, systems generate data so surely it's fair to say that data is also some kind of output? Not really, it would be more accurate to say that data is collected and generated during the running of a system as a by-product.
+Well, systems generate data so surely it's fair to say that data is also some kind of output? Not really, it would be more accurate to say that data is collected and generated during the running of a system as a by-product. But to be an information output it still needs to be processed.
 
-Is it just because these are mainly discussions about library statistics, rather than data? [Statistics are different from data](https://libguides.lib.msu.edu/datastats) and can legitimately be argued to be an output from data processing. But these particular statistics tend to be so basic that they are at most a summary of the raw data held in the system. For example, they might be a count of loans per year, rather than an actual table of the loans that have occurred.
+Is it just because these are mainly discussions about library statistics, rather than data? [Statistics are different from data](https://libguides.lib.msu.edu/datastats) and can legitimately be argued to be an output as they have been calculated. But these particular statistics tend to be so basic that they are at most a summary of the raw data held in the system. For example, they might be a count of loans per year, rather than an actual table of the loans that have occurred.
 
-And perhaps that is the problem - we have moved on from simple aggregation being considered an output. Where once a report of the count of loans per library per month was seen as management information, processed from a sophisticated library management system, this is now just a loss of detail from the raw data.
+And perhaps that is the problem - we should have moved on from simple aggregation and counts of data being considered an output. A report of the count of loans per library per month may previously have been management information, processed from a sophisticated library management system, but is now just a loss of detail from the raw data.
 
-That also comes from outdated performance measurement methodology. The theory goes that you decide what you define as good and you report on it. But data analysis is far more sophisticated, as well as accessible, these days. You can have all the data on library loans merged with data on all manner of data sources that make it impossible to pre-define your measures. You simply analyse.
+That also comes from outdated performance measurement methodology. The theory goes that you decide what you define as good and you report on it. So you count loans and if they go up, good. If they go down, bad. But complex data analysis is far more sophisticated, as well as accessible, these days. You can have raw data on library loans merged with data on all manner of data sources that make it impossible to pre-define your measures. You just analyse.
 
 There is no need to use clunky performance measures - provide people with data and tools to explore that data. They can then make decisions on the information that results from that analysis. Data in, information out.
 
 ## Examples
 
-But is this all imagination? It could appear to be vague impression rather than reality, so here are a couple of examples.
+But is this all imagination? Here are a couple of examples.
 
 > Bruce says statistics around libraries often involve outputs, like numbers of books loaned. "What we are really interested in are not just outputs but outcomes."
 >
 > Bruce Leek, from Suffolk Libraries, in the article [How Suffolk libraries have turned the page to a new chapter](https://www.suffolknews.co.uk/mildenhall/how-suffolk-libraries-have-turned-the-page-to-a-new-chapter-9210820/)
 
-This was in a recent article about Suffolk libraries. I'd agree here that number of loans isn't interesting as an output. But that data isn't really an output at all, it's an unprocessed input. If you come at it from that angle, the solution is to start processing it in order to get real insight. However, it seems the proposal is to discard that data in favour of something else.
+This was from a recent article about Suffolk libraries. I'd agree with Bruce Leek here that number of loans isn't really that interesting as an output. But it's also not really an output at all, it's an unprocessed input. If you come at it from that angle, the solution is to start processing it in order to get real insight.
 
 > An output is a measurement of activity size and scope. An outcome shows the social value added. An output is a quantitative measurement. An outcome is generally a qualitative measurement.
 >
@@ -47,19 +47,21 @@ This was in a recent article about Suffolk libraries. I'd agree here that number
 
 Similar to the above, I'm not sure this is correct in what an output is, it just presents it as an simplistic aggregation of data (activity size).
 
-In both these cases 'outcomes' are raised - as preferential to outputs. This doesn't really make any sense if you go back to what an output is. Outcomes generally seem more vague, but in any case also need to go through data processing to produce information outputs.
+In both these cases 'outcomes' are raised - as preferential to outputs. This doesn't make any sense if you go back to what an output is. Outcomes in this context generally seem more vague, but in any case would need to go through processing to produce information outputs. Both quantitative and qualitative data are inputs.
 
 ## Why does this happen?
 
-I think it's fair to say that mixing up inputs and outputs, and also perceiving outcomes to be an alternative, is prevalent across the public library sector.
+I think it's fair to say that a mixed up picture of inputs and outputs, and also perceiving outcomes to be an alternative, is prevalent across the public library sector.
 
 There isn't really a mystery of why this happens:
 
-1. Historic poor performance measures are mistakenly used to provide aggregated data as reportable outputs
-2. These show poor performance as in general library use is declining
-3. Alternatives to these datasets are sought - 'outcomes'. Primarily in initiatives to communicate the value of libraries in terms that aren't numbers
+1. Historic poor performance measures are mistakenly used as reportable outputs
 
-My full sympathy with library leaders having to go through this, but it's a . We are in a decade of accessible and powerful data analysis. Within minutes you can take library data on membership and loans and combine with other sources to see things like what demographics visited the library yesterday. Powerful tools. 
+2. These declare poor performance, as in general library use is declining
 
-In turning against certain data, and seeking out alternative ways of communicating values libraries are letting slide the opportunity of actual useful data analysis that could genuinely dramatically increase use. 
+3. Alternatives to this data is sought - 'outcomes'. This is primarily in initiatives to communicate the value of libraries for funding/survival purposes
+
+My full sympathy with library leaders having to go through this, when there are so many better things to be doing. But we are in a decade of accessible and powerful data analysis tools. Within minutes you can take library data on membership and loans and combine with other sources to see things like what demographics visited the library yesterday and who didn't. You can then likely start understanding why. Understanding who isn't using libraries would be of huge practical use. As it is it appears that library services are desperate to get outcome validation from people who already use the service.
+
+I use libraries both for borrowing, as well as using the space, but I consider any outcomes from my library use to be completely personal and of no business of the library! 
 
