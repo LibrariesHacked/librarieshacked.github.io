@@ -17,19 +17,21 @@ flowchart LR;
   Output-->|Feedback|Input;
 </div>
 
-Data analysis should follow this pattern. Adding a feedback loop shows that it's most effective when you have continuous improvement. You start with data sources, process them, and end up with information - hopefully with expertise you can also gain some insight. Then you adjust things and go back to the start.
+An organisation doing data analysis should follow this pattern. A feedback loop represents that it's most effective when you have continuous improvement. You start with data sources, process them, and end up with information. With expertise you can hopefully gain some insight. Then you adjust things and go back to the start.
 
-I've noticed that discussions involving public library data rarely involve this idea of data as an input. Some of the key data for public libraries is often described as an output. And always an output used to determine the quality of the service.
+I've noticed that discussions involving public library data rarely involve data as an input. The key data for public libraries is often described as an output. And always an output used to determine the quality of the service.
 
 Well, systems generate data so surely it's fair to say that data is also some kind of output? Not really, it would be more accurate to say that data is collected and generated during the running of a system as a by-product. But to be an information output it still needs to be processed.
 
-Is it just because these are mainly discussions about library statistics, rather than data? [Statistics are different from data](https://libguides.lib.msu.edu/datastats) and can legitimately be argued to be an output as they have been calculated. But in library-world these tend to be so basic that they are often just counts of the raw data held in the system. For example, they might be a count of loans per year, rather than the actual table of loans.
+Is it just because these are mainly discussions about library statistics, rather than data? [Statistics are different from data](https://libguides.lib.msu.edu/datastats) and can legitimately be argued to be an output. But in library-world these tend to be so basic that they are often just counts of the raw data held in systems. For example, they might be a count of loans per year, rather than the actual table of loans.
 
 And perhaps that is the problem - we should have moved on from simple aggregation and counts of data being considered an output. A report of the count of loans per library per month may previously have been management information, processed from a sophisticated library management system, but is now just a loss of detail from the raw data.
 
-That also comes from outdated performance methodology. The theory goes that you decide what you think is good and you report on it. So you think if more loans is good, and fewer loans is bad, then all you need is a regular count of loans. But complex data analysis is far more sophisticated, as well as accessible, these days. You can have raw data on library loans merged with data on all manner of data sources that make it impossible to pre-define such measures. You just query the data for insight.
+That also comes from outdated performance methodology. The theory goes that you decide what you think is good and you report on it. So you think if more loans is good, and fewer loans is bad, then all you need is a regular count of loans.
 
-There is no need to use clunky pre-configured performance measures. Provide people with data and tools to explore the raw data. They can then make decisions on the information that results from that analysis process. Data in, information out.
+That can still go on (general use of libraries is still a valid measure), but complex data analysis is far more sophisticated, as well as accessible, these days. You can have raw data on library loans merged with data on all manner of other sources that make it impossible to pre-define what you are looking for. You just query the data for insight.
+
+Provide people with data and tools to explore the raw data. They can then make decisions on the information that results from that analysis process. Data in, information out.
 
 ## Examples
 
@@ -39,7 +41,7 @@ But is this all imagination? Here are a couple of examples.
 >
 > Bruce Leek, from Suffolk Libraries, in the article [How Suffolk libraries have turned the page to a new chapter](https://www.suffolknews.co.uk/mildenhall/how-suffolk-libraries-have-turned-the-page-to-a-new-chapter-9210820/)
 
-This was from a recent article about Suffolk libraries. I'd agree with Bruce Leek here that number of loans isn't that interesting as an output. But it's not really an output at all, it's an unprocessed input. If you come at it from that angle, the task is to start processing it in order to get real insight.
+This was from a recent article about Suffolk libraries. I'd agree with Bruce Leek here that number of loans isn't too interesting as an output. But it's not really an output at all, it's an input. If you come at it from that angle, the task is to start processing it in order to get real insight.
 
 > An output is a measurement of activity size and scope. An outcome shows the social value added. An output is a quantitative measurement. An outcome is generally a qualitative measurement.
 >
