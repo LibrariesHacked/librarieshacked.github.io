@@ -61,6 +61,7 @@ There isn't really a mystery of why this is happening:
 2. These display poor performance, as library use is declining
 3. Alternatives to this data is sought - 'outcomes'. This is primarily in initiatives to communicate the value of libraries for funding/survival purposes
 
-My full sympathy with library leaders having to go through this, when there are so many better things to be doing. But we are in a decade of accessible and powerful data analysis tools. Within minutes you can take library data on membership and loans and combine with other sources for operational insight.
+My full sympathy with library leaders having to go through this, when there are so many better things to be doing. But we are in a time of accessible and powerful data analysis tools. Within minutes you can take library data on membership, and combine it with loans and other open data sources for operational insight.
 
-That may provide important information on things like the people who visited the library yesterday, and who didn't. You can then likely start understanding why that was the case. Understanding who isn't using libraries would be of huge practical use, rather than worrying about what existing users get from the service.
+That may provide important insight such as the communities who visited the library yesterday, and which didn't. You can then start understanding why that was the case. Understanding who isn't using libraries would be of huge practical use. The idea of outcomes seems more concerned with what existing users get from the service, when they're already using it.
+
