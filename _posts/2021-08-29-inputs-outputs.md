@@ -29,9 +29,9 @@ And perhaps that is the problem - we should have moved on from simple aggregatio
 
 That also comes from outdated performance methodology. The theory goes that you decide what you think is good and you report on it. So you think more loans is good, and fewer loans is bad, then all you need is a regular count of loans.
 
-Basic counts of library use is still relevant, but performing more sophisticated data analysis is far more accessible these days. The tools exist to use all the raw data on library loans, alongside data on all manner of other sources. That makes it impossible to pre-define what you are looking for. You just explore the data for insight and treat it as an input.
+Basic counts of library use is still relevant, but performing more sophisticated data analysis is far more accessible these days. The tools exist to use all the raw data on library loans, alongside data on all manner of other sources. That makes it impossible to pre-define what you are looking for. You treat the data sources as inputs and explore them for insight.
 
-Provide people with data and tools to explore the raw data. They can then make decisions on the information that results from that analysis process. Data in, information out.
+Provide people with data to explore it. They can then make decisions on the information that results from that analysis process. Data in, information out.
 
 ## Examples
 
@@ -41,7 +41,7 @@ But is this all in my imagination? Here are a couple of examples.
 >
 > Bruce Leek, from Suffolk Libraries, in the article [How Suffolk libraries have turned the page to a new chapter](https://www.suffolknews.co.uk/mildenhall/how-suffolk-libraries-have-turned-the-page-to-a-new-chapter-9210820/)
 
-This was from a recent article about Suffolk libraries. I'd agree with Bruce Leek here that number of loans is limited as an output. But it's not really an output at all, it's an input. If you come at it from that angle, the task is to start processing it in detail in order to get real insight.
+This was from a recent article about Suffolk libraries. I'd agree with Bruce Leek here that number of loans is limited as an output. But it's not really an output at all, it's an input. If you come at it from that angle, the task is to start processing it in detail in order to get real insight. A greater focus on loans data rather than less.
 
 > An output is a measurement of activity size and scope. An outcome shows the social value added. An output is a quantitative measurement. An outcome is generally a qualitative measurement.
 >
