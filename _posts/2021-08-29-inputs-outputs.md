@@ -39,9 +39,9 @@ But is this all in my imagination? Here are a couple of examples.
 
 > Bruce says statistics around libraries often involve outputs, like numbers of books loaned. "What we are really interested in are not just outputs but outcomes."
 >
-> Bruce Leek, from Suffolk Libraries, in the article [How Suffolk libraries have turned the page to a new chapter](https://www.suffolknews.co.uk/mildenhall/how-suffolk-libraries-have-turned-the-page-to-a-new-chapter-9210820/)
+> Bruce Leeke, from Suffolk Libraries, in the article [How Suffolk libraries have turned the page to a new chapter](https://www.suffolknews.co.uk/mildenhall/how-suffolk-libraries-have-turned-the-page-to-a-new-chapter-9210820/)
 
-This was from a recent article about Suffolk libraries. I'd agree with Bruce Leek here that number of loans is limited as an output. But it's not really an output at all, it's an input. If you come at it from that angle, the task is to start processing it in detail in order to get real insight. A greater focus on loans data rather than less.
+This was from a recent article about Suffolk libraries. I'd agree with Bruce here that number of loans is limited as an output. But it's not really an output at all, it's an input. If you come at it from that angle, the task is to start processing it in detail in order to get real insight. A greater focus on loans data rather than less.
 
 > An output is a measurement of activity size and scope. An outcome shows the social value added. An output is a quantitative measurement. An outcome is generally a qualitative measurement.
 >
