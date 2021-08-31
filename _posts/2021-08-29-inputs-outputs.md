@@ -21,17 +21,15 @@ Data analysis should follow this pattern. Adding a feedback loop allows for cont
 
 I've noticed that discussions involving public library data rarely consider data as an input. Key data for public libraries is often described as an output. And always one used to determine the quality of the service.
 
-Well, systems generate data so isn't it fair to say that data is also some kind of output? Not really, it would be more accurate to say that data is a by-product of systems, as well as an input.
-
-Is it just because these tend to be discussions about library statistics, rather than data, and the term data is mistakenly used interchangeably with statistics? [Statistics are different from data](https://libguides.lib.msu.edu/datastats), and can legitimately be argued to be an output. But in library-world these stats tend to be so basic that they are often just counts of the raw data held in systems. For example, they might be a count of loans per year, rather than the actual table of loans.
+Is it just because these tend to be discussions about library statistics, rather than data, and the term data is mistakenly used interchangeably with statistics? [Statistics are different from data](https://libguides.lib.msu.edu/datastats), and can legitimately be argued to be an output. But in library-world these stats tend to be so basic that they are often just counts of the raw data collected in systems. For example, they might be a count of loans per year, rather than the actual table of loans.
 
 And perhaps that is the problem - we should have moved on from simple aggregation and counts of data being the limit of our data analysis. A report of the count of loans per library may previously have been advanced management information, but it now just looks like a loss of detail from the raw data.
 
-That also comes from outdated performance methodology. The theory goes that you decide what is good performance and you report on it. So if you think more loans is good, and fewer loans is bad, then all you need is a regular count of loans.
+This also comes from a prevalent outdated performance methodology. The theory goes that you decide what is good performance and you report on it. So if you think more loans is good, and fewer loans is bad, then all you need is a regular count of loans. And people then consider that an output.
 
-Basic counts of library use is still relevant for understanding how well the service is used. But performing more sophisticated data analysis is als far easier than it used to be. The tools exist to use the complete raw data on library loans, alongside data on all manner of other sources. That makes it impossible to pre-define what you are looking for. You treat the data sources as inputs and explore them for insight.
+Basic counts of library use are still relevant for understanding how well the service is used. But performing more sophisticated data analysis is far easier than it used to be. The tools exist to use the complete raw data on library loans, alongside data on all manner of other sources. That makes it impossible to pre-define what you are looking for. You treat the data sources as inputs and explore them for insight.
 
-Provide people with library data to explore it. They can then make decisions on the output information from that analysis process. Data in, information out.
+Provide people with library data to explore. They can then make decisions on the information from that analysis process. Data in, information out.
 
 ## Examples
 
