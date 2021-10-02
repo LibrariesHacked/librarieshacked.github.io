@@ -28,3 +28,4 @@ Any content in the blog is published under a [Creative Commons Attribution 4.0 L
 * [Michael Rose](https://github.com/mmistakes) for building the theme
 * [GitHub](https://www.github.com) for hosting
 * All the Jekyll contributors
+
