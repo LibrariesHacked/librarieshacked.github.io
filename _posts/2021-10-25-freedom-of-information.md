@@ -14,11 +14,12 @@ In September I raised a Freedom of Information (FOI) request to UK library servi
 1. Do you complete annual library statistics that you send to CIPFA, and have these been done for financial year 2020/2021?
 2. If so, please provide the data in machine-readable format.
 
-Here's how annual public library statistics currently work.
+Here's how public library statistics currently work.
 
 1. Library services compile data into a spreadsheet each financial year, from various library sources
 2. These spreadsheets are sent to CIPFA by the end of July
 3. CIPFA work on the data, providing reports for corporate subscribers in December.
+4. The public can only ever access machine readable data via Freedom of Information.
 
 <div class="mermaid">
     flowchart LR
@@ -27,17 +28,16 @@ Here's how annual public library statistics currently work.
             direction LR
             lblms[(LMS)]
             lbf[(Finance)]
-            lbw[(Web usage)]
-            lbc[(Computer usage)]
-            lbo[(Other)]
+            lbw[(Website)]
+            lbo[(Others)]
             lb1(Spreadsheet)
         end
         subgraph CIPFA
             direction LR
             id2[Validation]
-            subgraph id3 [Add data]
+            subgraph id3 [More data]
                 direction LR
-                ad1[(Population)]
+                ad1[(e.g Population)]
             end
             id4[Aggregation]
         end
@@ -49,19 +49,18 @@ Here's how annual public library statistics currently work.
         lblms --> lb1
         lbf --> lb1
         lbw --> lb1
-        lbc --> lb1
         lbo --> lb1
         lb1 <--> id2
-        id2 -. Data Errors .-> lb1
+        id2 -. Errors .-> lb1
         id2 --> id3
         id3 --> id4
         id4 --> cs
         lb1 --> foi
 </div>
 
-In this context, I believe the FOI request is reasonable. Public libraries compile their own data - so let's have those individual returns. It won't be aggregated, it won't be quality assured, and it won't have added-value analysis. But, it's public data all the same. Fair enough?
+In this context, I believe the FOI request is reasonable. Public libraries compile their own data - so let's have those individual returns. It won't be aggregated, it won't be quality assured, and it won't have added-value analysis. But, it's public data all the same.
 
-It was more complicated than that! It's obviously an unorthodox request; not just asking for how many libraries they have or something, but it's a valid request.
+It was more complicated than that! It's an unorthodox request; not just asking for how many libraries they have or something, but still valid.
 
 The deadline was 13th October for those FOI requests to be fulfilled. Over half have been completed; many others are still either waiting for an initial response, or going through appeal processes.
 
