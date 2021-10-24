@@ -16,7 +16,7 @@ In September I raised a Freedom of Information (FOI) request to UK library servi
 
 Here's how annual public library statistics currently work.
 
-1. Library services complete a spreadsheet after each financial year, manually gathering lots of data
+1. Library services compile data into a spreadsheet each financial year, from various library sources
 2. These spreadsheets are sent to CIPFA by the end of July
 3. CIPFA work on the data, with reports for corporate subscribers in December.
 
@@ -174,4 +174,4 @@ Many libraries have shown wiling to adjust their normal process. But we need a c
 
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">we will miss <a href="https://twitter.com/CIPFA?ref_src=twsrc%5Etfw">@cipfa</a> day when it&#39;s gone. &quot;there was this day in the year when data collected by public libraries was released. it was 6 months late, and no-one was actually allowed to see it. but we always got a quote from a man from waterstones telling us how inefficient we were&quot;</p>&mdash; Libraries Hacked (@librarieshacked) <a href="https://twitter.com/librarieshacked/status/1203012116468375552?ref_src=twsrc%5Etfw">December 6, 2019</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
-*[CIPFA] The Chartered Institute of Public Finance and Accountancy
+*[CIPFA]: The Chartered Institute of Public Finance and Accountancy

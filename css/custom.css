@@ -11,3 +11,9 @@ table thead {
 table td, table th {
   border: 1px solid #CECFD1 !important;
 }
+
+blockquote {
+  background-color: #fafafa;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
