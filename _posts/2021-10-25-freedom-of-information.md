@@ -6,20 +6,21 @@ categories:
   - Statistics
 tags:
   - CIPFA
+  - Freedom of Information
 published: true
 ---
 
-In September I raised a Freedom of Information (FOI) request to UK library services, with a couple of queries.
+In September I raised a Freedom of Information (FoI) request to UK library services, with a couple of queries.
 
 1. Do you complete annual library statistics that you send to CIPFA, and have these been done for financial year 2020/2021?
-2. If so, please provide the data in machine-readable format.
+2. If so, please provide the data in the original machine-readable format.
 
 Here's how public library statistics currently work.
 
-1. Library services compile data into a spreadsheet each financial year, from various library sources
+1. Library services compile library data into a spreadsheet each financial year
 2. These spreadsheets are sent to CIPFA by the end of July
 3. CIPFA work on the data, providing reports for corporate subscribers in December.
-4. The public can only ever access machine readable data via Freedom of Information.
+4. The public can only ever access data by using Freedom of Information requests.
 
 <div class="mermaid">
     flowchart LR
@@ -35,7 +36,7 @@ Here's how public library statistics currently work.
         subgraph CIPFA
             direction LR
             id2[Validation]
-            subgraph id3 [More data]
+            subgraph id3 [Data added]
                 direction LR
                 ad1[(e.g Population)]
             end
@@ -50,7 +51,7 @@ Here's how public library statistics currently work.
         lbf --> lb1
         lbw --> lb1
         lbo --> lb1
-        lb1 <--> id2
+        lb1 --> id2
         id2 -. Errors .-> lb1
         id2 --> id3
         id3 --> id4
@@ -58,17 +59,17 @@ Here's how public library statistics currently work.
         lb1 --> foi
 </div>
 
-In this context, I believe the FOI request is reasonable. Public libraries compile their own data - so let's have those individual returns. It won't be aggregated, it won't be quality assured, and it won't have added-value analysis. But, it's public data all the same.
+In this context, I believe the request is reasonable. Public libraries compile their own data - so let's have those individual spreadsheets. It won't be aggregated, it won't be quality assured, and it won't have added-value analysis, such as the context of population stats. But, it's public data all the same.
 
 It was more complicated than that! It's an unorthodox request; not just asking for how many libraries they have or something, but still valid.
 
-The deadline was 13th October for those FOI requests to be fulfilled. Over half have been completed; many others are still either waiting for an initial response, or going through appeal processes.
+The deadline was 13th October for those FoI requests to be fulfilled. Over half have been completed; many others are still either waiting for an initial response, or going through appeal processes.
 
-But I've learnt a lot: about FOI, and the difficulties of library statistics.
+But I've learnt a lot: about FoI, and the difficulties of library statistics.
 
 ### Commercial prejudice
 
-There is an exemption in FOI that means you can refuse the request if it's likely to commercially prejudice a person or organisation.
+There is an exemption in FoI that means you can refuse the request if it's likely to commercially prejudice a person or organisation.
 
 Briefing notes for the exemption explain the kind of thing that would apply. For example, if I were requesting information about CIPFAs performance in an existing contract. Or if they were part of a competitive tender, and I requested their rates in order to undercut them. It protects information about a provider that may be commercially unfair to disclose. Even then it needs to be shown that it is likely that the prejudice will happen. It's also subject to a public interest test, with the assumption that disclosure is in the public interest.
 
@@ -84,7 +85,7 @@ A key point here is 'added value data analysis'. CIPFA provide commercial servic
 
 ### Reasonably available
 
-Another option for declining an FOI request is where the information is reasonably available elsewhere. Essentially, don't hassle public services when you can easily get the information yourself.
+Another option for declining an FoI request is where the information is reasonably available elsewhere. Essentially, don't hassle public services when you can easily get the information yourself.
 
 Many services argued that this applied, and again used identical wording:
 
@@ -112,11 +113,11 @@ Guidance is also clear about what counts as information available elsewhere:
 
 Alternative access doesn't apply to CIPFA as the terms at [CIPFA Stats](https://www.cipfa.org/terms-and-conditions/cipfa-stats) are clear that information purchased from CIPFA has highly restrictive conditions of use.
 
-One of the ongoing FOI requests has gone to review, with the accessibility of the CIPFA publication covered.
+One of the ongoing FoI requests has gone to review, with the accessibility of the CIPFA publication covered.
 
 > The price of the CIPFA publication may suggest that the information is not available to the general public but to a particular restricted audience.
 >
-> **FOI legal review conducted on behalf of Merton Council**
+> **FoI legal review conducted on behalf of Merton Council**
 
 That seems correct.
 
@@ -145,7 +146,7 @@ Regardless of this copyright is handled a little differently in Freedom of Infor
 
 > Copyright does not prevent information being disclosed under the Freedom of Information Act
 >
-> **ICO guidance at [Intellectual property rights and disclosures under FOI](https://ico.org.uk/media/for-organisations/documents/1150/intellectual_property_rights_and_disclosures_under_the_foia.pdf)** 
+> **ICO guidance at [Intellectual property rights and disclosures under FoI](https://ico.org.uk/media/for-organisations/documents/1150/intellectual_property_rights_and_disclosures_under_the_foia.pdf)** 
 
 Any intellectual property would remain but not prevent disclosure, and even then copyright would still allow for criticism, review or news reporting.
 
@@ -178,3 +179,4 @@ It needs to be urgently changed, ideally in time for 2021/2022 data returns. How
 Many libraries have shown wiling to adjust their normal process. But we need a combined and sector-led approach.
 
 *[CIPFA]: The Chartered Institute of Public Finance and Accountancy
+*[FoI]: Freedom of Information
