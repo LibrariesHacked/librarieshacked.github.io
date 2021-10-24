@@ -25,7 +25,7 @@ Here's how public library statistics currently work.
 <div class="mermaid">
     flowchart LR
         foi(Freedom of Information)
-        subgraph Library service
+        subgraph Libraries
             direction LR
             lblms[(LMS)]
             lbf[(Finance)]
