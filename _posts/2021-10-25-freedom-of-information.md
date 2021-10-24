@@ -27,6 +27,8 @@ Here's how annual public library statistics currently work.
             direction LR
             lblms[(LMS)]
             lbf[(Finance)]
+            lbw[(Web usage)]
+            lbc[(Computer usage)]
             lbo[(Other)]
             lb1(Spreadsheet)
         end
@@ -39,13 +41,15 @@ Here's how annual public library statistics currently work.
             end
             id4[Aggregation]
         end
-        subgraph cs [Subscribers]
+        subgraph cs [Commercial]
             direction LR
             srp(Reports)
             data[(Data)]
         end
         lblms --> lb1
         lbf --> lb1
+        lbw --> lb1
+        lbc --> lb1
         lbo --> lb1
         lb1 <--> id2
         id2 -. Data Errors .-> lb1
@@ -55,7 +59,7 @@ Here's how annual public library statistics currently work.
         lb1 --> foi
 </div>
 
-In this context, I believe the FOI request is reasonable. Public libraries compile ther own data - so let's have those individual returns. It won't be aggregated, it won't be quality assured, and it won't have added-value analysis. But, it's public data all the same. Fair enough?
+In this context, I believe the FOI request is reasonable. Public libraries compile their own data - so let's have those individual returns. It won't be aggregated, it won't be quality assured, and it won't have added-value analysis. But, it's public data all the same. Fair enough?
 
 It was more complicated than that! It's obviously an unorthodox request; not just asking for how many libraries they have or something, but it's a valid request.
 
