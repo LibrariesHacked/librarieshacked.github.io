@@ -11,17 +11,18 @@ published: true
 
 In September I raised a Freedom of Information (FOI) request to UK library services, with a couple of queries.
 
-1. Do you complete annual library statistics to be sent to CIPFA, and have these been done for financial year 2020/2021?
-2. If so, please provide the data that you compiled in machine-readable format.
+1. Do you complete annual library statistics that you send to CIPFA, and have these been done for financial year 2020/2021?
+2. If so, please provide the data in machine-readable format.
 
 Here's how annual public library statistics currently work.
 
 1. Library services compile data into a spreadsheet each financial year, from various library sources
 2. These spreadsheets are sent to CIPFA by the end of July
-3. CIPFA work on the data, with reports for corporate subscribers in December.
+3. CIPFA work on the data, providing reports for corporate subscribers in December.
 
 <div class="mermaid">
     flowchart LR
+        foi(Freedom of Information)
         subgraph Library service
             direction LR
             lblms[(LMS)]
@@ -51,6 +52,7 @@ Here's how annual public library statistics currently work.
         id2 --> id3
         id3 --> id4
         id4 --> cs
+        lb1 --> foi
 </div>
 
 In this context, I believe the FOI request is reasonable. Public libraries compile ther own data - so let's have those individual returns. It won't be aggregated, it won't be quality assured, and it won't have added-value analysis. But, it's public data all the same. Fair enough?
@@ -171,7 +173,5 @@ It needs to be urgently changed, ideally in time for 2021/2022 data returns. How
 5. Any third parties can use the data to continue their commercial offerings e.g. CIPFA 
 
 Many libraries have shown wiling to adjust their normal process. But we need a combined and sector-led approach.
-
-<blockquote class="twitter-tweet"><p lang="en" dir="ltr">we will miss <a href="https://twitter.com/CIPFA?ref_src=twsrc%5Etfw">@cipfa</a> day when it&#39;s gone. &quot;there was this day in the year when data collected by public libraries was released. it was 6 months late, and no-one was actually allowed to see it. but we always got a quote from a man from waterstones telling us how inefficient we were&quot;</p>&mdash; Libraries Hacked (@librarieshacked) <a href="https://twitter.com/librarieshacked/status/1203012116468375552?ref_src=twsrc%5Etfw">December 6, 2019</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 *[CIPFA]: The Chartered Institute of Public Finance and Accountancy
