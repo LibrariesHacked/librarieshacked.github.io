@@ -119,7 +119,7 @@ Quite a few fabulous library services were concerned about the spreadsheet forma
 West Dunbartonshire for example, have created a lovely looking spreadsheet which even seems ready for appending data to next year.
 
 <figure>
-  <img src="https://raw.githubusercontent.com/LibrariesHacked/librarieshacked.github.io/master/images/2021-10-25-westdunbartonshire-spreadsheet.png" alt="A screenshot of a portion of a spreadsheet provided by West Dunbartonshire libraries showing tabs for General/Collections/Performance/Financial, and a row of data for 2020/2021"/>
+  <img src="https://raw.githubusercontent.com/LibrariesHacked/librarieshacked.github.io/main/images/2021-10-25-westdunbartonshire-spreadsheet.png" alt="A screenshot of a portion of a spreadsheet provided by West Dunbartonshire libraries showing tabs for General/Collections/Performance/Financial, and a row of data for 2020/2021"/>
   <figcaption>A small portion of West Dunbartonshire's annual statistics spreadsheet</figcaption>
 </figure>
 
