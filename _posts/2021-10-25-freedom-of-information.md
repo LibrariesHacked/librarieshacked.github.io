@@ -135,7 +135,7 @@ Another 10 or so have said they plan to do it but haven't yet. As the deadline w
 
 Everyone knows this is broken. The majority of leadership organisations are on board, but none have direct responsibility for data. Many services don't complete data because they can't afford to receive the commercial reports. Plus the reports are marketed around benchmarking and performance management, which isn't what library services need.
 
-Services need to be able to provide data in the knowledge that it will be widely used and shared for insight, and that they'll also gain access to other libraries' data.
+Services need to be able to provide data in the knowledge that it will be widely used and shared for insight, and that they'll also receive free access to other libraries' data.
 
 Urgent change is needed, ideally in time for 2021/2022 data. How about a shift to the following?
 
