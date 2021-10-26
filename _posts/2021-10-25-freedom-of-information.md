@@ -47,7 +47,7 @@ They gave an identically worded reason:
 >
 > **Lots of library services**
 
-CIPFA provide 'added value' services on top of public data, but that doesn't justify exclusive rights to the underlying data, and it doesn't prevent that added-value commercial activity.
+CIPFA provide 'added value' services on top of public data, but that doesn't justify exclusive rights to the underlying data.
 
 ### Reasonably available
 
