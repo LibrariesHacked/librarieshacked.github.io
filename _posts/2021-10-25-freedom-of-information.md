@@ -37,9 +37,9 @@ I've learnt a lot about FoI, and the difficulties of library statistics.
 
 There is an exemption in FoI that means you may be able to refuse if the information is likely to commercially prejudice a person or organisation.
 
-Briefing notes for the exemption explain the kind of thing that would apply. For example, if I were requesting information about CIPFAs performance in an existing contract. Or if they were part of a competitive tender, and I requested their rates in order to undercut them. It protects information that may be commercially unfair to disclose. Even then it needs to be shown that it's likely that the prejudice will happen. It's also subject to a public interest test, with the assumption that disclosure is in the public interest.
+Briefing notes for the exemption explain the kind of thing that would apply. For example, if I were requesting information about CIPFA's performance in an existing contract. Or if they were part of a competitive tender, and I requested their rates in order to undercut them. It protects information that may be commercially unfair to disclose. Even then it needs to be shown that it's likely that the prejudice will happen. It's also subject to a public interest test, with the assumption that disclosure is in the public interest.
 
-Many services argued that providing annual library stats to anyone other than CIPFA would be unfair to CIPFA, as CIPFA sell services based on that data.
+Many services argued that providing annual library stats to anyone other than CIPFA would be unfair, as they sell services based on that data.
 
 They gave an identically worded reason:
 
