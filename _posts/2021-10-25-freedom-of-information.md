@@ -140,7 +140,7 @@ Services need to be able to provide data in the knowledge that it will be widely
 Urgent change is needed, ideally in time for 2021/2022 data. How about a shift to the following?
 
 1. A sector working group will decide what data to collect.
-2. An online form is distributed to library services at the end of this financial year. This will include questions that currently exist - with relevant additions from the working group. All parties will promote this to library services across the UK.
+2. An online form distributed to library services at the end of this financial year. This will include questions that currently exist - with relevant additions from the working group. All parties will promote this to library services across the UK.
 3. Responses to this form will automatically become open data - library services will be able to submit updates/corrections which will be recorded in a log of changes to the data.
 4. Staff and public workshops will give opportunities to analyse and discuss the data.
 5. Any third parties can use the data to continue commercial products e.g. CIPFA 
