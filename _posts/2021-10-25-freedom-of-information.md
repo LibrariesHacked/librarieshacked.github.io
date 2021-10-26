@@ -61,11 +61,11 @@ Many services argued that this applied, and again used identical wording:
 >
 >**Lots of library services**
 
-There are lots of problems with this guidance. For starters, the exemption wouldn't apply as the CIPFA reports haven't been released yet anyway.
+There are lots of problems with this guidance. For starters, the exemption wouldn't apply as CIPFA reports haven't been released yet anyway.
 
-CIPFA provide 'added value data analysis', 5 months after library services compile their data. There are no market prices for the individual data collected by libraries.
+CIPFA provide their added value analysis 5 months after library services compile their data. There are no market prices for the individual data collected by libraries.
 
-ICO guidance is strict in ensuring that this exemption is not used to block access. It would be unfeasible for a member of the public to go to CIPFA for an 'added-value' analysis, as this is an expensive corporate product, not aimed at the public.
+ICO guidance is strict in ensuring that this exemption is not used to block access. It would be unfeasible for a member of the public to go to CIPFA for the underlying library data as this is an expensive data analysis corporate product, not aimed at the public.
 
 > It is unlikely to  be reasonable to require the applicant to purchase a copy of the report if the request is only for a small amount of the information contained in it.
 >
@@ -77,7 +77,7 @@ Guidance is clear what cannot count as information available elsewhere:
 >
 > **ICO guidance on Information reasonable accessible**
 
-Alternative access also doesn't apply to CIPFA, as the terms at [CIPFA Stats](https://www.cipfa.org/terms-and-conditions/cipfa-stats) have highly restrictive conditions of use.
+Alternative access doesn't apply to CIPFA, as the terms at [CIPFA Stats](https://www.cipfa.org/terms-and-conditions/cipfa-stats) have highly restrictive conditions of use.
 
 One of the ongoing FoI requests has gone to review, with aspects of the accessibility of the CIPFA publication covered.
 
