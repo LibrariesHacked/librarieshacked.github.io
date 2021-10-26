@@ -69,7 +69,7 @@ Many services argued that this applied, and again used identical wording:
 >
 >**Lots of library services**
 
-There are lots of problems with this guidance. For starters, the exemption wouldn't apply as CIPFA reports haven't been released yet anyway.
+There are problems with this guidance. For starters, the exemption wouldn't apply as CIPFA reports haven't been released yet.
 
 CIPFA provide their added value analysis 5 months after library services compile their data. There are no market prices for the individual data collected by libraries.
 
@@ -132,7 +132,7 @@ West Dunbartonshire for example, have a lovely looking spreadsheet which even se
 </figure>
 ### What can be done?
 
-Everyone knows this is broken. The majority of leadership organisations are on board, but none have direct responsibility for data. Many services don't complete data because they can't afford to receive the commercial reports. Plus the reports are marketed around benchmarking and performance management, which isn't what library services need.
+Everyone knows this is broken. Leadership organisations are on board, but none have direct responsibility for data. Many services don't complete data because they can't afford to receive the commercial reports. Plus the reports are marketed around benchmarking and performance management, which isn't what library services need.
 
 Services need to be able to provide data in the knowledge that it will be widely used and shared for insight, and that they'll also receive free access to other libraries' data.
 
@@ -142,7 +142,7 @@ Urgent change is needed, ideally in time for 2021/2022 data. How about a shift t
 2. An online form distributed to library services at the end of this financial year. This will include questions that currently exist - with relevant additions from the working group. All parties will promote this to library services across the UK.
 3. Responses to this form will automatically become open data - library services will be able to submit updates/corrections which will be recorded in a log of changes to the data.
 4. Staff and public workshops will give opportunities to analyse and discuss the data.
-5. Any third parties can use the data to continue commercial products e.g. CIPFA 
+5. Third parties can use the data to provide new or existing commercial products e.g. CIPFA 
 
 Many libraries have shown wiling to adjust their normal process. But heads of service need to get together for a combined and sector-led approach.
 
