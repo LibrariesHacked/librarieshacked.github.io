@@ -27,11 +27,19 @@ Here's how public library statistics currently work.
   <figcaption>A diagram of the process of a library service's annual statistics</figcaption>
 </figure>
 
-In this context, I believe the request is fair. Public libraries compile public data - let's have those individual spreadsheets. It won't be aggregated, it won't be validated, and it won't have added-value analysis (e.g. population stats). But it's public data.
+I believe the request is fair. Public libraries compile public data - let's have those individual spreadsheets. It won't be aggregated, or validated, and it won't have added-value analysis (e.g. population stats). But it's public data.
 
-The deadline was 13th October for those FoI requests to be fulfilled. Over half have been completed; many are still waiting for a response, or going through appeal processes.
+The deadline was 13th October for those FoI requests to be fulfilled. Over half have been completed; many are waiting for a response, or going through appeal processes.
 
 I've learnt a lot about FoI, and the difficulties of library statistics.
+
+### No returns and late homework
+
+Some services would normally complete data, but didn't for 2020/2021. Fair enough, they had other things going on. So far over 15 have indicated this.
+
+Not doing it is fine, but it raises the issue that the data collection is an arduous exercise. Some bits should be taken out, such as the list of libraries, which can be maintained separately, as well as loans data which could be automated from systems.
+
+Another 10 or so have said they plan to do it but haven't yet. As the deadline was July, I'm not sure they will! It could be that we see a drop of almost up to a quarter of services this year.
 
 ### Commercial prejudice
 
@@ -122,15 +130,6 @@ West Dunbartonshire for example, have a lovely looking spreadsheet which even se
   <img src="https://raw.githubusercontent.com/LibrariesHacked/librarieshacked.github.io/main/images/2021-10-25-westdunbartonshire-spreadsheet.png" alt="A screenshot of a portion of a spreadsheet provided by West Dunbartonshire libraries showing tabs for General/Collections/Performance/Financial, and a row of data for 2020/2021"/>
   <figcaption>A small portion of West Dunbartonshire's annual statistics spreadsheet</figcaption>
 </figure>
-
-### No returns and late homework
-
-Some services would normally complete data, but didn't for 2020/2021. Fair enough, they had other things going on. So far over 15 have indicated this.
-
-Not doing it is fine, but it raises the issue that the data collection is an arduous exercise. Some bits should be taken out, such as the list of libraries, which could be maintained separately, as well as loans data which should be automated from systems.
-
-Another 10 or so have said they plan to do it but haven't yet. As the deadline was July, I'm not sure they will! It could be that we see a drop of almost up to a quarter of services this year.
-
 ### What can be done?
 
 Everyone knows this is broken. The majority of leadership organisations are on board, but none have direct responsibility for data. Many services don't complete data because they can't afford to receive the commercial reports. Plus the reports are marketed around benchmarking and performance management, which isn't what library services need.
