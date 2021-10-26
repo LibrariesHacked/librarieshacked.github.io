@@ -98,7 +98,7 @@ Performance measures have matured over years from public library requirements. T
 
 If library services started doing their own thing with annual statistics, would they need to significantly diverge from previous data collected? It seems like CIPFA believe so. I wouldn't agree, those measures have been public-sector led, plus many coincide with international performance standards such as [ISO 11620 — Library performance indicators](https://www.iso.org/standard/56755.html). But that's a future debate.
 
-On spreadsheet formatting, CIPFA create the spreadsheet for services, and it has things a pre-built spreadsheet should have, such as field titles. Is it a breach of copyright to disclose that spreadsheet? It's probably worth considering the spreadsheet file format. It's in XLSX format which has copyright to Microsoft. I'm not sure how much intellectual property can be claimed over using a proprietary spreadsheet format in the way it was intended: to transfer machine-readable data.
+On spreadsheet formatting, CIPFA create the spreadsheet for services, and it has things a pre-built spreadsheet should have, such as field titles. Is it a breach of copyright to disclose that spreadsheet? It's probably worth considering the spreadsheet file format. It's in XLSX format which has copyright to Microsoft. I'm not sure how much intellectual property can then be claimed over using a spreadsheet in the way that file format was designed: to transfer machine-readable data.
 
 For some services objecting due to copyright, there was another identically worded response.
 
