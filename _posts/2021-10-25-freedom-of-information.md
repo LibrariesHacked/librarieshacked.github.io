@@ -37,13 +37,13 @@ I've learnt a lot about FoI, and the difficulties of library statistics.
 
 Some services would normally complete data, but didn't for 2020/2021. Fair enough, they had other things going on. So far over 15 have indicated this.
 
-Not doing it is fine, but it raises the issue that the data collection is an arduous exercise. Some bits should be taken out, such as the list of libraries, which can be maintained separately, as well as loans data which could be automated from systems.
+Not doing it is understandable, but it raises the issue that the data collection is an arduous exercise. Some bits should be taken out, such as the list of libraries, which can be maintained separately, as well as loans data which could be automated from systems.
 
-Another 10 or so have said they plan to do it but haven't yet. As the deadline was July, I'm not sure they will! It could be that we see a drop of almost up to a quarter of services this year.
+Another 10 or so have said they plan to do it but haven't yet. As the deadline was July, I'm not sure they will! It could be that we see a significant drop in data this year.
 
 ### Commercial prejudice
 
-There is an exemption in FoI that means you may be able to refuse if the information is likely to commercially prejudice a person or organisation.
+There is an exemption in FoI that means you may be able to refuse if you think the information is likely to commercially prejudice a person or organisation.
 
 Briefing notes for the exemption explain the kind of thing that would apply. For example, if I were requesting information about CIPFA's performance in an existing contract. Or if they were part of a competitive tender, and I requested their rates in order to undercut them. It protects information that may be commercially unfair to disclose. Even then it needs to be shown that it's likely that the prejudice will happen. It's also subject to a public interest test, with the assumption that disclosure is in the public interest.
 
@@ -55,7 +55,7 @@ They gave an identically worded reason:
 >
 > **Lots of library services**
 
-CIPFA provide 'added value' services on top of public data, but that doesn't justify exclusive rights to the underlying data.
+CIPFA provide 'added value' services on top of public data, but that can't justify exclusive rights to the underlying data.
 
 ### Reasonably available
 
