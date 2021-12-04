@@ -21,17 +21,17 @@ There is comprehensive information [on the British Library website](https://www.
 
 3. The library services send the number of loans (including renewals), for each ISBN. This is at 2-monthly reporting periods.
 
-4. For each region, the PLR team have a total loans for each year, taken from CIPFA stats. They will know the PLR reported loans (the 'actuals'), and can apply a multipler to estimate a loans figure for each ISBN (the 'gross'). For example, the sample may have reported a total of 1 million loans. CIPFA may say 2 million loans happened. Therefore PLR can double the number they have.
+4. For each region, the PLR team have a total loans for each year, taken from CIPFA stats. They will know the PLR reported loans (the 'actuals'), and can apply a multiplier to estimate a loans figure for each ISBN (the 'gross'). For example, the sample may have a total of 1 million loans. CIPFA may say 2 million loans happened. Therefore PLR could double the number they have. Because the sample data is reported regularly, while CIPFA reports are released 9 months after the relevant financial year, the previous year's CIPFA totals are used.
 
 5. A total of £6m is distributed to authors, provided by the government, minus administration costs. A minimum payment amount is set to £1 and a maximum of £6,600 per author. Within those thresholds a calculation is made for how much each loan receives. A 'rate per loan' is then decided. See below for recent values.
 
-| 2012 | 2013 | 2014 | 2015 | 2016 | 2017 | 2018 | 2019 |
-| ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- |
-| 6.05p | 6.20p | 6.20p | 6.66p | 7.67p | 7.82p | 8.20p | 8.52p |
+| 2012 | 2013 | 2014 | 2015 | 2016 | 2017 | 2018 | 2019 | 2020 | 2021 |
+| ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- |
+| 6.05p | 6.20p | 6.20p | 6.66p | 7.67p | 7.82p | 8.20p | 8.52p |  |  |
 
 It's a lovely process, and good to see authors paid for the borrowing of their works. Authors tend to be on the side of libraries anyway, but it must help to have some reimbursement. 
 
-I have a minor quibble. I don't like combining loan and renewal data. It treats renewing a book as equivalent to taking it out again. But the act of choosing a particular book, and taking it out from a library, seems far more important than extending the loan period (sometimes automatically). Personally, I renew books either because I've not finished them (too many at once maybe), or because I can't get back to the library by the time it's due. Neither warrants another count on the number of issues. Besides, whenever any kind of data is combined, it removes a level of detail that would be interesting and useful.
+I have a minor quibble. I don't like combining loan and renewal data. It treats renewing a book as equivalent to taking it out again. But the act of choosing a particular book, and taking it out from a library, seems far more important than extending the loan period (sometimes automatically). Personally, I renew books either because I've not finished them (too many at once maybe), or because I can't get back to the library by the time it's due. Neither really amounts to another loan. Besides, whenever any kind of data is combined, it removes a level of detail that would be interesting and useful.
 
 ### Rate per loan
 
@@ -76,7 +76,7 @@ That sounds very good, although may be bad news for LEWIS being updated. Data mu
 
 ### What could it look like?
 
-After exploring the data in a web format, it was interesting to imagine what a PLR dataset could look like as a simple spreadsheet. Maybe something like this (with more rows).
+After exploring the data in a web format, it was interesting to imagine what a PLR dataset could look like as a flat spreadsheet. Maybe something like this (with more rows).
 
 | Year | Reporting period | Service | ISBN | Author | Title | Actual | Gross | 
 | ---- | ---------------- | ------- | ---- | ------ | ----- | ------ | ----- |
@@ -87,3 +87,7 @@ To explain this, between May and June 2015, there were 3 issues in Portsmouth of
 ### Will it be open?
 
 This is down to the British Library, but I don't think there's any sinister reason that it isn't, other than that the demand hasn't been there. So if we want it we need to ask for it! The British Library have a good [Library Labs project](https://www.bl.uk/projects/british-library-labs), which encourages open reuse of various of their collections. And they have also been generally [very good about open data](http://www.bl.uk/bibliographic/datafree.html). So maybe it's just a matter of time.
+
+
+
+[PLR]: Public Lending Right
