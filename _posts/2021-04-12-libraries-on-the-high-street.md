@@ -26,15 +26,16 @@ There are 6,136 individual high streets in England. Yet more than one street in 
 
 <figure>
   <img src="https://raw.githubusercontent.com/LibrariesHacked/librarieshacked.github.io/master/images/2021-04-12-gloucester-high-streets.png" alt="Map of the centre of Gloucester with lines plotted for the high streets and a point for Gloucester library"/>
-  <figcaption>Gloucester centre high streets, and the library a short distance from these. Contains OS data &copy; Crown copyright and database rights 2021.</figcaption>
+  <figcaption>Gloucester centre, and the library. Contains OS data &copy; Crown copyright and database rights 2021.</figcaption>
 </figure>
+
 
 
 By grouping high streets within 150 metres of one another, there are 3,131 high street destinations in England. Different clustering options give different results, so there's no exact number. The rest of this post tries to avoid being deceptively precise.
 
 ## Libraries and high streets
 
-Venues bringing culture and learning to the high street should be as welcome as retail. It's refreshing to have a location where you can take a break from shopping, and still have a great time. In 2020 the Arts Council looked into these benefits with [Culture on our High Streets](https://www.artscouncil.org.uk/news-and-announcements/culture-our-high-streets).
+Venues bringing culture and learning to the high street should be as welcome as retail. With libraries, it's refreshing to have a location where you can take a break from shopping, and still have a great time. In 2020 the Arts Council looked into these benefits with [Culture on our High Streets](https://www.artscouncil.org.uk/news-and-announcements/culture-our-high-streets).
 
 On behalf of public libraries, [Libraries Connected](https://www.librariesconnected.org.uk/) are a part of the Sector Leaders Group which provides insight to the [High Streets Task Force](https://www.highstreetstaskforce.org.uk/). Documents like [Libraries Deliver: Ambition for Public Libraries in England](https://www.highstreetstaskforce.org.uk/resources/details/?id=5f538224-45be-45a2-96fa-746337e0527a) are key high street resources. Libraries are important to high streets, but there's little information about their relationship. How many libraries are on a high street? What proportion of high streets have a library?
 
