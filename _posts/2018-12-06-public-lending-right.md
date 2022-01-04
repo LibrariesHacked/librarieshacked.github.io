@@ -12,42 +12,53 @@ published: true
 The best dataset on UK public library usage is Public Lending Right (PLR).
 
 > PLR is the right for authors to receive payment for the loans of their books by public libraries
+>
+> **British Library** 
 
-There is comprehensive information [on the British Library website](https://www.bl.uk/plr). The process is:
+There is comprehensive information about PLR [on the British Library website](https://www.bl.uk/plr). The process is this:
 
-1. The PLR team select a sample of UK authorities to report borrowing data. The sample represents each of the nine government regions for England plus Northern Ireland, Scotland and Wales. The authorities change at fairly regular intervals. An online [archive of this selection is available](https://www.bl.uk/plr/uk-sample-library-archive).
+1. The PLR team select a sample of library services to report borrowing data. Each of the nine regions for England will be represented, plus Northern Ireland, Scotland and Wales. The services change at regular intervals. An [archive of this selection is available](https://www.bl.uk/plr/uk-sample-library-archive).
 
-2. Authors must apply to PLR and register their books (and each ISBN) to be eligible for annual payments.
+2. Authors must register their books (each ISBN) to be eligible for annual payments.
 
-3. The library services send the number of loans (including renewals), for each ISBN. This is at 2-monthly reporting periods.
+3. Every two months the library services send the number of loans (including renewals), for each ISBN they have loaned.
 
-4. For each region, the PLR team have a total loans for each year, taken from CIPFA stats. They will know the PLR reported loans (the 'actuals'), and can apply a multiplier to estimate a loans figure for each ISBN (the 'gross'). For example, the sample may have a total of 1 million loans. CIPFA may say 2 million loans happened. Therefore PLR could double the number they have. Because the sample data is reported regularly, while CIPFA reports are released 9 months after the relevant financial year, the previous year's CIPFA totals are used.
+4. For each region, the PLR team have a total loans for the year, taken from CIPFA stats. They know the PLR reported loans, and can apply a multiplier to estimate a loans figure for each ISBN. For example, the sample may record 1 million loans. CIPFA may say 2 million loans happened. Therefore PLR would double the numbers they have. Sample data is reported regularly, but CIPFA reports are released 9 months after the relevant financial year. Therefore the previous year's CIPFA totals are used, so the totals are out of sync with the sample data by a year.
 
-5. A total of £6m is distributed to authors, provided by the government, minus administration costs. A minimum payment amount is set to £1 and a maximum of £6,600 per author. Within those thresholds a calculation is made for how much each loan receives. A 'rate per loan' is then decided. See below for recent values.
+5. A total of £6m, provided by the government, is distributed to registered authors, minus administration costs. A minimum payment amount is set to £1 and a maximum of £6,600 per author. Within those thresholds a calculation is made for how much each loan of a registered ISBN receives. This gives a 'rate per loan'. See below for recent values.
 
 | 2012 | 2013 | 2014 | 2015 | 2016 | 2017 | 2018 | 2019 | 2020 | 2021 |
 | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- |
-| 6.05p | 6.20p | 6.20p | 6.66p | 7.67p | 7.82p | 8.20p | 8.52p |  |  |
+| 6.05p | 6.20p | 6.20p | 6.66p | 7.67p | 7.82p | 8.20p | 8.52p | 9.55p | 11.26p |
 
-It's a lovely process, and good to see authors paid for the borrowing of their works. Authors tend to be on the side of libraries anyway, but it must help to have some reimbursement. 
+It's a lovely process, and good to see authors paid for the borrowing of their works. Authors already tend to be on the side of libraries, but it must help to have some reimbursement. 
 
-I have a minor quibble. I don't like combining loan and renewal data. It treats renewing a book as equivalent to taking it out again. But the act of choosing a particular book, and taking it out from a library, seems far more important than extending the loan period (sometimes automatically). Personally, I renew books either because I've not finished them (too many at once maybe), or because I can't get back to the library by the time it's due. Neither really amounts to another loan. Besides, whenever any kind of data is combined, it removes a level of detail that would be interesting and useful.
+I have a minor quibble. I don't like combining loan and renewal data. It treats renewing a book as equivalent to initially choosing to borrow it. But the act of choosing a book, and taking it out from a library, seems far more important than extending the loan period (sometimes automatically). Personally, I renew books either because I've not finished them (too many at once maybe), or because I can't get back to the library by the time it's due. Neither really amounts to another loan. Besides, whenever any kind of data is combined, it removes a level of detail that would be interesting and useful.
 
 ### Rate per loan
 
-The terminology around PLR can be unintentionally misleading. A 'rate per loan' suggests authors are entitled to a fixed amount for each time their books are loaned. But that's not quite correct. The 'pot' of money available for PLR payments is fixed, and the sample data is a way of dividing that up in a proportional way. The rate per loan is a highly changeable value that will depend on the total number of loans for the year, and how many authors/books are signed up for PLR. If more authors sign up to PLR then the rate goes down. If the count of loans goes down then the rate goes up.
+The terminology around PLR can be misleading. A 'rate per loan' suggests authors are entitled to a fixed amount for each time their books are loaned. But the 'pot' of money available for PLR payments is fixed, and the sample data is a method of dividing that up between registered authors. The rate per loan is a highly changeable value that will depend on the total number of loans for the year, and how many authors/books are signed up for PLR. If more authors sign up to PLR then the rate would go down. If the count of loans goes down then the rate goes up.
 
-It is an interesting sitation that this rate is set within PLR legislation. This leads to the government having to pass a change to legislation almost every year to change it. See [the 2018 DCMS announcement](https://www.gov.uk/government/consultations/public-lending-right-plr-rate-per-loan-consultation-for-payments-in-relation-to-the-201718-public-lending-right-scheme-year), proposing to change the rate per loan amount from 8.20 pence to 8.52 pence.
+It is an interesting sitation that this rate is set within PLR legislation. This leads to the government having to consult and pass a change to legislation almost every year to change it. See [the 2018 DCMS announcement](https://www.gov.uk/government/consultations/public-lending-right-plr-rate-per-loan-consultation-for-payments-in-relation-to-the-201718-public-lending-right-scheme-year), proposing to change the rate per loan amount from 8.20 pence to 8.52 pence.
 
 ### Volunteer libraries
 
-There have been concerns that the increase in volunteer libraries, who don't submit loan data to either PLR or CIPFA, strips authors of their right to payment.
+There have been concerns that the increase in volunteer libraries, who don't submit loan data to either PLR or CIPFA, strips authors of their payment.
 
-This isn't really the way it works. If anything, at the moment authors have never been paid more 'per loan' of their works in libraries. But there are effects of volunteer libraries that could damage the confidence of the PLR sampling. It is too hard to generalise about the type of books taken out of volunteer libraries that could lead to an unfair disadvantage to certain authors. But it could be that reduced CIPFA stats, and reduced PLR samples in certain regions could disproportionately affect authors popular in those regions. Perhaps even in certain cities and smaller areas.
+This isn't really the way it works. If anything, authors have never been paid more 'per loan' of their works in libraries. But volunteer libraries not participating could damage the confidence of the PLR sampling. It is too hard to generalise about the type of books taken out of volunteer libraries that could lead to a disadvantage to certain authors. But it could be that reduced CIPFA stats, and reduced PLR samples in certain regions could disproportionately affect authors popular in those regions. Perhaps even in certain cities and smaller areas.
 
 Not representing local borrowing is already a problem with PLR. The sampling looks substantial, but to take [the example of 2017-2018](https://www.bl.uk/britishlibrary/~/media/bl/global/services/plr/pdfs/samples/2017-2018.pdf), the only South West authorities were Bournemouth and Poole. Both right next to each other, and both tucked away quite far down (also awesome places). Authors popular in Bristol and Bath, or in Cornwall, could feel a little aggrieved.
 
 Library systems have PLR reporting built into them, why not extend the sample to include all authorities all of the time? This could be a powerful step in addressing concerns about the current sample, and volunteer libraries. (There are also other problems with volunteer libraries...)
+
+
+### Previous year totals used
+
+This is probably fine. Although loans numbers have steadily been decreasing they are similar enough between neighbouring years that using the previous total is OK.
+
+It's a good example of a problem in the process that would usually be insignificant unless something very unlikely happens. What happens if loans number drop off a cliff but we're then stuck with the previous years total to work our sample up from? Well, that happened.
+
+There's only one really satisfactory answer to this, and that is to make the sample the total i.e. collect data from everyone you can and not rely on a third party dataset.
 
 ### What else could the data be used for?
 
