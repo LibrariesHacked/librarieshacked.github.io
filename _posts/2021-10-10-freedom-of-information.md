@@ -1,6 +1,6 @@
 ---
 title: Freedom of information and library stats
-excerpt: "Or AITA: They won't give me public data"
+excerpt: "They won't give me public data"
 categories:
   - Public libraries
   - Statistics
@@ -10,7 +10,7 @@ tags:
 published: true
 ---
 
-In September I raised a Freedom of Information (FoI) request to UK library services, with a couple of questions.
+In September I sent a Freedom of Information (FoI) request to UK library services, with a couple of questions.
 
 1. Do you complete annual library statistics that you send to CIPFA, and have these been done for financial year 2020/2021?
 2. If so please send the data in the original machine-readable format.
@@ -37,13 +37,13 @@ I've learnt a lot about FoI, and the difficulties of library statistics.
 
 Some services would normally complete data, but didn't for 2020/2021. Fair enough, they had other things going on. So far over 15 have indicated this.
 
-Not doing it is understandable, but it raises the issue that the data collection is an arduous exercise. Some bits should be taken out, such as the list of libraries, which can be maintained separately, as well as loans data which could be automated from systems.
+Not doing it is understandable, but it raises the issue that the data collection is an arduous exercise. Some bits could be taken out, such as the list of libraries, which can be maintained separately, as well as data which could be automated from systems.
 
 Another 10 or so have said they plan to do it but haven't yet. As the deadline was July, I'm not sure they will! It could be that we see a significant drop in data this year.
 
 ### Commercial prejudice
 
-There is an exemption in FoI that means you may be able to refuse if you think the information is likely to commercially prejudice a person or organisation.
+There is an exemption in FoI that means you may be able to decline if you think the information is likely to commercially prejudice a person or organisation.
 
 Briefing notes for the exemption explain the kind of thing that would apply. For example, if I were requesting information about CIPFA's performance in an existing contract. Or if they were part of a competitive tender, and I requested their rates in order to undercut them. It protects information that may be commercially unfair to disclose. Even then it needs to be shown that it's likely that the prejudice will happen. It's also subject to a public interest test, with the assumption that disclosure is in the public interest.
 
