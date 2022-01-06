@@ -23,7 +23,7 @@ There is comprehensive information about PLR [on the British Library website](ht
 
 3. Every two months the library services send data on the number of loans (checkouts and renewals), by ISBN.
 
-4. For each region, the PLR team have an total annual loans figure, taken from annual CIPFA stats. They can then apply a multiplier to their sample data to estimate a loans figure for each ISBN. For example, 1 million loans may have been sampled. CIPFA may report 2 million loans happened. Therefore PLR would double the numbers they have. Sample data is reported regularly, but CIPFA reports are released 9 months after the relevant financial year. Therefore the previous year's CIPFA totals are used.
+4. For each region, the PLR team have a total annual loans figure, taken from annual CIPFA stats. They can then apply a multiplier to their sample to estimate a loans figure for each ISBN. For example, 1 million loans may have been sampled. CIPFA may report 2 million loans happened. Therefore PLR would double the numbers they have. Sample data is reported regularly, but CIPFA reports are released 9 months after the relevant financial year. Therefore the previous year's CIPFA totals are used.
 
 5. A total of £6m of funding is distributed to registered authors and contributors, minus administration costs. A minimum payment amount is set to £1 and a maximum of £6,600. Within those thresholds a calculation is made for how much each loan of a registered ISBN receives. This gives a 'rate per loan'. See below for recent values (in pence).
 
@@ -43,7 +43,7 @@ It is an interesting situation that this rate is set within legislation. This le
 
 ### Volunteer libraries
 
-There have been concerns that having volunteer libraries, who don't submit loan data, means authors are deprived of their payment for those loans.
+There have been concerns that having volunteer libraries, who don't submit loans data, means authors are deprived of their payment for those loans.
 
 That isn't really the way it works, due to the fixed nature of the fund. It's possible that not including volunteer libraries could disadvantage authors who are popular in volunteer libraries, but that's hard to judge. It is more likely that reduced PLR samples in certain regions could disproportionately affect authors popular in those regions. Perhaps even in certain cities and towns.
 
@@ -54,7 +54,7 @@ Not representing local borrowing is already a problem with PLR. The sampling loo
 
 The 'total' loan figures, taken from CIPFA stats, are for the previous financial year. For rough estimation that would normally be fine. Although loans numbers have been steadily decreasing, they're similar enough between neighbouring years.
 
-But disruption is often caused by unforeseen circumstances breaking processes that aren't resilient. What would happen if public library loans numbers dramatically dropped, and the previous years total not that relevant to the current year? Well, for 2020/2021 that happened. The PLR sample will have been considerably smaller than usual, but the CIPFA totals from the previous year relatively normal. The next year, the opposite will be the case. The British Library have explained some of this in [the possible impact on PLR due to lockdown](https://www.bl.uk/britishlibrary/~/media/88440fd32e8d4697bb382446a7993efd.ashx).
+But disruption is often caused by unforeseen circumstances breaking processes that aren't resilient. What would happen if public library loans numbers dramatically dropped, and the previous year total not that relevant to the current year? Well, for 2020/2021 that happened. The PLR sample will have been considerably smaller than usual, but the CIPFA total from the previous year relatively normal. Next year, the opposite will be the case. The British Library have explained some of this in [the possible impact on PLR due to lockdown](https://www.bl.uk/britishlibrary/~/media/88440fd32e8d4697bb382446a7993efd.ashx).
 
 > in next year’s calculation we will use CIPFA data from 1 April 2020 to 31 March  2021, which is likely to be significantly reduced due to the extended periods when public libraries were closed. We expect the PLR sample data for this period will have returned to normal and we will have collected a full year’s worth of loans information
 >
@@ -101,7 +101,7 @@ To explain this, in May and June 2016, there was 1 issue in Manchester Libraries
 
 ### Will it become open?
 
-This is down to the British Library, but I don't think there's any sinister reason that it isn't, other than that the demand hasn't been there. So if we want it we need to ask for it! The British Library have a good [Library Labs project](https://www.bl.uk/projects/british-library-labs), which encourages open reuse of various of their collections. And they have also been generally [very good about open data](http://www.bl.uk/bibliographic/datafree.html). So maybe it's just a matter of time.
+This is down to the British Library, but I don't think there's any sinister reason that it isn't, other than that the demand hasn't been there. So if we want it we need to ask for it! The British Library have a good [Library Labs project](https://www.bl.uk/projects/british-library-labs), which encourages open reuse of their collections. And they have also been generally [good about open data](http://www.bl.uk/bibliographic/datafree.html). So maybe it's just a matter of time.
 
 
 
