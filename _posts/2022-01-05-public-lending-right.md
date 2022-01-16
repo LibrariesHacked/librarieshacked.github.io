@@ -17,7 +17,7 @@ The best dataset on public library usage in the UK is Public Lending Right (PLR)
 
 There is comprehensive information about PLR [on the British Library website](https://www.bl.uk/plr). Here's a summary of how it works:
 
-1. A sample of library services report borrowing data. This includes representation from each of the nine regions in England, plus Northern Ireland, Scotland and Wales. The services change at regular intervals. An [archive of this selection is available](https://www.bl.uk/plr/uk-sample-library-archive).
+1. A sample of library services report borrowing data. This includes representation from each of the nine regions in England, plus Northern Ireland, Scotland and Wales. The library services change at regular intervals. An [archive of this selection is available](https://www.bl.uk/plr/uk-sample-library-archive).
 
 2. Authors must register the ISBNs of their books, audiobooks, and ebooks to be eligible for annual payments.
 
