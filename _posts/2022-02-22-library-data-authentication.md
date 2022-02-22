@@ -11,11 +11,12 @@ published: true
 
 There are a few Libraries Hacked projects that rely on up-to-date data to be useful.
 
-[Library map](https://www.librarymap.co.uk/) gives details of public libraries across the UK, but is using data from a couple of years ago. The data is made out of date by library closures, but also routine changes such as opening hours.
+[Library map](https://www.librarymap.co.uk/) gives details of public libraries across the UK, but is using data from a couple of years ago. The data becomes out of date whenever libraries are closed, but also routine changes such as opening hours aren't updated.
 
 The same for [Mobile libraries](https://www.mobilelibraries.org/), which displays information on mobile library timetables, and [Libraries at home](https://www.librariesathome.co.uk/), which provides various details about your local library service.
 
 To present information publicly you need to either be using a reliable data source, or provide a means to update your own data. As no reliable data sources exist for libraries, the only current option is to provide a way to update the data.
+
 ## A system for libraries
 
 Those projects are designed to work with data that conforms to the [Public library open data  schemas](https://schema.librarydata.uk/). This just means that data from each service needs to have the same fields, and those fields need to follow certain definitions.
@@ -29,6 +30,7 @@ But that's a big ask. There are a few things library services would need:
 2. Tools for using that data after publishing it, providing an incentive to open publishing.
 
 A new(ish) Libraries Hacked project is **[Create - Library data](https://create.librarydata.uk/)**, a website designed to provide **tools designed to aid library services in creating and using library open data.**
+
 ## Authentication
 
 One task for that site is authentication. How can we provide an easy way for library service staff to 'log in' and have access to maintain their own data?
@@ -65,6 +67,8 @@ The login process is now implemented on the Create website, though there are not
 3. If part of the list, an email is sent to them granting them access to their library service (via an 'access token' link)
 4. That link remains valid for 30 days
 4. During those 30 days they can make edits to data either for their own library services, or for all services if they have an Admin account.
+
+There are no passwords, and very few maintenance requirements other than the operational structure of library services changing, which is infrequent.
 
 It is implemented in a way that is not specifically for the Create site - it can also be used for other websites. For example, on [Mobile Libraries](https://www.mobilelibraries.org) it'll be used to allow mobile library drivers to log in with a mobile device and become part of GPS tracking for their mobile library. 
 
