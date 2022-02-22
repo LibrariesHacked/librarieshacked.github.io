@@ -2,13 +2,13 @@
 title: IP data - creating an RSS feed
 excerpt: Use Google apps scripts to make use of IP weekly list data
 categories:
-	- Tutorial
+  - Tutorial
 tags:
-	- Intellectual Property
-	- JavaScript
-	- RSS
-	- XML
-published: false
+  - Intellectual Property
+  - JavaScript
+  - RSS
+  - XML
+published: true
 ---
 
 This is a post in preparation for an IP data hack event being held at Manchester Library on 12th March 2016. The event is being held in a Google Garage, this uses Google Apps Scripts to query the weekly published IP patents journal.
