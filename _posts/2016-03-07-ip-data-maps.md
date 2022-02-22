@@ -1,5 +1,5 @@
 ---
-title: "IP data: mapping applicant postcodes"
+title: IP data - mapping applicant postcodes
 excerpt: Looking at intellectual property trademark and patent location data to produce interactive maps.
 categories:
     - Tutorial
