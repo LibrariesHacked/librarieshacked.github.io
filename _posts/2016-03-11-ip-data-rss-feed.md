@@ -2,9 +2,9 @@
 title: IP data - creating an RSS feed
 excerpt: Use Google apps scripts to make use of IP weekly list data
 categories:
-    - Tutorial
+	- Tutorial
 tags:
-    - Intellectual Property
+	- Intellectual Property
 	- JavaScript
 	- RSS
 	- XML
