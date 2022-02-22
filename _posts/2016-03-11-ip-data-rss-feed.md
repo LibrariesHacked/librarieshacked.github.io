@@ -44,8 +44,8 @@ To create an apps script you need a Google account.
 
 #### Step 1. Create a new Google apps script file
 
-- In your browser, access [Google Drive](https://drive.google.com/drive)
-- Select to create a new file by **New > More > Google Apps Script**.
+* In your browser, access [Google Drive](https://drive.google.com/drive)
+* Select to create a new file by **New > More > Google Apps Script**.
 
 To deploy the script as a webapp it needs to have a method called doGet(). Modify the new file to look like the following:
 

@@ -22,9 +22,9 @@ Those projects are designed to work with data that conforms to the [Public libra
 
 The ideal situation would be that all library services create and maintain that data, either manually or through automation, and publish it openly. The task in providing a national view of that data is to pull together those data sources.
 
-But in reality that's a big ask. There are a few things library services would need for there to be unified open data:
+But that's a big ask. There are a few things library services would need:
 
-1. Tools to create data in the format that it should be in. Having a specification is necessary, but can still be difficult to implement
+1. Tools to create data in the format that it should be in
 2. Somewhere to maintain and publish that data
 2. Tools for using that data after publishing it, providing an incentive to open publishing.
 
@@ -33,8 +33,8 @@ A new(ish) Libraries Hacked project is **[Create - Library data](https://create.
 
 One task for that site is authentication. How can we provide an easy way for library service staff to 'log in' and have access to maintain their own data?
 
-* There could be individual usernames and passwords for anyone requiring access. With over 200 library services, it would be difficult to maintain, with people changing jobs and roles frequently.
-* For less maintenance there could be a single, fixed user account per service. But then people need to share the password around, and what if no-one remembers it?
+* There could be usernames and passwords for anyone requiring access. With over 200 library services, it would be difficult to maintain, with people changing jobs and roles frequently.
+* There could be a single, fixed user account per service. But then people need to share the password around, and what if no-one remembers it?
 * There could be a UK library [Shibboleth software implementation](https://en.wikipedia.org/wiki/Shibboleth_(software)), providing single sign on across identity providers. For example, if staff are logged on to their library service computer, it will automatically log them in to the system. This would require expert set up with each IT service.
 * We could limit access by IP address, for each staff network, and maintain those IP lists. It would mean a lot of management for those IP addresses, and potentially impossible for remote workers.
 
