@@ -60,15 +60,15 @@ There are obvious limitations. Access is purely by email domain, so anyone who h
 
 ## How does it work?
 
-The login process is now implemented on the Create website, though there are not many tools yet to make use of those access rights. How does the process work?
+The login process is now implemented [on the Create website](https://create.librarydata.uk/login), though there are not many tools yet to make use of those access rights. How does the process work?
 
 1. A user enters their email address, such as info@librarieshacked.org
-2. The email domain is validated. If not part of the approved list they are declined.
-3. If part of the list, an email is sent to them granting them access to their library service (via an 'access token' link)
+2. The email domain is validated. If one of the approved list it is accepted.
+3. An email is sent to them granting them access via an 'access token' link
 4. That link remains valid for 30 days
-4. During those 30 days they can make edits to data either for their own library services, or for all services if they have an Admin account.
+4. During those 30 days they can make edits to data for their own library services, or for any service if they have an Admin account.
 
-There are no passwords, and very few maintenance requirements other than the operational structure of library services changing, which is infrequent.
+There are no passwords, little mess, and very few maintenance requirements.
 
 It is implemented in a way that is not specifically for the Create site - it can also be used for other websites. For example, on [Mobile Libraries](https://www.mobilelibraries.org) it'll be used to allow mobile library drivers to log in with a mobile device and become part of GPS tracking for their mobile library. 
 
