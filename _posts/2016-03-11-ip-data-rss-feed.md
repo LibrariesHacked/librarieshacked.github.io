@@ -8,7 +8,7 @@ tags:
 	- JavaScript
 	- RSS
 	- XML
-published: true
+published: false
 ---
 
 This is a post in preparation for an IP data hack event being held at Manchester Library on 12th March 2016. The event is being held in a Google Garage, this uses Google Apps Scripts to query the weekly published IP patents journal.

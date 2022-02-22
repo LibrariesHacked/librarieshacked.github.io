@@ -16,7 +16,6 @@ There are a few Libraries Hacked projects that rely on up-to-date data to be use
 The same for [Mobile libraries](https://www.mobilelibraries.org/), which displays information on mobile library timetables, and [Libraries at home](https://www.librariesathome.co.uk/), which provides various details about your local library service.
 
 To present information publicly you need to either be using a reliable data source, or provide a means to update your own data. As no reliable data sources exist for libraries, the only current option is to provide a way to update the data.
-
 ## A system for libraries
 
 Those projects are designed to work with data that conforms to the [Public library open data  schemas](https://schema.librarydata.uk/). This just means that data from each service needs to have the same fields, and those fields need to follow certain definitions.
@@ -29,8 +28,7 @@ But in reality that's a big ask. There are a few things library services would n
 2. Somewhere to maintain and publish that data
 2. Tools for using that data after publishing it, providing an incentive to open publishing.
 
-A new(ish) Libraries Hacked project is **[Create | Library data](https://create.librarydata.uk/)**, a website designed to provide **tools designed to aid library services in creating and using library open data.**
-
+A new(ish) Libraries Hacked project is **[Create - Library data](https://create.librarydata.uk/)**, a website designed to provide **tools designed to aid library services in creating and using library open data.**
 ## Authentication
 
 One task for that site is authentication. How can we provide an easy way for library service staff to 'log in' and have access to maintain their own data?
