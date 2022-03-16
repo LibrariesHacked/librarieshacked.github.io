@@ -8,19 +8,19 @@ tags:
 published: true
 ---
 
-Open data has become so successful it is being used to justify a review Freedom of Information. The UK government citing the current UK ranking in the Open Data Barometer [to demonstrate the UK is still dedicated to transparency](https://www.gov.uk/government/speeches/freedom-of-information-new-commission). But FOI is an initial stage of Open Data: without those requests an organisation has less guidance as to what to make open. [This telegraph article](http://www.telegraph.co.uk/technology/news/10412374/Information-Commissioner-Open-data-is-no-substitute-for-freedom-of-information.html) highlights that without open data being directed by the public, it can become a tool for government propaganda.
+Open data has become so successful it is being used to justify a review Freedom of Information (FOI), with the government citing the current UK ranking in the Open Data Barometer [to demonstrate the UK is still dedicated to transparency](https://www.gov.uk/government/speeches/freedom-of-information-new-commission). But FOI is an initial stage of Open Data: without those requests, an organisation has less guidance as to what to make open. [An article in The Telegraph](http://www.telegraph.co.uk/technology/news/10412374/Information-Commissioner-Open-data-is-no-substitute-for-freedom-of-information.html) highlights that without open data being directed by the public, it can become a tool for government propaganda.
 
-There is an argument for organisations better linking FOI to open data. As requests are turned into automated open data outputs, requests should gradually reduce, effectively *'ticking off'* each one as a new dataset out in the open. Reducing the number of requests, but not questioning the need.
+There is an argument for organisations to link FOI to open data more. As requests are turned into automated open data outputs, requests would gradually reduce, effectively *'ticking off'* each one as a new dataset out in the open. Reducing the workload and number of requests, but not questioning the need.
 
-#### Technology and data investment
+## Technology and data investment
 
 Even with FOI under challenge, along with general local and central government austerity, there is still considerable investment in technology and data:
 
-- The Department for Culture Media and Sport (DCMS) announced [£10m of available funding](https://www.gov.uk/government/news/10m-internet-of-things-competition-for-uk-cities-launched) to innovate on an Internet of Things competition.  Part of a £40m programme of government investment in IoT data.
+- The Department for Culture Media and Sport (DCMS) announced [£10m of available funding](https://www.gov.uk/government/news/10m-internet-of-things-competition-for-uk-cities-launched) to innovate on an Internet of Things (IoT) competition. Part of a £40m programme of government investment in IoT data.
 - In 2014, the LGA open data incentive scheme encouraged Councils to publish planning licenses, premises licenses (e.g. pubs), and toilets, giving £7000 to each Council that published all 3 to a standard schema. Out of that came such aggregated developments as [the Great British Public Toilet Map.](http://greatbritishpublictoiletmap.rca.ac.uk/)
-- A range of councils have invested in data portals to showcase their datasets.  Examples include [Leeds Data Mill](http://leedsdatamill.org/), [Hampshire Hub](http://www.hampshirehub.net/), and Glasgow's [data launchpad](https://data.glasgow.gov.uk/).
+- A range of councils have invested in data portals to showcase their datasets. Examples include [Leeds Data Mill](http://leedsdatamill.org/), [Hampshire Hub](http://www.hampshirehub.net/), and Glasgow's [data launchpad](https://data.glasgow.gov.uk/).
 
-#### Investment in data, but not libraries
+## Investment in data, but not libraries
 
 With closures and reductions in public library funding, alongside increases in funding for public data initiatives, there is a missing association between libraries and the process of providing information to citizens.
 

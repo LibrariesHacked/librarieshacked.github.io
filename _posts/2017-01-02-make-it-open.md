@@ -9,7 +9,7 @@ tags:
 published: true
 ---
 
-There are good reasons for publishing open data, which is why it has such support from community open data groups, is [encouraged by the government](https://www.gov.uk/government/publications/open-data-white-paper-unleashing-the-potential), and by organisations such as the [Open Data Institute](http://theodi.org/).
+There are good reasons for publishing open data, which is why it has such support from community groups, is [encouraged by the government](https://www.gov.uk/government/publications/open-data-white-paper-unleashing-the-potential), and by organisations such as the [Open Data Institute](http://theodi.org/).
 
 For stretched library services, an open data programme can seem daunting.  But open data is as much about culture and attitude, rather than significant time or money.
 
