@@ -1,6 +1,6 @@
 ---
-title: Library events
-excerpt: Sharing calendar events with libraries and the public
+title: Library events and calendars
+excerpt: Sharing calendar dates with libraries and the public
 categories:
   - Application
 tags:
@@ -12,12 +12,12 @@ Libraries Hacked projects don't always start with a lot of problem analysis. Tha
 
 What are the problems with online event listings for libraries?
 
-## Events outside of libraries
+## Calendar dates outside of libraries
 
-There are a couple of public library organisations sharing event calendars for events related to libraries. These are things that are managed outside of libraries but that are probably useful to get involved in, like World Book Day, or National Reading Group Day.
+There are a couple of public library organisations sharing calendar dates for occasions in the year related to libraries. These are things that are managed outside of libraries but that are probably useful to get involved in, like World Book Day, or National Reading Group Day. They could be actual events with a physical location, or they could just key dates/months.
 
-- [Universal library offers 2022](https://www.librariesconnected.org.uk/resource/universal-library-offers-calendar-2022). A PDF calendar of events curated by Libraries Connected. Each event is linked to the Universal Offers that public libraries provide. In total there are about 50 entries.
-- [SLIC - School Libraries Key Dates](https://scottishlibraries.org/staff-development/school-library-calendar/). A calendar of around 60 events curated by the Scottish Libraries Council. These are primarily for school libraries, but crossover with public library events.
+- [Universal library offers 2022](https://www.librariesconnected.org.uk/resource/universal-library-offers-calendar-2022). A PDF calendar of dates curated by Libraries Connected. Each event is linked to the Universal Offers that public libraries provide. In total there are about 50 entries.
+- [SLIC - School Libraries Key Dates](https://scottishlibraries.org/staff-development/school-library-calendar/). A calendar of around 60 events and dates curated by the Scottish Libraries Council. These are primarily for school libraries, but crossover with public library events.
 
 Even this relatively low volume of data is in need of digital transformation. How can someone interested in this information currently use it?
 
@@ -29,22 +29,22 @@ There are some immediate things that could be done with this information.
 1. Transform into data and store in a database
 2. Allow the data to be maintained by the original owners (e.g. Libraries Connected).
 3. Make it available on the web in HTML format. This information should be viewable in web browsers across multiple devices.
-4. Allow people to integrate it into their own calendars. Some people use a google calendar, some Outlook, some Apple, etc. They should be able to add a selection (or all) of these events quickly to their own calendar software.
+4. Allow people to integrate it into their own calendars. Some people use a google calendar, some Outlook, some Apple, etc. They should be able to add a selection (or all) of these dates quickly to their own calendar software.
 5. Provide options for alerts and reminders. Are you interested in a particular event? Receive an alert over your preferred channel (email, SMS, mobile push, etc).
 
-That's a rough design for a shared event calendar for national events. Relatively easy and low maintenance. But what about ALL library events?
+That's a rough design for a shared event calendar for national dates. Relatively easy and low maintenance. But what about ALL library events?
 
-## Events in libraries
+## Events held in libraries
 
-If you're storing event information in a database, why not also include local library events? You could then have a comprehensive calendar of events that can be tailored to an individual's location.
+If you're storing calendar information in a database, why not also include local library events? You could then have a comprehensive calendar of events that can be tailored to an individual's location.
 
 This starts to tackle some existing problems with library events.
 
-1. They are not always marketed well online, because public libraries don't do online marketing very well.
+1. They are not always promoted, because public libraries don't have the skills for online marketing.
 2. If marketed at all, it is often to only the existing membership or social media base.
-3. There aren't good ways of bringing them to the attention of 'general' library users. For example, people from a neighbouring library authority.
+3. There aren't good ways of bringing them to the attention of non-members. For example, people from a neighbouring library authority.
 
-These are good reasons for a combined library events calendar. If you could sign up to receive alerts for events in your area, you could be informed of events from across library services.
+These are good reasons for a combined library events calendar. If you could sign up to receive alerts for events in your area, you could be informed of events from across all library services.
 
 What needs to be done to expand to all library events:
 
@@ -53,6 +53,6 @@ What needs to be done to expand to all library events:
 - Ensure local events are recorded with a location and library. This means people can choose to not see events that they are nare not geographically relevant to them
 - Also allow online events. This would mean anyone could 'attend' some library events, regardless of their location.
 
-There are a couple of starting points for this. The [create.librarydata.uk](https://create.librarydata.uk/) site allows for login and data maintenance, so could be used for managing data. A [data schema](https://schema.librarydata.uk/) could be developed to define what makes up an calendar event, for both local library events and national ones. It's also not worth reinventing the wheel - there will be plenty of existing data structures for events such [Event - on schema.org](https://schema.org/Event).
+There are some starting points for this. The [create.librarydata.uk](https://create.librarydata.uk/) site allows for login and data maintenance, so could be used for managing data. A [data schema](https://schema.librarydata.uk/) could be developed to define what makes up an calendar event, for both local library events and national ones. It's also not worth reinventing the wheel - there will be plenty of existing data structures for events such [Event - on schema.org](https://schema.org/Event).
 
 Any thoughts on this? Combined event listings is a missing element of digital library services, and anything that can be done to promote events would be useful.
