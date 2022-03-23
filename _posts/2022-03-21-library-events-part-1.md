@@ -21,8 +21,8 @@ There are a couple of public library organisations sharing calendar dates for oc
 
 Even this relatively low volume of data is in need of digital transformation. How can someone interested in this information currently use it?
 
-1. Print it out and have it on a desk/wall. Hardly environmentally friendly, or in keeping with remote and flexible working arrangements.
-2. Open up the file to look at every now and again. Fiddly. And too low-tech. You shouldn't have to open up a PDF file at regular intervals to be informed of what's going on.
+- Print it out and have it on a desk/wall. Hardly environmentally friendly, or in keeping with remote and flexible working arrangements.
+- Open up the file to look at every now and again. Fiddly. And too low-tech. You shouldn't have to open up a PDF file at regular intervals to be informed of what's going on.
 
 There are some immediate things that could be done with this information.
 
@@ -41,9 +41,9 @@ If you're storing calendar information in a database, why not also include local
 
 This starts to tackle more problems with events held in libraries.
 
-1. They are not always promoted, because public libraries don't have the skills or resources for online marketing.
-2. If marketed at all, it's often only to the existing membership or social media base.
-3. There aren't good ways of highlighting events to people from neighbouring library authorities.
+- They are not always promoted, because public libraries don't have the skills or resources for online marketing.
+- If marketed at all, it's often only to the existing membership or social media base.
+- There aren't good ways of highlighting events to people from neighbouring library authorities.
 
 These are good reasons for a combined library events calendar. If a user could sign up to receive alerts for events in their area, they'd be informed of events from across all library services.
 
