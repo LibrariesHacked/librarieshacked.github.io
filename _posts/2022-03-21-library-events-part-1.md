@@ -51,8 +51,8 @@ What needs to be done to expand to all library events?
 
 - Allow library services to add and edit their own events
 - Integrate with existing event platforms such as Eventbrite, to include events managed elsewhere
-- Ensure local events are recorded with a location and library. This means people can choose to not see events that they are nare not geographically relevant to them
-- Also allow online events. This would mean anyone could 'attend' some library events, regardless of their location.
+- Ensure local events are recorded with a location and library so people can filter based upon location.
+- Also list online events. This would mean anyone could 'attend' some library events, regardless of their location.
 
 There are some starting points for this. The [create.librarydata.uk](https://create.librarydata.uk/) site allows for login and data maintenance, so could be extended for managing event data. A [data schema](https://schema.librarydata.uk/) could be developed to define what makes up an calendar event, for both local library events and national ones. But it's also not worth reinventing the wheel - there will be plenty of existing data structures for events such [Event - on schema.org](https://schema.org/Event).
 
