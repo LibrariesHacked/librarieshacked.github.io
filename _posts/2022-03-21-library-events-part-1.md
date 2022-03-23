@@ -45,7 +45,7 @@ This starts to tackle more problems with events held in libraries.
 - If marketed at all, it's often only to the existing membership or social media base.
 - There aren't good ways of highlighting events to people from neighbouring library authorities.
 
-These are good reasons for a combined library events calendar. If a user could sign up to receive alerts for events in their area, they'd be informed of events from across all library services.
+These are good reasons for a combined library events calendar. If a user could sign up to receive alerts for events in their area, they could be informed of events from different library services.
 
 What needs to be done to expand to all library events?
 
