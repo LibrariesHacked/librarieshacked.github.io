@@ -8,13 +8,13 @@ tags:
 published: true
 ---
 
-It's [Shakespeare Week](https://www.shakespeareweek.org.uk/) this week (he was a kind of blogger from the old days). How do I know this? I can't say I've seen any big advertising for it. There were some Shakespeare questions on University Challenge, but there always are. But it's listed in the Libraries Connected [Universal library offers calendar 2022](https://www.librariesconnected.org.uk/resource/universal-library-offers-calendar-2022).
+It's [Shakespeare Week](https://www.shakespeareweek.org.uk/) this week (he was a kind of blogger from the old days). How do I know this? I can't say I've seen any big advertising for it. There were some Shakespeare questions on University Challenge, but there always are. I saw it through the listing in the Libraries Connected [Universal library offers calendar 2022](https://www.librariesconnected.org.uk/resource/universal-library-offers-calendar-2022).
 
-Libraries Hacked projects don't always start with a lot of problem analysis. Prototypes often shortcut analysis to get onto rapid development, hopefully with some ethical and useful purpose. But in this case let's have a think about a problem first - what are the problems with marketing of library events?
+Libraries Hacked projects don't always start with a lot of problem analysis. Prototypes often shortcut analysis to get onto rapid development, hopefully with an ethical and useful purpose. But in this case let's have a think about a problem first - what are the problems with the marketing of library events?
 
 ## Events outside of libraries
 
-There are a couple of public library organisations sharing calendar dates for occasions in the year related to libraries. Like Shakespeare Week, these are things that are managed outside of libraries but that are probably useful to get involved in, like World Book Day, or National Reading Group Day. They could be actual events with a physical location, or they could just key dates/months.
+There are a couple of public library organisations sharing calendar dates for occasions related to libraries. Like with Shakespeare Week, these are things that are managed outside of libraries but that are probably useful to get involved in, like World Book Day, and National Reading Group Day. They could be actual events with a physical location, or they could be key dates/months.
 
 - [Universal library offers 2022](https://www.librariesconnected.org.uk/resource/universal-library-offers-calendar-2022). A PDF calendar of dates curated by Libraries Connected. Each event is linked to the Universal Offers that public libraries provide. In total there are about 50 entries.
 - [SLIC - School Libraries Key Dates](https://scottishlibraries.org/staff-development/school-library-calendar/). A calendar of around 60 events and dates curated by the Scottish Libraries Council. These are primarily for school libraries, but crossover with public library events.
@@ -33,13 +33,13 @@ There are some immediate things that could be done with this information.
 5. Provide options for alerts and reminders. Are you interested in a particular event? Receive an alert over your preferred channel (email, SMS, mobile push, etc).
 6. Integrate with automated advertising across social media channels.
 
-That's a rough design for a shared event calendar for national dates. Relatively easy and low maintenance. But what about ALL library events?
+That's a rough design for a shared event calendar for national dates. Relatively straightforward and low maintenance. But what about ALL library events?
 
 ## Events held in libraries
 
-If you're storing calendar information in a database, why not also include local library events? You could then have a comprehensive calendar of events that can be tailored to an individual's location.
+If you're storing calendar information in a database, why not include local library events? You could then have a comprehensive calendar of events, that can be tailored to an individual's location.
 
-This starts to tackle more problems with events held in libraries.
+This starts to tackle more problems with library events.
 
 - They are not always promoted, because public libraries don't have the skills or resources for online marketing.
 - If marketed at all, it's often only to the existing membership or social media base.
