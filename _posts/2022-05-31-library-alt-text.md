@@ -9,12 +9,12 @@ tags:
 published: true
 ---
 
-What is alt text? Short for alternative text, it is the text added to images online to act as an alternative representation of the image.
+What is alt text? Short for alternative text, it is the text added to images on webpages to act as an alternative description of the image.
 
 It’s known as ‘alt’ text because that is the name of the HTML attribute used for storing the text.  
 
 ```html
-<img src='bookcase.jpg' alt='A boy lying on top of a bookcase in a children’s library, with his face in the books'/>
+<img src='bookcase.jpg' alt='A boy lying on top of a bookcase in a children’s library, with his face in the books'>
 ```
 
 It's useful because many people are either blind or partially-sighted, and use screen reading software to read content on the web. Images cannot be easily read, so it's important to provide a text alternative.
@@ -81,6 +81,6 @@ The bot has been running about a month (started end of April 2022). There are 4 
 | 16th May - 22nd May | 2528   |
 | 23rd May - 29th May | 2420   |
 
-Pretty inconclusive so far. The second week was a bumper week for tweets that didn't have alt text, but the others have all been roughly the same. Will keep an eye on it.
+It's pretty inconclusive so far. The second week was a bumper week for tweets that didn't have alt text, but the others have all been roughly the same. It would be good to get those numbers down significantly.
 
 The bot will also be extended to analyse more about the tweets - for example particularly highlighting tweets that have images and no text at all.
