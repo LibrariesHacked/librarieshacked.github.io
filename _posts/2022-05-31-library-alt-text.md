@@ -11,7 +11,7 @@ published: true
 
 What is alt text? Short for alternative text, it is the text added to images on webpages to act as an alternative description of the image.
 
-It’s known as ‘alt’ text because that is the name of the HTML attribute used for storing the text.  
+It’s known as &lsquo;alt&rsquo; text because that is the name of the HTML attribute used for storing the text.  
 
 ```html
 <img src='bookcase.jpg' alt='A boy lying on top of a bookcase in a children’s library, with his face in the books'>
@@ -25,11 +25,11 @@ People will interact with web images using different tools. Content editors need
 
 ## Social media bots
 
-I saw someone called [Matt Eason](https://twitter.com/matteason/) had created a ‘bot’ Twitter account called [UK Gov Alt Bot](https://twitter.com/matteason/status/1513803852394414087), to highlight whenever a government account (central gov and cabinet ministers) posted an image without alt text. It does this by 'quote tweeting' them (a retweet with additional content), adding a helpful link on social media accessibility. Alongside this, there's a [UK Council Alt Bot](https://twitter.com/UKCouncilAltBot) for local government accounts, as well as [US Gov Alt Bot](https://twitter.com/USGovAltBot) for the US Federal Government. 
+I saw someone called [Matt Eason](https://twitter.com/matteason/) had created a &lsquo;bot&rsquo; Twitter account called [UK Gov Alt Bot](https://twitter.com/matteason/status/1513803852394414087), to highlight whenever a government account (central gov and cabinet ministers) posted an image without alt text. It does this by quote tweeting them (a retweet with additional content), adding a helpful link on social media accessibility. Alongside this, there's a [UK Council Alt Bot](https://twitter.com/UKCouncilAltBot) for local government accounts, as well as [US Gov Alt Bot](https://twitter.com/USGovAltBot) for the US Federal Government. 
 
 Despite the negative perception, and Elon Musk’s pronouncement that he would [defeat the bots or die trying](https://twitter.com/elonmusk/status/1517215066550116354), Twitter doesn't discourage bot accounts. Many bots can be useful and a key part of Twitter.
 
-> Bots actually come in all shapes and sizes, and chances are, you’re already following one that you like. Like a COVID-19 bot that alerts you to vaccine availability in your area, an earthquake bot that alerts you to tremors in your region, or an art bot that delivers a colorful dose of delight on your timeline. 
+> &ldquo;Bots actually come in all shapes and sizes, and chances are, you’re already following one that you like. Like a COVID-19 bot that alerts you to vaccine availability in your area, an earthquake bot that alerts you to tremors in your region, or an art bot that delivers a colorful dose of delight on your timeline.&rdquo;
 >
 > **Twitter Blog** [The secret world of good bots](https://blog.twitter.com/common-thread/en/topics/stories/2021/the-secret-world-of-good-bots)
 
