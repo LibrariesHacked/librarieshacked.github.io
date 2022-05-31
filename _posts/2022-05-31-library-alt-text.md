@@ -1,5 +1,5 @@
 ---
-title: Library alt text
+title: A library alt text bot
 excerpt: Creating a bot to promote library web accessibility
 categories:
   - Accessibility
@@ -11,23 +11,24 @@ published: true
 
 What is alt text? Short for alternative text, it is the text added to images on webpages to act as an alternative description of the image.
 
-It’s known as &lsquo;alt&rsquo; text because that is the name of the HTML attribute used for storing the text.  
+It’s known as alt text because that is the HTML attribute used for storing the text.  
 
 ```html
-<img src='bookcase.jpg' alt='A boy lying on top of a bookcase in a children’s library, with his face in the books'>
+<img src='bookcase.jpg'
+     alt='A boy lying on top of a bookcase with his face in the books'>
 ```
 
-It's useful because many people are either blind or partially-sighted, and use screen reading software to read content on the web. Images cannot be easily read, so it's important to provide a text alternative.
+It's useful because many people are either blind or partially-sighted, and use screen reading software to read online content. Images cannot be easily read, so it's important to provide a text alternative.
 
-People will interact with web images using different tools. Content editors need to appreciate that there are different ways of using the web, but not to prefer one over any others. Just use existing web standards to create accessible content. Detailed information on web accessibility is available in the [Web Content Accessibility Guidelines (WCAG) 2.1 (w3.org)](https://www.w3.org/TR/WCAG21/).
+People will interact with web images using different tools. Content editors need to appreciate that there are different ways of using the web, and not prefer one over any others. Just use existing web standards to create accessible content. Detailed information on web accessibility is available in the [Web Content Accessibility Guidelines (WCAG) 2.1 (w3.org)](https://www.w3.org/TR/WCAG21/).
 
  When creating content on social media the same applies.
 
 ## Social media bots
 
-I saw someone called [Matt Eason](https://twitter.com/matteason/) had created a &lsquo;bot&rsquo; Twitter account called [UK Gov Alt Bot](https://twitter.com/matteason/status/1513803852394414087), to highlight whenever a government account (central gov and cabinet ministers) posted an image without alt text. It does this by quote tweeting them (a retweet with additional content), adding a helpful link on social media accessibility. Alongside this, there's a [UK Council Alt Bot](https://twitter.com/UKCouncilAltBot) for local government accounts, as well as [US Gov Alt Bot](https://twitter.com/USGovAltBot) for the US Federal Government. 
+I saw someone called [Matt Eason](https://twitter.com/matteason/) had created a bot Twitter account called [UK Gov Alt Bot](https://twitter.com/matteason/status/1513803852394414087), to highlight whenever a government account (central gov and cabinet ministers) posted an image without alt text. It does this by quote tweeting them (a retweet with additional content), adding a helpful link on social media accessibility. Alongside this, there's a [UK Council Alt Bot](https://twitter.com/UKCouncilAltBot) for local government accounts, as well as [US Gov Alt Bot](https://twitter.com/USGovAltBot) for the US Federal Government. 
 
-Despite the negative perception, and Elon Musk’s pronouncement that he would [defeat the bots or die trying](https://twitter.com/elonmusk/status/1517215066550116354), Twitter doesn't discourage bot accounts. Many bots can be useful and a key part of Twitter.
+Despite the negative perception, and Elon Musk’s odd pronouncement that he would [defeat the bots or die trying](https://twitter.com/elonmusk/status/1517215066550116354), Twitter doesn't discourage bot accounts. Bots are a key part of Twitter.
 
 > &ldquo;Bots actually come in all shapes and sizes, and chances are, you’re already following one that you like. Like a COVID-19 bot that alerts you to vaccine availability in your area, an earthquake bot that alerts you to tremors in your region, or an art bot that delivers a colorful dose of delight on your timeline.&rdquo;
 >
@@ -39,7 +40,7 @@ Alt text bots seemed like a great idea. The accounts tweet their own messages, r
 
 It seemed worthwhile to do a library version. Libraries are public facing, and subject to the same accessibility legislation as other public sector organisations. Library web content should be for everyone, and there are few services that have a greater need for accessibility.
 
-In library services there is a significant amount of bad practice with images and social media. Lots of services design posters, with key information in image format only, and post these onto social media. Sometimes there is no text in the post at all - just the image without alt text. To someone using a screen reader all they know is that their library service has shared an image with no additional information. It could be a picture of a cat, or it could be a notification that the library is closed that day.
+There is a significant amount of bad practice with images and social media. It's common to see library services tweet out posters, with key information in image format only, and publish these on social media without any corresponding text. In many cases this is the only place the information is published. To someone using a screen reader all they know is that their library has shared an image. It could be a funny photo of a cat, or it could be a notification that the library is closed that day.
 
 So, I created the [library alt text bot](https://twitter.com/LibraryAltText).
 
@@ -83,4 +84,4 @@ The bot has been running about a month (started end of April 2022). There are 4 
 
 It's pretty inconclusive so far. The second week was a bumper week for tweets that didn't have alt text, but the others have all been roughly the same. It would be good to get those numbers down significantly.
 
-The bot will also be extended to analyse more about the tweets - for example particularly highlighting tweets that have images and no text at all.
+The bot will be enhanced to analyse more about the tweets - for example, particularly highlighting tweets that include an image and no text at all.
