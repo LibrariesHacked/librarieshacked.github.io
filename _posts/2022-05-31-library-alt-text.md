@@ -15,14 +15,14 @@ It’s known as alt text because that is the HTML attribute used for storing the
 
 ```html
 <img src='bookcase.jpg'
-alt='A boy lying on top of a bookcase with his face in the books'>
+     alt='A boy with his head in a library bookcase'>
 ```
 
 It's useful because many people are either blind or partially-sighted, and use screen reading software to read online content. Images cannot be easily read, so it's important to provide a text alternative.
 
-People will interact with web images using different tools. Content editors need to appreciate that there are different ways of using the web, and not prefer one over any others. That's why there are web standards to creating accessible content. Detailed information on web accessibility is available in the [Web Content Accessibility Guidelines (WCAG) 2.1 (w3.org)](https://www.w3.org/TR/WCAG21/).
+People will use different tools to browse content online. Content editors need to appreciate that there are different ways of using the web, and not prefer one over any others. That's why there are web standards to creating accessible content. Detailed information on web accessibility is available in the [Web Content Accessibility Guidelines (WCAG) 2.1 (w3.org)](https://www.w3.org/TR/WCAG21/).
 
- The same applied for content on social media.
+ The same applies for content on social media.
 
 ## Social media bots
 
@@ -40,7 +40,7 @@ Alt text bots seemed like a great idea. The accounts tweet their own messages, r
 
 It seemed worthwhile to do a library version. Libraries are public facing, and subject to the same accessibility legislation as other public sector organisations. Library web content should be for everyone, and there are few services that have a greater need for accessibility.
 
-There is a significant amount of bad practice with images and social media. It's common to see library services tweet out posters, with key information in image format only, and publish these on social media without any corresponding text. In many cases this is the only place the information is published. To someone using a screen reader all they know is that their library has shared an image. It could be a funny photo of a cat, or it could be a notification that the library is closed that day.
+There is a significant amount of current bad practice. It's common to see library services tweet out posters, with key information only in image format, publishing these on social media without any corresponding text. In many cases this is the only place the information is published. To someone using a screen reader all they know is that their library has shared an image. It could be a funny photo of a cat that's squashed itself into a box, or it could be a notification that the library is closed that day.
 
 So, I created the [library alt text bot](https://twitter.com/LibraryAltText).
 
