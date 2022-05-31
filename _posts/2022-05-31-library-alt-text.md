@@ -15,18 +15,18 @@ It’s known as alt text because that is the HTML attribute used for storing the
 
 ```html
 <img src='bookcase.jpg'
-     alt='A boy lying on top of a bookcase with his face in the books'>
+alt='A boy lying on top of a bookcase with his face in the books'>
 ```
 
 It's useful because many people are either blind or partially-sighted, and use screen reading software to read online content. Images cannot be easily read, so it's important to provide a text alternative.
 
-People will interact with web images using different tools. Content editors need to appreciate that there are different ways of using the web, and not prefer one over any others. Just use existing web standards to create accessible content. Detailed information on web accessibility is available in the [Web Content Accessibility Guidelines (WCAG) 2.1 (w3.org)](https://www.w3.org/TR/WCAG21/).
+People will interact with web images using different tools. Content editors need to appreciate that there are different ways of using the web, and not prefer one over any others. That's why there are web standards to creating accessible content. Detailed information on web accessibility is available in the [Web Content Accessibility Guidelines (WCAG) 2.1 (w3.org)](https://www.w3.org/TR/WCAG21/).
 
- When creating content on social media the same applies.
+ The same applied for content on social media.
 
 ## Social media bots
 
-I saw someone called [Matt Eason](https://twitter.com/matteason/) had created a bot Twitter account called [UK Gov Alt Bot](https://twitter.com/matteason/status/1513803852394414087), to highlight whenever a government account (central gov and cabinet ministers) posted an image without alt text. It does this by quote tweeting them (a retweet with additional content), adding a helpful link on social media accessibility. Alongside this, there's a [UK Council Alt Bot](https://twitter.com/UKCouncilAltBot) for local government accounts, as well as [US Gov Alt Bot](https://twitter.com/USGovAltBot) for the US Federal Government. 
+I saw that someone called [Matt Eason](https://twitter.com/matteason/) had created a bot Twitter account called [UK Gov Alt Bot](https://twitter.com/matteason/status/1513803852394414087), to highlight whenever a government account (central gov and cabinet ministers) posted an image without alt text. It does this by quote tweeting them (a retweet with additional content), adding a helpful link on social media accessibility. Alongside this, there's a [UK Council Alt Bot](https://twitter.com/UKCouncilAltBot) for local government accounts, as well as [US Gov Alt Bot](https://twitter.com/USGovAltBot) for the US Federal Government. 
 
 Despite the negative perception, and Elon Musk’s odd pronouncement that he would [defeat the bots or die trying](https://twitter.com/elonmusk/status/1517215066550116354), Twitter doesn't discourage bot accounts. Bots are a key part of Twitter.
 
@@ -85,3 +85,5 @@ The bot has been running about a month (started end of April 2022). There are 4 
 It's pretty inconclusive so far. The second week was a bumper week for tweets that didn't have alt text, but the others have all been roughly the same. It would be good to get those numbers down significantly.
 
 The bot will be enhanced to analyse more about the tweets - for example, particularly highlighting tweets that include an image and no text at all.
+
+Twitter have recently done lots of work on making the platform more accessible, and publish a guide for [how to add image descriptions](https://help.twitter.com/en/using-twitter/add-image-descriptions). Elon Musk does not bother himself with alt text.
