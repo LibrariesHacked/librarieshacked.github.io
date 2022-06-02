@@ -33,7 +33,7 @@ What are the dangers of the situation my local library provides? My innocent sce
 
 It's not hugely far fetched, or even particularly unlikely. Many people will use the same PIN for multiple services, even for banking. They assume PINs are held securely.
 
-When considering password security it's important to remember that you're not only protecting your own service and the data held within that. The risks aren't only that someone see someone else's address, and what books they are currently been reading. The risk is that you compromise all the user's accounts, and they have all their money stolen.
+When considering password security it's important to remember that you're not only protecting your own service and the data held within that. The risks aren't just that a user's library account may be seen, such as their personal details and books they're reading. The risk is that you compromise all the user's accounts, and they have all their money stolen.
 
 How long has it been standard to encrypt passwords in systems? Hard to say exactly, but it was more common to see plain text passwords a couple of decades ago, but even then not in big systems. Libraries need to do better at this - library systems aren't things used by a tiny amount of people - we want the whole population to have library cards.
 
