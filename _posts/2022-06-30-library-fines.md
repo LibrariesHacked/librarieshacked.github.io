@@ -59,7 +59,7 @@ It's not easy trying to create a standardised dataset from over 200 library serv
 
 ### Adult/child fines
 
-When collecting data I wanted to separate out the charge applied to children. There were variations on what was considered a child: many services had policies that varied between 0-5, under 12s, under 16s, and under 18s. For standardisation I took the view that a child was anyone under 18.
+When collecting data I wanted to separate out the charge applied to children. There were variations on what was considered a child: many services had policies that varied between 0-5, under 12s, under 16s, and under 18s.
 
 Some services set policies based upon the book type rather than user profile, such as a child board book, and adult fiction. This seemed more like pretending to fine the book, not the person. So they'd fine adult fiction returned late, even by children, but not children’s books returned late. That's still fining children. An argument could be that otherwise a parent could take out their adult fiction books on their child's library card, and escape fines. But that's the kind of worry that comes from having meetings that go on too long. Keep those meetings short and policies will become much simpler.
 
