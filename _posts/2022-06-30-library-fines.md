@@ -33,13 +33,13 @@ This is all possible analysis from core library data. But no service has release
 
 Loss of income was more understandable - removing fines will reduce the income coming into the library. It may be more efficient: some services have discovered that they spent as much time collecting and managing fines as the income amounted to, as well as increasing stock levels. But it would still be an initial loss. 
 
-The difficulty of losing that income needs to be weighed up against the cost of living crisis. That income is not from wider local government funds - it is directly from library users that will need it for essentials like utilities, clothes, and food. Fines aren't in anyone’s household budget, but can be a demand that comes at any time, largely through them simply forgetting to renew their books.
+The difficulty of losing that income needs to be weighed up against the cost of living crisis. That income is not from wider local government funds - it is directly from library users that need it for essentials like utilities, clothes, and food. Fines aren't in anyone’s household budget, but can be an sudden and unexpected demand, largely caused by simply forgetting to renew a book.
 
-A fine can quickly escalate to large amounts. Why would someone return books to the library if they were going to have to pay £20 for being late, and they need that to feed their family? It's more likely they will abandon going to the library.
+A fine can quickly escalate to large amounts. Why would someone return books to the library if they were going to have to pay £20 for being late, and they need that to feed their family? It's more likely they'll stop using the library.
 
 ## Research on fines
 
-To get a better idea of the situation in UK libraries I completed a data collection exercise gathering the following information from all services:
+To get a better idea of the situation in UK libraries I gathered the following information from all services:
 
 * Fines collected from children
 * Fines collected from adults
@@ -59,28 +59,28 @@ It's not easy trying to create a standardised dataset from over 200 library serv
 
 ### Adult/child fines
 
-When collecting data I wanted to separate out the charge applied to children. There were variations on what was considered a child: many services had policies that varied between 0-5, under 12s, under 16s, and under 18s.
+I wanted to separate out the charge applied to children. There were variations on age ranges: many services had policies that varied between 0-5, under 12s, under 16s, and under 18s.
 
-Some services set policies based upon the book type rather than user profile, such as a child board book, and adult fiction. This seemed more like pretending to fine the book, not the person. So they'd fine adult fiction returned late, even by children, but not children’s books returned late. That's still fining children. An argument could be that otherwise a parent could take out their adult fiction books on their child's library card, and escape fines. But that's the kind of worry that comes from having meetings that go on too long. Keep those meetings short and policies will become much simpler.
+Some services set policies based upon the borrowed book type rather than user profile, such as a child board book, and adult fiction. This seemed more like pretending to fine the book, not the person. For example, an adult fiction book returned late would receive a fine, even if borrowed by a child, but a children's book would not. That's still fining children. An argument could be that otherwise a parent could take out their adult fiction books on their child's library card, and escape fines. But that's the kind of worry that comes from having meetings that go on too long. Keep those meetings short and policies will become much simpler.
 
 For standardisation, I took the child fine as being the fine a 17 year old would receive if returning an adult fiction item late.
 
-### Fine amount
+### Fine levels
 
-Some logic behind fines justifies them as a small incentive to returning a book on time. The thought of being fined 5p or 10p may be the difference between someone making an extra effort to get them back to the library promptly for the next borrower. And there are still relatively small fines, such as 20p per week up to a maximum of a £2. But there are also huge fines. One service charges 60p per day, up to £13.80, per item.
+Some logic behind fines justifies them as a small incentive to returning a book on time. The thought of being fined 5p or 10p may be the difference between someone making an extra effort to return a book promptly for the next borrower. And there still exist relatively small fines, such as 20p per week up to a maximum of £2. But there are also huge fines. One service charges 60p per day, up to £13.80, per item.
 
 Larger amounts seemed unfeasible in encouraging anyone to return a book. I can't imagine many people bringing back a novel that could cost them around £5 to buy, and paying a fine closer to £15.
 
 ### Notifications
 
-It can also be argued that library fines are acceptable, as a library sends warning notifications a few days before a book goes overdue. That being the case, what's the excuse for not renewing or returning a book?
+It can also be argued that library fines are acceptable, as libraries send warning notifications a few days before a book goes overdue. That being the case, what's the excuse for not renewing or returning a book?
 
-In one case though I discovered a library service sending these email notifications 8 days after the books go overdue - with a 40p a day fine before they alerted users to the situation. They then charged an extra £1 admin fee for the notification, a process that is simple automation with low costs. At the point at which the user receives the alert the fine is £4.20.
+In one case though I discovered a library service sending these email notifications 8 days after the books go overdue - with a 40p per day fine before they alerted users to the situation. They then charged an extra £1 admin fee for the notification, a process that is simple automation with low costs. At the point at which the user receives the alert the fine is £4.20.
 
 In that case the notification process goes from being something that reduces fines and encourages return of items, to something that is purely income generation, at the expense of users.
 
 ### Fine interval
 
-Primarily libraries fined on a daily basis with an increase each day. This increase was only normally only on days the library was open.
+Primarily libraries fined on a daily basis with an increase each day. This increase was normally only on days the library was open.
 
 A small proportion of libraries fined on a weekly basis, which generally amounted to lower amounts overall. There were also complicated policies where the fine differed from week to week, meaning the library service had to list the fine amount for each of the 11 weeks a book could be late before hitting the maximum. Again, meetings should be kept short to stop this kind of thing from happening.
