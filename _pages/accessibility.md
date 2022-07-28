@@ -1,7 +1,7 @@
 ---
 title: Accessibility
 permalink: /accessibility/
-author_profile: true
+author_profile: false
 ---
 
 I want as many people as possible to be able to use this website. For example, that means you should be able to:
