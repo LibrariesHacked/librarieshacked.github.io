@@ -36,17 +36,17 @@ But what in particular is broken? Yes, the websites and services have poor usabi
 
 In November I was approached by a web developer. Enthusiastic about libraries in their local area they wanted to create a new and more accessible way of browsing the library catalogue (no, it wasn't me!). They had asked their library service, via freedom of information, for data on the titles in the catalogue, in spreadsheet format.
 
-This isn't an odd request. It should be a situation that we jump at the chance of fulfilling. People creating software for interacting with their library? Great, get them access too that data!
+This isn't an odd request. It should be a situation that we jump at the chance of fulfilling. People creating software for interacting with their library? Great, get them access to that data!
 
 Unfortunately the library service replied that it wouldn't be possible to provide the data within the £600 freedom of information limit. On appeal, arguing that it should be easily achievable from digital records, the service then insisted they were exempt from the request as the online catalogue already provided search facilities.
 
-It would be easy to be critical of the service. To say they were either overly protective of the data, or even intentionally obstructive. But I think they can be taken at face value. They likely don't have the required knowledge to do it, and would have to go to the supplier, costing well over £600. But the member of the public is sent away disappointed with poor service.
+It would be easy to be critical of the service. To say they were either overly protective of the data, or even intentionally obstructive. But I think they can be taken at face value. They likely don't have the required knowledge to do it, and would have to go to the supplier, costing over £600. But the member of the public is sent away disappointed with poor service.
 
 That's (partly) what is broken. The library catalogue is the primary data held by a library management system, it shouldn't be a problem to extract catalogue data. The problem is the skills and training for staff to be able to do it, and the lack of options for third parties to directly integrate with the system.
 
-If there isn't the investment in basic library system administration, what likelihood is there to be expertise in digital service skills like content design and user experience?
+If there isn't basic capability in library system administration, what likelihood is there for digital service skills like content design and user experience?
 
-There are encouraging words from the British Library showing they fully appreciate this, and are looking at helping library services. But there will only be so much they can be responsible for.
+There are encouraging words from the British Library showing they appreciate this, and are looking at helping library services. But there will only be so much they can be responsible for.
 
 > we think that there is scope to develop patterns and designs that local libraries can use and re-work to improve their own websites and digital presences
 >
@@ -56,9 +56,9 @@ There are encouraging words from the British Library showing they fully apprecia
 
 Digital projects are never delivered to organisations with immediate success. Whether it's an Intranet, a new Document Management System, or whatever. After implementation they need to be understood, adopted, and used effectively.
 
-The tech industry can be guilty of solutionism by selling software as a fix for a problem, when it is a tool to be used by people. But on the other side, organisations (e.g. libraries) can buy in software without considering the time and investment they need to put in. Funding rarely goes far enough to appreciate that whatever it costs to implement, you'll need a lot more after that.
+The tech industry can be guilty of selling software as a fix for a problem, when it is a tool to be used by people. But on the other side, organisations (e.g. libraries) can buy in software without considering the time and investment they need to invest. Funding rarely goes far enough to appreciate that whatever it costs to implement, you'll need a lot more after that.
 
-It's all very well for voices across the sector to demand 'where's the single digital presence?', but it's as relevant to ask library services how they are preparing for it. For all the work being done by the British Library to research and advise, more will be needed from each library service to make it a success.
+It's all very well for voices across the sector to demand 'where's the single digital presence?', but it's as relevant to ask library services how they are preparing for it. For all the work being done by the British Library to research and advise, far more will be needed from each library service to make it a success.
 
 ### We need multiple digital presences
 

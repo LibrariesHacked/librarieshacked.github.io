@@ -18,7 +18,7 @@ With the lockdown, and focus on online services, there has been fresh talk about
 >
 > **<cite>British Library single digital presence survey</cite>**
 
-It will be interesting to see answers from senior managers. As a member of the public looking through library websites, they weren't great. But how many library managers would say their online service scores a 1?
+It will be interesting to see answers from senior managers. As a member of the public looking through library websites, they weren't great. But how many library managers would admit their online service scores a 1?
 
 It could be useful to highlight the worst examples. But it may not be effective in encouraging change, so this is a list of areas that seem like they could be improved. Also highlighting library services that were impressive.
 
@@ -31,7 +31,7 @@ Simplicity was definitely welcome when looking for information. I want to go to 
 1. Keep information on as few levels as possible. One homepage with links to everything the library offers. Make it clear which link is the one people need.
 2. Make contacting the service easy. Have a prominent phone number and email address.
 3. A contact form is not a replacement for an email address. Do not have an 'email the library' link, which goes through to a contact form.
-4. Choose where you're going to have information. The council site or the catalogue one, not a mix of both.
+4. Choose one place where you're going to have information. The council site or the catalogue one, not a mix of both.
 
 ### Good example
 
