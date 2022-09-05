@@ -56,15 +56,15 @@ There are encouraging words from the British Library showing they appreciate thi
 
 Digital projects are never delivered to organisations with immediate success. Whether it's an Intranet, a new Document Management System, or whatever. After implementation they need to be understood, adopted, and used effectively.
 
-The tech industry can be guilty of selling software as a fix for a problem, when it is a tool to be used by people. But on the other side, organisations (e.g. libraries) can buy in software without considering the time and investment they need to invest. Funding rarely goes far enough to appreciate that whatever it costs to implement, you'll need a lot more after that.
+The tech industry can be guilty of selling software as a fix for a problem, when it is a tool to be used by people. But on the other side, organisations (e.g. libraries) can buy software without considering the time and investment they need to put in. Funding rarely appreciates that whatever it costs to implement, you'll need a lot more after that.
 
-It's all very well for voices across the sector to demand 'where's the single digital presence?', but it's as relevant to ask library services how they are preparing for it. For all the work being done by the British Library to research and advise, far more will be needed from each library service to make it a success.
+It's understandable for voices across the sector to demand 'where's the single digital presence?', but it's as relevant to ask library services how they are preparing for it. For all the work being done by the British Library to research and advise, far more will be needed from each library service to make it a success.
 
 ### We need multiple digital presences
 
-Single Digital Presence clearly expresses the option for someone to go to one place to see information about multiple services, catalogues, resources, etc.
+Single Digital Presence clearly expresses the a web platform for someone to go to one place to see information about multiple services, catalogues, resources, etc.
 
-However, in the ideal situation we would have multiple digital presences. Or more accurately: multiple single digital presences. Want an app to quickly reserve library books? Sure, search the app store, check the reviews, and choose one. What if the Reading Agency want to put a search for UK libraries on their website? Great, that sounds like a good place for a library lookup. Delivery of those websites and apps can be out of the hands of library services.
+However, in the ideal situation we would have multiple digital presences. Or more accurately: multiple single digital presences. Want an app to quickly reserve library books? Sure, search the app store, check the reviews, and choose one. What if the Reading Agency want to put a search for UK libraries on their website? Great, that sounds like a good place for it. Delivery of those websites and apps should be out of the hands of library services.
 
 True digital transformation will mean giving up control. The library website won't necessarily be the place people go to find out about their libraries. The official library catalogue site won't be where users reserve and renew their loans. They may choose the alternative site that allows them to tick the auto-renew option, and provides additional features that they want.
 
@@ -89,6 +89,6 @@ Working last year with library staff and the DCMS on the [library open data sche
 
 That principle of adopting standards, plus building upon past work is an important one. I recently rediscovered a blog post by Nick Poole about his learnings from 5 attempts to create a Single Digital Presence, called [building a successful online presence for libraries](https://nickpoole.org.uk/online-libraries/). This is essential reading for making a success of such a project (more so than this meandering one). 
 
-But one thing it didn't delve into was how (if at all) those projects were linked. There is benefit in a 'failed' project if it moves the current situation further along. Have they done some groundwork of interoperability between systems, some standards for sharing data, or documented the work so it can be picked up the next time?
+But one thing it didn't delve into was how (if at all) those projects were linked. There is benefit in a 'failed' project if it moves the current situation along. Have they done some groundwork of interoperability between systems, some standards for sharing data, and documented the work so it can be picked up the next time?
 
 Other than thinking I know what a couple of the projects were, I don't have any other details. But if they had been developed in the open then more information would be available about them. As it is, it doesn't look like they were.
