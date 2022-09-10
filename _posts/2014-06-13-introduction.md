@@ -4,7 +4,9 @@ excerpt: Introduction to libraries hacked
 categories:
   - Libraries Hacked
 tags:
-  - Introduction
+  - Technology
+  - Hackathons
+  - Events
 published: true
 ---
 
@@ -22,13 +24,13 @@ Examples of interesting open-source library projects around the web will also be
 
 ## Hack events in libraries
 
-**Hacks** produce technological solutions created within communities, to provide innovative uses of data.
+**Hacks** are technological solutions created within communities, to provide innovative uses of data.
 
-Libraries are places for data and information, and making that open to the community. A natural setting for hack projects is therefore a library, which is why this site will focus on library hack events.
+Libraries are places for data and information, and making that open to the community. A natural setting for hack projects is a library, which is why this site will focus on library hack events.
 
 ## Articles and collaboration
 
-Articles from a variety of sources will be put on the site to provide guidance for those interested in the technology. Some examples of these will be:
+Articles from a variety of sources will be put on the site to provide guidance for those interested in technology. Some examples of these will be:
 
 - library technology suppliers detailing the technological aspects of their solutions.
 - descriptions of tools used for data analysis.
