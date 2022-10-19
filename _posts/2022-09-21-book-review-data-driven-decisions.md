@@ -8,6 +8,16 @@ tags:
 published: false
 ---
 
+A review of Data-Driven Decisions: A Practical Toolkit for Library and Information Professionals. This is available from [Facet Publishing](https://www.facetpublishing.co.uk/title.php?id=9781783309799) and other bookshops. I was given a temporary review copy by the publisher but have also bought an ebook copy.
+
+Introduction
+
+> Whatever your reason for picking up this time today, I hope it allows you to love and use data a little bit more than you did before.
+> **Taken from 1. Introduction**
+
+The context for this book gives a comforting background to the author's history, which is an effective way of making it more accessible to those from backgrounds outside of data work. You don't need to be good at maths, or to have even ever enjoyed maths, to be able to use data. You don't need to love data (yet), but hopefully you will by the end of the book.
+
+The introduction is also effective in tying data analysis to the challenges library services are facing: 
 
 
 
