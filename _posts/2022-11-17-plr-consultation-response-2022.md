@@ -1,6 +1,6 @@
 ---
-title: PLR Consultation 20222
-excerpt: A response to the 
+title: PLR consultation 2022
+excerpt: A response to the Rate Per Loan 2021 to 2022 consultation for Public Lending Right
 categories:
   - Data
 tags:
