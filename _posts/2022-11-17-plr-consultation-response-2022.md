@@ -102,7 +102,7 @@ The goal should be to promote library lending to higher levels, as well as publi
 
 With additional improvements in coverage and frequency, PLR loans data would be transformative for public libraries. To have significant impact it would need to be widely available on an open licence. It should be able to be used by library services, by the public, and for commercial applications, without restriction.
 
-A key Government Design Principle is 'Make things open it makes them better' (https://www.gov.uk/guidance/government-design-principles). Libraries are the originator of this principle through open knowledge and information. It is long overdue for modern library services to follow this with data publishing.
+A key Government Design Principle is ['Make things open it makes them better'](https://www.gov.uk/guidance/government-design-principles). Libraries are the originator of this principle through open knowledge and information. It is long overdue for modern library services to follow this with data publishing.
 
 I firmly believe that the key to tackling declining library lending (and the increasing rate per loan), is to increase the scope for library lending data analysis. It is not a 'silver bullet', and will not in itself increase loans, but is an essential first step for any positive action. Without access to good data, there are no actions that can be taken that are effective or data-informed.
 
