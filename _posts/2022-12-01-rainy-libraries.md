@@ -64,6 +64,10 @@ The only non-Cumbria library is Princetown in Devon. This is on Dartmoor, and ag
 
 > Dartmoor's granite plateaux rise above the surrounding countryside. Therefore the climate here is different from the rest of Devon. The higher altitude and exposed nature of the landscape determines the more extreme climatic conditions
 >
+> [...]
+>
+> Teignmouth only receives less than half the rainfall that Princetown gets in a year
+> 
 > [Dartmoor Climate and Weather Factsheet](https://www.dartmoor.gov.uk/__data/assets/pdf_file/0017/72116/lab-climate.pdf)
 
 And which libraries are the driest?
