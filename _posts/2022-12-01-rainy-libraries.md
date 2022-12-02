@@ -60,7 +60,7 @@ Almost all in Cumbria!
 >
 > [Why does it rain so much in the Lake District?](https://www.lakedistrict.gov.uk/learning/weatherandclimate/factslakedistrictclimate#:~:text=Why%20does%20it%20rain%20so,called%20relief%20or%20orographic%20rainfall.)
 
-The only non-Cumbria library is Princetown in Devon. This is on Dartmoor, and again has a hills landscape as the reason for the rain.
+The only non-Cumbria library is Princetown in Devon. This is on Dartmoor, and also has a hilly landscape as the reason for the rain.
 
 > Dartmoor's granite plateaux rise above the surrounding countryside. Therefore the climate here is different from the rest of Devon. The higher altitude and exposed nature of the landscape determines the more extreme climatic conditions
 >
