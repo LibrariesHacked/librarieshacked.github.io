@@ -1,11 +1,13 @@
 remote_theme: "mmistakes/minimal-mistakes@4.21.0"
-minimal_mistakes_skin: default
+minimal_mistakes_skin: sunrise
 
 title: "Library data blog"
 name: "Libraries Hacked"
 description: "Articles and tutorials on library data and open data in libraries."
 url: "https://blog.librarydata.uk"
 repository: "librarieshacked/librarieshacked.github.io"
+logo: "/assets/images/logo88x88.png"
+breadcrumbs: true
 
 search: true
 words_per_minute: 200
@@ -59,6 +61,7 @@ defaults:
       read_time: true
       share: false
       related: false
+      show_date: true
   # _pages
   - scope:
       path: ""

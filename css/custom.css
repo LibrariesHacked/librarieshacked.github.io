@@ -8,8 +8,9 @@ table thead {
   background: none !important;
 }
 
-table td, table th {
-  border: 1px solid #CECFD1 !important;
+table td,
+table th {
+  border: 1px solid #cecfd1 !important;
 }
 
 blockquote {
