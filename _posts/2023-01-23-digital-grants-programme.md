@@ -9,15 +9,15 @@ tags:
 published: true
 ---
 
-The British Library's [LibraryOn](https://libraryon.org/) team ran [a survey on digital grants](https://docs.google.com/forms/d/e/1FAIpQLSfoV6dqZvkDw94rqOHSl6J_oCHULu9ERvBd9XXGAyiCubykTA/viewform?fbzx=6567663660189811631) to get an idea of current digital needs. Details copied below:
+The British Library [LibraryOn](https://libraryon.org/) team ran [a survey on digital grants](https://docs.google.com/forms/d/e/1FAIpQLSfoV6dqZvkDw94rqOHSl6J_oCHULu9ERvBd9XXGAyiCubykTA/viewform?fbzx=6567663660189811631) to get an idea of current digital needs.
 
 > Next year we’ll be awarding 20-50 capital grants to public library services in England. We anticipate individual grants ranging from around £10,000 to £70,000, but this will be confirmed based on feedback. Details will be published in early 2023, with applications opening in the spring and activity to be completed by the end of next year.
 >
 > The grant programme complements the national development of the LibraryOn platform, and aims to improve the online presence of local libraries and increase digital capability. We envisage the grants being used on the implementation and testing of new digital products and services, or enhancing existing offers.
 >
-> **LibraryOn digital survey**
+> **Digital survey**
 
-This is now closed. It asked for what services would use a digital grant for, and what they felt would be most useful for the library service.
+This is now closed. It asked what services would use a digital grant for, and what they felt would be most useful.
 
 It would be interesting to hear the ideas for digital projects. In the spirit of proposing ideas, here are 5 on my wish list.
 
@@ -27,7 +27,7 @@ If you follow mobile libraries on social media (as you should!) you'll know they
 
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">We&#39;re really sorry but our Mobile Library can&#39;t stop at Wellow today. This is because the road conditions are too bad after the wet weather we&#39;ve had. <br>You can reserve or renew your books on LibrariesWest or call our friendly Council Connect team on 01225 394041.<a href="https://twitter.com/hashtag/BNESLibraries?src=hash&amp;ref_src=twsrc%5Etfw">#BNESLibraries</a> <a href="https://t.co/CCiFdhKvPI">pic.twitter.com/CCiFdhKvPI</a></p>&mdash; @Bath and North East Somerset Libraries (@BathnesL) <a href="https://twitter.com/BathnesL/status/1615302775306424321?ref_src=twsrc%5Etfw">January 17, 2023</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
-What happens when a mobile library stop or route is cancelled? Every effort is made to contact regular users directly, such as phoning them, and to renew their books. But there will still be people missed who don't use that service regularly. Phoning round customers for a set of stops takes time, and isn't always possible. In some cases the library management system doesn't record that information, so manual lists of users per stop need to be maintained, a data protection issue in itself.
+What happens when a mobile library stop or route is cancelled? Every effort is made to contact regular users directly, such as phoning them. But there will still be people missed who don't use that service regularly. Phoning round customers for a set of stops takes time, and isn't always possible. In some cases the library management system doesn't record that information, so manual lists of users per stop need to be maintained, a data protection issue in itself.
 
 Often it's the mobile library driver that knows their customers, and will go the extra mile to contact them. But what if they are unavailable?
 
@@ -35,7 +35,7 @@ This is good digital transformation territory. Library services could develop a 
 
 ### 2. An open public library catalogue API
 
-Public library systems in the UK lack public APIs (application programming interfaces). These are a means for software developers to access the data and processes in a library catalogue, to use in their own applications. It's not that the library systems do not have APIs. They do - they're just proprietary and locked down.
+Public library systems in the UK lack public APIs (application programming interfaces). These are a means for software developers to access the data and processes in a library catalogue, to use in their own applications. It's not that the library systems do not have APIs. They do - they're just locked down.
 
 It would be amazing if a library service could set up a public API to enable applications to do things like renew loans, check availability, and search the catalogue. Create the API, create public documentation for it, and promote it widely. Encourage people to trial new things. This could include:
 
@@ -74,10 +74,10 @@ I'd love to see a library service present detailed library branch information wi
 
 ### 5. Website carbon reduction
 
-Across the small Libraries Hacked projects I've been implementing the [Website Carbon Calculator](https://www.websitecarbon.com/) badge, to measure each site's carbon footprint per visit. You should be able to see it on this blog.
+I've been implementing the [Website Carbon Calculator](https://www.websitecarbon.com/) badge in Libraries Hacked projects, to measure each site's carbon footprint per visit. You should be able to see it on this blog.
 
-Carbon counting has flaws, but the principles are still sound. Digital energy usage is huge and increasing. Library websites (both information and catalogue) receive huge amounts of visitors, and are a significant part of the digital footprint of a library service. So why not measure it, and then try to reduce it?
+Carbon counting has flaws, but the principles are sound. Digital energy usage is huge and increasing. Library websites (both information and catalogue) receive huge amounts of visitors, and are a significant part of the digital footprint of a library service. So why not measure it, and try to reduce it?
 
-If a service could measure the digital impact of their website and fund developments to reduce it, that could be a significant benefit. Given that many of those platforms (e.g. the catalogue) are on systems that many other services use, it could also hugely reduce the carbon footprint of the sector as a whole.
+If a service could measure the digital impact of their website and fund developments to reduce it, that could be a significant benefit. Given that many of those platforms (e.g. the catalogue) are also used by other services, it could also hugely reduce the carbon footprint of the sector as a whole.
 
 It would be a great example to present to the [#GreenLibraries conference](https://www.cilip.org.uk/events/EventDetails.aspx?id=1697993).
