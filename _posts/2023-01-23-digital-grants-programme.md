@@ -52,7 +52,7 @@ With recent snowy and icy weather I was reminded of the [Trunk Road Gritter Trac
 
 This is familiar technology for users. Every time I catch my local bus I check the live map to see how it's doing (probably delayed leaving Bath). I can leave the house when the bus is 3 minutes away, and avoid waiting ages in the freezing cold. That's good for me as I hate coats and refuse to wear one.
 
-This isn't dissimilar to the notification idea, but mobile libraries aren't going to use a cancellation process just from running 5 minutes late.
+This isn't dissimilar to the notification idea, but mobile libraries aren't going to use a cancellation process when running 5 minutes late.
 
 So let's have a map of mobile libraries and a dashboard showing when they're due to arrive at each stop. It could also provide insight into:
 
