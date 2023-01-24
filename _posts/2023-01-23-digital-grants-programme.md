@@ -50,7 +50,7 @@ All things that would increase user choice in digital services, and promote libr
 
 With recent snowy and icy weather I was reminded of the [Trunk Road Gritter Tracker](https://scotgov.maps.arcgis.com/apps/webappviewer/index.html?id=2de764a9303848ffb9a4cac0bd0b1aab), a Scottish Government map of road gritters. It shows where they are, and where they've been.
 
-There's nothing difficult about this technology. Every time I catch my local bus I check the live map to see how it's doing (probably delayed leaving Bath). I can leave the house when the bus is 3 minutes away, and avoid waiting ages in the freezing cold. That's good for me as I hate coats and refuse to wear one.
+This is familiar technology for users. Every time I catch my local bus I check the live map to see how it's doing (probably delayed leaving Bath). I can leave the house when the bus is 3 minutes away, and avoid waiting ages in the freezing cold. That's good for me as I hate coats and refuse to wear one.
 
 This isn't dissimilar to the notification idea, but mobile libraries aren't going to use a cancellation process just from running 5 minutes late.
 
