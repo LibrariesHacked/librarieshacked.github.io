@@ -28,7 +28,7 @@ I've been involved in discussions on library open data for a decade. Most recent
 
 A frequent concern from library services is that 'old' data like book issues, and footfall, doesn't represent what libraries do. Libraries have events, they give advice, provide warm spaces, and lots more. Plenty of work can be done to ensure these things are represented in data, but it's far more pressing to actually do something with the data already held. And you can't publish what you don't hold.
 
-The problem comes from thinking open data is anything to do with communicating performance, or providing advocacy for the sector. Open data is about publishing the data you hold for re-use.
+The problem comes from thinking open data is anything to do with communicating performance, or providing advocacy for the sector. Open data is about publishing the data you hold, for wider re-use.
 
 ## Find out what people want
 
@@ -42,7 +42,7 @@ There are also sector colleagues who could be interested. Ask the [British Libra
 
 It's really useful to have library data published that matches data from other library services. It means the data is both useful at a local level, and can be merged with other services to be used at a wider level.
 
-That was the point of creating the [public library data schemas](https://schema.librarydata.uk/), a cross-sector project in 2019. Those schemas describe the structure for 7 datasets: loans, visits, membership, catalogue, events, library locations, and mobile library stops. The pages also describe potential uses both locally and nationally.
+That was the point of creating the [public library data schemas](https://schema.librarydata.uk/), a cross-sector project in 2019. Those schemas describe the structure for 7 commonly-held datasets: loans, visits, membership, catalogue, events, library locations, and mobile library stops. The pages also describe potential uses both locally and nationally.
 
 ## Look at other services
 
@@ -52,13 +52,13 @@ Not many library services publish regular open data, but do take a look at [Newc
 
 There's a strong tendency to simplify data before publishing it.
 
-> "The public don't need book issues for every library every month, broken down by item category - how about a nice table for them that gives a summary count of issues per year. That'll be easier for them to understand."
+> "The public don't need book issues for every library, every month, broken down by item category - how about a nice table for them that gives a summary count of issues per year. That'll be easier for them to understand."
 >
 > **Imaginary thoughts a data publisher could have**
 
-The mindset that you need to simplify data for easier consumption is easy to fall into. The opposite is true, there is a wider availability of data skills outside public library services than inside (true of any service or industry), and they often need greater detail to do the things they want to. 
+The mindset that you need to simplify data for easier consumption is easy to fall into. The opposite is true, there is a wider availability of data skills outside public library services than inside (true of any service or industry), and they often need more data to do the things they want to. 
 
-Provide as good data as you can, and document it well. Be prepared to answer questions on it, and for people to be interested in exploring more data.
+Provide as good data as you can, and document it well. Be prepared to answer questions on it, and for people to be interested in exploring more.
 
 ## It won't make money
 
@@ -66,7 +66,7 @@ Income generation is an unfortunate curse for library heads of service, who are 
 
 It's not going to happen. That's not to say the data isn't valuable. It is - but primarily for insight and new ways of using that data that will benefit libraries and the wider public. Making money from data is a complex business. And you need to do a LOT more than just publishing what you hold. Running data services, data validation, managing subscriptions, access levels, etc.
 
-It would also be too complex to negotiate the legal hurdles, without even tackling why public libraries would choose the route of trying to sell public data when central and local government polciies are for open data.
+It would also be too complex to negotiate the legal hurdles, without even tackling why public libraries would choose the route of trying to sell public data, when central and local government policies are for open data.
 
 ## Promote it
 
