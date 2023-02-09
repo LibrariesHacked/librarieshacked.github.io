@@ -10,7 +10,7 @@ tags:
 published: true
 ---
 
-Last week I was asked how a public library service could get started with publishing open data, and where to look to make it good? There aren't many library services publishing data (yet!), and it can be a daunting task for a service to get started. It's still leading in inovation rather than jumping on a bandwagon.
+Last week I was asked how a public library service could get started with publishing open data, and where to look to make it good. There aren't many library services publishing data (yet!), and it can be a daunting task for a service to get started. It's still leading in inovation rather than jumping on a bandwagon.
 
 Firstly, I wouldn't worry too much about being excellent straight away. Aside from ensuring you don't publish personal data, which should very rarely even be in your internal data reports, it's possible to get started quickly and get feedback to develop your processes.
 
@@ -26,7 +26,7 @@ You can even make your open data the place where colleagues in your organisation
 
 I've been involved in discussions on library open data for a decade. Most recently there were two workshops in 2022, run by CILIP and Libraries Connected, that brought together various library services to discuss data collection and publishing.
 
-A frequent concern from library services is that 'old' data like book issues, and footfall, doesn't represent what libraries do. Libraries have events, they give advice, provide warm spaces, and lots more. Plenty of work can be done to ensure these things are represented in data, but it's far more pressing to actually do something with the data already held. You can't publish what you don't hold, so don't worry about it.
+A frequent concern from library services is that 'old' data like book issues, and footfall, doesn't represent what libraries do. Libraries have events, they give advice, provide warm spaces, and lots more. Plenty of work can be done to ensure these things are represented in data, but it's far more pressing to actually do something with the data already held. And you can't publish what you don't hold.
 
 The problem comes from thinking open data is anything to do with communicating performance, or providing advocacy for the sector. Open data is about publishing the data you hold for re-use.
 
