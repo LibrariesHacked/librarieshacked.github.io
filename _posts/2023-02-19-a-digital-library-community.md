@@ -41,7 +41,7 @@ So, what might people be interested in? Here are the results from the survey.
 
 ### Do you feel there is a need for a cross-sector community to discuss technology and digital developments within libraries?
 
-<div>
+<div id="divChartNeed">
   <canvas id="canNeed"></canvas>
 </div>
 

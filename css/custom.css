@@ -18,3 +18,7 @@ blockquote {
   background-color: #fafafa;
   padding-top: 0.5rem;
 }
+
+#divChartNeed {
+  max-width: 400px;
+}

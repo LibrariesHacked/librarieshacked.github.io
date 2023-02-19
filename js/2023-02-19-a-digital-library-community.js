@@ -8,11 +8,12 @@ $(function () {
         labels: ['Yes', 'No'],
         datasets: [{
           label: '% of Votes',
-          data: [97, 3],
-          borderWidth: 1
+          data: [97, 3]
         }]
       },
       options: {
+        responsive: true,
+        maintainAspectRatio: false,
         scales: {
           y: {
             beginAtZero: true
