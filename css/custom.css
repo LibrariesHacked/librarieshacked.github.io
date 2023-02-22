@@ -22,3 +22,7 @@ blockquote {
 #divChartNeed {
   max-width: 200px;
 }
+
+#divChartEventType {
+  max-width: 300px;
+}

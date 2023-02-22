@@ -11,7 +11,7 @@ tags:
 published: true
 ---
 
-In December I ran a survey to find out what people might want from a digital library community. The introduction ran as follows:
+In December/January I ran a survey to find out what people might want from a digital library community. The introduction ran as follows:
 
 > This is an anonymous survey to gauge interest in forming a community of library digital, technology, and data practitioners.
 >
@@ -19,21 +19,21 @@ In December I ran a survey to find out what people might want from a digital lib
 >
 > Any group would be community-led, and independent of individual organisations.
 
-Firstly, thanks to everyone who took the time to complete the survey. And who shared it on social media. Particular thanks to [Artefacto](https://www.artefacto.org.uk) who shared it widely, as well as giving essential feedback and guidance.
+Firstly, thanks to everyone who took the time to complete the survey, and who share it on social media. Particular thanks to [Artefacto](https://www.artefacto.org.uk) who shared it widely, as well as giving essential feedback and guidance.
 
 What are my reference points for the kind of community or events that could be possible?
 
-In 2017 and 2019 Claire Back, Aude Charillon, and I, organised a couple of 'Library data unconferences', named Voyage of the Data Treader 1 and 2. These followed an unconference format (attendees pitching ideas for sessions), with sessions about all things library data. But we also arranged training by expert speakers, such as Owen Stevens who presented on using OpenRefine, and Jason Evans who gave an introduction to Wikidata (both fabulous learning sessions). There are plenty of things that could be improved about those events, but they didn't lack enthusiasm from the attendees, and it was great to see staff from different areas keen to share ideas and learn from each other.
+In 2017 and 2019 Claire Back, Aude Charillon, and I, organised a couple of Library data events, named Voyage of the Data Treader 1 and 2. These followed an unconference format (attendees pitching ideas for sessions), with sessions about all things library data. But we also arranged training by expert speakers, such as Owen Stevens who presented on using OpenRefine, and Jason Evans who gave an introduction to Wikidata (both fabulous learning sessions). There are plenty of things that could be improved about those events, but they didn't lack enthusiasm from the attendees, and it was great to see staff from different areas sharing ideas and learning from each other.
 
-I've attended and presented at tech meetup groups, where a regular event is held and someone volunteers to present on a topic. These are good to learn about new things, and for networking. For the volunteers they are opportunities to practice their presentation skills, and get feedback on their ideas within a welcoming environment.
+I've attended and presented at tech meetup groups, where a regular event is held and someone volunteers to present on a topic. These are good to learn about new things, and for networking. For the volunteers they are opportunities to practice their presentation skills, and get feedback within a welcoming environment.
 
 I've also been impressed by events like [Library Camp](http://www.librarycamp.co.uk/), which were unconferences for library staff without specifically being about data. Follow up [Failcamp](https://www.artefacto.org.uk/failcamp-librarycamp-and-the-power-of-unconferences/) events allowed people to share failures and learn from them.
 
 I've helped run 'hackathons' within a community interested in local data (e.g. air quality, environmental health). These are longer events where people get together to work on a project or idea. These are great for getting away from the day job and working with new people to try something out.
 
-But these are personal experiences. There are a huge variety of types of event or group. There are library networks like [the JiscMail lists](https://www.jiscmail.ac.uk/mailinglists/a-z/index.html). But I'm not sure if they are the right place for informal discussions and sharing of ideas. There are also communities like the [Libraries Connected Innovation network](https://www.librariesconnected.org.uk/training-and-events/innovation-gathering-2023) but that's more of a closed community, specifically for public library staff.
+But these are personal experiences. There are a huge variety of types of event or group. There are library networks like [the JiscMail lists](https://www.jiscmail.ac.uk/mailinglists/a-z/index.html), but I'm not sure if they are the right place for informal discussions. There are also communities like the [Libraries Connected Innovation network](https://www.librariesconnected.org.uk/training-and-events/innovation-gathering-2023) but that's more of a closed community, specifically for public library staff.
 
-So, what might people be interested in? The survey received about 40 responses - not huge but not bad. Here are the results.
+So, what might people be interested in? The survey received about 40 responses. Here are the results.
 
 ### Do you feel there is a need for a cross-sector community to discuss technology and digital developments within libraries?
 
@@ -45,11 +45,16 @@ So, what might people be interested in? The survey received about 40 responses -
 | --- | --- |
 | 97% | 3%  |
 
-Surely it's obvious people completing a survey on a digital library community would be interested in such a community? It still felt worth checking whether the premise was correct to start with.
+Surely it's obvious that people completing a survey on a digital library community would be interested in such a community? It still felt worth checking whether the premise was correct to start with.
 
-The results seem to bear out that need, for the majority of respondents.
+The results seem to bear out that need.
 
 ### Would you be interested in being part of any of the following (choose as many as apply)
+
+<div id="divChartEventType">
+  <canvas id="canEventType"></canvas>
+</div>
+
 
 | Option                                                                      | Response |
 | --------------------------------------------------------------------------- | -------- |
