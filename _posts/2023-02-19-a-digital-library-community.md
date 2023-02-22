@@ -11,7 +11,7 @@ tags:
 published: true
 ---
 
-In December/January I ran a survey to find out what people might want from a digital library community. The introduction ran as follows:
+In December/January I ran a survey to find out what people might want from a digital library community. Here's the introduction:
 
 > This is an anonymous survey to gauge interest in forming a community of library digital, technology, and data practitioners.
 >
@@ -19,11 +19,11 @@ In December/January I ran a survey to find out what people might want from a dig
 >
 > Any group would be community-led, and independent of individual organisations.
 
-Firstly, thanks to everyone who took the time to complete the survey, and who share it on social media. Particular thanks to [Artefacto](https://www.artefacto.org.uk) who shared it widely, as well as giving essential feedback and guidance.
+Firstly, thanks to everyone who completed the survey, and shared it on social media. Particular thanks to [Artefacto](https://www.artefacto.org.uk) who shared it widely, as well as giving essential feedback and guidance.
 
 What are my reference points for the kind of community or events that could be possible?
 
-In 2017 and 2019 Claire Back, Aude Charillon, and I, organised a couple of Library data events, named Voyage of the Data Treader 1 and 2. These followed an unconference format (attendees pitching ideas for sessions), with sessions about all things library data. But we also arranged training by expert speakers, such as Owen Stevens who presented on using OpenRefine, and Jason Evans who gave an introduction to Wikidata (both fabulous learning sessions). There are plenty of things that could be improved about those events, but they didn't lack enthusiasm from the attendees, and it was great to see staff from different areas sharing ideas and learning from each other.
+In 2017 and 2019 Claire Back, Aude Charillon, and I, organised a couple of Library data events, named Voyage of the Data Treader 1 and 2. These had an unconference format with attendees pitching ideas for sessions. We also arranged training by expert speakers, such as Owen Stevens who presented on using OpenRefine, and Jason Evans who gave an introduction to Wikidata (both fabulous learning sessions). There are plenty of things that could be improved about those events, but they didn't lack enthusiasm from the attendees, and it was great to see staff from different areas sharing ideas and learning from each other.
 
 I've attended and presented at tech meetup groups, where a regular event is held and someone volunteers to present on a topic. These are good to learn about new things, and for networking. For the volunteers they are opportunities to practice their presentation skills, and get feedback within a welcoming environment.
 
@@ -31,7 +31,7 @@ I've also been impressed by events like [Library Camp](http://www.librarycamp.co
 
 I've helped run 'hackathons' within a community interested in local data (e.g. air quality, environmental health). These are longer events where people get together to work on a project or idea. These are great for getting away from the day job and working with new people to try something out.
 
-But these are personal experiences. There are a huge variety of types of event or group. There are library networks like [the JiscMail lists](https://www.jiscmail.ac.uk/mailinglists/a-z/index.html), but I'm not sure if they are the right place for informal discussions. There are also communities like the [Libraries Connected Innovation network](https://www.librariesconnected.org.uk/training-and-events/innovation-gathering-2023) but that's more of a closed community, specifically for public library staff.
+But these are personal experiences - there are many potential types of event or group. There are library networks like [the JiscMail lists](https://www.jiscmail.ac.uk/mailinglists/a-z/index.html), but I'm not sure if they are the right place for informal discussions. There are also communities like the [Libraries Connected Innovation network](https://www.librariesconnected.org.uk/training-and-events/innovation-gathering-2023) but that's more of a closed community, specifically for public library staff.
 
 So, what might people be interested in? The survey received about 40 responses. Here are the results.
 
@@ -63,9 +63,9 @@ The results seem to bear out that need.
 | An unconference where attendees propose and choose discussions at the event | 54%      |
 | A training event that provided workshops and hands on materials             | 51%      |
 
-By far the most popular was the option of the online community. I imagine that's due to the universal appeal of online access. Physical events have access problems, with geography, work, and other barriers.
+By far the most popular was the option of the online chat/forum community. I imagine that's due to the universal appeal of online access. Physical events have access problems, with geography, work, and other barriers.
 
-None of the options were particularly unpopular but a pre-arranged conference was the least popular. I personally agree that seems least least relevant to forming a real community.
+None of the options were particularly unpopular but a pre-arranged conference was the least popular. I personally agree that seems least relevant to forming a real community with equal opportunity for participation.
 
 ### Which of the following topics would you be most interested in (choose as many as apply)
 
@@ -87,9 +87,9 @@ None of the options were particularly unpopular but a pre-arranged conference wa
 | Library metadata                                     | 49%      |
 | Hardware (e.g. kiosks, 3D printers, RFID)            | 38%      |
 
-Big hitters were User experience, Data, and Open knowledge. Digital transformation, Library websites and online catalogues were also popular. I'm conscious that these are all things of particular interest to myself, and so likely to be over-represented in the results for a survey I promote. But, does that matter?
+Big hitters were User experience, Data, and Open knowledge. Digital transformation, Library websites and online catalogues were also popular. I'm conscious that these are all things of interest to myself, and so likely to be over-represented in the results of a survey I promoted. But, does that matter?
 
-In general it's good to se a wide range of topics get good feedback, and shows that a community wouldn't struggle for topics of discussion.
+In general it's good to see a wide range of topics get good feedback, and shows that we wouldn't struggle for topics of discussion.
 
 ### If attending an event or meetup would you prefer that it were in-person, online, or hybrid (a mix of both)
 
@@ -102,8 +102,6 @@ In general it's good to se a wide range of topics get good feedback, and shows t
 | 14%       | 27%    | 59%    |
 
 I was slightly surprised at the popularity for hybrid events, and the low response for in-person. I understand the need for hybrid, it's just often a challenge to deliver in a way that works. To some extent I prefer online-only as there isn't a divide between people online and those in the room. But hybrid clear winner here.
-
-To think about more...
 
 ### What sector do your work or are most interested in?
 
@@ -123,11 +121,11 @@ To think about more...
 | Special           | 3%       |
 | Other             | 21%      |
 
-I've kept the typo in the question (should be 'what sector do **you** work...'). Hopefully it didn't cause confusion!
+I've kept the typo in the question (it should be 'what sector do **you** work...'). Hopefully it didn't cause confusion!
 
-Respondents were primarily public, likely again due to my own interests. But there was a good spread of other sectors, and nothing to suggest the community shouldn't be cross-sector.
+Respondents were primarily public, likely again due to my own interests. But there was a good spread of other sectors, and nothing to suggest a community shouldn't be cross-sector.
 
-'Other' was quite high. That may have been libraries that don't fit into the other categories, or people who work in other sectors but are interested in libraries. It would be good to know more about that but if its people not directly working in libraries but interested in them in general, then that's good as well.
+'Other' was quite high. That may have been libraries that don't fit into the other categories, or people who work in other sectors but are interested in libraries. It would be good to know more about that, but if its people not directly working in libraries but interested in them in general, that's good as well.
 
 ## Next steps
 
