@@ -55,7 +55,6 @@ The results seem to bear out that need.
   <canvas id="canEventType"></canvas>
 </div>
 
-
 | Option                                                                      | Response |
 | --------------------------------------------------------------------------- | -------- |
 | An online community such as a forum, or chat platform                       | 97%      |
@@ -64,11 +63,15 @@ The results seem to bear out that need.
 | An unconference where attendees propose and choose discussions at the event | 54%      |
 | A training event that provided workshops and hands on materials             | 51%      |
 
-By far the most popular was the option of the online community. I imagine that's due to universal appeal and access. Physical events have access problems, with geography, work, and other barriers.
+By far the most popular was the option of the online community. I imagine that's due to the universal appeal of online access. Physical events have access problems, with geography, work, and other barriers.
 
-None of the options were particularly unpopular but a pre-arranged conference was the least popular. I personally agree that seems least likely to be relevant to forming a real community.
+None of the options were particularly unpopular but a pre-arranged conference was the least popular. I personally agree that seems least least relevant to forming a real community.
 
 ### Which of the following topics would you be most interested in (choose as many as apply)
+
+<div id="divChartTopics">
+  <canvas id="canTopics"></canvas>
+</div>
 
 | Option                                               | Response |
 | ---------------------------------------------------- | -------- |
