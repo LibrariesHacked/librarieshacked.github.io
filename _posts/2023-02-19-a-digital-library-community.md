@@ -87,11 +87,15 @@ None of the options were particularly unpopular but a pre-arranged conference wa
 | Library metadata                                     | 49%      |
 | Hardware (e.g. kiosks, 3D printers, RFID)            | 38%      |
 
-Big hitters overall were User experience, Data, and Open knowledge. Digital transformation, Library websites and online catalogues were also popular. I'm conscious that these are all things of particular interest to myself, and so likely to be over-represented in the results for a survey I promote. But, does that matter?
+Big hitters were User experience, Data, and Open knowledge. Digital transformation, Library websites and online catalogues were also popular. I'm conscious that these are all things of particular interest to myself, and so likely to be over-represented in the results for a survey I promote. But, does that matter?
 
 In general it's good to se a wide range of topics get good feedback, and shows that a community wouldn't struggle for topics of discussion.
 
 ### If attending an event or meetup would you prefer that it were in-person, online, or hybrid (a mix of both)
+
+<div id="divChartParticipation">
+  <canvas id="canParticipation"></canvas>
+</div>
 
 | In-person | Online | Hybrid |
 | --------- | ------ | ------ |
@@ -102,6 +106,10 @@ I was slightly surprised at the popularity for hybrid events, and the low respon
 To think about more...
 
 ### What sector do your work or are most interested in?
+
+<div id="divChartSector">
+  <canvas id="canSector"></canvas>
+</div>
 
 | Sector            | Response |
 | ----------------- | -------- |

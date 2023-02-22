@@ -21,13 +21,27 @@ blockquote {
 
 #divChartNeed {
   max-width: 200px;
+  padding-bottom: 20px;
 }
 
 #divChartEventType {
   max-width: 500px;
+  height: 250px;
+  padding-bottom: 20px;
 }
 
 #divChartTopics {
   max-width: 500px;
+  height: 350px;
+  padding-bottom: 20px;
 }
 
+#divChartParticipation {
+  max-width: 200px;
+  padding-bottom: 20px;
+}
+
+#divChartSector {
+  max-width: 200px;
+  padding-bottom: 20px;
+}

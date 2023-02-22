@@ -2,6 +2,8 @@ $(function () {
   const cNeed = document.getElementById('canNeed')
   const cEventType = document.getElementById('canEventType')
   const cTopics = document.getElementById('canTopics')
+  const cParticipation = document.getElementById('canParticipation')
+  const cSector = document.getElementById('canSector')
 
   if (cNeed) {
     new Chart(cNeed, {
@@ -53,7 +55,7 @@ $(function () {
       type: 'bar',
       data: {
         labels: [
-          'Website and catalogues',
+          'Websites and catalogues',
           'Digital transformation',
           'User experience',
           'Web deveopment',
@@ -74,6 +76,54 @@ $(function () {
       },
       options: {
         indexAxis: 'y',
+        responsive: true,
+        maintainAspectRatio: false
+      }
+    })
+  }
+
+  if (cParticipation) {
+    new Chart(cParticipation, {
+      type: 'doughnut',
+      data: {
+        labels: ['In-person', 'Online', 'Hybrid'],
+        datasets: [
+          {
+            label: '% of Votes',
+            data: [14, 27, 59]
+          }
+        ]
+      },
+      options: {
+        responsive: true,
+        maintainAspectRatio: false
+      }
+    })
+  }
+
+  if (cSector) {
+    new Chart(cSector, {
+      type: 'doughnut',
+      data: {
+        labels: [
+          'Public',
+          'School',
+          'Higher education',
+          'Further education',
+          'Prison',
+          'Health',
+          'National',
+          'Special',
+          'Other'
+        ],
+        datasets: [
+          {
+            label: '% of Votes',
+            data: [53, 0, 11, 8, 0, 3, 3, 3, 21]
+          }
+        ]
+      },
+      options: {
         responsive: true,
         maintainAspectRatio: false
       }
