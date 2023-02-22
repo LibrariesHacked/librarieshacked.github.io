@@ -11,7 +11,7 @@ tags:
 published: true
 ---
 
-In December/January I ran a survey to find out what people might want from a digital library community. Here's the introduction:
+In December I ran a survey on a potential digital library community. This was the introduction:
 
 > This is an anonymous survey to gauge interest in forming a community of library digital, technology, and data practitioners.
 >
@@ -19,7 +19,7 @@ In December/January I ran a survey to find out what people might want from a dig
 >
 > Any group would be community-led, and independent of individual organisations.
 
-Firstly, thanks to everyone who completed the survey, and shared it on social media. Particular thanks to [Artefacto](https://www.artefacto.org.uk) who shared it widely, as well as giving essential feedback and guidance.
+Firstly, thanks to everyone who completed the survey, and shared it on social media. Particular thanks to [Artefacto](https://www.artefacto.org.uk) who also gave essential feedback and guidance.
 
 What are my reference points for the kind of community or events that could be possible?
 
@@ -31,7 +31,7 @@ I've also been impressed by events like [Library Camp](http://www.librarycamp.co
 
 I've helped run 'hackathons' within a community interested in local data (e.g. air quality, environmental health). These are longer events where people get together to work on a project or idea. These are great for getting away from the day job and working with new people to try something out.
 
-But these are personal experiences - there are many potential types of event or group. There are library networks like [the JiscMail lists](https://www.jiscmail.ac.uk/mailinglists/a-z/index.html), but I'm not sure if they are the right place for informal discussions. There are also communities like the [Libraries Connected Innovation network](https://www.librariesconnected.org.uk/training-and-events/innovation-gathering-2023) but that's more of a closed community, specifically for public library staff.
+But these are personal experiences - there are many types of event or group. There are library networks like [the JiscMail lists](https://www.jiscmail.ac.uk/mailinglists/a-z/index.html), but I'm not sure if they are the right place for informal discussions. There are also communities like the [Libraries Connected Innovation network](https://www.librariesconnected.org.uk/training-and-events/innovation-gathering-2023) but that's more of a closed community, specifically for public library staff.
 
 So, what might people be interested in? The survey received about 40 responses. Here are the results.
 
@@ -63,9 +63,9 @@ The results seem to bear out that need.
 | An unconference where attendees propose and choose discussions at the event | 54%      |
 | A training event that provided workshops and hands on materials             | 51%      |
 
-By far the most popular was the option of the online chat/forum community. I imagine that's due to the universal appeal of online access. Physical events have access problems, with geography, work, and other barriers.
+By far the most popular was the online chat/forum community. I imagine that's due to the universal appeal of online access. Physical events have geography, work, and other barriers.
 
-None of the options were particularly unpopular but a pre-arranged conference was the least popular. I personally agree that seems least relevant to forming a real community with equal opportunity for participation.
+None of the options were particularly unpopular but a pre-arranged conference was the least popular. I personally agree that seems least relevant to forming a community with equal opportunity for participation.
 
 ### Which of the following topics would you be most interested in (choose as many as apply)
 
@@ -89,9 +89,9 @@ None of the options were particularly unpopular but a pre-arranged conference wa
 
 Big hitters were User experience, Data, and Open knowledge. Digital transformation, Library websites and online catalogues were also popular. I'm conscious that these are all things of interest to myself, and so likely to be over-represented in the results of a survey I promoted. But, does that matter?
 
-In general it's good to see a wide range of topics get good feedback, and shows that we wouldn't struggle for topics of discussion.
+It's good to see a wide range of topics get good feedback, and suggests we wouldn't struggle for topics of discussion.
 
-### If attending an event or meetup would you prefer that it were in-person, online, or hybrid (a mix of both)
+### If attending an event or meetup would you prefer that it were in-person, online, or hybrid (a mix of both)?
 
 <div id="divChartParticipation">
   <canvas id="canParticipation"></canvas>
@@ -123,12 +123,12 @@ I was slightly surprised at the popularity for hybrid events, and the low respon
 
 I've kept the typo in the question (it should be 'what sector do **you** work...'). Hopefully it didn't cause confusion!
 
-Respondents were primarily public, likely again due to my own interests. But there was a good spread of other sectors, and nothing to suggest a community shouldn't be cross-sector.
+Respondents were primarily public library sector, likely again due to my own interests. But there was a good spread of other sectors, and nothing to suggest a community shouldn't be cross-sector.
 
 'Other' was quite high. That may have been libraries that don't fit into the other categories, or people who work in other sectors but are interested in libraries. It would be good to know more about that, but if its people not directly working in libraries but interested in them in general, that's good as well.
 
 ## Next steps
 
-Where to go from here? There are no definitive answers from the survey but there are useful pointers to the type of events, the topics, as well as people saying that online participation is something they want.
+Where to go from here? There are no definitive answers from the survey but there are pointers to the type of events, the topics, as well as people saying that online participation is something they want.
 
 There were some generous offers of help in the responses so I'll be following up on those and trying to arrange a short meeting to discuss next steps. If you'd like to be involved in that, please get in touch by emailing [info@librarieshacked.org](mailto:info@librarieshacked.org).
