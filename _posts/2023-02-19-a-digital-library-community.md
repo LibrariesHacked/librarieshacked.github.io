@@ -19,7 +19,7 @@ In December I ran a survey on a potential digital library community. This was th
 >
 > Any group would be community-led, and independent of individual organisations.
 
-Firstly, thanks to everyone who completed the survey, and shared it on social media. Particular thanks to [Artefacto](https://www.artefacto.org.uk) who also gave essential feedback and guidance.
+Thanks to everyone who completed the survey, and shared it on social media. Particular thanks to [Artefacto](https://www.artefacto.org.uk) who also gave essential feedback and guidance.
 
 What are my reference points for the kind of community or events that could be possible?
 
@@ -121,14 +121,14 @@ I was slightly surprised at the popularity for hybrid events, and the low respon
 | Special           | 3%       |
 | Other             | 21%      |
 
-I've kept the typo in the question (it should be 'what sector do **you** work...'). Hopefully it didn't cause confusion!
+I've kept the typo (it should be 'what sector do **you** work...'). Hopefully it didn't cause confusion!
 
 Respondents were primarily public library sector, likely again due to my own interests. But there was a good spread of other sectors, and nothing to suggest a community shouldn't be cross-sector.
 
-'Other' was quite high. That may have been libraries that don't fit into the other categories, or people who work in other sectors but are interested in libraries. It would be good to know more about that, but if its people not directly working in libraries but interested in them in general, that's good as well.
+'Other' was quite high. That may have been sectors that don't fit into the categories, or people who are interested in libraries without working in them. Either is good.
 
 ## Next steps
 
 Where to go from here? There are no definitive answers from the survey but there are pointers to the type of events, the topics, as well as people saying that online participation is something they want.
 
-There were some generous offers of help in the responses so I'll be following up on those and trying to arrange a short meeting to discuss next steps. If you'd like to be involved in that, please get in touch by emailing [info@librarieshacked.org](mailto:info@librarieshacked.org).
+There were generous offers of help in the responses so I'll follow up on those and try to arrange a short meeting to discuss next steps. If you'd like to be involved feel free to email [info@librarieshacked.org](mailto:info@librarieshacked.org).
