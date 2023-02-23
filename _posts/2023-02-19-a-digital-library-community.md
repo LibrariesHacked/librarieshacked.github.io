@@ -23,7 +23,7 @@ Thanks to everyone who completed the survey, and shared it on social media. Part
 
 What are my reference points for the kind of community or events that could be possible?
 
-In 2017 and 2019 Claire Back, Aude Charillon, and I, organised a couple of Library data events, named Voyage of the Data Treader 1 and 2. These had an unconference format with attendees pitching ideas for sessions. We also arranged training by expert speakers, such as Owen Stevens who presented on using OpenRefine, and Jason Evans who gave an introduction to Wikidata (both fabulous learning sessions). There are plenty of things that could be improved about those events, but they didn't lack enthusiasm from the attendees, and it was great to see staff from different areas sharing ideas and learning from each other.
+In 2017 and 2019 Claire Back, Aude Charillon, and I, organised a couple of Library data events, named Voyage of the Data Treader 1 and 2. These had an unconference format with attendees pitching ideas for sessions. We also arranged training by expert speakers, such as Owen Stephens who presented on using OpenRefine, and Jason Evans who gave an introduction to Wikidata (both fabulous learning sessions). There are plenty of things that could be improved about those events, but they didn't lack enthusiasm from the attendees, and it was great to see staff from different areas sharing ideas and learning from each other.
 
 I've attended and presented at tech meetup groups, where a regular event is held and someone volunteers to present on a topic. These are good to learn about new things, and for networking. For the volunteers they are opportunities to practice their presentation skills, and get feedback within a welcoming environment.
 
