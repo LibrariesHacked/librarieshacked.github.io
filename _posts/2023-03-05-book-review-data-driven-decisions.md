@@ -8,16 +8,18 @@ tags:
 published: false
 ---
 
-I've recently read Data-Driven Decisions: A Practical Toolkit for Library and Information Professionals. This is available from [Facet Publishing](https://www.facetpublishing.co.uk/title.php?id=9781783309799) and other bookshops. I was kindly given a temporary review copy by the publisher, but have also bought an ebook copy after many delays in finishing this review!
+Data-Driven Decisions: A Practical Toolkit for Library and Information Professionals is available from [Facet Publishing](https://www.facetpublishing.co.uk/title.php?id=9781783309799) and other bookshops. I was kindly given a temporary review copy by the publisher, but as this took so long to write, I also bought an ebook copy.
+
+Firstly, this isn't a proper review. After recent thinking about it I didn't feel that was something I wanted to describe it as. The book is good and worth buying, so do so if you can, or encourage your organisation to do so! Here are some thoughts on the content, some of which is critical, but purely as personal preference.
 
 ### Introduction
 
 > Whatever your reason for picking up this time today, I hope it allows you to love and use data a little bit more than you did before.
 > **Data-Driven Decisions. Taken from 1. Introduction**
 
-The introducton to this book gives a comforting background to the author's history, and makes it particularly accessible to those from a background outside of data work. You don't need to be good at maths, or even to have ever enjoyed maths, to be able to use data. You don't need to love data (yet), but hopefully you will by the end of the book.
+The introducton gives a comforting background to the author's history, and makes it particularly accessible to those from a non-data background. You don't need to be good at maths, or even to have ever enjoyed maths, to be able to use data. You don't need to love data (yet), but hopefully you will by the end of the book.
 
-This seems particularly important in the library sector, at least from my (relatively limited) experience. A lot of people who are very good at their jobs, but who are not confident in their data skills are given the task of managing data, and are left to figure it out for themselves. That doesn't create a scenario in which they can begin to love data, which is really just being able to love libraries. If you are in any way curious about the operations of your library, or the people who use it, then in many ways data is the only way to expolore those things.
+This seems particularly important in the library sector, at least from my experience. People who are very good at their jobs, but who are not confident in their data skills are often given the task of managing data. This can be a destructive situation, where they are left to figure it out for themselves, as well as given fairly dull data tasks. That doesn't create a scenario in which they can begin to love data, which is really just being able to love libraries. If you are in any way curious about the operations of your library, or the people who use it, then data is a way to explore those things.
 
 
 The introduction is also effective in tying the (better) use of data to the challenges library services are facing: 
@@ -37,9 +39,11 @@ So, long story short, the introduction, context, and need for the
 
 ### The toolkit
 
-The toolkit takes the form of six steps, each presented as chapters. These are Identify, Collect, Map, Analyse, Act, and Review. This is pretty similar to other guides you'll find and is a good structure to follow to do targeted data analysis. They're also well covered, with plenty of good examples, and with the same jargon-free approach.
+The toolkit takes the form of six steps, each presented as chapters. These are Identify, Collect, Map, Analyse, Act, and Review. This is pretty similar to other guides you'll find and is a good structure to follow to do targeted data analysis, and performance analysis. They're also well covered, with plenty of good examples, and with the same jargon-free approach.
 
 To some extent it feels like the book falls down slightly in the detail of how the go about data analysis. There are some aspects of the guidance in the toolkit where it feels like bad practice, or at least practice that that could lead to bad habits.
+
+> 
 
 
 I'd take an alternate view on this. Rarely save data, and when you do delete it as soon as possible. The key is not to store data as you go, that creates duplicate copies of the underlying source data and always leads to trouble in terms of data retention and archive policies, as well as just being bad for data storage and carbon footprint.
