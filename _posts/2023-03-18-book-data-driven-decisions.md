@@ -8,7 +8,7 @@ tags:
 published: true
 ---
 
-**Data-Driven Decisions: A Practical Toolkit for Library and Information Professionals**, written by Amy Stubbing, is [available from Facet Publishing](https://www.facetpublishing.co.uk/page/detail/data-driven-decisions/?k=9781783304783), and all good bookshops (maybe call ahead). I was kindly given access to a temporary review copy by the publisher, and also bought an ebook copy.
+Data-Driven Decisions: A Practical Toolkit for Library and Information Professionals, written by Amy Stubbing, is [available from Facet Publishing](https://www.facetpublishing.co.uk/page/detail/data-driven-decisions/?k=9781783304783), and all good bookshops (maybe call ahead). I was kindly given access to a temporary review copy by the publisher, and also bought an ebook copy.
 
 Firstly 'review' isn't something I'd like to describe this post as. The book is good and worth buying, so do so if you can, or encourage your organisation to do so. Here are some thoughts on the content, some of which is critical, but mainly from personal preferences.
 
