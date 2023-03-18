@@ -1,5 +1,5 @@
 ---
-title: "Book: Data-driven decisions"
+title: "Book thoughts: Data-driven decisions"
 excerpt: "Thoughts on Data-Driven Decisions: A Practical Toolkit for Library and Information Professionals"
 categories:
   - Book thoughts
