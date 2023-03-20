@@ -16,7 +16,7 @@ Firstly I wouldn't like to describe this post as a 'review'. The book is good an
 
 > Whatever your reason for picking up this tome today, I hope it allows you to love and use data a little bit more than you did before.
 >
-> **Data-Driven Decisions. Taken from 1. Introduction**
+> **Data-Driven Decisions. 1. Introduction**
 
 The introducton makes the book accessible to those from a non-data background. You don't need to be good at maths, or even to enjoy it, to be able to use data. You don't need to love data, but hopefully you will by the end of the book.
 
@@ -26,7 +26,7 @@ The introduction is also powerful in tying the better use of data to the challen
 
 > What we can do though, is prepare, stay ahead of the curve, and make our services as effective, innovative and relevant as possible
 >
-> **Data-Driven Decisions. Taken from 1. Introduction**
+> **Data-Driven Decisions. 1. Introduction**
 
 The book is jargon-free, and in a genuine way, rather than trying to remove or explain jargon. Perhaps because the author has learned the techniques and methods through experience, rather than formal training, so the language comes naturally.
 
@@ -40,7 +40,7 @@ There are some aspects of the guidance in the toolkit where it feels like bad pr
 
 > Well, while it's not wrong that you could pull the data you need again at a later date, when you start using data regularly, redownloading reports and organising data when you have already worked on it is a monumental waste of time.
 >
-> **Data-Driven Decisions. Taken from 4. Step 2 Collect**
+> **Data-Driven Decisions. 4. Step 2 Collect**
 
 I'd take an alternative view to this. Creating duplicate copies of underlying source data leads to trouble in terms of data retention and archive policies, as well as being bad for data storage and carbon footprint.
 
