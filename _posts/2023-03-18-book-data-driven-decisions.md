@@ -18,9 +18,9 @@ Firstly I wouldn't like to describe this post as a 'review'. The book is good an
 >
 > **Data-Driven Decisions. 1. Introduction**
 
-The introducton makes the book accessible to those from a non-data background. You don't need to be good at maths, or even to enjoy it, to be able to use data. You don't need to love data, but hopefully you will by the end of the book.
+The introduction makes the book accessible to those from a non-data background. You don't need to be good at maths, or even to enjoy it, to be able to use data. You don't need to love data, but hopefully you will by the end of the book.
 
-This seems particularly important in the library sector, from my experience. People who are very good at their jobs, but not confident in their data skills are often given the task of managing data. This can be a destructive situation, where they are left to figure it out for themselves, as well as being given fairly dull tasks. That doesn't create a situation in which they can begin to love data, which is a shame. If you are in any way curious about the operations of your library, and the people who use it, then data is a way to explore those things - loving library data is about loving libraries.
+This seems particularly important in the library sector, from my experience. People who are very good at their jobs, but not confident in their data skills are often given the task of data reporting. This can be a destructive situation, where they are left to figure it out for themselves, as well as being given fairly dull tasks. That doesn't create a situation in which they can begin to love data, which is a shame. If you are in any way curious about the operation of your library, and the people who use it, then data is a way to explore those things - loving library data is about loving libraries.
 
 The introduction is also powerful in tying the better use of data to the challenges library services are facing, and advocating for data in tackling these problems.
 
@@ -40,7 +40,7 @@ There are some aspects of the guidance in the toolkit where it feels like bad pr
 
 > Well, while it's not wrong that you could pull the data you need again at a later date, when you start using data regularly, redownloading reports and organising data when you have already worked on it is a monumental waste of time.
 >
-> **Data-Driven Decisions. 4. Step 2 Collect**
+> **Data-Driven Decisions. 4. Collect**
 
 I'd take an alternative view to this. Creating duplicate copies of underlying source data leads to trouble in terms of data retention and archive policies, as well as being bad for data storage and carbon footprint.
 
@@ -58,7 +58,7 @@ I appreciate this is likely to be beyond the power of the majority of library st
 
 ### Other approaches
 
-It's all very well for me to bang on about other approaches, but the book also explores lots of these. Guest authors tackle various subjects: moving from transactional to a transformational service, collection mapping, user experience and qualitative data, alternative data sources (like social media), building a data culture, and data visualisation.
+It's all very well for me to bang on about alternative approaches, but the book also explores lots of these. Guest authors tackle various subjects: moving from transactional to a transformational service, collection mapping, user experience and qualitative data, alternative data sources (like social media), building a data culture, and data visualisation.
 
 All of these are great. They keep up the same tone, which is impressive given the variety of authors. I particularly enjoyed the collection mapping section, which showed (among many other things) how important it is to share open data between libraries when assessing a collection.
 
