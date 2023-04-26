@@ -93,20 +93,20 @@ An alternative between the two may be adopting a platform like Wikidata, but lib
 
 Lol, what? Good data is good, bad data is bad.
 
-Library Map has functionality to display opening hours and a web link to each library, but the data was getting very wrong. Even the Arts Council dataset no longer includes these things, and they change regularly.
+Library Map has functionality to display opening hours and a web link to each library, but the data was getting very wrong. Even the Arts Council dataset no longer includes these things.
 
 So, I made a decision to turn off web links and opening hours.
 
-It's better, probably, that people aren't presented with wrong information. Maybe. But I still wonder whether that was the right decision. There are two ways to react to invalid data about your libraries:
+It's better, probably, that people aren't presented with wrong information. Maybe. But I wonder whether that was the right decision. There are two ways to react to invalid data about your libraries:
 
 - That's terrible, you can't tell people things that are wrong!
 - Ah, that's out of date, how can we update that?
 
-If you remove data as it becomes out of date then you'll end up with no data. Big sites like Google know this, with products like Google Maps. They don't want a poor user experience, but they'll definitely display data they know is likely to be wrong, rather than remove it. And that's not always bad.
+If you remove data when you're no longer confident about it, you'll end up with no data. Big sites like Google know this, with products like Google Maps. They don't want a poor user experience, but they'll definitely display data they know is likely to be wrong, rather than remove it. It draws attention to it, which makes it more likely to be fixed.
 
-People raising data quality issues is good. It highlights the need to everyone for permanent data maintenance.
+People raising data quality issues highlights the need to everyone for permanent data maintenance.
 
-## Developers are not Interaction designers
+## Developers are not interaction designers
 
 I quite like terrible user interfaces. But that's because I like data. So what better way of presenting libraries than in a data grid, with sortable columns, paging, and a custom filter for location or local authority? It's almost like a spreadsheet! I'd also quite like a CSV download button in there.
 
