@@ -10,7 +10,7 @@ tags:
 published: true
 ---
 
-A current Libraries Hacked prototype is [Library Map](https://www.librarymap.co.uk/), a search tool for public libraries in the UK.
+A current Libraries Hacked prototype is [Library Map](https://www.librarymap.co.uk/), a search tool for public library locations in the UK.
 
 <figure class="align-center">
   <img src="https://raw.githubusercontent.com/LibrariesHacked/librarieshacked.github.io/master/images/2023-04-25-library-map.png" alt="A screenshot of the map page on LibraryMap showing a rural location in Gloucestershire, and surrounding libraries"/>
