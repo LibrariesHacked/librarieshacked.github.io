@@ -108,9 +108,9 @@ People raising data quality issues is good. It highlights the need to everyone f
 
 ## Developers are not Interaction designers
 
-I quite like terrible user interfaces. But that's because I like data. So what better way of presenting libraries than in a data grid, with sortable columns, paging, and a custom filter for location or local authority? It's almost like a spreadsheet! It's also quite like a CSV download button in there.
+I quite like terrible user interfaces. But that's because I like data. So what better way of presenting libraries than in a data grid, with sortable columns, paging, and a custom filter for location or local authority? It's almost like a spreadsheet! I'd also quite like a CSV download button in there.
 
-This isn't the best experience or service design for users. I have a feeling that a stepped approach would be better. Rather than starting with a table of all libraries in a data grid, maybe it should just start with a clear process to enter your postcode. And then present results in a more friendly way, that incorporates both name and distance appropriately.
+This isn't the best experience or service design for users. I have a feeling that a stepped approach would be better. Rather than starting with a table of all libraries in a data grid, maybe it should start with a clear process to enter your postcode. And then present results in a more friendly way, that incorporates both name and distance appropriately.
 
 But that's beyond my expertise, and that's OK. However, it was good to see the British Library recruiting for an [Interaction Designer role](https://www.linkedin.com/jobs/view/interaction-designer-at-the-british-library-3474872363/) as part of the LibraryOn team. Whatever digital services that is for, it's good to see the wider team growing and including those skills.
 
