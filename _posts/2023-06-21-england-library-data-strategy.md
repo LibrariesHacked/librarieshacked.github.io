@@ -1,5 +1,5 @@
 ---
-title: England Library Strategy 2023
+title: England library strategy 2023
 excerpt: A submission to the advisory panel for the upcoming library strategy
 categories:
   - Library Stategy
@@ -9,9 +9,9 @@ tags:
 published: true
 ---
 
-There is currently ongoing development of [a new library strategy for England](https://www.gov.uk/government/news/baroness-sanderson-to-help-develop-new-public-libraries-strategy). This is being chaired by Baroness Elizabeth Sanderson of Welton.
+There is current development of [a new library strategy for England](https://www.gov.uk/government/news/baroness-sanderson-to-help-develop-new-public-libraries-strategy). This is being chaired by Baroness Elizabeth Sanderson of Welton.
 
-The following content was sent to the libraries strategy team at the DCMS to advocate for a new data strategy to underpin any wider strategy work.
+The following content was sent to the libraries strategy team at the DCMS to advocate for a new data strategy to underpin any wider strategy.
 
 ## Library data background
 
@@ -30,11 +30,12 @@ Public Lending Right (PLR) is a legal right to payment from Government funding f
 
 PLR has been in place since 1982 and is now administered by the British Library. Originally, it was considered impracticable to attempt to collect loans data from every library authority in the UK. Instead, a sample of loans data is collected from a selection of 30 library services, across 8 regions. The sample figures are then 'grossed up', using lending totals provided by the Chartered Institute of Public Finance and Accountancy (CIPFA). After the end of the sample year, registered authors are provided with a breakdown of the total number of times their books were borrowed from public libraries, and receive a fixed amount per loan.
 
-This generally worked until relatively recently. But the number of library services reporting total loan figures to CIPFA has been steadily decreasing, and is now approximately only 40% of services. This leaves the PLR process broken, with no data to complete the task of estimating total loans figures for book titles. A sample of data is still collected, but becomes misleading without total figures. So far, the effect of this has been ignored, authors and contributors are instead simply provided with figures that are wildly innacurate, while not being told this is the case. That does an injustice to the legal responsibility of administering PLR.
+This generally worked until relatively recently. But the number of library services reporting total loan figures to CIPFA has been steadily decreasing, and is now approximately only 40% of services. This leaves the PLR process broken, with no data to complete the task of estimating total loans figures for book titles. A sample of data is still collected, but becomes misleading without total figures. So far, the effect of this has been ignored, authors and contributors are instead simply provided with figures that are wildly innacurate, while not being told that this is the case. That does an injustice to the legal responsibility of administering PLR.
 
 It is no longer the case that it would be impracticable or expensive to collect detailed loans data from all library services. The few suppliers that provide Library Management Systems are all capable of doing such reporting. It would be a small task to co-ordinate action that would make open and automated reporting of loans a function for all library services.
 
 Openly available data on library lending, across all libraries, would be a valuable asset for the sector and all involved with it, such as authors, publishers, and reading agencies.
+
 
 ### Example: Policy decisions
 
@@ -48,6 +49,7 @@ Libraries Connected wrote a report on library fines, but this contained no signi
 
 Policy making requires data to inform decisions. Library services are stuck in a situation where they are not able to produce and analyse the data they need, to make informed policy about services. Widespread availability of data in key areas, such as library usage, would aid this.
 
+
 ### Example: New digital innovation
 
 The British Library are currently developing 'LibraryOn', a single digital presence for public libraries, with single brand and website. This is funded by the Arts Council, who have invested £3.4 million towards the platform.
@@ -56,9 +58,9 @@ However, strong digital services require strong underlying data. A key dataset f
 
 This is a dataset that has been acknowledged to be required since at least 2010. It is one that needs to be maintained by all library services. Unfortunately, any attempts to produce this data have resulted in ad-hoc surveys that are only valid for the date they were completed. This is not enough to enable digital services that would allow the public to find their nearest library.
 
-For the LibraryOn team, it is likely that they will spend a significant amount of their time addressing this challenge, and encouraging library services to maintain this basic data. But they should never have had to take on that task. The biggest danger to the success of this flagship project is not the talent and ambition within the team. It is the lack of support and preparedness from the wider sector, in terms of data and systems.
+For the LibraryOn team, it is likely that they will spend a significant amount of their time addressing this challenge, and encouraging library services to maintain this basic data. But they should never have had to take on that task. The biggest danger to the success of this flagship project is not the talent and ambition within the team (both excellent). It is the lack of support and preparedness from the wider sector, in terms of data and systems.
 
-We need a public library service that enables innovation and  digital developments, by supporting all third parties with strong and comprehensive open data services.
+We need a public library service that enables innovation and digital developments, by supporting all third parties with strong and comprehensive open data services.
 
 
 ## Consequences
