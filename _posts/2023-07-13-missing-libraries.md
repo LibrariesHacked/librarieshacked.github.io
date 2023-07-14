@@ -13,9 +13,9 @@ Where are places in England that don't have a public library? Well, there are lo
 
 In 2018 a request was forwarded to Libraries Hacked from the Libraries Taskforce, then part of DCMS. A researcher was trying to find somewhere that didn’t have a public library, where having one would have a significant positive impact on the community.
 
-This was shortly after the [Public libraries in England: basic dataset](https://www.gov.uk/government/publications/public-libraries-in-england-basic-dataset) had been released, providing open data on library locations. That data could be used to assess the current library network. It was also proposed that [literacy data published by the National Literacy Trust and Experian](https://www.experianplc.com/media/latest-news/2017/86-of-english-constituencies-have-entrenched-problems-with-literacy/) could provide data on areas in particular need of a library.
+This was shortly after the [Public libraries in England: basic dataset](https://www.gov.uk/government/publications/public-libraries-in-england-basic-dataset) had been released, providing open data on library locations. That could be used to assess the current library network. It was also proposed that [literacy data published by the National Literacy Trust and Experian](https://www.experianplc.com/media/latest-news/2017/86-of-english-constituencies-have-entrenched-problems-with-literacy/) could provide data on areas in particular need of a library.
 
-This has been on our project longlist for a long time, but other things got in the way. Also, the Experian/NLT data wasn't appetising. It was at Local Authority Ward level, and they are large and unwieldy administrative geographies, rather than population-based ones. It seemed likely that more detailed deprivation data, such as the [indices of multiple deprivation](https://www.gov.uk/government/statistics/english-indices-of-deprivation-2019) would be required, which are published at census-based geographies. Those would need to be matched to geographies for real places, such as towns, alongside population to find the most significant. It seemed a task destined to sit on the back-burner.
+This has been on our project longlist for a long time, but other things got in the way. Also, the Experian/NLT data wasn't appetising. It was at Local Authority Ward level, and those are large and unwieldy administrative geographies, rather than population-based ones. It seemed likely that more detailed deprivation data, such as the [indices of multiple deprivation](https://www.gov.uk/government/statistics/english-indices-of-deprivation-2019) would be required, which are published at census-based geographies. They would need to be matched to geographies for recognisable places, alongside population to find the most significant. It seemed a task destined to sit on the back-burner.
 
 However, The Library and Information Association (CILIP) recently announced an invitation to tender for a project called Future Libraries. It included this introduction:
 
@@ -23,18 +23,18 @@ However, The Library and Information Association (CILIP) recently announced an i
 > 
 > **CILIP [Future Libraries](https://www.cilip.org.uk/news/637671/Future-Libraries---invitation-to-tender.htm)** 
 
-This seemed to be looking at data along similar lines. Demand is different from need - the project is about adapting to future population and infrastructure. We have a library network which is outdated in many respects. Where population centres have changed, as well as habits in relation to shopping and high streets, the library network has remained static (aside from closures).
+This seemed to be looking at similar analysis. Demand is different from need - the project is about adapting to future population and infrastructure. We have a library network which is outdated in many respects. Where population centres have changed, as well as habits in relation to shopping and high streets, the library network has remained static (aside from closures).
 
-It was time for a re-assessent of the data available. The following are recent open data sources:
+It was time for a re-assessent of the data available, to answer that original query. The following are recent open data sources:
 
 - [Libraries in England basic dataset](https://www.artscouncil.org.uk/supporting-arts-museums-and-libraries/supporting-libraries). Now published by Arts Council England (ACE), the latest is for December 2022.
 - [OS Open Built Up Areas](https://www.ordnancesurvey.co.uk/products/os-open-built-up-areas). A 2022 dataset from Ordnance Survey, representing Built Up Areas of Great Britain, designed to underpin statistical analysis.
 - [English indices of deprivation 2019](https://www.gov.uk/government/statistics/english-indices-of-deprivation-2019). These are assessments of census-based areas to provide rankings of various deprivation measures.
 - [Census 2021](https://www.nomisweb.co.uk/sources/census_2021_bulk). The ONS have released lots of data from the latest census, including population demographics at small census geographies.
 
-### Initial look
+### Initial overview
 
-The ACE libraries in England dataset is fairly straightforward. After filtering it to extract statutory and staffed public libraries (as they are most directly comparable), we could see there are **2564** of these in England.
+The ACE libraries in England dataset is fairly straightforward to use. After filtering it to extract statutory and staffed public libraries (as they are most directly comparable), we could see there are **2564** of these in England.
 
 The OS built-up areas dataset "*enables policy makers and analysts, both nationally and locally, to conduct analysis corresponding to actual urban extents, for example, at a town, city, and village level.*". In England there are **7091** of these. A slight flaw in this dataset (for our requirements) is that it includes areas that are very large e.g. Bristol. Bristol is large enough to need many libraries - it would be more preferable to have a dataset that split large cities into smaller areas. As it is, the data is probably most useful for towns that aren't part of a larger city.
 
@@ -42,7 +42,7 @@ Are all current libraries within built-up areas? Not quite - of the 2564 librari
 
 <figure class="align-center">
   <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/Dent_Reading_Room.jpg/800px-Dent_Reading_Room.jpg" alt="Dent Reading Room with phone box in a rural street"/>
-  <figcaption>Dent Library Link (within Dent Reading Room). From Wikicommons: John Slater / Dent Reading Room / CC BY-SA 2.0</figcaption>
+  <figcaption>Dent Library Link (within Dent Reading Room). John Slater / Dent Reading Room / CC BY-SA 2.0</figcaption>
 </figure>
 
 ### Areas without a library
