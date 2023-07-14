@@ -1,5 +1,5 @@
 ---
-title: "Missing libraries: towns in England without a public library"
+title: 'Missing libraries: towns in England without a public library'
 excerpt: An analysis using library locations and built-up areas to find the places without a public library
 categories:
   - Library Stategy
@@ -20,12 +20,12 @@ This has been on our project longlist for a long time, but other things got in t
 However, The Library and Information Association (CILIP) recently announced an invitation to tender for a project called Future Libraries. It included this introduction:
 
 > The aim is to develop an evidence-based map of how current and future demand for library services is changing and provide a robust basis on which to plan and advocate for future development
-> 
-> **CILIP [Future Libraries](https://www.cilip.org.uk/news/637671/Future-Libraries---invitation-to-tender.htm)** 
+>
+> **CILIP [Future Libraries](https://www.cilip.org.uk/news/637671/Future-Libraries---invitation-to-tender.htm)**
 
-This seemed to be looking at similar analysis, but with a different focus. Demand is different from need - the project is about adapting to future population and infrastructure. We have a library network which is outdated in many respects. Where population centres have changed, as well as habits in relation to shopping and high streets, the library network has remained static (aside from closures).
+This seemed to be looking at similar analysis, but with a different focus. Demand is different from need - that project is about adapting to future population and infrastructure. We have a library network which is outdated in many respects. Where population centres have changed, as well as habits in relation to shopping and high streets, the library network has remained static (aside from closures).
 
-It was time for a re-assessent of the data available, to answer that original query. We found the following recent open data sources:
+Regardless of other projects, it was worth a re-assessent of the data available, to answer that original query. We found the following recent open data sources:
 
 - [Libraries in England basic dataset](https://www.artscouncil.org.uk/supporting-arts-museums-and-libraries/supporting-libraries). Now published by Arts Council England (ACE), the latest is for December 2022.
 - [OS Open Built Up Areas](https://www.ordnancesurvey.co.uk/products/os-open-built-up-areas). A 2022 dataset from Ordnance Survey, representing Built Up Areas of Great Britain, designed to underpin statistical analysis.
@@ -34,9 +34,9 @@ It was time for a re-assessent of the data available, to answer that original qu
 
 ### Initial overview
 
-The ACE libraries in England dataset is fairly straightforward to use. After filtering it to extract statutory and staffed public libraries (as they are most directly comparable), there are **2564** of these in England.
+The ACE libraries in England dataset is fairly straightforward to use, although had a lot of address data that needed correcting. After filtering it to extract statutory and staffed public libraries (as they are most directly comparable), there are **2564** of these in England.
 
-The OS built-up areas dataset "*enables policy makers and analysts, both nationally and locally, to conduct analysis corresponding to actual urban extents, for example, at a town, city, and village level.*". In England there are **7091** of these. A slight flaw in this dataset (for our requirements) is that it includes areas that are very large e.g. Bristol. Bristol is large enough to need many libraries - it would be more preferable to have a dataset that split large cities into smaller areas. The data is probably most useful for towns that aren't part of a larger city.
+The OS built-up areas dataset "_enables policy makers and analysts, both nationally and locally, to conduct analysis corresponding to actual urban extents, for example, at a town, city, and village level._". In England there are **7091** of these. A slight flaw in this dataset (for our requirements) is that it includes areas that are very large e.g. Bristol. Bristol is large enough to need many libraries - it would be more preferable to have a dataset that split large cities into smaller areas. The data is probably most useful for towns that aren't part of a larger city.
 
 Are all current libraries within built-up areas? Not quite - of the 2564 libraries, **6** were outside of these areas. Those were primarily rural libraries. For example, Dent Library Link in Westmorland and Furness is in a location with a population of just 780. There's nothing wrong with this - [Libraries on the High Street](https://blog.librarydata.uk/libraries-on-the-high-street/) research showed that public libraries appear in many different places, and shouldn't be assumed to be urban. However, such areas are out of scope for this research, as we're primarily looking at places of significant population.
 
@@ -66,41 +66,51 @@ Similarly, Whitefield. The library and adult learning centre in Whitefield was c
 
 ### Using this data
 
-Those consultations and closures are in the past. But all changes to the network can be assessed on a national basis, as well as a local one. Should there be a population threshold at which we believe places need a library? Shared tools and data would be useful in assessing library provision. Consultations can be challenged, and are subject to oversight from the DCMS, but even then, at what point can they step in? Without established guidance on what provision should be, it comes down primarily to ensuring the consultation has been conducted properly.
+Those consultations and closures are in the past. But changes to the library network can be assessed on a national basis, as well as a local one. Should there be a population threshold at which we believe a place needs a library? We have reasonable concepts of this in terms of schools and hospitals. These are referenced in the National Planning Policy Framework. Shared tools and data would be useful in assessing library provision. Consultations can be challenged, and be made subject to oversight from the DCMS, but even then, at what point is there intervention? Without established guidance on library provision, it comes down primarily to ensuring the consultation has been conducted properly.
 
-A problem with consultations is that they often use current usage as a proxy for demand. Current usage is too easily misleading - affected by opening hours, variations in measuring usage, current service offer from the library, as well as marketing. Population of an area has its flaws, but it indicates potential usage.
+A problem with consultations is that they often use current usage as a proxy for demand. Current usage is too easily misleading - affected by opening hours, variations in measuring usage, current service offer from the library, as well as marketing. The actual population count of an area has its flaws, but it indicates potential usage.
 
 The House of Commons library produced a research report on the classification of towns and cities. It includes specific levels of population that serve to classify settlements:
 
-> **Medium Towns**: settlements with a population between 25,000 and 59,999<br/> 
-> **Small Towns**: settlements with a population between 7,500 and 24,999<br/>
-> **Villages and small communities**: settlements with a population of less than 7,500
-> 
+> **Core Cities**: twelve major population and economic centres
+> **Other Cities**: other settlements with a population of more than 175,000
+> **Medium Towns**: settlements with a population between 25,000 and 59,999<br/> > **Small Towns**: settlements with a population between 7,500 and 24,999<br/> > **Villages and small communities**: settlements with a population of less than 7,500
+>
 > **House of Commons library**. [City & Town Classification of Constituencies & Local Authorities](https://commonslibrary.parliament.uk/research-briefings/cbp-8322/)
 
-It would be possible, for example, to have library service standards that specified that small towns (and above) should have a library. That would create clear policy on what we expect from library services.
+Using these classifications, we can group the built-up areas, and look at the proportion of each classification that don't have a public library. Note, these aren't classifications of town/city in the traditional way - they are a classification based upon population. Some 'large towns' in this data will have ceremonial city status, and vice versa.
 
-In practice, what would this mean? Not too large a change. There are currently **75** built-up areas with a population of over 7,500 that currently do not have a statutory library. It would not be a huge undertaking to meet that level of service.
+| Classification                 | % without a library |
+| ------------------------------ | ------------------- |
+| Cities                         | 0%                  |
+| Large towns                    | 0%                  |
+| Medium towns                   | 0.3%                |
+| Small towns                    | 11%                 |
+| Villages and small communities | 90%                 |
+
+As mentioned earlier - the data is flawed with large cities, as it can consider these as single areas e.g. Bristol. It is good at least to see that no city or large town is without a library, and almost every medium town has one. However around 11% of small towns do not. As the rest of the small towns do, it is reasonable to expect to have a library in those places.
+
+It would be possible, for example, to have library service standards that specified that small towns (and above) should all have a library. That would create clear policy on what we expect in library provision. In practice, this is also not too large a change. There are currently **75** built-up areas with a population of over 7,500 that do not have a statutory library. It would not be a huge undertaking to meet that level of service.
+
+For villages and small communities - as the majority do not have a library, it is more difficult to assume they should. But services such as mobile libraries and home library services should be looking at also covering areas where there is not a permanent library.
 
 ## Areas in need of a library
 
 It's worth being cautious around the idea of need. In library consultations it's hugely important. A local authority has an obligation to consider the population who most need their services. Who has greatest need of a library? People who can't otherwise get hold of reading material. People who need the company and health outcomes from social events. Those who don't have digital devices and need to use the PCs/tablets. Maybe those who just need to stay warm in the winter.
 
-But for a long-term strategy, we all need libraries. Libraries will only succeed if they appeal to everyone. That doesn't mean that services shouldn't assess libraries in terms of the lifelines they provide. But it should be a part of any library strategy that they are available and appealing to all, and the goal should be to maximise usage across all demographics.
+But for a long-term strategy, we all need libraries, and libraries will only succeed if they appeal to everyone. That doesn't mean that services shouldn't assess libraries in terms of the lifelines they provide. But it should be a part of any library strategy that they are available and appealing to all, and the goal should be to maximise usage across all demographics.
 
-In assessing need it could be possible to come up with library specific indicators, such as using literacy data. But the commonly used [indices of deprivation](https://www.gov.uk/government/statistics/english-indices-of-deprivation-2019) provide perfectly good assessments across multiple deprivation indicators. These are income, employment, education, health, crime, barriers to housing and services, and living environment. Those are all problems in which it can confidently be said that a library service has something to offer to help out the community. Census areas are assigned a single decile (from 1-10) to give them a multiple index of deprivation, 1 is within the 10% most deprived areas, and 10 would be in the 10% least deprived.
+In assessing need, it could be possible to come up with library specific indicators, such as using literacy data. But the commonly used [indices of deprivation](https://www.gov.uk/government/statistics/english-indices-of-deprivation-2019) provide perfectly good assessments across multiple deprivation indicators. These are income, employment, education, health, crime, barriers to housing and services, and living environment. Those are all problems in which it can confidently be said that a library service has a lot to offer to help out the community.
 
-These census areas tend to be smaller than towns, so a town would have a variety of different deprivation assessments. There are different ways of tackling this - one option is to assess each town by the minimum deprivation decile within it. It may be that only 10% of the area is at that level of deprivation, but it best represents the greatest need in the town.
+Census areas are assigned a single decile (from 1-10) to give them a multiple index of deprivation, 1 is within the 10% most deprived areas, and 10 would be in the 10% least deprived. These communities tend to be smaller than towns, so a town would contain a variety of different deprivation assessments. There are different ways of assessing the deprivation within larger areas - one option is to assess each town by the minimum deprivation decile within it. It may be that only 10% of the area is at that level of deprivation, but it best represents the greatest need in the town.
 
-Of the 75 towns, with a population over 7,500 there are **12** that serve communities with a multiple deprivation decile of 1. Such needs analysis could be used to identify priority areas.
-
+Of the 75 towns, with a population over 7,500, there are **12** that contain communities with a multiple deprivation decile of 1. This needs analysis could be used to identify priority actions if looking to 'level-up' certain areas.
 
 ### Summary
 
-* It is possible to use open data on library locations alongside built-up urban extents, to identify settlements that are not currently served by a statutory and staffed public library.
-* Looking at small towns, with a population of between 7,500 and 24,999, we can estimate that there are 75 of these that are without the benefit of a library.
-* Looking further at the deprivation in these towns, a shortlist of **12** contain areas of deprivation that are within the 10% most deprived areas across England and Wales.
-
+- It is possible to use open data on library locations alongside built-up urban extents, to identify settlements that are not currently served by a statutory and staffed public library.
+- Looking at small towns, with a population of over 7,500, we can estimate that there are 75 of these that are without the benefit of a library.
+- Looking further at the deprivation in these towns, a shortlist of **12** contain areas of deprivation that are within the 10% most deprived areas across England and Wales.
 
 ### Further developments
 
