@@ -78,9 +78,9 @@ The House of Commons library produced a research report on the classification of
 > 
 > **House of Commons library**. [City & Town Classification of Constituencies & Local Authorities](https://commonslibrary.parliament.uk/research-briefings/cbp-8322/)
 
-It would be possible, for example, to have library service standards that specified that small towns (and above) should have a library. But leave villages and small communities down to the discretion of the local authority. That would create clear policy on what we expect from library services.
+It would be possible, for example, to have library service standards that specified that small towns (and above) should have a library. That would create clear policy on what we expect from library services.
 
-In practice, what would this mean? There are currently **75** built-up areas with a population of over 7,500 that currently do not have a statutory library. It would not be a huge undertaking to meet that level of service.
+In practice, what would this mean? Not too large a change. There are currently **75** built-up areas with a population of over 7,500 that currently do not have a statutory library. It would not be a huge undertaking to meet that level of service.
 
 ## Areas in need of a library
 
