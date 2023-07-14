@@ -97,8 +97,8 @@ Of the 75 towns, with a population over 7,500 there are **12** that serve commun
 
 ### Summary
 
-* It is possible to use open data on library locations alongside built-up urban extents, to identify areas that are not currently served by a statutory and staffed public library.
-* Looking at small towns, with a population of between 7,500 and 24,999, we can estimate that there are 75 of these that could benefit from a library.
+* It is possible to use open data on library locations alongside built-up urban extents, to identify settlements that are not currently served by a statutory and staffed public library.
+* Looking at small towns, with a population of between 7,500 and 24,999, we can estimate that there are 75 of these that are without the benefit of a library.
 * Looking further at the deprivation in these towns, a shortlist of **12** contain areas of deprivation that are within the 10% most deprived areas across England and Wales.
 
 
@@ -106,4 +106,4 @@ Of the 75 towns, with a population over 7,500 there are **12** that serve commun
 
 The data alongside methodology and sources for the analysis will be released within the next week.
 
-These insights should be available as interactive dashboards, rather than static reports. The OS Built-Up areas, alongside population and deprivation data will be built into the Libraries Hacked [map tool at LibraryMap](https://www.librarymap.co.uk/#/map). This will allow all users and service professionals to explore different areas and see aspects of missing library provision.
+These insights should be available as interactive dashboards, rather than static reports. The OS Built-Up areas, alongside population and deprivation data, will be built into the Libraries Hacked [map tool at LibraryMap](https://www.librarymap.co.uk/#/map). This will allow all users and service professionals to explore different settlements and see aspects of missing library provision.
