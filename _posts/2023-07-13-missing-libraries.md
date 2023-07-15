@@ -106,9 +106,9 @@ Of the 75 towns, with a population over 7,500, there are **12** that contain com
 
 ### Summary
 
-- Open data on library locations, alongside built-up urban extents, can identify settlements that are not currently served by a statutory and staffed public library.
+- Open data on library locations and built-up urban extents can identify settlements that are not currently served by a statutory public library.
 - Looking at small towns, with a population of over 7,500, we can estimate that there are 75 without the benefit of a library.
-- Prioritisng towns with the highest deprivation, a shortlist of **12** contain areas of the highest deprivation indicators, and in particular need of library services.
+- Prioritising towns with the highest deprivation, a shortlist of **12** are in particular need of library services.
 
 ### Further developments
 
