@@ -23,9 +23,9 @@ However, The Library and Information Association (CILIP) recently announced an i
 >
 > **CILIP [Future Libraries](https://www.cilip.org.uk/news/637671/Future-Libraries---invitation-to-tender.htm)**
 
-This seemed to be looking at similar analysis, but with a different focus. Demand is different from need - that project is about adapting to future population and infrastructure. We have a library network which is outdated in many respects. Where population centres have changed, as well as habits in relation to shopping and high streets, the library network has remained static (aside from closures). Regardless of future planning, it would be useful to go back to that original query on current places without a library.
+This seemed to be looking at similar analysis, but with a different focus. Demand is different from need - the CILIP project references future population and infrastructure. We have a library network which is outdated in many respects. Where population centres have changed, as well as shopping habits, the library network has remained static, aside from closures.
 
-It was worth a re-assessent of the data available. We found the following open data sources:
+Regardless of future planning, it would be useful to go back to that original query, and look at current locations without a library. We found the following open data sources:
 
 - [Libraries in England](https://www.artscouncil.org.uk/supporting-arts-museums-and-libraries/supporting-libraries). Now published by Arts Council England (ACE), the latest is for December 2022.
 - [Built Up Areas](https://www.ordnancesurvey.co.uk/products/os-open-built-up-areas). A 2022 dataset from Ordnance Survey (OS), representing Built Up Areas of Great Britain, designed to underpin statistical analysis.
