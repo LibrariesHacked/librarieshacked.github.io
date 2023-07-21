@@ -78,7 +78,7 @@ The House of Commons library produced a research report on the classification of
 
 These aren't definitions of town/city using traditional status. They are a classification based upon population. Some 'large towns' will have ceremonial city status.
 
-Using these classifications, we can group the built-up areas, and look at the proportion of each that don't have a public library. Note,
+Using these classifications, we can group the built-up areas, and look at the proportion of each that don't have a public library.
 
 | Classification                 | % without a library |
 | ------------------------------ | ------------------- |
@@ -92,7 +92,7 @@ It is good to see that no city or large town is without a library, and almost ev
 
 A library service standard could specify that small towns and above should all have a library. That would enable clear policy on what we expect in library provision. In practice, this is also not too large a change. There are currently **75** built-up areas with a population of over 7,500 that do not have a statutory and staffed library. It would not be a huge undertaking to meet that level of service.
 
-For villages and small communities - as the majority do not have a library, it is more difficult to declare they should. But policies shouldn't restrict libraries in smaller areas - there would be many where it would be beneficial. Services such as mobile libraries and home library services should also be covering all areas where there is not a permanent library.
+For villages and small communities - as the majority do not have a library, there isn't such a clear suggestion that they should. But policies shouldn't restrict libraries in smaller areas - there would be many where it would be beneficial. Services such as mobile libraries and home library services should also be covering all areas where there is not a permanent library.
 
 ## Areas in need of a library
 
@@ -100,7 +100,7 @@ It's worth being cautious around the idea of need. In library consultations it's
 
 But for a long-term strategy, we all need libraries, and libraries need to appeal to everyone. That doesn't mean that services shouldn't assess libraries by the lifelines they provide. But any strategy should ensure they are accessible and appealing to all, to maximise usage across all demographics.
 
-In assessing need, it could be possible to come up with library specific indicators, such as with literacy data. But the commonly used [indices of deprivation](https://www.gov.uk/government/statistics/english-indices-of-deprivation-2019) provide perfectly good assessments across multiple deprivation indicators. These are income, employment, education, health, crime, barriers to housing and services, and living environment. Those are all problems in which it can confidently be said that a library service has a part in tackling.
+In assessing need, it could be possible to come up with library specific indicators, such as with literacy data. But the commonly used [indices of deprivation](https://www.gov.uk/government/statistics/english-indices-of-deprivation-2019) provide perfectly good assessments across multiple deprivation indicators. These are income, employment, education, health, crime, barriers to housing and services, and living environment. Those are all problems in which it can confidently be said that a library service has a positive impact.
 
 Census areas are assigned a single decile (from 1-10) to give them a multiple index of deprivation. A decile of 1 shows that a place is within the top 10% of most deprived areas. These communities tend to be smaller than towns, so a town may contain a variety of different deprivation assessments. There are different ways of aggregating deprivation within larger areas - one option is to assess each town by the minimum deprivation decile within it. It may be that only a small part of a town is at that level of deprivation, but it best represents the greatest need.
 
