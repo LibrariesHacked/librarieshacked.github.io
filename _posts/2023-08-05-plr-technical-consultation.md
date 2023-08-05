@@ -49,7 +49,7 @@ There's only going to be one chance for this - it's worth getting it right.
 Automation and open publishing are the two essential aspects in making combined loans data across all services work efficiently. Here's a rough proposal.
 
 <div class="mermaid">
-  graph TD;
+  flowchart TD;
       LibA["Library service A
         LMS"];
       LibB["Library service B
