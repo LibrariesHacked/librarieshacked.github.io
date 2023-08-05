@@ -48,7 +48,7 @@ There's only going to be one chance for this - it's worth getting it right.
 
 Automation and open publishing are two essential aspects in making combined loans data across all services work efficiently. Here's a rough proposal.
 
-<div class="mermaid">
+```mermaid
   flowchart TD;
       LibA["Library service A
         LMS"];
@@ -68,7 +68,7 @@ Automation and open publishing are two essential aspects in making combined loan
       OpenData-->PLR;
       OpenData-->ThirdParty;
       OpenData-->Public;
-</div>
+```
 
 1. Library management systems send loans data into a holding area every night. The data will include date, branch code, ISBNs, and loan counts.
 2. The data is automatically validated to ensure it contains valid identifiers, is in the correct format, and counts are within minimum/maximum thresholds for each library branch.
