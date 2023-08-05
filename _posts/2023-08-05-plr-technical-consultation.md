@@ -9,36 +9,36 @@ tags:
 published: true
 ---
 
-On 28th June 2023 the DCMS published a [Consultation on technical amendments to the Public Lending Right Scheme](https://www.gov.uk/government/consultations/consultation-on-technical-amendments-to-the-public-lending-right-scheme-2023/consultation-on-technical-amendments-to-the-public-lending-right-scheme-2023). If you need an introduction to how PLR works, try the [Public Lending Right](https://blog.librarydata.uk/public-lending-right/) post on this blog.
+On 28th June 2023 the DCMS published a [Consultation on technical amendments to the Public Lending Right Scheme](https://www.gov.uk/government/consultations/consultation-on-technical-amendments-to-the-public-lending-right-scheme-2023/consultation-on-technical-amendments-to-the-public-lending-right-scheme-2023). If you need an introduction PLR works, try the [Public Lending Right](https://blog.librarydata.uk/public-lending-right/) post on this blog.
 
 The consultation runs until 6 August 2023. It proposes two changes.
 
 > 1. Amend the Scheme so that it is less prescriptive regarding designation of sampling points, enabling the British Library to increase the sample size with the option to move to collecting comprehensive loans data from all library authorities in the UK.
 > 2. Remove the requirement, in certain circumstances, for an application for registration of a posthumously eligible book to be made by the deceased author’s personal representatives. This means a person registering books for the first time after inheriting from a deceased author may not need to have a solicitor/executor involved in making the application, providing for a more efficient and less burdensome administration process.
-> 
+>
 > **Consultation on technical amendments to the Public Lending Right Scheme: 2023**
 
 The second amendment seems good, but out of scope for a library data blog. The first is obviously relevant - it could lead to comprehensive UK library loans data.
 
-There are many reasons to support it. A sampling system has flaws, and is unfair to authors popular in local areas, who may not be part of the sample for many years. The system also relies on 'grossing up' the sample by using total lending figures, which no longer exist.
+There are many reasons to support it. The current sampling is unfair to authors popular in local areas, who may not be part of the sample for many years. The system also relies on 'grossing up' the sample by using total lending figures, which no longer exist.
 
 Not just a significant fix for PLR - this is an opportunity to make the data multi-purpose, and openly available to all. It is also an opportunity to make a large saving across libraries, as well as encouraging greater innovation from that data.
 
-What has PLR to do with libraries publishing open data? The public library sector has spent the last decade discussing, unsuccessfully, how it can publish data from all services, with loans being a key dataset. Better PLR data could remove the need for almost any other library loans data. There is no point in duplicating effort: if comprehensive loans data is produced for PLR, it should be available for all purposes.
+What has PLR to do with libraries publishing open data? The public library sector has spent the last decade unsuccessfully discussing how it can publish data from all services, with loans being a key dataset. Better PLR data could remove the need for almost any other library loans data. There is no point in duplicating effort: if comprehensive loans data is produced for PLR, it should be available for all purposes.
 
-This isnt really 'PLR data'. It would be a public dataset of library loans, published from all libraries, to an open repository. Available to anyone, including PLR, for whatever purpose they wish. But as PLR is a legislative requirement it is the only means to collect the data without the need for voluntary participation, and includes funds for administration.
+This isnt really 'PLR data'. It would be a public dataset of library loans, published from all libraries, to an open repository. Available to anyone, including PLR, for whatever purpose they wish. But as PLR is a legislative requirement it is the only means to collect the data without only voluntary participation, and includes funds for administration.
 
 Across 200 or so local authorities, there is a huge opportunity for greater efficiency. It would allow shared tools to be built from that data and save significant amounts of staff time spent regularly extracting that data from individual systems.
 
-A [recent Freedon of Information request](https://www.whatdotheyknow.com/request/request_for_total_book_issues_by_2) was sent to multiple library services. This asked for the loans figures for each library branch, over a custom period. The staff time for each service could easily be a couple of hours.
+A [recent Freedom of Information request](https://www.whatdotheyknow.com/request/request_for_total_book_issues_by_2) was sent to multiple library services. This asked for the loans figures for each library branch, over a custom period. The staff time for each service could easily be a couple of hours.
 
-[A more complex FOI request](https://www.whatdotheyknow.com/request/top_10_most_popular_library_book_127), sent to 151 library services in England, asked for data on the ten most borrowed books. Responses to this were mixed - Telford and Wrekin could not provide the data and said they only had such information when they were part of the PLR sample. That seems extraordinary, but shows the potential impact of centralised data. FOI allows for a maximum of £450 in staff time. For a single but complex request sent to all UK services, that's close to £100,000.
+[A more complex FOI request](https://www.whatdotheyknow.com/request/top_10_most_popular_library_book_127), sent to 151 library services in England, asked for data on the ten most popular books. Responses to this were mixed - Telford and Wrekin could not provide the data, and said they only had such information when they were part of the PLR sample. That seems extraordinary, but shows the potential impact of centralised data. FOI allows for a maximum of £450 in staff time. For just a single but complex request sent to all UK services, that could be almost £100,000.
 
 Similarly, Libraries Connected have been running their own data collection programme, requesting loans data from libraries. Each response to this requires staff time. All libraries also have routine weekly and monthly data processes that would benefit from shared systems and data.
 
-The data could also be used in commercial applications. Both Nielsen LibScan and CollectionHQ produce software to extract loans data from library management systems. They, and any other innovators, should be able to simply access data that is published as open by default.
+The data could also be used in commercial applications. Both Nielsen LibScan and CollectionHQ produce software to extract loans data from library management systems. They, and any other innovators, should be able to access data that is openly published by default.
 
-Not just benefits for the library sector. Authors, contributors and publishers would hugely benefit from better and more timely data about their books being borrowed in libraries. To see, for example, how many of your books were loaned in libraries the previous day would be incredibly powerful. The impact of author events and promotion would be far clearer.
+It's not only benefits for the library sector. Authors, contributors and publishers would hugely benefit from better and more timely data about books being borrowed in libraries. To see, for example, how many of your books were loaned in libraries the previous day would be incredibly powerful. The impact of author events and promotion would be far clearer.
 
 There is likely to be a view that extending loans reporting will create an extra burden on public libraries. That is only true if the change is poorly implemented. With extra automation, the efficency savings are clear. Providing library services with centrally managed and up-to-date reporting on library loans would easily achieve annual savings of far more than the cost of implementation.
 
@@ -85,8 +85,7 @@ I have been advocating for extending PLR sampling for many years. It is essentia
 
 PLR is the best option for a statutory requirement for library data collection. If loans are collected as part of PLR then there would be no reason to collect this elsewhere (e.g. CIPFA submissions, or local data reporting). We need to ensure that public library processes are efficient and refer to a single source.
 
-I therefore strongly welcome this technical change. 
-
+I therefore strongly welcome this technical change.
 
 ### Do you have any other proposals as to how accurate book lending data from UK public libraries could be obtained for the purpose of calculating the PLR payments due to authors and other contributors?
 
@@ -99,7 +98,6 @@ Greater regularity (daily rather than 2-monthly) helps fix errors in a timely ma
 Extra detail, such as branch and loan date, will aid in investigating anomalies and errors.
 
 Open data increases data visibility, and adds validation to provide a level of data accuracy that is impossible for a small team to achieve alone.
-
 
 ### Do you anticipate there would be any wider impacts as a result of the proposed change to the PLR book loans sampling? These could be positive or negative.
 
