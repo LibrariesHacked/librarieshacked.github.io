@@ -74,7 +74,7 @@ tag_archive:
   path: /tags/
 
 footer_scripts:
-  - https://cdnjs.cloudflare.com/ajax/libs/mermaid/8.12.0/mermaid.min.js
+  - https://cdnjs.cloudflare.com/ajax/libs/mermaid/10.3.0/mermaid.min.js
   - https://cdnjs.cloudflare.com/ajax/libs/PapaParse/4.6.3/papaparse.min.js
   - https://use.fontawesome.com/releases/v5.7.1/js/all.js
   - https://cdn.datatables.net/1.10.19/js/jquery.dataTables.min.js
