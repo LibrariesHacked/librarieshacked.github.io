@@ -36,11 +36,11 @@ A [recent Freedom of Information request](https://www.whatdotheyknow.com/request
 
 Similarly, Libraries Connected have been running their own data collection programme, requesting loans data from libraries. Each response to this requires staff time. All libraries also have their own routine data processes that would benefit from shared systems and data. As well as the obvious advantage of having access to each other's data.
 
-The data would also be used in commercial applications. Both Nielsen LibScan and CollectionHQ produce software to extract loans data from library management systems. They, and any other providers of library data insight, should be able to access data that data by default.
+The data would also be used in commercial applications. Both Nielsen LibScan and CollectionHQ produce software to extract loans data from library management systems. They, and any other providers of library data insight, should be able to access that data by default.
 
-It's not only benefits for the library sector. Authors, contributors and publishers would hugely benefit from better and more timely data about books being borrowed in libraries. To see, for example, how many of your books were loaned, and where, as recently as the previous day would be incredibly powerful. The impact from author events and promotion would be far clearer.
+There aren't only benefits for the library sector. Authors, contributors and publishers would hugely benefit from better and more timely data about books being borrowed in libraries. To see, for example, where and when your books were loaned as recently as the previous day would be incredibly powerful. The impact from author events and promotion would be far clearer.
 
-The consultation is likely to surface views that extending loans reporting will create an extra burden on public libraries. That is only true if the change is implemented poorly, and without any consideration. With additional automation and detail to the data, the efficency savings are clear. Providing library services with up-to-date reporting on library loans would easily achieve savings of far more than the cost of implementation.
+The consultation is likely to surface views that extending loans reporting will create an extra burden on public libraries. That is only true if the change is implemented poorly, and without any consideration. With additional automation and detail to the data, the efficency savings are clear. Providing up-to-date reporting on library loans would easily achieve savings of far more than the cost of implementation.
 
 There's only going to be one chance for this - it's worth getting it right.
 
@@ -70,11 +70,11 @@ Automation and open publishing are two essential aspects in making combined loan
       OpenData-->Public;
 </div>
 
-1. Library management systems send loans data into a holding area every night. The data will include date, branch code, ISBNs, and loan counts.
+1. Library management systems send loans data into a holding area every night. The data will include date, branch name, ISBNs, and loan counts.
 2. The data is automatically validated to ensure it contains valid identifiers, is in the correct format, and counts are within minimum/maximum thresholds for each library branch.
 3. If any problems are detected, an alert is sent to the service and the PLR team. Extra detail in the data will aid the validation process, as more information will be available to diagnose issues.
 4. If no problems are detected the data is published into an open data repository
-5. Data is then picked up for anyone wishing to use it through downloads and an API (application programming interface)
+5. Data is then picked up for anyone wishing to use it, through downloads and an API (application programming interface)
 6. Open publishing of the data provides an extra level of validation - data users should be able to report issues back to be investigated and corrected.
 
 The following are the formal consultation responses submitted from Libraries Hacked to the DCMS.
@@ -97,7 +97,7 @@ Greater regularity (daily rather than 2-monthly) helps fix errors in a timely ma
 
 Extra detail, such as branch and loan date, will aid in investigating anomalies and errors.
 
-Open data increases data visibility, and adds validation to provide a level of data accuracy that is impossible for a small team to achieve alone.
+Open data increases data visibility, and adds validation to provide a level of data accuracy that is impossible for a small team to achieve.
 
 ### Do you anticipate there would be any wider impacts as a result of the proposed change to the PLR book loans sampling? These could be positive or negative.
 
