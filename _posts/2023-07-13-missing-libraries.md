@@ -15,7 +15,7 @@ In 2018 a request was forwarded to Libraries Hacked from the Libraries Taskforce
 
 This was shortly after the first [Public libraries in England dataset](https://www.gov.uk/government/publications/public-libraries-in-england-basic-dataset), providing open data on library locations. That could be useful in assessing the current library network. It was also proposed that [literacy data from the National Literacy Trust and Experian](https://www.experianplc.com/media/latest-news/2017/86-of-english-constituencies-have-entrenched-problems-with-literacy/) could help find areas in particular need of a library.
 
-This has been on our project list for a long time, but other things got in the way. Also, the Experian/NLT data wasn't appetising. It was at Ward level, and those are large and unwieldy administrative geographies. It seemed likely that more detailed deprivation data would be required, which could be matched to urban areas, as well as population counts to find significant towns. It seemed a task destined to sit on the back-burner.
+This has been on our project list for a long time, but other things got in the way. Also, the Experian/NLT data wasn't appetising. It was at Ward level, and those are large and unwieldy administrative geographies. It seemed likely that detailed deprivation data would be required, which would then need to be matched to urban areas, as well as population counts to find areas of significant population. It seemed a task destined to sit on the back-burner.
 
 However, The Library and Information Association (CILIP) recently announced an invitation to tender for a project called Future Libraries. It included this introduction:
 
@@ -38,7 +38,7 @@ The ACE libraries in England dataset is fairly straightforward to use. After fil
 
 The OS built-up areas dataset "_enables policy makers and analysts, both nationally and locally, to conduct analysis corresponding to actual urban extents, for example, at a town, city, and village level._". In England there are **7091** of these. A slight flaw, for our requirements, is that it includes areas that are quite large e.g. Bristol. Bristol is a large enough city to need many libraries. The data is probably more useful for towns that aren't part of a larger city.
 
-Are all current libraries within a built-up area? Not quite - of the 2564 libraries, **6** were not. Those were rural libraries. For example, Dent Library Link in Westmorland and Furness is in a location with a population of just 780. There's nothing wrong with this - [Libraries on the High Street](https://blog.librarydata.uk/libraries-on-the-high-street/) research showed that public libraries appear in many different places, and shouldn't be assumed to be urban. However, such areas are out of scope for this research, as we're primarily looking at places of higher population.
+Are all current libraries within a built-up area? Not quite - of the 2564 libraries, **6** were not. For example, Dent Library Link in Westmorland and Furness is in a location with a population of just 780. There's nothing wrong with this - [Libraries on the High Street](https://blog.librarydata.uk/libraries-on-the-high-street/) research showed that public libraries appear in many different places, and shouldn't be assumed to be urban. However, such areas are out of scope for this research, as we're primarily looking at places of higher population.
 
 <figure class="align-center">
   <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/Dent_Reading_Room.jpg/800px-Dent_Reading_Room.jpg" alt="Dent Reading Room with phone box in a rural street"/>
@@ -47,13 +47,13 @@ Are all current libraries within a built-up area? Not quite - of the 2564 librar
 
 ### Areas without a library
 
-Population counts can be added to the built-up areas, using census data. The following are the 3 most populated built-up areas, that don't have a library:
+Population counts can be calculated for the built-up areas, using census data. The following are the 3 most populated built-up areas, that don't have a library:
 
 - Horndean, in Hampshire
 - Chafford Hundred and West Thurrock, in Thurrock
 - Whitefield, in Bury
 
-Online research suggests these are feasible results. [Horndean library closed in 2020](https://www.hants.gov.uk/aboutthecouncil/haveyoursay/consultations/library-consultation), but there still seems to be a need for a library. A new community library has formed, independent from statutory provision. As an unfortunate indication of the value of the old library, the Rhymetime schedule is still listed on the [NHS services directory](https://www.nhs.uk/services/service-directory/rhymetime-horndean-library/N10454438).
+Research suggests these are feasible results. [Horndean library closed in 2020](https://www.hants.gov.uk/aboutthecouncil/haveyoursay/consultations/library-consultation), but there still seems to be a need for a library. A new community library has formed, independent from statutory provision. As an unfortunate indication of the value of the old library, the Rhymetime schedule is still listed on the [NHS services directory](https://www.nhs.uk/services/service-directory/rhymetime-horndean-library/N10454438).
 
 A public library in [Chafford Hundred was closed in 2011](https://www.yourthurrock.com/2011/05/09/chafford-hundred-library-to-close-to-public/). Rented by the local authority from the school, it suffered from being stuck between political disagreements, poor opening hours, and was closed by the school, not the local authority. Chafford Hundred is a relatively new settlement, developed in 1985 for an initial 15,000 population, and has never had a truly dedicated public library.
 
@@ -70,7 +70,7 @@ Those consultations and closures are done, and can't be changed. But changes to 
 
 One problem with consultations is that they often use current usage as a proxy for demand, which is short-term planning. Current usage is too easily misleading - affected by opening hours, variations in measuring usage, current service offer from the libraries, as well as marketing. The actual population count of an area has its flaws, but it indicates potential usage.
 
-The House of Commons library published a report on the classification of towns and cities. It included specific levels of population for classifying settlements:
+The House of Commons library published a report on the classification of towns and cities. It included specific levels of population to classify settlements:
 
 > **Core Cities**: twelve major population and economic centres<br/>**Other Cities**: other settlements with a population of more than 175,000<br/>**Large Towns**: settlements with a population between 60,000 and 174,999<br/>**Medium Towns**: settlements with a population between 25,000 and 59,999<br/>**Small Towns**: settlements with a population between 7,500 and 24,999.<br/>**Villages and small communities**: settlements with a population of less than 7,500.
 >
@@ -114,6 +114,6 @@ Of the 75 towns with a population over 7,500, there are **12** that contain comm
 
 ### Further developments
 
-The data, code, and sources for the analysis will be released within the next week.
+The data, code, and sources for the analysis will be released soon.
 
-These insights should be available as interactive dashboards, rather than static reports. The OS Built-Up areas, alongside population and deprivation data, will be made available in the Libraries Hacked [map tool at LibraryMap](https://www.librarymap.co.uk/#/map). This will allow all users and service professionals to explore different settlements and see aspects of missing library provision either nationally or in their local area.
+These insights should be available as interactive dashboards, rather than static reports. The OS Built-Up areas, alongside population and deprivation data, will also be available in the Libraries Hacked [map tool at LibraryMap](https://www.librarymap.co.uk/#/map). This will allow all users and service professionals to explore different settlements and see aspects of missing library provision either nationally or in their local area.
