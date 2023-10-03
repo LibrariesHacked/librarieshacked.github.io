@@ -14,7 +14,7 @@ One of the great cross-sector library projects of recent years has been [Green L
 
 Despite this, no data has been published that would enable analysis on how libraries contribute to carbon emissions, such as building energy usage, book transportation and storage, staffing, or digital processes (both user and internal), etc. These are all things that can be collected and analysed in order to ultimately reduce emissions, and make services more sustainable.
 
-To have data can help inform policies. There are plenty of library policies that could adjust to consider carbon emissions. Some library services insist on in-person book renewals, after relatively few online renewals. Does it make sense to insist users come into a library purely to renew a book? With an emphasis on reducing carbon, these policies would change. Although carbon counting is a very rough science, we need to start considering all the carbon generated from library usage.
+Data can inform policies. There are plenty of library policies that could adjust to consider carbon emissions. Some library services insist on in-person book renewals, after relatively few online renewals. Does it make sense to insist users come into a library purely to renew a book? With an emphasis on reducing carbon, these policies would change. Although carbon counting is a very rough science, we need to start considering all the carbon generated from library usage.
 
 Libraries clearly use a lot of energy. They will have their own transport that's relatively inefficient, old buildings with all associated utilities, staffing that is primarily on-site (relying on transport), as well as providing a physical presence to many thousands of users, all of whom are generating carbon in getting to the library.
 
