@@ -18,7 +18,9 @@ To have data can help inform policies. There are plenty of library policies that
 
 Libraries clearly use a lot of energy. They will have their own transport that's relatively inefficient, old buildings with all associated utilities, staffing that is primarily on-site (relying on transport), as well as providing a physical presence to many thousands of users, all of whom are generating carbon in getting to the library.
 
-There seem to be woolly claims about the current sustainability of libraries. To the point where libraries are considered to be carbon negative: reducing carbon emissions by simply existing. The theory is that for each book produced there is a carbon footprint. And if that book is loaned many times to many people, that's a saving from each person buying the book individually.
+There is a danger that in taking a role of educating the public, but providing no data on themselves, libraries will look hypocritical. 'Here is how you can increase bees in your garden. You want detailed data on our energy usage? None of your business!'
+
+There also seem to be woolly claims about the current sustainability of libraries. To the point where libraries are considered to be carbon negative: reducing carbon emissions by simply existing. The theory is that for each book produced there is a carbon footprint. And if that book is loaned many times to many people, that's a saving from each person buying the book individually.
 
 Simple? Well, no. Borrowing a library book is different to buying a book. People who buy a book often need to have their own copy, the library is not a replacement for that. If people only intend to read a book and then not touch it again, they may buy it, but will often pass it on anyway, in ways that are more efficient than a library.
 
