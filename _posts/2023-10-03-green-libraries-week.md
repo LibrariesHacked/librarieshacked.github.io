@@ -10,7 +10,7 @@ published: true
 
 It's [Libraries Week](https://librariesweek.org.uk/) this week, and this year it's branded as Green Libraries Week!
 
-One of the great cross-sector library projects of recent years has been [Green Libraries](https://www.cilip.org.uk/page/GreenLibraries). Led by CILIP, with many partners, it has funded projects across library services, sharing best practice, events, and more. The [Green Libraries Manifesto](https://www.cilip.org.uk/page/GreenLibrariesManifesto) gives library services the opportunity to formally adopt shared principles around sustainability.
+One of the great cross-sector library projects of recent years has been [Green Libraries](https://www.cilip.org.uk/page/GreenLibraries). Led by CILIP, with many partners, it has supported and funded projects across library services, shared best practice, run events, and more. The [Green Libraries Manifesto](https://www.cilip.org.uk/page/GreenLibrariesManifesto) gives library services the opportunity to formally adopt shared principles around sustainability.
 
 Despite this, there hasn't been any data published that would enable analysis on how libraries contribute to carbon emissions, such as in building energy usage, book transportation and storage, staffing, digital processes (both user and internal), etc. These are all things that can be collected and analysed in order to ultimately reduce emisions, and make services more sustainable.
 
@@ -20,7 +20,7 @@ Libraries clearly use a lot of energy. They will have their own transport that's
 
 There seem to be woolly claims about the current sustainability of libraries. To the point where libraries are considered to be carbon negative: reducing carbon emissions by simply existing. The theory is that for each book produced there is a carbon footprint. And if that book is loaned many times to many people, that's a saving from each person buying the book individually.
 
-Simple? Well, no. Library usage is different to buying a book. People who buy a book often need to have their own copy, the library is not a replacement for that. If people only intend to read a book and then not touch it again, they may buy it, but will often pass it on anyway, in ways that are more efficient than a library.
+Simple? Well, no. Borrowing a library book is different to buying a book. People who buy a book often need to have their own copy, the library is not a replacement for that. If people only intend to read a book and then not touch it again, they may buy it, but will often pass it on anyway, in ways that are more efficient than a library.
 
 Library usage is often a different motivation, people get books out of the library that they want to read but not buy. Or know that they need to read once in a short period of time, such as for a book group or education. This is primarily additional reading (and a good thing!) but in effect is always additional carbon emissions rather than a saving.
 
@@ -35,4 +35,4 @@ Does any of this really matter? Not in terms of the actions we need to take. Boo
   <figcaption>Public library services who have signed the Green Manifesto.</figcaption>
 </figure>
 
-A small Libraries Hacked project, [Green Libraries](https://green.librarydata.uk/) provides a visualisation of the (public) library services in the UK that have signed up to the Green Manifesto. But all digital projects have an associated carbon cost. The [website carbon calculator](https://www.websitecarbon.com/) provides a way of measuring the carbon impact of a webpage. The green libraries webpage is as minimalas possible, and estimated to be cleaner than 99% of pages tested. This Libraries Week we'll be ensuring all Libraries Hacked projects are checked and taking action to reduce their carbon footprint.
+A small Libraries Hacked project, [Green Libraries](https://green.librarydata.uk/) provides a visualisation of the (public) library services in the UK that have signed up to the Green Manifesto. But all digital projects have an associated carbon cost. The [website carbon calculator](https://www.websitecarbon.com/) provides a way of measuring the carbon impact of a webpage. The green libraries webpage is as minimal as possible, and estimated to be cleaner than 99% of pages tested. This Libraries Week we'll be ensuring all Libraries Hacked projects are checked, and taking action to reduce their carbon footprint.
