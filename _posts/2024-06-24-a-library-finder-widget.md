@@ -10,23 +10,23 @@ tags:
 published: true
 ---
 
-Back in 2020, a Library data [blog post on digital transformation](/2020/12/31/digital-transformation/) proposed that rather than a single digital presence for public libraries, digital transformation would enable multiple digital presences, through shared services and data.
+Back in 2020, a Library data blog post [on digital transformation](/2020/12/31/digital-transformation/) proposed that rather than just a single digital presence for public libraries, long-term digital transformation would enable multiple digital presences, through shared services and data.
 
 > What if the Reading Agency want to put a search for UK libraries on their website? Great, that sounds like a good place for it. Delivery of those websites and apps should be out of the hands of library services.
 >
 > **Digital Transformation, Library data blog**
 
-The British Library's implementation of the single digital presence, the [LibraryOn website](https://libraryon.org.uk/), provides a library finder and map, as an entry point into a user finding their local library and then delving into the services and magic within.
+The British Library's implementation of the single digital presence, the [LibraryOn website](https://libraryon.org.uk/), provides a library finder and map, as an entry point for a user finding their local library and then delving into the services and magic within.
 
 But importantly, they have also [delivered an API](https://www.linkedin.com/posts/activity-7191083735675543552-QOHn) (Application Programming Interface). This allows other websites and services to make use of the same underlying data. In other words, enabling multiple single digital presences.
 
-Full kudos to the BL LibraryOn team, and Jonno Witts, the technical lead, for delivering this. It should be a standard for any digital service to have reusable services and data. In fact it is a standard, building APIs has long been in government service design documents (also adopted by local government), including [API and data standards](https://www.gov.uk/guidance/gds-api-technical-and-data-standards). But what is written in standards isn't often followed, particularly in the library technology sector. The BL team leading the way here is a great example to follow.
+Full kudos to the BL LibraryOn team, and Jonno Witts, the technical lead, for delivering this. It should be a standard for any digital service to have reusable services and data. In fact it is a standard - building APIs has long been in government service design documents (also adopted by local government). This includes specifications on [API and data standards](https://www.gov.uk/guidance/gds-api-technical-and-data-standards). But what is written in standards isn't often followed, particularly in the library technology sector. The BL team leading the way provide a great example to follow.
 
 Anyway, so far so congratulatory. But what can we do with this API?
 
 ### Embedding a library finder
 
-How about that idea of embedding a library finder into any website that may want it? That could be third party sites: The Reading Agency, The Bookseller, or even the BBC. Or it could be national library bodies: Libraries Connected, the Library Campaign, CILIP, or the Arts Council. Or it could be library services themselves. Most will have some kind of listing of libraries on their main website, but not necessarily on their catalogue website. A library finder could fill that gap of providing a quick way for users to find their local library.
+How about that idea of putting a library finder into any website that may want it? That could be third party sites: The Reading Agency, The Bookseller, or even the BBC. Or it could be big library organisations: Libraries Connected, the Library Campaign, CILIP, or the Arts Council. Or it could be library services themselves. Most will have some kind of listing of libraries on their main website, but not necessarily on their catalogue website. A library finder could fill that gap of providing a quick way for users to find their local library.
 
 The more digital services that use the data and API, the more exposure libraries will get. And the more that the data is used, the more likely it is to be maintained and improved. We need good data to provide good digital services that are widely used, but there is no incentive to maintain the data if the digital services aren't being used. The whole sector needs to be involved in this, and push for quality data.
 
