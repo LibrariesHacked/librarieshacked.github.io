@@ -39,7 +39,7 @@ Here is a simple version of the widget, embedded in this blog post. As it's deve
 <script>
   (function () {
     var script = document.createElement('script');
-    script.type = 'text/javascript';
+    script.type = 'module';
     script.async = true;
     script.src = 'https://widget.librarymap.co.uk/libraryfinder-widget.js';
     var firstTag = document.getElementsByTagName('script')[0];
