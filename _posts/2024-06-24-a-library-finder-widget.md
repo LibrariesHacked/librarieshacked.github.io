@@ -36,8 +36,23 @@ A new Libraries Hacked widget will allow any website to embed a library finder, 
 
 Here is a simple version of the widget, embedded in this blog post. As it's developed it will get better! But the idea is for something small and lightweight that can be added to any website.
 
-<script type="module" crossorigin src="https://widget.librarymap.co.uk/libraryfinder-widget.js"></script>
-<div id="libraryfinder-widget" data-width="340px" data-height="700px" data-primary="#632279" data-secondary="#f8ab89" style="margin-bottom: 12px"></div>
+<script>
+  (function () {
+    var script = document.createElement('script');
+    script.type = 'text/javascript';
+    script.async = true;
+    script.src = 'https://widget.librarymap.co.uk/libraryfinder-widget.js';
+    var firstTag = document.getElementsByTagName('script')[0];
+    firstTag.parentNode.insertBefore(script, firstTag);
+  })();
+</script>
+<div id="libraryfinder-widget" 
+  data-width="340px"
+  data-height="700px"
+  data-primary="#632279"
+  data-secondary="#f8ab89"
+  style="margin-bottom: 12px">
+</div>
 
 The only code needed on a website to embed the widget is the following:
 
