@@ -8,64 +8,49 @@ tags:
   - Design
 published: false
 ---
-I first started working on local government websites in 2010, at Reading Borough Council. Whilst there, the crumbling library website content got pulled back in to the main Council site. Not the online catalogue - that still tends to be be separate. But the pages that provide information about fines and charges, opening hours, events, etc.
+I first started working on local government websites in 2011, at a Borough Council. Whilst there, the content from the crumbling library website got pulled back in to the main Council site. Not the online catalogue - that still tends to be separate. But the pages providing information about fines and charges, opening hours, events, etc.
 
-It's a rotating trend in local government to have library content as a separate entity, and then part of the Council site, then back again. The process goes something like:
+It's a rotating trend in local government to have library content as a separate site, and then part of the Council site, then back again. The process goes something like:
 
-- Library service is disenchanted with the Council site
-- Library service gets granted bit of money and spins out a new site
-- The library website stagnates and becomes a danger to itself and others
+- Library service is disenchanted with the Council site and would like more control
+- Library service gets granted some money and spins out a new site
+- The library website then stagnates, becomes out of date, and a danger to itself and others
 - Library service content gets pulled back in to the Council site
 
 And round again. It's a simplification, but it's not far off.
 
-I'm fortunate to have worked closely with a few local government website content and development teams, alongside many others in the private sector. It's easy to say that as a sector, government are unsurpassed in capability. You only need to look at the [GOV.UK design system](https://design-system.service.gov.uk/) to see that. But not just design: content, accessibility, security, performance, user research, the service design, APIs, standards, etc.
+Why, firstly, do libraries feel the need for a site outside of the Council site? Being able to control the content is one reason. Centrally managed websites don't allow just anyone to edit content. That could mean that updating information, news stories, etc need to go via a central content team, introducing friction to the process. The attitude towards council digital services generally seems to be a negative one, reports like Libraries Connected's **Libraries in Lockdown: Connecting communities in crisis** are full of examples of dynamic library services being hindered by their corporate organisations.
 
-The question is then I suppose, why are library services so frequently. Maybe it's just that natural desire . Maybe that library 
+> Councils need to remove barriers which prevent libraries from delivering a high-quality digital offer including corporate limitations on web platforms and use of social media
+> ***Libraries in Lockdown: Connecting communities in crisis**
 
-I'd argue that one aspect though is library services simply aren't informed enough about what it takes to create and maintain a website, the things. And uninformed organisations are often disatisfied by the service they receive, especially when they don't quite understand what it is.
+You will struggle to find reports highlighting the benefit that libraries get from being part of organisations that have professional digital services.
+
+It's easy to be in two minds about this. I'm fortunate to have worked closely with a few local government website content and development teams, as well as experience in the private sector. I can easily say that as a sector, government web teams are unsurpassed in capability. You only need to look at the [GOV.UK design system](https://design-system.service.gov.uk/) to see that. And not just design: content, accessibility, security, hosting, performance, user research, the service design, APIs, standards, etc. I'm sure there are differences in the quality of different Councils, but being part of a Council website should be something where everyone recognises and appreciates the benefit.
+
+Conversely, you can't really say the same about library services. Exceptional in providing library services, but not websites. So it's fair to view the idea of creating a new library website with some reservations.
+
+But, why would a data blog primarily concerned with open data and creating digital prototypes be stifling the creativity of those services who do want to do their own thing? It's good for public library services to want to both have their own websites, and to make those sites an experiential place for users to go. But getting the basics right (those old 'transactional' stuff) is also really hard and the most important. Public websites are a lot of work, a lot of expertise, and a lot of money.
 
 
 
-Do I have any evidence for this? Not much to hand, but I quickly looked up a report on li
-
-It's good for public library services to want to both have their own websites, and to make it an experiential place for users to go. But getting the basics right (those old 'transactional' stuff) is also really hard and the most important. Public websites are a lot of work, a lot of expertise, and a lot of money.
-
-My last public sector web role was at Bristol City Council, in the digital transformation team, which included a few teams essentially creating and maintaining the website content, day to day running, and digital developments. I don't know the wage bill for the entire team, or the infrastructure and licensing costs, but it would probably be in the region of £1m per year. That's a lot of money, but it's a lot of website and a lot of expertise.
-
-CHecklist for a new website:
-
-- Accessibility. You will need to do an original audit of the website, and then regular checks. For a library website that includes content as well as interactive experiences and possibly catalogue integration, you should budget in the region of £10,000. You will also need someone who is able to handle ongoing accessibility queries and be able to make technical updates to the website in response to these.
 
 Does your library website:
 
+- have a contact email for accessibility queries?
 - have a regular penetration test?
 - have a regular accessibility audit?
 - receive regular software updates?
-- get security patches applied?
-- have a support contract?
-
-I'm slightly sceptical of library services that want to go it alone with their own website. It doesn't mean discouraging it, but again, be aware of the investment and skills required.
-
-There is no right or wrong model of digital autonomy for library services, but it's important to understand all the implications. How many people does a local Council employ who are experts on information governance for example? Maybe a small team of 2 or 3. Important expertise to have in a local authority, but stretched to have any true oversight of individual services.
-
-With a spun-out librry service how many people are there? In reality none. However, the person tasked with information governance for the service potentially has
+- have a support contract and agreed uptime?
+- receive regular platform security patches?
+- part of the council security monitoring for new vulnerabilities?
+- have content review processes?
 
 
-
-- Does is have an accessibility statement? This should be a relatively easy check. An accessibility statement is a legal requirement and should be 
-- How efficient is the website? For this I'll check the rating given by the 
-
-### Leeds libraries
+A lot of these things are the reason Council website can seem like big 'corporate'
 
 
-
-### London libraries
-
+Money
 
 
-### Gloucestershire libraries
-
-
-
-This is a blog post without any definitive answers or conclusions. But there are gaps in current thinking around library websites that need to be adresssed.
+My last public sector web role was at Bristol City Council, in the digital transformation team, which included a few teams essentially creating and maintaining the website content, day to day running, and digital developments. I don't know the wage bill for the entire team, or the infrastructure and licensing costs, but it would probably be in the region of £1m per year. That's a lot of money, but it's a lot of website and a lot of expertise.
