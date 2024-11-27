@@ -7,7 +7,8 @@ tags:
   - Data
 published: false
 ---
-A recent public library dataset that has been getting some. This dataset:
+
+A public library dataset that has been getting some recent attention is the [Basic dataset for libraries]() published by the Arts Council.
 
 - 
 - Is used, at least in checking for updated data, in the [LibraryOn library finder]
@@ -21,10 +22,9 @@ Fast forward to 2016 and I spent afternoon in a meeting room at the DCMS discuss
 
 
 
-- Trimmed whitespace either end of all data entries
+- Trimmed extra whitespace at either end of all data entries
 - Corrected mismatches between the 'Reporting Service' and 'Upper Tier Local Authority'. On a few occasions these are legitimately different, but generally not.
-- Suffolk reported that the Prison Library HMP Bure was in Norwich upper tier local authority. The authority should be Norfolk, but it is correct that Suffolk libraries operate the prison library, and are therefore the reporting service.
-- Westminster reported that Paddington Children's Library is in London UTLA - this should just have just been set to Westminster.
+- Suffolk reported that the Prison Library HMP Bure was in Norwich upper tier local authority. The upper tier authority should be Norfolk, but it is correct that Suffolk libraries operate the prison library, and are the reporting service.
 - Standardised 10 of the names used in the 'Reporting service' column to easier match them to unique identifiers
 - Standardised 10 of the names used in the 'Upper tier local authority' column to easier match these to unique identifiers.
 - Cleared non-postcode text from the postcode column e.g. 'No registered public address'
@@ -33,7 +33,7 @@ Fast forward to 2016 and I spent afternoon in a meeting room at the DCMS discuss
 - Updated invalid postcodes from closed libraries
 - Updated invalid postcodes from open libraries
 - Update valid but incorrect postcodes
-- Remove the leading zeros from unique property reference numbers. These are commonly how UPRNs are stored, but not necessary.
+- Remove the leading zeros from unique property reference numbers. UPRNs are often stored like this, but it is not necessary.
 - Remove UPRNs that are not numbers
 - Remove UPRNs that are over 5 miles away from the postcode location (and very likely wrong)
 - Standardise the Type column to go from 10 to 5 distinct variations
