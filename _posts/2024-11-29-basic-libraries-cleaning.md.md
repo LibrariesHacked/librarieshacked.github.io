@@ -5,14 +5,14 @@ categories:
   - Data
 tags:
   - Data
-published: false
+published: true
 ---
 
-A public library dataset that has been getting some recent attention is the [basic dataset for libraries](https://www.artscouncil.org.uk/supporting-arts-museums-and-libraries/supporting-libraries) published by the Arts Council. This is _'intended to capture permanent instances of libraries, local history libraries, and archives from 1 April 2010 to 31 December 2023'_.
+A public library dataset that has been getting recent attention is the [basic dataset for libraries](https://www.artscouncil.org.uk/supporting-arts-museums-and-libraries/supporting-libraries) published by the Arts Council. This is _'intended to capture permanent instances of libraries, local history libraries, and archives from 1 April 2010 to 31 December 2023'_.
 
 - The BBC published a report on [public libraries in crisis](https://www.bbc.co.uk/news/articles/cn9lexplel5o), highlighting the number of closures and saying that closures were far more likely to happen in deprived areas.
-- The Office for National Statistics published [number of libraries in local areas, England and Wales](https://www.ons.gov.uk/peoplepopulationandcommunity/wellbeing/datasets/numberoflibrariesinlocalareasenglandandwales) - this used the data alongside other sources to look access to library services in different areas.
-- The data is also used in updating the library listings found on [LibraryOn](https://libraryon.com/), the British Library's single digital presence project.
+- The Office for National Statistics published [number of libraries in local areas, England and Wales](https://www.ons.gov.uk/peoplepopulationandcommunity/wellbeing/datasets/numberoflibrariesinlocalareasenglandandwales) - this used the data alongside other sources to analyse access to library services in different areas.
+- The data is also used in updating the library finder at [LibraryOn](https://libraryon.com/), the British Library's single digital presence project.
 
 > More than 180 council-run libraries have either closed or been handed over to volunteer groups in the UK since 2016, BBC analysis has found.
 >
@@ -22,15 +22,15 @@ A public library dataset that has been getting some recent attention is the [bas
 
 It really is the most basic of data - the locations of our libraries - but getting it right has been a challenge for over a decade. How do we collect this data and keep it up to date? An annual survey (like the Arts Council dataset) is useful but time consuming, always out of date, and doesn't serve real-time tools like [LibraryOn](https://www.libraryon.org). Constantly updating the data is more efficient and less effort, but more of a challenge to coordinate and maintain.
 
-However, it's a credit to the quality of the data, and the Arts Council, that it is being used. Proving the need for quality open data has always been difficult, without examples. The fact that a dataset is published and seeing clear usage in important reports is a good message for the sector.
+However, it's a credit to the quality of the data, and the Arts Council, that it is being used. It has always been difficult to prove the need for quality open data without examples. The fact that a dataset is published and seeing clear usage in important reports is a good message for the sector.
 
 ## Cleaning and enhancing the data
 
 There were some issues with the data. That's not to throw any shade on the Arts Council - their job is to coordinate over 150 library services, and they still also need to do a lot of work to get the data tidied up before publishing.
 
-A good example of data that often needs cleaning is postcodes. These are often manually typed, so there were around 100 changes to these, and likely more required.
+A good example of data that often needs cleaning is postcodes. These are often manually typed, so there were many changes to these, and likely more required.
 
-I've done that, plus the following cleaning on the data to make it more useful for processing and linking to other datasets. Some of this is opinionated, but in trying to keep the spirit of the original data.
+I've done that, plus the following list of changes to the data to make it more useful for processing and linking to other datasets. Some of this is opinionated, but in trying to keep the spirit of the original data.
 
 - Trimmed extra whitespace at either end of all data entries
 - Corrected mismatches between the 'Reporting Service' and 'Upper Tier Local Authority'. On a few occasions these are legitimately different, but generally not.
@@ -62,14 +62,14 @@ I've done that, plus the following cleaning on the data to make it more useful f
 
 ### Adding coordinates
 
-There are no coordinates in the data. This is a good thing for data collection - there's no need to collect what can be added later.
+There are no location coordinates in the original data. This is a good thing for data collection - there's no need to collect what can be added later.
 
 There are two open data sources that can help here:
 
 - [ONS Postcode Directory](https://geoportal.statistics.gov.uk/datasets/265778cd85754b7e97f404a1c63aea04/about) - Coordinates and other various lookups for around 2.7 million postcodes (both current and historic)
 - [OS Open UPRN](https://www.ordnancesurvey.co.uk/products/os-open-uprn) - Coordinates for approximately 40 million addressable locations (unique property reference numbers) in Great Britain
 
-Using these, I have added 4 columns. First trying to take the coordinates from the UPRN, which will give the exact location in the centre of the library building. However, as many UPRNs arent in the data, the next step is to use the postcode. This will be less accurate, being only the centre of the postcode. However, in the cases of libraries, they will be fairly small postcodes, or even having their own dedicated postcode.
+Using these, I have added 4 columns. First trying to obtain coordinates from the UPRN, which will give the exact location of the library building. However, as many UPRNs aren't in the data, the next step is to use the postcode. This will be less accurate, being only the centre of the postcode. However, in the cases of libraries, they will often be small postcodes, or even have their own dedicated postcode.
 
 | Column name | Description                             |
 | ----------- | --------------------------------------- |
@@ -78,24 +78,27 @@ Using these, I have added 4 columns. First trying to take the coordinates from t
 | Longitude   | The longitude coordinate of the library |
 | Latitude    | The latitude coordinate of the library  |
 
-This additional data does change attribution requirements. The licence can remain the [Open Government Licence](https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/), but requires a few additional statements:
+This additional data changes attribution requirements. The licence can remain the [Open Government Licence](https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/), but requires a few additional statements:
 
 - Contains OS data © Crown copyright and database right 2024
 - Contains Royal Mail data © Royal Mail copyright and database right 2024
 - Source: Office for National Statistics licensed under the Open Government Licence v.3.0
+- Source: Arts Council England
 
 ### Additional location data
 
-Having a properly defined location for things gives us so much additional information: the population of the area, how rural/urban it is, deprivation levels, etc. There is too much to include in one dataset but a few key ones would be useful. I've added the following:
+Having a properly defined location for things gives lots of additional information: the population of the area, how rural/urban it is, deprivation levels, etc. There is too much to include in one dataset but a few key ones would be useful. I've added the following:
 
 | Column                                 | Description                                                                                                                                    |
 | -------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------- |
 | Reporting authority code               | A unique identifier for the reporting library service (an upper tier local authority). This uses the Government Statistical Service (GSS) code |
 | Rural/urban classification code        | A set of codes, from 2011, to classify areas by how urban/rural they are.                                                                      |
 | Rural/urban classification description | A description for the rural/urban classification e.g. Urban Major Conurbation                                                                  |
+| Index of Multiple Deprivation rank     | The rank of the area in the Index of Multiple Deprivation. 1 is the most deprived, 32,844 is the least deprived.                               |
+| Index of Multiple Deprivation decile   | The decile of the Index of Multiple Deprivation. 1 will be among the most deprived, 10 among the least deprived.                               |
 
-These are directly taken from the [ONS Postcode Directory](https://geoportal.statistics.gov.uk/datasets/265778cd85754b7e97f404a1c63aea04/about) by simple postcode lookup. Because they are postcodes and inexact locations, they are 'best-fit' lookups. Using the UPRN coordinates would be more accurate but I couldn't really be bothered. Plus we don't have half the UPRNs anyway.
+These are taken from the [ONS Postcode Directory](https://geoportal.statistics.gov.uk/datasets/265778cd85754b7e97f404a1c63aea04/about) by matching with the library postcode. Because they are postcodes and inexact locations, they are 'best-fit' lookups. Using the UPRN coordinates would be more accurate but I couldn't really be bothered. Plus we don't have half the UPRNs anyway.
 
-Enjoy!
+Enjoy! There will likely be mistakes and then further updates to this data but all being well it could be streamlined into a more automated annual process.
 
-Download [the basic libraries dataset - enhanced](/data/2024-11-04-basic-libraries-cleaning.csv) (CSV, 1.5MB)
+Download [the basic libraries dataset - enhanced](/files/basic-dataset-for-libraries-2023-enhanced.csv) (CSV, 1.5MB)
