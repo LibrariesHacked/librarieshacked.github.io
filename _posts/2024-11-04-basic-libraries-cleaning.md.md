@@ -32,37 +32,35 @@ Fast forward to 2016 and I spent afternoon in a meeting room at the DCMS discuss
 - Updated postcode entries to be uppercase
 - Updated invalid postcodes from closed libraries
 - Updated invalid postcodes from open libraries
-- Update valid but incorrect postcodes
-- Remove the leading zeros from unique property reference numbers. UPRNs are often stored like this, but it is not necessary.
-- Remove UPRNs that are not numbers
-- Remove UPRNs that are over 5 miles away from the postcode location (and very likely wrong)
-- Standardise the Type column to go from 10 to 5 distinct variations
-- Remove entries that didn't seem to fit with any definitions
+- Updated valid but incorrect postcodes
+- Removed the leading zeros from unique property reference numbers. UPRNs are often stored like this, but it is not necessary.
+- Removed UPRNs that are not numbers
+- Removed UPRNs that are over 5 miles away from the postcode location (and very likely wrong)
+- Standardised the Type column to go from 10 to 5 distinct variations
+- Removed entries that were too unclear e.g. old book drops that have have been valid but not anymore
 - Ensured statutory fields are Yes or No
 - Ensured closed year is set for entries that have closed in the operation field
-- Ensured operation fields are one of 'LA', 'LAU', 'C', 'CR', 'ICL' or empty
+- Ensured operation fields are one of 'LA', 'LAU', 'C', 'CR', 'ICL' or not set
 - Ensured that if the closed year was completed it was a 4-digit year
 - Cleared unnecessary text from the operating organisation column (e.g. 'N/A')
 - Standardised the 'No' entry for the new build question
 - Standardised the 'No' entry for the co-located question
-- Ensuring that the indicator under each co-located column is only ever set to 'X'
+- Ensured that the indicator under each co-located column is only ever set to 'X'
 - Standardised the opening times fields to only the 19 possible entries as documented in the ACE guidance
-- Ensuring the hours and staffed hours fields are numeric only
+- Ensured the hours and staffed hours fields are numeric only
 - Standardised the 'No' entry for the automated system question
 
 
-Coordinates
+## Coordinates
 
-There are also a few area where
+There are no coordinates in the data. This is a good thing for data collection - coordinates can be added later through the address fields, postcodes, and unique property reference numbers.
 
-There are no coordinates in the data - although there are address fields, postcodes, and unique property reference numbers.
+There are two open data sources that can help here:
 
-There are two open data source from Ordnance Survey that can help here:
+- [ONS Postcode Directory]() - this includes coordinates and other various lookups for around 2.7 million postcodes (both current and historic)
+- Open UPRN - The coordinates for 
 
-- [ONS Postcode Directory]()
-- Open UPRN - The exact coordinates for 
-
-I have added 4 columns
+Using these, I have added 4 columns. The coordinates are first taken from the UPRN, which will give the exact location in the centre of the library building. However, as many UPRNs arent in the data, this falls back on using the postcode. This will be less accurate, being the centre of the postcode. However, in the cases of libraries, they will be very often fairly small postcodes, if not sometimes even having their own dedicated postcode.
 
 | Column name | Description |
 | ----------- | ----------- |
@@ -71,19 +69,24 @@ I have added 4 columns
 | Longitude   |             |
 | Latitude    |             |
 
-This does change the data attribution statement. The licence remains Open (the Open Government Licence), but requires the two attribution statements:
+This additiona data does change the data attribution statement. The licence can remain the [Open Government Licence](), but requires the two attribution statements:
+
+- Contains
+- 
 
 
 
 
-Geographic Intelligence
+## Geographic Intelligence
 
-This sounds a bit fancy but really 'interesting stuff about the area' is about it. Having a properly defined location for things gives us so much additional information: the population of the area, how rural/urban it is, deprivation levels, etc. There is too much to include in one dataset but a few key ones would be useful. I've added the following:
+Having a properly defined location for things gives us so much additional information: the population of the area, how rural/urban it is, deprivation levels, etc. There is too much to include in one dataset but a few key ones would be useful. I've added the following:
 
 
 | Column | Description |
 | ------ | ----------- |
-|        |             |
+| Reporting authority code | A unique identifier for the reporting library service (an upper tier local authority). This uses the Government Statistical Service (GSS) code |
+| Rural/urban classification code | A set of codes, from 2011, to classify areas by how urban/rural they are.|
+| Rural/urban classification description | A description for the rural/urban classification e.g. Urban Major Conurbation |
 
 
 Note - these are directly taken from the [ONS Postcode Directory](https://geoportal.statistics.gov.uk/datasets/265778cd85754b7e97f404a1c63aea04) by simple postcode lookup. Because they are postcodes and inexact locations, these are 'best-fit' lookups. Using the UPRN coordinates would be more accurate but I couldn't really be bothered. Plus we don't have half the UPRNs anyway.
