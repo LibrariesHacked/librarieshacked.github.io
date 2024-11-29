@@ -1,6 +1,6 @@
 ---
-title: Cleaning the basic libraries dataset
-excerpt: Enhancing data on library locations
+title: Basic library cleaning
+excerpt: Cleaning and enhancing data on library locations
 categories:
   - Data
 tags:
@@ -20,17 +20,17 @@ A public library dataset that has been getting recent attention is the [basic da
 >
 > _Public libraries in 'crisis' as councils cut services_ - **BBC News**
 
-It really is the most basic of data - the locations of our libraries - but getting it right has been a challenge for over a decade. How do we collect this data and keep it up to date? An annual survey (like the Arts Council dataset) is useful but also time consuming, always out of date, and doesn't serve the public in tools like [LibraryOn](https://www.libraryon.org). Constantly updating the data is more efficient and less overall effort, but more of a challenge to coordinate and enforce.
+It really is the most basic of data - the locations of our libraries - but getting it right has been a challenge for over a decade. How do we collect this data and keep it up to date? An annual survey (like the Arts Council dataset) is useful but also time consuming, always out of date, and doesn't effectively serve the public in tools like [LibraryOn](https://www.libraryon.org). Constantly updating the data is more efficient and less overall effort, but more of a challenge to coordinate and enforce.
 
-Despite this, it's a credit to the quality of the data, and the Arts Council, that it is being used. It has always been difficult to prove the need for quality open data, without clear examples. A dataset that is published and seeing usage in important reports is a good message for the sector.
+Despite this, it's a credit to the quality of the data, and the Arts Council, that it is being used. It has always been difficult to prove the need for quality open data, without clear examples. A dataset that is published and seeing usage in important reports and applications is a good message for the sector.
 
 ## Cleaning and enhancing the data
 
-There are some issues with the data. That's not to throw any shade on the Arts Council - their job is tough enough sending requests and chasing over 150 library services, and they've done a lot of work tidying the data before publishing.
+There are some issues with the data. That's not to throw any shade on the Arts Council - their job is tough enough chasing over 150 library services, and they've done a lot of work tidying the data before publishing.
 
-Analysis from the ONS and BBC will have required effort to clean and enhance the data. A good example of data that often needs cleaning is postcodes. These are often manually typed - in this dataset there were many incorrect entries, and likely more that are harder to detect. Also the unique property reference numbers (UPRNs) were often missing or not correct. It may be that they're not a well understood identifier but they are mandated as a government standard for address/property data.
+Analysis from the ONS and BBC will have required effort to clean and enhance the data. A good example of data that often needs cleaning is postcodes. These are often manually typed - in this dataset there were many incorrect entries, and likely more that are harder to detect. Also the unique property reference numbers (UPRNs) were often missing or not correct. It may be that they're not a well understood identifier, but they are a government standard for address/property data.
 
-I've done that, plus the following changes to the data to make it more useful for others,and for linking to other datasets. Some of this is opinionated, but trying to keep to the spirit of the original data. This section is worth skipping if you find tedious data corrections a little boring.
+I've applied the following changes to the data to make it more useful for others, and for linking to other datasets. Some of this is opinionated, but trying to keep to the spirit of the original data. This section is worth skipping if you find data corrections a little boring.
 
 - Trimmed whitespace at either end of all data entries
 - Corrected mismatches between the 'Reporting Service' and 'Upper Tier Local Authority'. On a few occasions these are legitimately different, but generally not.
@@ -82,13 +82,12 @@ Using these, I have added 4 columns for coordinates in British National Grid (Ea
 
 Having a properly defined location for things gives lots of additional information: the population of the area, how rural/urban it is, deprivation levels, etc. There's too much to include in one dataset but a few key ones would be useful. I've added the following:
 
-| Column                                 | Description                                                                                                                                     |
-| -------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------- |
-| Reporting authority code               | A unique identifier for the reporting library service (an upper tier local authority). This uses the Government Statistical Service (GSS) code. |
-| Rural/urban classification code        | A set of codes, from 2011, to classify areas by how urban/rural they are.                                                                       |
-| Rural/urban classification description | A description for the rural/urban classification e.g. Urban Major Conurbation.                                                                  |
-| Index of Multiple Deprivation rank     | The rank of the area in the Index of Multiple Deprivation. 1 is the most deprived, 32,844 is the least deprived.                                |
-| Index of Multiple Deprivation decile   | The decile of the Index of Multiple Deprivation. 1 will be among the most deprived, 10 among the least deprived.                                |
+| Column                                 | Description                                                                                                      |
+| -------------------------------------- | ---------------------------------------------------------------------------------------------------------------- |
+| Rural/urban classification code        | A set of codes, from 2011, to classify areas by how urban/rural they are.                                        |
+| Rural/urban classification description | A description for the rural/urban classification e.g. Urban Major Conurbation.                                   |
+| Index of Multiple Deprivation rank     | The rank of the area in the Index of Multiple Deprivation. 1 is the most deprived, 32,844 is the least deprived. |
+| Index of Multiple Deprivation decile   | The decile of the Index of Multiple Deprivation. 1 will be among the most deprived, 10 among the least deprived. |
 
 These are taken from the [ONS Postcode Directory](https://geoportal.statistics.gov.uk/datasets/265778cd85754b7e97f404a1c63aea04/about) by matching with the library postcode. Because they are postcodes and inexact locations, they are 'best-fit' lookups. Using the UPRN coordinates would be better but quite a bit more hassle. Plus we don't have half the UPRNs anyway.
 
