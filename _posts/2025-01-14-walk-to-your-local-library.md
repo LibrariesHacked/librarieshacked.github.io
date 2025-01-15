@@ -20,9 +20,9 @@ This focus on walking is positive. The [15-minute city](https://en.wikipedia.org
 
 Anyway, here's a riddle. I've checked the journey planner on Google Maps: the walking time between my house and my local library is 14 minutes. And the walking time between my house and my local library is also 20 minutes. Eh? Is that difference from taking the scenic route? No, though pleasant walks are important. We should also consider safe routes, as there will plenty of walking routes where people don't feel safe for various reasons.
 
-In this case it's the same route. But the difference is going to the library or coming back from it. Going there is downhill, and coming back is uphil (longer). So, am I within 15 minutes walk of my local library?
+In this case it's the same route. But the difference is going to the library or coming back from it. Going there is downhill, and coming back is uphill (longer). So, am I within 15 minutes walk of my local library?
 
-I'd argue not. You generally have to travel back from somewhere you visit, and it's no good telling people it's just a 15 minute walk if they can't get back in that time. You expect to come back from a library laden with books, so it's likely to take even longer to lug them up the hill.
+I'd argue not. You generally have to travel back from anywhere you visit, and it's no good telling people it's just a 15 minute walk if they can't get back in that time. You expect to come back from a library laden with books, so it's likely to take even longer to lug them up the hill.
 
 We appreciate that a 15 minute walk isn't accessible for everyone anyway, but an uphill climb makes it more of a barrier than calculated assessments indicate. Many people just won't do that journey (it really is pretty steep).
 
@@ -36,16 +36,16 @@ But this is also a data blog, so there should be some new analysis. I wanted to 
 
 <figure>
   <img src="https://github.com/LibrariesHacked/librarieshacked.github.io/raw/main/images/2025-01-15-walk-to-your-local-library.png" alt="A set of 5 minute walking interval isochrones around Bradford-on-Avon library"/>
-  <figcaption>A set of 5 minute interval isochrones around Bradford on Avon library</figcaption>
+  <figcaption>A set of 5 minute walking interval isochrones around Bradford-on-Avon library</figcaption>
 </figure>
 
-I assumed being able to set the library as starting point or destination would mean we could see differences that accounted for walking uphill. Unfortunately it doesn't do this, the walking distance doesn't take into account elevation (or slope), so the isochrones end up being much the same.
+I assumed being able to set the library as starting point or destination would mean we could see differences that accounted for walking uphill. Unfortunately it doesn't do this, the calculations don't take elevation (or slope) into account, so the isochrones end up being much the same.
 
-Disappointing! But I did end up generating isochrones for all statutory libraries in England at 5 minute walking intervals. These are all [available on GitHub](https://github.com/LibrariesHacked/library-isochrones/tree/main/data/isochrones/basic-dataset-2023). GitHub has a nice viewer for 'GeoJSON' files, so you can explore the isochrones on a map.
+Sad! But I did end up generating isochrones for all statutory libraries in England, at 5 minute walking intervals. These are all [available on GitHub](https://github.com/LibrariesHacked/library-isochrones/tree/main/data/isochrones/basic-dataset-2023). GitHub has a nice viewer for 'GeoJSON' files, so you can explore the isochrones on a map.
 
 ## Insight
 
-I also extracted some high level data about the population in each of the intervals around each library. It's a bit rough, but it's a start, and the isochrone data should come in useful in future. The data is available as [a CSV file in the same repository](https://github.com/LibrariesHacked/library-isochrones/blob/main/data/isochrones/basic-dataset-2023/basic-dataset-for-libraries-2023-analysis.csv). Some small headlines:
+I also extracted some high level data about the population in each of the intervals around each library. It's a bit rough, but it's a start, and it should come in useful in future. The data is available as [a CSV file in the same repository](https://github.com/LibrariesHacked/library-isochrones/blob/main/data/isochrones/basic-dataset-2023/basic-dataset-for-libraries-2023-analysis.csv). A couple of small headlines:
 
 - The library with the smallest population within 15 minutes walk is Kielder Library in Northumberland. Don't close it though - it looks lovely, despite being in the middle of nowhere.
-- The library with the largest poulation within 15 minutes walk is an 'Idea Store' in Whitechapel, London. Of course that London has lots of people in it. Also don't close that one, but maybe rename it back to a library.
+- The library with the largest population within 15 minutes walk is an 'Idea Store' in Whitechapel, London. Of course, that London would have lots of people in it. Also don't close that one, but maybe rename it back to a library.
