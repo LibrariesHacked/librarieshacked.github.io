@@ -20,11 +20,11 @@ Regardless, I've been considering ideas for possible projects. Firstly, why not 
 
 Digital services cost money. A prototype can't be widely used by the public or library services. They need investment and professional expertise.
 
-* **Support**. Does everything need 24/7 support? No - but problems should be resolved quickly. In the worst case scenario, with everything broken, is anyone available to sort it out?
-* **Hosting**. I run things with a 'Development' pricing tier. That means that people can use them, but they may be slow, or the amount of connections may be limited. Hosting is expensive.
-* **Accessibility**. It is hard to get websites right, and public sector ones need to be accessible to all. GOV UK [guidelines on Accessibility Auditing](https://www.gov.uk/service-manual/helping-people-to-use-your-service/making-your-service-accessible-an-introduction#:~:text=Budget%20for%20accessibility,%C2%A33%2C000%20and%20%C2%A37%2C000.) advise that it can cost between £3,000 and £7,000. You can't create a new digital service unless you can cover the accessibility costs, and you should want to!
-* **Branding**. There's a good reason why the British Library have made branding part of their libraries Single Digital Presence work. Because it's important that people recognise what your thing is about. 
-* **User experience**. I'm not under any illusions that I'm good at user experience. It's not always good to have the person who codes a thing deciding whether it makes sense to the public. It needs fresh and critical expertise from people who know process design.
+- **Support**. Does everything need 24/7 support? No - but problems should be resolved quickly. In the worst case scenario, with everything broken, is anyone available to sort it out?
+- **Hosting**. I run things with a 'Development' pricing tier. That means that people can use them, but they may be slow, or the amount of connections may be limited. Hosting is expensive.
+- **Accessibility**. It is hard to get websites right, and public sector ones need to be accessible to all. GOV UK [guidelines on Accessibility Auditing](https://www.gov.uk/service-manual/helping-people-to-use-your-service/making-your-service-accessible-an-introduction#:~:text=Budget%20for%20accessibility,%C2%A33%2C000%20and%20%C2%A37%2C000.) advise that it can cost between £3,000 and £7,000. You can't create a new digital service unless you can cover the accessibility costs, and you should want to!
+- **Branding**. There's a good reason why the British Library have made branding part of their libraries Single Digital Presence work. Because it's important that people recognise what your thing is about.
+- **User experience**. I'm not under any illusions that I'm good at user experience. It's not always good to have the person who codes a thing deciding whether it makes sense to the public. It needs fresh and critical expertise from people who know process design.
 
 OK, there's loads more, the point is money.
 
@@ -41,7 +41,7 @@ We need tools that can take the data as it's held in library systems. Then do in
 And we shall call it library data tools. A prototype I'm working on takes postcodes of library members (held in all library management systems) and creates an interactive map to explore library membership. The map will display the percentage of the population who are library members in each area, with additional info such as deprivation measures. The idea is relatively simple: take data that all services can extract, and provide a tool that does something useful.
 
 <figure>
-  <img src="https://github.com/LibrariesHacked/librarieshacked.github.io/raw/master/images/2020-08-24-plymouth-members.png" alt="Plymouth library membership plotted on a map and shaded by concentration of members relative to population"/>
+  <img src="https://github.com/LibrariesHacked/librarieshacked.github.io/raw/main/images/2020-08-24-plymouth-members.png" alt="Plymouth library membership plotted on a map and shaded by concentration of members relative to population"/>
   <figcaption>Plotting the locations of Plymouth libraries members, constructed from postcode data. This shades the map to highlight membership concentrations. This particular example includes an area of Devon which has 19% membership of Plymouth libraries - useful for both services to know about!</figcaption>
 </figure>
 
@@ -56,7 +56,7 @@ Many mobile library users benefit from a personal service rather than a digital 
 This is another relatively simple idea, but difficult to coordinate. Create a common format for storing mobile library data. Then a digital service that publishes this as information in multiple formats - a search facility, online calendars, a map, even print formats. Plus additional facilities like subscribing for notifications when the service is off the road.
 
 <figure>
-  <img src="https://github.com/LibrariesHacked/librarieshacked.github.io/raw/master/images/2019-04-04-mobile-library-data-icalendar-stop.png" alt="Screenshot of a calendar application showing an entry for a mobile library stop"/>
+  <img src="https://github.com/LibrariesHacked/librarieshacked.github.io/raw/main/images/2019-04-04-mobile-library-data-icalendar-stop.png" alt="Screenshot of a calendar application showing an entry for a mobile library stop"/>
   <figcaption>Mobile library stop timetables are data, and should be able to be shared in a variety of ways for the public to use.</figcaption>
 </figure>
 

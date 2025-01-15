@@ -14,7 +14,7 @@ Last year a working group organised by the DCMS began creating a public library 
 All public libraries hold membership data. And it has plenty of discussion points. To start with, how long do people remain members without using their library? I have loads of library cards, and like to think of myself as a member of them all. But many of those libraries will have deleted me years ago.
 
 <figure>
-  <img src="https://github.com/LibrariesHacked/librarieshacked.github.io/raw/master/images/2020-08-24-library-cards.jpg" alt="A set of library cards including a school library and 7 other library services"/>
+  <img src="https://github.com/LibrariesHacked/librarieshacked.github.io/raw/main/images/2020-08-24-library-cards.jpg" alt="A set of library cards including a school library and 7 other library services"/>
   <figcaption>I'm a 'cardholder' of quite a few library services. But no longer a member.</figcaption>
 </figure>
 
@@ -47,7 +47,7 @@ In the membership schema we have an extra dimension to the data called 'Area cod
 While trialling the data schema we saw Plymouth membership data. About 10% of members lived in other local authorities. Some of these were obvious places: Cornwall and Devon mainly. But also Bristol, Wiltshire, and Surrey. 10% may not seem much, but in Bath and Bristol out of area membership became closer to 15%. In other areas it may be more. We don't know until we start getting more data.
 
 <figure>
-  <img src="https://github.com/LibrariesHacked/librarieshacked.github.io/raw/master/images/2020-08-24-plymouth-members.png" alt="Plymouth library membership plotted on a map and shaded by concentration of members relative to population"/>
+  <img src="https://github.com/LibrariesHacked/librarieshacked.github.io/raw/main/images/2020-08-24-plymouth-members.png" alt="Plymouth library membership plotted on a map and shaded by concentration of members relative to population"/>
   <figcaption>Plotting the locations of Plymouth libraries members. This shades the map to highlight membership concentrations, relative to population. This particular example includes an area of Devon which has 19% membership of Plymouth libraries.</figcaption>
 </figure>
 
