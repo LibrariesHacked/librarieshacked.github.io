@@ -14,29 +14,29 @@ In 2023 I delivered an online seminar about library data storytelling. Did it go
 
 A data story is a narrative constructed from one or many datasets to present a story that is engaging, interesting, and informative.
 
-Library services know all about the power of storytelling. Thinking about characters, what happened, why, when, and how. There are no strict rules other than it needing to be something that people are interested in and get something out of. No story needs to be long or complicated or to require technical expertise. Calling it 'data' storytelling should not make it inaccessible, and everyone should be welcome to tell data stories.
+Library services know all about the power of storytelling. Communicating characters and narrative, what happened, why, when, and how. For it to be effective it needs to communicate that story and be something that people are interested in and get something out of. Stories do not necessarily need to be long or complicated or to require technical expertise. Calling it 'data' storytelling should not make it inaccessible, and everyone should be invited to tell stories that are based on data.
 
 ## What is not good data storytelling?
 
-When discussing data with the library sector, there is an immediate assumption that we're talking about statistics, performance data, and 'traditional' measures and metrics. 
+When discussing data with the library sector, there is often an immediate assumption that we're talking about statistics, performance data, and 'traditional' measures and metrics.
 
-Effective performance monitoring is essential, but needs to continually evolve, cause frequent change in practice, and then re-evaluation of the data. Too often it is used to say libraries are doing well or poorly, with little action taken or further analysis of the data. It's not really the same as data storytelling, but regardless, neither have good adoption in public libraries. That can make library data a dispiriting situation and not one that is engaging or enjoyable for those tasked with it.
+Effective performance monitoring is essential, but needs to continually evolve, cause change in practice, and then re-evaluation of the measures. Too often it is used to say libraries are doing well, or poorly, with little action taken or further analysis of the data. It's not really the same task as data storytelling, but regardless, neither are done well in public libraries. That situation makes using library data a dispiriting situation and not one that is engaging or enjoyable for those tasked with it.
 
 ## Curiosity
 
 Data storytelling is about satisfying curiosity and providing insight into services.
 
-What are people curious about in their services? This will be down to individuals. I tend to be interested in a bit more 'out there' data stories. Merging in data such as climate, flooding, high street usage, and how these relate to library usage. Other people will be more interested in specific things they are passionate about. People who don't use library services, those from deprived communities, etc.
+What are people curious about in their services? This will be down to individuals. I tend to be interested in 'out there' data stories. Merging library data with data on climate, flooding, high street usage, and how these affect or correlate with library usage. Other people will be more interested in specific things they are passionate about, such as the population who don't use library services, those from deprived communities, etc.
 
-It's important to allow time for curiosity without having specific goals in mind, or anything to prove. Anything that provides insight into the service can be useful - often we won't know how until much further down the line. 
+It's important to allow time for curiosity without having specific goals in mind, or anything to prove. Anything that provides insight into the service can be useful - often we won't know how until much further down the line.
 
-## Getting started
+## Ideas
 
-How do you get started, or know what data to even think about? We need to allow time for ideas, and they should be about real life rather than about data. A couple of ways in which ideas can come are either information triggers, or original thoughts.
+How do you get started, or know what data to even think about? We need to allow time for ideas, and they should come from real life rather than data. A couple of ways in which ideas can come are either information triggers, or original thoughts.
 
 #### An information trigger
 
-A library user may mention something, such as they prefer coming to visit the library when town is quiet. Because they can get there with less stress, and it becomes a more relaxed experience. Small bits of information can trigger an "Ah, that's interesting, I wonder if..." response.
+A library user may mention something, such as they prefer coming to visit the library when the town is quiet. Maybe they can get there with less stress, and it becomes a more relaxed experience. Small bits of information can trigger an "Ah, that's interesting, I wonder if..." response.
 
 In that example, could we explore if libraries are used more when the surrounding area is quieter? Difficult to assess, but possible. It depends on usage type, and whether the library usage is for leisure or necessity. But these are areas that we should be exploring regularly and understand the data that could support that insight.
 
@@ -44,20 +44,20 @@ In that example, could we explore if libraries are used more when the surroundin
 
 Not everything has to come from a trigger, sometimes you may just be thinking about aspects of libraries. In the shower, on a walk, whenever. Thinking, and even speculating, is part of any job. It's hard to give ourselves time to think, but it's important.
 
-The things that enable these processes to happen are allowing time for thinking, sharing our experiences between library users and staff, allowing ourselves time to explore data, and the key aspect of being curious about our library services.
+The things that enable these processes to happen are allowing ourselves time, sharing our experiences between library users and staff, exploring data, and primarily the key aspect of being curious about our library services.
 
-## Get internal data right
+## Get data in order
 
 To enable good data storytelling, we need to get our data in order.
 
-Sometimes we talk about what data we need to collect to analyse aspects of the service. We need to talk more about what data we already hold. Holding less data but using it more would be a good target.
+Sometimes we talk about what data we need to _collect_ to analyse aspects of the service. We need to talk more about what data we already _hold_. Holding less data but using it more would be a good target.
 
 Take the following steps:
 
 1. What data do we hold in systems?
-2. Do we need to hold that data; do we use it for operational purposes?
+2. Do we need to hold that data? Do we use it for operational purposes?
 3. If so, do we make effective use of it?
-4. How can we extract and query it?
+4. How can we extract and analyse it?
 
 ## Good data/bad data
 
@@ -65,11 +65,10 @@ There is data that is of limited use, and data that is particularly useful.
 
 This tends to come down to level of detail. Using overly aggregated and generalised statistics can be a way of destroying some of our most useful datasets.
 
-- An example of limited data would be something like a count of loans (including renewals) in a library branch over the course of a year. What does it tell us? Not very much.
+- An example of limited data would be something like a count of loans (including renewals) for a library servce over the course of a year. What does it tell us? Not very much.
 - An example of useful data could be a dataset of all items being loaned in a year, which branch, which method (self-service/issue desk), whether they were a new issue or renewal, and the date and time.
 
-Advocacy for open data (data provided to the public for anyone to use) needs to include insisting that data is useful. 
-Giving the public data that says how many loans there were in each library branch is also of no use to them.
+Advocacy for open data (data provided to the public for anyone to use) needs to include the insistence that published data is useful, and not just ticking a transparency box. This doesn't mean that existing data should not be published because we don't think it's useful enough, it means we need to provide the same data to the public that we would provide to ourselves.
 
 ## How to get the most from data
 

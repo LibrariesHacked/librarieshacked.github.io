@@ -16,17 +16,15 @@ Each data story will have three requirements:
 
 - to be engaging and entertaining to a wide audience
 - to contain new insight that can help public libraries make data-informed decisions
-- to be repeatable and openly available to be built upon
+- to be repeatable and openly available to build upon
 
 ## What is a data story?
 
-A data story is telling something new and interesting with library data. It could be which communities within a library service read different types of books, which demographics use (or don't use) our libraries, or how the weather affects library visits. Let's discuss ideas.
+A data story is creating a narrative using data. It could be something like a look at which communities read different types of books, which demographics use (or don't use) our libraries, or how the weather affects library visits. Let's discuss ideas.
 
 ## What will the output be?
 
-The set of stories (like case studies) will be made available in physical form. This could be a book, magazine, newspaper, or even set of postcards. Whatever ends up being most accessible and engaging.
-
-For wider reach they will also all be published as openly licensed content in a custom website.
+The set of stories will be made available in physical form. This could be a book, magazine, newspaper, or even postcards. Whatever ends up being most accessible and engaging.
 
 ## Who should get involved?
 
@@ -34,7 +32,7 @@ This will primarily be public library services who hold library data - such as b
 
 For more information, ideas, and thoughts, please email info@librarieshacked.org
 
-The project will be non-commercial and any data insight will be made available to everyone.
+The project will be published openly and any insight will be made available to everyone.
 
 ## What will we call it?
 
