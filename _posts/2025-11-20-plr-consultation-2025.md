@@ -19,7 +19,7 @@ What this means is that almost every year, the rate per loan needs to be changed
 
 > The British Library Board has proposed a rate per loan of 12.40 pence for payments in the 2024 to 2025 scheme year. This is an increase of 0.64 pence, from 11.76 pence (in 2023/24). This proposed increase primarily reflects a decrease in the number of registered and qualifying book loans over the previous PLR Scheme year.
 
-In reality there can be little objection. A serious objection would have to be based on something like believing the calculator used by the PLR team was faulty. It's just a calculation, arguing with the declared result is a waste of time. It can be enjoyable reading the results of the consultation, because the DCMS libraries team tend to kindly give space to all the views saying _'No-one objected to the change, but all the following irrelevant points were made...'_
+In reality there can be little objection. A serious objection would have to be based on something like believing the calculator used by the PLR team was faulty. It's just a calculation, arguing with the declared result is a waste of time. It can be enjoyable reading the results of the consultation, because the DCMS libraries team tend to kindly give space to all the views saying _'No-one objected to the change, but all the following irrelevant points were made...'_. The whole process is a bit ridiculous but what would life be without such processes.
 
 And to be fair, a consultation is a consultation, and therefore a soapbox opportunity.
 
