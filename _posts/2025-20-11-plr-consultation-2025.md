@@ -1,0 +1,55 @@
+---
+title: Public lending right consulation 2025
+excerpt: Response to a change in rate per loan
+categories:
+  - PLR
+tags:
+  - Data
+  - Loans
+published: true
+---
+
+Public lending right is the payment made to authors and contributors for public library loans. In the UK this is administered by the British Library. 
+
+The amount paid to contributors depends on how many of their books were loaned in a year, with a 'rate per loan'. This rate is set in legislation.
+
+However, the PLR fund is fixed, and the rate needs to be re-calculated each year, depending on how many people register their books to receive payments, and how many loans there were of those registered books. If loans decline, that would cause the rate to go up. If more people register, the rate would go down. As part of the administration, the PLR team collect comprehensive data on all titles loaned from public library services.
+
+What this means is that almost every year, the rate per loan needs to be changed, and a consultation is held by the DCMS to consult with interested parties to do this. See [consultation on the proposed rate per loan for the 2024 to 2025 Public Lending Right scheme year](https://www.gov.uk/government/consultations/consultation-on-the-proposed-rate-per-loan-for-the-2024-to-2025-public-lending-right-scheme-year)
+
+> The British Library Board has proposed a rate per loan of 12.40 pence for payments in the 2024 to 2025 scheme year. This is an increase of 0.64 pence, from 11.76 pence (in 2023/24). This proposed increase primarily reflects a decrease in the number of registered and qualifying book loans over the previous PLR Scheme year.
+
+In reality there can be little objection. A serious objection would have to be based on something like believing the calculator used by the PLR team was faulty. It's just a calculation, arguing with the result is a waste of time. It's always enjoyable reading the results of the consultation because the DCMS team have to say 'No-one objected to the change, but all the following irrelevant points where made...'
+
+And to be fair, a consultation is a consultation, and therefore a soapbox opportunity.
+
+CILIP for example sometimes argue that PLR should be extended to other library sectors e.g. schools. The Society of Authors take the opportunity to argue that the overall fund is too low and should be increased.
+
+The argument for extending PLR to other sectors sounds good. It would lead to better representation for those authors whose works were more likely to be in schools, for example. But the administration of PLR has been difficult even when limited to a relatively small set of local authorities. Trying to extend data collection to schools seems like a challenge that would cost so much it would just reduce the overall fund.
+
+As for increasing the overall fund, the amount paid per loan has been steadily increasing above inflation. It's a tough argument to suggest an increase in the fund when there are now far fewer loans.
+
+But both arguments have plenty of merit. The Libraries Hacked view is that PLR administration should first openly license the pubic loans data they collect from public library services. This would require detailed policy discussions but would otherwise be low-cost as it is data already held. It would also:
+
+- Significantly reduce pressures for data collection elsewhere in the sector
+- Create a dataset of reading at a local library level that is unmatched. Not just stats, significant data on titles
+- Enable applications and information tools that would enable authors, contributors, and publishers to monitor loans in libraries
+- Promote PLR in general, raising awareness and increasing registrations with the scheme
+- Enable insights from loans data to be used by the sector to improve library services and increase loans
+
+And lots more. A couple of those could create a situation resulting in a reasonable argument for increasing the fund overall. For example, if more awareness and promotion of PLR is generated, and causes more registrations.
+
+The consultation provided space for two comment areas, strictly limited to 500 characters. The Libraries Hacked responses are copied below. You can see that the consultation is very clear on keeping comments only to the proposal to vary the PLR rate per loan. But given that's effectively asking if we think the calculator was working or not, it was easy to go off-piste.
+
+#### Q. To what extent do you agree or disagree with the proposal to vary the rate per loan for the PLR Scheme Year 2024/25 from 11.76 pence to 12.40 pence. Please provide any reasons for your answer.
+
+Libraries Hacked strongly supports continuing to adjust the rate per loan as the total number of loans and registered contributors change. As this process is set in legislation it should continue in that way. It would be good to see the scheme better promoted to encourage more contributors to register with the scheme, as well as greater loans from libraries. There are innovative ways to achieve this via loans data.
+
+Achieving that would allow for an argument to increase the PLR fund.
+
+
+#### Please provide any further comments that specifically relate to this consultation and the proposal to vary the PLR rate per loan for the Scheme Year 2024/25
+
+Declining loans should be tackled by promoting and improving the service through data insights.
+
+Library loans data is collected by PLR, from all library services through automated reporting. This data is public data but held by the BL. It should be openly licensed to allow insight and applications to be built from it. The public should be able to see the books being loaned in their libraries, and contributors and publishers should be able to independently track loans of their works.
