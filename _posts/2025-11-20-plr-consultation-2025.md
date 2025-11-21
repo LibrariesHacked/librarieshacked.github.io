@@ -19,27 +19,27 @@ What this means is that almost every year, the rate per loan needs to be changed
 
 > The British Library Board has proposed a rate per loan of 12.40 pence for payments in the 2024 to 2025 scheme year. This is an increase of 0.64 pence, from 11.76 pence (in 2023/24). This proposed increase primarily reflects a decrease in the number of registered and qualifying book loans over the previous PLR Scheme year.
 
-In reality there can be little objection. A serious objection would have to be based on something like believing the calculator used by the PLR team was faulty. It's just a calculation, arguing with the declared result is a waste of time. It can be enjoyable reading the results of the consultation, because the DCMS libraries team tend to kindly give space to all the views saying _'No-one objected to the change, but all the following irrelevant points were made...'_. The whole process is a bit ridiculous but what would life be without such processes.
+In reality there can be little objection. A serious objection would have to be based on something like believing the calculator used by the PLR team was faulty. It's just a calculation, arguing with the declared result is a waste of time. It can be enjoyable reading the results of the consultation, because the DCMS libraries team tend to kindly give space to all the views saying _'No-one objected to the change, but the following irrelevant points were made...'_. The whole process is a bit ridiculous but what would life be without such processes?
 
-And to be fair, a consultation is a consultation, and therefore a soapbox opportunity.
+And a consultation is a consultation, and therefore a soapbox opportunity.
 
-CILIP for example sometimes argue that PLR should be extended to other library sectors e.g. schools. The Society of Authors understandably take the opportunity to argue that the overall fund is too low and should be increased.
+CILIP, for example, sometimes argue that PLR should be extended to other library sectors e.g. schools. The Society of Authors understandably take the opportunity to argue that the overall fund is too low and should be increased, citing other countries that seem to spend more.
 
-The argument for extending PLR to other sectors sounds good. It would lead to better representation for those authors whose works are more likely to be in schools, for example. But the administration of PLR has been difficult even when limited to a relatively small set of local authorities. Trying to extend data collection to schools seems like a challenge that would cost so much it would reduce the overall fund.
+The argument for extending PLR to other sectors sounds good. It would lead to better representation for those authors with works more likely to be in schools, for example. But the administration of PLR has been difficult, even when limited to a relatively small set of local authorities. Trying to extend data collection to schools seems like a costly challenge that could reduce the overall fund through administration costs.
 
-As for increasing that fund, the amount paid per loan has been steadily increasing above inflation. It's a tough argument to suggest an increase in the fund when there are now far fewer loans.
+As for increasing that fund, the amount paid per loan has been steadily increasing above inflation. It's a tough argument to suggest an increase in the fund at a time when a higher amount than ever is being paid per loan.
 
-But both arguments have plenty of merit. The Libraries Hacked view is that PLR administration should first openly license the public loans data they collect from libraries. This would require detailed policy discussions, but would otherwise be low-cost as it is data already held. It would also:
+But both arguments have plenty of merit. The Libraries Hacked view is that PLR administration should openly license the public loans data they collect from libraries. This would require detailed policy discussions, but would otherwise be low-cost as it is data already held. It would also:
 
-- Significantly reduce pressures for data collection elsewhere in the sector
-- Create a dataset of reading at a local library level that is unmatched. Not just stats, significant data on titles
+- Reduce pressures for data collection elsewhere in the sector
+- Create a dataset of reading at a local library level that is unmatched. Not just stats but significant data on titles
 - Enable applications and information tools that would allow authors, contributors, and publishers to monitor loans in libraries
 - Promote PLR in general, raising awareness and increasing registrations with the scheme
 - Enable insights from loans data to be used by the sector to improve library services and increase loans
 
 And lots more. A couple of those could create a situation resulting in a reasonable argument for increasing the fund overall. For example, if more awareness and promotion of PLR is generated, and causes more registrations.
 
-The consultation provided space for two comment areas, strictly limited to 500 characters. The Libraries Hacked responses are copied below. You can see that the consultation is very clear on keeping comments only to the proposal to vary the PLR rate per loan. But as that's effectively asking if we think the calculator was working or not, it was easy to go off-piste.
+The consultation provided space for two comment areas, limited to 500 characters. The Libraries Hacked responses are copied below. You can see that the consultation is very keen to keep comments strictly to the proposal to vary the PLR rate per loan. But as that's effectively asking if we think the calculator was working or not, it was easy to go off the rails a little.
 
 #### Q. To what extent do you agree or disagree with the proposal to vary the rate per loan for the PLR Scheme Year 2024/25 from 11.76 pence to 12.40 pence. Please provide any reasons for your answer.
 
