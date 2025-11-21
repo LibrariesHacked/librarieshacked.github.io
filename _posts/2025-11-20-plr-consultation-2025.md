@@ -29,7 +29,7 @@ The argument for extending PLR to other sectors sounds good. It would lead to be
 
 As for increasing that fund, the amount paid per loan has been steadily increasing above inflation. It's a tough argument to suggest an increase in the fund at a time when the amount paid per loan is particularly high.
 
-But both arguments have plenty of merit. The Libraries Hacked view is that PLR administration should openly license the public loans data they collect from libraries. This would require detailed policy discussions, but would otherwise be low-cost as it is data already held. It would also:
+But both arguments have plenty of merit. The Libraries Hacked view is that PLR administration should openly license the public loans data they collect from libraries which list all titles being loaned in libraries, though not the register of authors and books on the scheme. This would require detailed policy discussions, but would otherwise be low-cost as it is data already being collected and stored. It would also:
 
 - Reduce pressures for data collection elsewhere in the sector
 - Create a dataset of reading at a local library level that is unmatched. Not just stats but significant data on titles
