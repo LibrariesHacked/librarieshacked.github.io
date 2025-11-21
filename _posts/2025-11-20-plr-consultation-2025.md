@@ -27,7 +27,7 @@ CILIP, for example, sometimes argue that PLR should be extended to other library
 
 The argument for extending PLR to other sectors sounds good. It would lead to better representation for those authors with works more likely to be in schools, for example. But the administration of PLR has been difficult, even when limited to a relatively small set of local authorities. Trying to extend data collection to schools seems like a costly challenge that could reduce the overall fund through administration costs.
 
-As for increasing that fund, the amount paid per loan has been steadily increasing above inflation. It's a tough argument to suggest an increase in the fund at a time when a higher amount than ever is being paid per loan.
+As for increasing that fund, the amount paid per loan has been steadily increasing above inflation. It's a tough argument to suggest an increase in the fund at a time when the amount paid per loan is particularly high.
 
 But both arguments have plenty of merit. The Libraries Hacked view is that PLR administration should openly license the public loans data they collect from libraries. This would require detailed policy discussions, but would otherwise be low-cost as it is data already held. It would also:
 
