@@ -1,5 +1,5 @@
 remote_theme: "mmistakes/minimal-mistakes"
-minimal_mistakes_skin: dirt
+minimal_mistakes_skin: sunrise
 
 title: "Library data blog"
 name: "Libraries Hacked"
@@ -8,7 +8,7 @@ url: "https://blog.librarydata.uk"
 repository: "librarieshacked/librarieshacked.github.io"
 logo: "/assets/images/logo88x88.png"
 breadcrumbs: true
-
+locale: "en_GB"
 search: true
 words_per_minute: 200
 
@@ -19,6 +19,13 @@ author:
   email: "info@librarieshacked.org"
   uri: "https://www.librarieshacked.org"
   github: "librarieshacked"
+  linkedin: "company/librarieshacked"
+
+social:
+  type: organization
+  links:
+    - "https://github.com/librarieshacked"
+    - "https://www.linkedin.com/company/librarieshacked"
 
 include:
   - _pages
