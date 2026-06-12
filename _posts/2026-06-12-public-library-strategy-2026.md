@@ -15,7 +15,7 @@ It has been announced that there will be a new English public libraries strategy
 >
 > **Libraries Connected** 
 
-I don't think there has been a significant public consultation as part of the strategy, although I might well have missed one. But regardless, the following was sent to the DCMS as a submission from Libraries Hacked, setting out thoughts on the current data and digital situation, and steps for addressing it. In the spirit of working in the open (and self-importance) the following is what was sent.
+I don't think there has been a significant public consultation as part of the strategy, although I may have missed one. But regardless, the following was sent to the DCMS as a submission from Libraries Hacked, setting out thoughts on the current data and digital situation, and steps for addressing it. In the spirit of working in the open (and self-importance) the following is what was sent.
 
 ----
 
