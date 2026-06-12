@@ -42,7 +42,7 @@ This was described by Soumaya Keynes, writing in 2023 for the Financial Times in
 >
 > **Soumaya Keynes, Financial Times**
 
-Those services aren't unsure because the underlying data doesn't exist - the library systems have the data to assess various impacts of fines. There aren't the skills to extract or use that data, no funding for external analysis, and no shared data from other services to make proper comparisons. The need for cross-service data that is made as widely available as possible remains a sticking point for the sector.
+It's not that those services are unsure because the underlying data doesn't exist - the library systems hold plenty of data to assess various impacts of fines. There aren't the skills to extract or use that data, no funding for external analysis, and no shared data from other services to make proper comparisons. The need for cross-service data that is made as widely available as possible remains a sticking point for the sector.
 
 For library digital applications, the lack of openly available data and public APIs (application programming interfaces) means that the technology choices for the sector and the public are limited, with little opportunity for innovation. Libraries switch between a small pool of library system suppliers, who often control a whole suite of tools used in the service - from the cataloguing interface used by office staff, to the website used by the public to browse books.
 
